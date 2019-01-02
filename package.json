@@ -1,0 +1,94 @@
+{
+  "name": "privacy",
+  "version": "1.0.0",
+  "description": "Place this app in **nextcloud/apps/**",
+  "main": "js/script.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "private": true,
+  "scripts": {
+    "dev": "webpack --config webpack.dev.js",
+    "watch": "webpack --progress --watch --config webpack.dev.js",
+    "build": "webpack --progress --hide-modules --config webpack.prod.js",
+    "lint": "eslint --ext .js,.vue src tests",
+    "lint:fix": "eslint --ext .js,.vue src tests --fix",
+    "stylelint": "stylelint src",
+    "stylelint:fix": "stylelint src --fix",
+    "test": "jest",
+    "test:coverage": "jest --coverage"
+  },
+  "homepage": "https://github.com/nextcloud/privacy",
+  "author": "Georg Ehrke",
+  "license": "AGPL-3.0-or-later",
+  "dependencies": {
+    "@babel/polyfill": "^7.2.5",
+    "nextcloud-axios": "^0.1.3",
+    "nextcloud-server": "^0.15.9",
+    "nextcloud-vue": "^0.4.6",
+    "vue-click-outside": "^1.0.7",
+    "vuex": "^3.0.1"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "ie >= 11"
+  ],
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/preset-env": "^7.2.3",
+    "@vue/test-utils": "^1.0.0-beta.28",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^23.6.0",
+    "babel-loader": "^8.0.4",
+    "css-loader": "^2.1.0",
+    "eslint": "^5.11.1",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-loader": "^2.1.1",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^8.0.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "eslint-plugin-vue": "^5.1.0",
+    "jest": "^23.6.0",
+    "jest-serializer-vue": "^2.0.2",
+    "prettier-eslint": "^8.8.2",
+    "stylelint": "^9.9.0",
+    "stylelint-config-recommended-scss": "^3.2.0",
+    "stylelint-scss": "^3.4.4",
+    "stylelint-webpack-plugin": "^0.10.5",
+    "vue-jest": "^3.0.2",
+    "vue-loader": "^15.4.2",
+    "vue-template-compiler": "^2.5.21",
+    "webpack": "^4.28.3",
+    "webpack-cli": "^3.1.2",
+    "webpack-merge": "^4.1.5"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "js",
+      "vue"
+    ],
+    "moduleNameMapper": {
+      "^@/(.*)$": "<rootDir>/src/$1"
+    },
+    "transform": {
+      "^.+\\.js$": "babel-jest",
+      "^.+\\.vue$": "vue-jest"
+    },
+    "snapshotSerializers": [
+      "<rootDir>/node_modules/jest-serializer-vue"
+    ],
+    "globals": {
+      "t": true,
+      "n": true,
+      "OC": true,
+      "OCA": true
+    }
+  }
+}
