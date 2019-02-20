@@ -63,7 +63,7 @@
     "stylelint-scss": "^3.4.4",
     "stylelint-webpack-plugin": "^0.10.5",
     "vue-jest": "^3.0.2",
-    "vue-loader": "^15.6.3",
+    "vue-loader": "^15.6.4",
     "vue-template-compiler": "^2.6.6",
     "webpack": "^4.28.3",
     "webpack-cli": "^3.2.3",
