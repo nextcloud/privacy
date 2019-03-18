@@ -3,7 +3,8 @@
 		<span v-show="isLoading" class="icon icon-loading" />
 		<Map v-show="!isLoading" />
 		<p v-show="!isEditingLocation && !isLoading">
-			{{ label }}<strong>{{ country }}.</strong>
+			<span v-show="country">{{ label }}<strong>{{ country }}.</strong></span>
+			<span v-show="!country">{{ labelForNoCountry }}</span>
 			<span v-show="isAdmin" class="icon icon-rename" @click="editLocation" />
 		</p>
 		<div v-show="isEditingLocation && !isLoading" class="multiselect-container">
@@ -49,6 +50,9 @@ export default {
 		label() {
 			return t('privacy', 'Your data is located in: ')
 		},
+		labelForNoCountry() {
+			return t('privacy', 'The admin hasn\'t selected the location of the server yet.')
+		},
 		country() {
 			return getNameForCountryCode(this.$data.selectedCountry)
 		},
@@ -79,9 +83,11 @@ export default {
 		HttpClient.get(url).then(resp => {
 			this.selectedCountry = resp.data.code
 
-			const elm = document.querySelector('.where-is-my-data #' + this.selectedCountry)
-			if (elm) {
-				elm.style.fill = '#e6605c'
+			if (this.selectedCountry !== '') {
+				const elm = document.querySelector('.where-is-my-data #' + this.selectedCountry)
+				if (elm) {
+					elm.style.fill = '#e6605c'
+				}
 			}
 
 			this.isLoading = false
