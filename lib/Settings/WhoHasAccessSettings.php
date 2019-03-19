@@ -49,7 +49,7 @@ class WhoHasAccessSettings implements ISettings {
 	 * @return int
 	 */
 	public function getPriority():int {
-		return 15;
+		return 10;
 	}
 
 }

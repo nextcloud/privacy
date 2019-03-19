@@ -29,13 +29,13 @@ use OCP\Settings\ISettings;
  *
  * @package OCA\Privacy\Settings
  */
-class WhereIsMyDataSettings implements ISettings {
+class WhereIsYourDataSettings implements ISettings {
 
 	/**
 	 * @return TemplateResponse
 	 */
 	public function getForm():TemplateResponse {
-		return new TemplateResponse('privacy', 'where-is-my-data');
+		return new TemplateResponse('privacy', 'where-is-your-data');
 	}
 
 	/**
@@ -49,7 +49,7 @@ class WhereIsMyDataSettings implements ISettings {
 	 * @return int
 	 */
 	public function getPriority():int {
-		return 10;
+		return 15;
 	}
 
 }
