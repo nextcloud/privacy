@@ -30,6 +30,12 @@ matrix:
           env: DB=pgsql
     fast_finish: true
 
+branches:
+    only:
+        - master
+        - "/^stable\\d+(\\.\\d+)?$/"
+        - /^v\d++(\.\d+)?+(\.\d+)?+(\.\d+)?$/
+
 before_install:
     - make
     - make appstore
