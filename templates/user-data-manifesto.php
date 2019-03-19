@@ -1,5 +1,5 @@
 <div id="themes" class="section">
-	<h3><?php p($l->t('User data manifesto 2.0')) ?></h3>
+	<h3><?php p($l->t('User Data Manifesto 2.0')) ?></h3>
 	<h4><?php p($l->t('Defining basic rights for people to control their own data in the internet age')); ?></h4>
 	<div class="user-data-manifesto-rights">
 		<div>
