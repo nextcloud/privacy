@@ -36,6 +36,11 @@ branches:
         - "/^stable\\d+(\\.\\d+)?$/"
         - /^v\d++(\.\d+)?+(\.\d+)?+(\.\d+)?$/
 
+cache:
+    directories:
+        - "$HOME/.composer/cache/files"
+        - "$HOME/.npm"
+
 before_install:
     - make
     - make appstore
