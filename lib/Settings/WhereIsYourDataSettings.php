@@ -49,7 +49,7 @@ class WhereIsYourDataSettings implements ISettings {
 	 * @return int
 	 */
 	public function getPriority():int {
-		return 10;
+		return 15;
 	}
 
 }
