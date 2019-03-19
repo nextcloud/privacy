@@ -18,7 +18,7 @@
         <personal-section>OCA\Privacy\Settings\PrivacySection</personal-section>
         <personal>OCA\Privacy\Settings\MissionSettings</personal>
         <personal>OCA\Privacy\Settings\UserDataManifestoSettings</personal>
-        <personal>OCA\Privacy\Settings\WhereIsMyDataSettings</personal>
+        <personal>OCA\Privacy\Settings\WhereIsYourDataSettings</personal>
         <personal>OCA\Privacy\Settings\WhoHasAccessSettings</personal>
     </settings>
 </info>
