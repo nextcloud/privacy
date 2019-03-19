@@ -72,7 +72,6 @@ vendor/
 *.kdev4
 
 build/
-js/
 node_modules/
 *.clover
 
