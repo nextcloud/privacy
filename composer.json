@@ -14,5 +14,10 @@
     },
     "scripts": {
         "lint": "find . -name \\*.php -not -path './vendor/*' -exec php -l \"{}\" \\;"
+    },
+    "config": {
+        "platform": {
+            "php": "7.1.8"
+        }
     }
 }
