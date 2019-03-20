@@ -14,6 +14,7 @@
     <dependencies>
         <nextcloud min-version="15" max-version="16"/>
     </dependencies>
+    <default_enable />
     <settings>
         <personal-section>OCA\Privacy\Settings\PrivacySection</personal-section>
         <personal>OCA\Privacy\Settings\MissionSettings</personal>
