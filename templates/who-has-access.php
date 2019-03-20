@@ -1,5 +1,5 @@
 <div id="themes" class="section">
-	<h3><?php p($l->t('Who has access to you data?')) ?></h3>
+	<h3><?php p($l->t('Who has access to your data?')) ?></h3>
 	<h4><?php p($l->t('Administrators')); ?></h4>
 	<div id="privacy_access_admins"></div>
 
