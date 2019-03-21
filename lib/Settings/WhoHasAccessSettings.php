@@ -21,6 +21,8 @@
  */
 namespace OCA\Privacy\Settings;
 
+use OC;
+use OCA\Theming\ThemingDefaults;
 use OCP\AppFramework\Http\TemplateResponse;
 use OCP\Settings\ISettings;
 
@@ -35,7 +37,16 @@ class WhoHasAccessSettings implements ISettings {
 	 * @return TemplateResponse
 	 */
 	public function getForm():TemplateResponse {
-		return new TemplateResponse('privacy', 'who-has-access');
+		$themingDefaults = OC::$server->getThemingDefaults();
+		if ($themingDefaults instanceof ThemingDefaults) {
+			$privacyPolicyUrl = $themingDefaults->getPrivacyUrl();
+		} else {
+			$privacyPolicyUrl = null;
+		}
+
+		return new TemplateResponse('privacy', 'who-has-access', [
+			'privacyPolicyUrl' => $privacyPolicyUrl,
+		]);
 	}
 
 	/**

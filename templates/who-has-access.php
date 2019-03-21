@@ -5,4 +5,11 @@
 
 	<h4><?php p($l->t('People you shared with')) ?></h4>
 	<div id="privacy_access_shares"></div>
+
+	<?php if (!empty($_['privacyPolicyUrl'])): ?>
+	<h4><?php p($l->t('Privacy policy')) ?></h4>
+	<p>
+		<a href="<?php print_unescaped($_['privacyPolicyUrl']) ?>"><?php p($l->t('Read the privacy policy.')) ?></a>
+	</p>
+	<?php endif; ?>
 </div>
