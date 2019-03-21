@@ -2,6 +2,7 @@
     "Privacy" : "Soukromí",
     "-" : "–",
     "Your data is located in: " : "Vaše data se nacházejí v:",
+    "The admin hasn't selected the location of the server yet." : "Správce doposud nezadal umístění serveru.",
     "Please select a country" : "Vyberte zemi",
     "You don't have any shares with individual users." : "Nemáte žádná sdílení s jednotlivými uživateli.",
     "Somaliland" : "Somaliland",
@@ -178,7 +179,9 @@
     "South Africa" : "Jihoafrická republika",
     "Zambia" : "Zambie",
     "Zimbabwe" : "Zimbabwe",
+    "Your Nextcloud account" : "Váš Nextcloud účet",
     "Your data represents who you are and can easily be abused. We at Nextcloud believe that you have a right to decide what happens with your data. Nextcloud protects your rights as defined in the User Data Manifesto!" : "Vaše data představují to, kdo jste a je možné je snadno zneužít. My u Nextcloud věříme, že máte právo rozhodovat, co se děje s vašimi daty. Nextcloud chrání vaše práva, definovaná v manifestu o datech uživatelů!",
+    "User Data Manifesto 2.0" : "Manifest o datech uživatelů, verze 2.0",
     "Defining basic rights for people to control their own data in the internet age" : "Definování základních práv pro to, aby lidé měli kontrolu nad svými daty v internetové době",
     "Control" : "Řízení",
     "over user data access" : " nad přístupem k datům uživatele",
@@ -190,6 +193,7 @@
     "to choose a platform" : "pro zvolení platformy",
     "Users should always be able to extract their data from the service at any time without experiencing any vendor lock-in. Open standards for formats and protocols are necessary to guarantee this." : "Uživatelé by vždy měli být schopní kdykoli vyzískat svá data ze služby aniž by narazili na nepostradatelnost výrobce. Pro zajištění tohoto jsou nezbytné otevřené standardní formáty a protokoly.",
     "Learn more ↗" : "Zjistit víc ↗",
+    "Where is your data?" : "Kde se vaše data nacházejí?",
     "Administrators" : "Správci",
     "People you shared with" : "Lidé, se kterými jste sdíleli"
 },"pluralForm" :"nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;"

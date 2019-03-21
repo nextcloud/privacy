@@ -156,6 +156,7 @@ OC.L10N.register(
     "Syria" : "Síria",
     "Swaziland" : "Swazilàndia",
     "Chad" : "Txad",
+    "Fr. S. Antarctic Lands" : "Terres Australs i Antàrtiques Franceses",
     "Togo" : "Togo",
     "Thailand" : "Tailàndia",
     "Tajikistan" : "Tadjikistan",
@@ -178,10 +179,12 @@ OC.L10N.register(
     "South Africa" : "Sudàfrica",
     "Zambia" : "Zàmbia",
     "Zimbabwe" : "Zimbabwe",
+    "Your Nextcloud account" : "El vostre compte de Nextcloud",
     "Control" : "Control",
     "Knowledge" : "Coneixement",
     "of how the data is stored" : "d'on s'emmagatzemen les dades",
     "Freedom" : "Llibertat",
-    "to choose a platform" : "per triar una plataforma"
+    "to choose a platform" : "per triar una plataforma",
+    "Where is your data?" : "On són les vostres dades?"
 },
 "nplurals=2; plural=(n != 1);");
