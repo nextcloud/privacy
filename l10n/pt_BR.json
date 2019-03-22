@@ -194,6 +194,7 @@
     "Users should always be able to extract their data from the service at any time without experiencing any vendor lock-in. Open standards for formats and protocols are necessary to guarantee this." : "Os usuários podem extrair seus dados do serviço a qualquer momento sem qualquer bloqueio do fornecedor. Padrões abertos para formatos e protocolos são necessários para garantir isso.",
     "Learn more ↗" : "Saiba mais ↗",
     "Where is your data?" : "Onde estão seus dados?",
+    "Who has access to your data?" : "Quem tem acesso aos seus dados?",
     "Administrators" : "Administradores",
     "People you shared with" : "Pessoas com quem você compartilhou"
 },"pluralForm" :"nplurals=2; plural=(n > 1);"

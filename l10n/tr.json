@@ -2,6 +2,7 @@
     "Privacy" : "Gizlilik",
     "-" : "-",
     "Your data is located in: " : "Verileriniz şurada tutuluyor:",
+    "The admin hasn't selected the location of the server yet." : "Yönetici henüz sunucunun konumunu seçmemiş.",
     "Please select a country" : "Lütfen bir ülke seçin",
     "You don't have any shares with individual users." : "Diğer kullanıcılar ile herhangi bir şey paylaşmıyorsunuz.",
     "Somaliland" : "Somaliland",
@@ -178,7 +179,9 @@
     "South Africa" : "Güney Afrika",
     "Zambia" : "Zambiya",
     "Zimbabwe" : "Zimbabwe",
+    "Your Nextcloud account" : "Nextcloud hesabınız",
     "Your data represents who you are and can easily be abused. We at Nextcloud believe that you have a right to decide what happens with your data. Nextcloud protects your rights as defined in the User Data Manifesto!" : "Verileriniz sizin kim olduğunuzu gösterir ve kolayca kötüye kullanılabilir. Nextcloud olarak verilerinize ne olacağına karar verme hakkınız olduğuna inanıyoruz. Nextcloud, Kullanıcı Verileri Manifestosu'nda belirtildiği şekilde haklarınızı korur!",
+    "User Data Manifesto 2.0" : "Kullanıcı Verileri Manifestosu 2.0",
     "Defining basic rights for people to control their own data in the internet age" : "İnternet çağında kişilerin kendi verilerini kontrol etmesi için temel hak tanımları",
     "Control" : "Kontrol",
     "over user data access" : "kullanıcının verilerine erişebilmesi",
@@ -190,6 +193,8 @@
     "to choose a platform" : "istediğiniz platformu seçebilme",
     "Users should always be able to extract their data from the service at any time without experiencing any vendor lock-in. Open standards for formats and protocols are necessary to guarantee this." : "Kullanıcılar, herhangi bir hizmet sağlayıcı engellemesine maruz kalmadan, istedikleri zaman verilerini alabilmelidir. Bunu garanti etmek için biçim ve yönergeler hakkında açık standartlar bulunmalıdır.",
     "Learn more ↗" : "Ayrıntılı bilgi alın ↗",
+    "Where is your data?" : "Verileriniz nerede tutuluyor?",
+    "Who has access to your data?" : "Verilerinize kimler erişebiliyor?",
     "Administrators" : "Yöneticiler",
     "People you shared with" : "Verilerinizi paylaştığınız kişiler"
 },"pluralForm" :"nplurals=2; plural=(n > 1);"

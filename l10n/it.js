@@ -196,6 +196,7 @@ OC.L10N.register(
     "Users should always be able to extract their data from the service at any time without experiencing any vendor lock-in. Open standards for formats and protocols are necessary to guarantee this." : "Gli utenti dovrebbero sempre poter estrarre i propri dati dal servizio in qualsiasi momento senza che si verifichi un blocco dal fornitore. Per garantire ciò sono necessari standard aperti per formati e protocolli.",
     "Learn more ↗" : "Ulteriori informazioni ↗",
     "Where is your data?" : "Dove sono i tuoi dati?",
+    "Who has access to your data?" : "Chi ha accesso ai tuoi dati?",
     "Administrators" : "Amministratori",
     "People you shared with" : "Persone con cui hai condiviso"
 },

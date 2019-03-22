@@ -195,8 +195,9 @@ OC.L10N.register(
     "to choose a platform" : "eine Plattform zu wählen",
     "Users should always be able to extract their data from the service at any time without experiencing any vendor lock-in. Open standards for formats and protocols are necessary to guarantee this." : "Benutzer sollten jederzeit in der Lage sein, ihre Daten aus dem Dienst zu extrahieren, ohne dass es zu einer Herstellerbindung kommt. Um dies zu gewährleisten, sind offene Standards für Formate und Protokolle notwendig.",
     "Learn more ↗" : "Erfahre mehr ↗",
-    "Where is your data?" : "Wo befinden sich deine Daten?",
+    "Where is your data?" : "Wo befinden sich Deine Daten?",
+    "Who has access to your data?" : "Wer hat Zugriff auf Deine Daten?",
     "Administrators" : "Administratoren",
-    "People you shared with" : "Menschen, mit denen du geteilt hast"
+    "People you shared with" : "Menschen, mit denen Du geteilt hast"
 },
 "nplurals=2; plural=(n != 1);");
