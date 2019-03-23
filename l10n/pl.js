@@ -4,6 +4,7 @@ OC.L10N.register(
     "Privacy" : "Prywatność",
     "-" : "-",
     "Your data is located in: " : "Twoje dane znajdują się w: ",
+    "The admin hasn't selected the location of the server yet." : "Administrator nie wybrał jeszcze lokalizacji serwera.",
     "Please select a country" : "Wybierz kraj",
     "You don't have any shares with individual users." : "Nie masz żadnych udostępnień dla poszczególnych użytkowników.",
     "Somaliland" : "Somaliland",
@@ -180,7 +181,9 @@ OC.L10N.register(
     "South Africa" : "South Africa",
     "Zambia" : "Zambia",
     "Zimbabwe" : "Zimbabwe",
+    "Your Nextcloud account" : "Twoje konto Nextcloud",
     "Your data represents who you are and can easily be abused. We at Nextcloud believe that you have a right to decide what happens with your data. Nextcloud protects your rights as defined in the User Data Manifesto!" : "Dane reprezentują Twoją tożsamość i mogą łatwo zostać wykorzystane. W Nextcloud wierzymy, że masz prawo decydować o tym, co dzieje się z Twoimi danymi. Nextcloud chroni Twoje prawa zgodnie z definicją w User Data Manifesto!",
+    "User Data Manifesto 2.0" : "User Data Manifesto 2.0",
     "Defining basic rights for people to control their own data in the internet age" : "Określenie podstawowych praw do kontroli własnych danych w dobie internetu",
     "Control" : "Kontrola",
     "over user data access" : "nad dostępem do danych użytkownika",
@@ -192,7 +195,11 @@ OC.L10N.register(
     "to choose a platform" : "wybrać platformę",
     "Users should always be able to extract their data from the service at any time without experiencing any vendor lock-in. Open standards for formats and protocols are necessary to guarantee this." : "Użytkownicy powinni mieć zawsze możliwość wyodrębnienia swoich danych z usługi w dowolnym czasie, nie mając możliwości zablokowania dostawcy. Aby to zagwarantować, niezbędne są otwarte standardy formatów i protokołów.",
     "Learn more ↗" : "Dowiedz się więcej ↗",
+    "Where is your data?" : "Gdzie są Twoje dane?",
+    "Who has access to your data?" : "Kto ma dostęp do Twoich danych?",
     "Administrators" : "Administratorzy",
-    "People you shared with" : "Osoby, którym udostępniasz"
+    "People you shared with" : "Osoby, którym udostępniasz",
+    "Privacy policy" : "Polityka prywatności",
+    "Read the privacy policy." : "Przeczytaj politykę prywatności."
 },
 "nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);");

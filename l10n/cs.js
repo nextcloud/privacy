@@ -198,6 +198,8 @@ OC.L10N.register(
     "Where is your data?" : "Kde se vaše data nacházejí?",
     "Who has access to your data?" : "Kdo má přístup k vašim datům?",
     "Administrators" : "Správci",
-    "People you shared with" : "Lidé, se kterými jste sdíleli"
+    "People you shared with" : "Lidé, se kterými jste sdíleli",
+    "Privacy policy" : "Zásada ochrany osobních údajů",
+    "Read the privacy policy." : "Přečíst si zásadu ochrany osobních údajů"
 },
 "nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;");
