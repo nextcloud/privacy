@@ -198,6 +198,8 @@ OC.L10N.register(
     "Where is your data?" : "Verileriniz nerede tutuluyor?",
     "Who has access to your data?" : "Verilerinize kimler erişebiliyor?",
     "Administrators" : "Yöneticiler",
-    "People you shared with" : "Verilerinizi paylaştığınız kişiler"
+    "People you shared with" : "Verilerinizi paylaştığınız kişiler",
+    "Privacy policy" : "Kişisel gizliliğin korunması ilkesi",
+    "Read the privacy policy." : "Kişisel verilerinizin korunması ilkesini gözden geçirin."
 },
 "nplurals=2; plural=(n > 1);");
