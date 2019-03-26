@@ -191,6 +191,8 @@
     "Users should always be able to extract their data from the service at any time without experiencing any vendor lock-in. Open standards for formats and protocols are necessary to guarantee this." : "Gebruikers moeten steeds in staat zijn hun gegevens uit een dienst te halen zonder problemen dat ze vasthangen aan een dienstverlener. Open standaarden voor datastructuren en protocollen zijn nodig om dit te kunnen garanderen.",
     "Learn more ↗" : "Meer weten",
     "Administrators" : "Beheerders",
-    "People you shared with" : "Mensen waarmee je hebt gedeeld"
+    "People you shared with" : "Mensen waarmee je hebt gedeeld",
+    "Privacy policy" : "Privacybeleid",
+    "Read the privacy policy." : "Lees het %sprivacy beleid%s nu."
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }
