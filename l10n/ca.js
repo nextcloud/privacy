@@ -176,7 +176,7 @@ OC.L10N.register(
     "Vietnam" : "Vietnam",
     "Vanuatu" : "Vanuatu",
     "Yemen" : "Iemen",
-    "South Africa" : "Sudàfrica",
+    "South Africa" : "Sud-àfrica",
     "Zambia" : "Zàmbia",
     "Zimbabwe" : "Zimbabwe",
     "Your Nextcloud account" : "El vostre compte de Nextcloud",

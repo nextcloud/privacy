@@ -198,6 +198,8 @@ OC.L10N.register(
     "Where is your data?" : "¿Dónde están tus datos?",
     "Who has access to your data?" : "¿Quién tiene acceso a tus datos?",
     "Administrators" : "Administradores",
-    "People you shared with" : "Gente con la que los has compartido"
+    "People you shared with" : "Gente con la que los has compartido",
+    "Privacy policy" : "Política de privacidad",
+    "Read the privacy policy." : "Leer la política de privacidad."
 },
 "nplurals=2; plural=(n != 1);");
