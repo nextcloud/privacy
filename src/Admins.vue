@@ -11,7 +11,9 @@
 		</div>
 
 		<div v-if="isAdmin">
-			<div v-if="!isAdding" class="addAdditionalAdmin" @click="openNewAdmin">
+			<div v-if="!isAdding" class="addAdditionalAdmin"
+				:title="additionalAdminPlaceholderLabel" @click="openNewAdmin"
+			>
 				+
 			</div>
 			<form v-if="isAdding" v-click-outside="closeNewAdmin" class="addAdditionalAdminFormContainer"
@@ -19,7 +21,7 @@
 			>
 				<input v-model="newAdditionalAdminInputField" type="text" maxlength="64"
 					autocomplete="new-password" autocorrect="off" autocapitalize="off"
-					spellcheck="false"
+					spellcheck="false" :placeholder="additionalAdminPlaceholderLabel"
 				>
 				<input type="submit" value="" class="icon-confirm">
 				<!-- add icon-loading -->
@@ -47,6 +49,11 @@ export default {
 		isAdding: false,
 		isSavingChanges: false
 	}),
+	computed: {
+		additionalAdminPlaceholderLabel() {
+			return t('privacy', 'Add external admin')
+		}
+	},
 	mounted() {
 		this.isAdmin = OC.isUserAdmin()
 
@@ -58,7 +65,9 @@ export default {
 	},
 	methods: {
 		openNewAdmin() {
-			this.isAdding = true
+			setTimeout(() => {
+				this.isAdding = true
+			}, 0)
 		},
 		closeNewAdmin() {
 			this.isAdding = false
