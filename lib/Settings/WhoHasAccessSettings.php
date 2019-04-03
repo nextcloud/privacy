@@ -24,6 +24,8 @@ namespace OCA\Privacy\Settings;
 use OC;
 use OCA\Theming\ThemingDefaults;
 use OCP\AppFramework\Http\TemplateResponse;
+use OCP\IConfig;
+use OCP\Encryption\IManager as IEncryptionManager;
 use OCP\Settings\ISettings;
 
 /**
@@ -32,6 +34,24 @@ use OCP\Settings\ISettings;
  * @package OCA\Privacy\Settings
  */
 class WhoHasAccessSettings implements ISettings {
+
+	/** @var IConfig */
+	private $config;
+
+	/** @var IEncryptionManager */
+	private $encryptionManager;
+
+	/**
+	 * WhoHasAccessSettings constructor.
+	 *
+	 * @param IConfig $config
+	 * @param IEncryptionManager $manager
+	 */
+	public function __construct(IConfig $config, IEncryptionManager $manager) {
+		$this->config = $config;
+		$this->encryptionManager = $manager;
+
+	}
 
 	/**
 	 * @return TemplateResponse
@@ -44,8 +64,13 @@ class WhoHasAccessSettings implements ISettings {
 			$privacyPolicyUrl = null;
 		}
 
+		$fullDiskEncryption = $this->config->getAppValue('privacy', 'fullDiskEncryptionEnabled', '0');
+		$serverSideEncryption = $this->encryptionManager->isEnabled();
+
 		return new TemplateResponse('privacy', 'who-has-access', [
 			'privacyPolicyUrl' => $privacyPolicyUrl,
+			'fullDiskEncryptionEnabled' => $fullDiskEncryption,
+			'serverSideEncryptionEnabled' => $serverSideEncryption ? '1' : '0',
 		]);
 	}
 

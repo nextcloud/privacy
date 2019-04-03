@@ -58,6 +58,18 @@
   }
 }
 
+.who-has-access,
+.where-is-my-data {
+  span.icon.icon-rename {
+   display: inline-block;
+   opacity: 0.5;
+
+   &:hover {
+    opacity: 0.8;
+   }
+  }
+}
+
 .where-is-my-data {
   max-width: 500px;
 
@@ -72,18 +84,6 @@
     > g {
       fill: #dddddd;
       stroke: #f4f4f4;
-    }
-  }
-
-  > p {
-
-    > span.icon.icon-rename {
-      display: inline-block;
-      opacity: 0.5;
-
-      &:hover {
-        opacity: 0.8;
-      }
     }
   }
 
