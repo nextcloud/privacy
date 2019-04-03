@@ -23,6 +23,7 @@ import Vue from 'vue'
 import { Avatar } from 'nextcloud-vue'
 import Admins from './Admins.vue'
 import Location from './Location.vue'
+import Encryption from './Encryption.vue'
 import Shares from './Shares.vue'
 
 Vue.component('Avatar', Avatar)
@@ -56,5 +57,9 @@ const shares = new Vue({
 	el: '#privacy_access_shares',
 	render: h => h(Shares)
 })
+const encryption = new Vue({
+	el: '#privacy_access_encryption',
+	render: h => h(Encryption)
+})
 
-export default { location, admins, shares }
+export default { location, admins, shares, encryption }

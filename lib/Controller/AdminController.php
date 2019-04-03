@@ -98,4 +98,17 @@ class AdminController extends Controller {
 		return new JSONResponse([], Http::STATUS_OK);
 	}
 
+	/**
+	 * @param string $enabled
+	 * @return JSONResponse
+	 */
+	public function setFullDiskEncryption(string $enabled):JSONResponse {
+		$allowedValues = ['0', '1'];
+		if (!\in_array($enabled, $allowedValues, true)) {
+			return new JSONResponse([], HTTP::STATUS_NOT_ACCEPTABLE);
+		}
+
+		$this->config->setAppValue('privacy', 'fullDiskEncryptionEnabled', $enabled);
+		return new JSONResponse([], HTTP::STATUS_OK);
+	}
 }
