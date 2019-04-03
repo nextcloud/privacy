@@ -97,6 +97,10 @@ class PersonalController extends Controller {
 		$adminUsers = $adminGroup->getUsers();
 		$uids = [];
 		foreach($adminUsers as $adminUser) {
+			if (!$adminUser->isEnabled()) {
+				continue;
+			}
+
 			$uids[] = [
 				'id' => $adminUser->getUID(),
 				'displayname' => $adminUser->getDisplayName(),
