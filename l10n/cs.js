@@ -3,6 +3,7 @@ OC.L10N.register(
     {
     "Privacy" : "Soukromí",
     "-" : "–",
+    "Add external admin" : "Přidat správce zvenčí",
     "Your data is located in: " : "Vaše data se nacházejí v:",
     "The admin hasn't selected the location of the server yet." : "Správce doposud nezadal umístění serveru.",
     "Please select a country" : "Vyberte zemi",

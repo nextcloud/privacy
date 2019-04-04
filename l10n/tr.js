@@ -3,6 +3,7 @@ OC.L10N.register(
     {
     "Privacy" : "Gizlilik",
     "-" : "-",
+    "Add external admin" : "Dış yönetici ekle",
     "Your data is located in: " : "Verileriniz şurada tutuluyor:",
     "The admin hasn't selected the location of the server yet." : "Yönetici henüz sunucunun konumunu seçmemiş.",
     "Please select a country" : "Lütfen bir ülke seçin",

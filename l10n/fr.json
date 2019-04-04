@@ -1,6 +1,7 @@
 { "translations": {
     "Privacy" : "Vie privée",
     "-" : "-",
+    "Add external admin" : "Ajouter un administrateur externe",
     "Your data is located in: " : "Vos données sont situées en :",
     "The admin hasn't selected the location of the server yet." : "L'administrateur n'a pas encore indiqué l'emplacement du serveur.",
     "Please select a country" : "Veuillez sélectionner un pays",

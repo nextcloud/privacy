@@ -3,6 +3,7 @@ OC.L10N.register(
     {
     "Privacy" : "Privacidad",
     "-" : "-",
+    "Add external admin" : "Añadir administrador externo",
     "Your data is located in: " : "Tus datos se encuentran en: ",
     "The admin hasn't selected the location of the server yet." : "Los administradores no han seleccionado todavía la localización del servidor.",
     "Please select a country" : "Por favor, selecciona un país",
