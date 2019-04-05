@@ -2,6 +2,11 @@
     "Privacy" : "Soukromí",
     "-" : "–",
     "Add external admin" : "Přidat správce zvenčí",
+    "Your files are not protected by encryption." : "Vaše soubory nejsou chráněny šifrováním.",
+    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "Vaše soubory jsou šifrovány pomocí {linkopen}šifrování na straně serveru ↗{linkclose}.",
+    "This server is protected with full-disk-encryption." : "Tento server je chráněn šifrováním celého úložiště.",
+    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}. Additionally, this server is protected with full-disk-encryption." : "Vaše soubory jsou šifrovány pomocí {linkopen}šifrování na straně serveru ↗{linkclose}. Dále je tento server chráněn šifrováním celého úložiště.",
+    "This server is using full-disk-encryption." : "Tento server používá šifrování celého úložiště.",
     "Your data is located in: " : "Vaše data se nacházejí v:",
     "The admin hasn't selected the location of the server yet." : "Správce doposud nezadal umístění serveru.",
     "Please select a country" : "Vyberte zemi",
@@ -199,6 +204,7 @@
     "Administrators" : "Správci",
     "People you shared with" : "Lidé, se kterými jste sdíleli",
     "Privacy policy" : "Zásada ochrany osobních údajů",
-    "Read the privacy policy." : "Přečíst si zásadu ochrany osobních údajů"
+    "Read the privacy policy." : "Přečíst si zásadu ochrany osobních údajů",
+    "Encryption" : "Šifrování"
 },"pluralForm" :"nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;"
 }

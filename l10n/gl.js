@@ -4,6 +4,11 @@ OC.L10N.register(
     "Privacy" : "Privacidade",
     "-" : "-",
     "Add external admin" : "Engadir administrador externo",
+    "Your files are not protected by encryption." : "Os seus ficheiros non están protexidos con cifrado.",
+    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "Os seus ficheiros están protexidos con {linkopen}cifrado no lado do servidor ↗{linkclose}.",
+    "This server is protected with full-disk-encryption." : "Este servidor está protexido con cifrado de disco completo.",
+    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}. Additionally, this server is protected with full-disk-encryption." : "Os seus ficheiros están cifrados con {linkopen}cifrado no lado do servidor ↗{linkclose}. Ademais, este servidor está protexido con cifrado de disco completo.",
+    "This server is using full-disk-encryption." : "Este servidor está a usar o cifrado de disco completo.",
     "Your data is located in: " : "Os seus datos están localizados en:",
     "The admin hasn't selected the location of the server yet." : "O administrador aínda non seleccionou a localización do servidor.",
     "Please select a country" : "Seleccione un país",
@@ -201,6 +206,7 @@ OC.L10N.register(
     "Administrators" : "Administradores",
     "People you shared with" : "Persoas coas que compartiu",
     "Privacy policy" : "Política de privacidade",
-    "Read the privacy policy." : "Lea a política de privacidade."
+    "Read the privacy policy." : "Lea a política de privacidade.",
+    "Encryption" : "Cifrado"
 },
 "nplurals=2; plural=(n != 1);");

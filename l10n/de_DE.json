@@ -2,6 +2,11 @@
     "Privacy" : "Datenschutz",
     "-" : "-",
     "Add external admin" : "Einen externen Administrator hinzufügen",
+    "Your files are not protected by encryption." : "Ihre Dateien sind nicht mittels Verschlüsselung geschützt.",
+    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "Ihre Dateien sind mittels der {linkopen}serverseitigen Verschlüsselung ↗{linkclose} verschlüsselt.",
+    "This server is protected with full-disk-encryption." : "Dieser Server ist mittels Festplattenverschlüsselung geschützt.",
+    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}. Additionally, this server is protected with full-disk-encryption." : "Ihre Dateien sind mittels der {linkopen}serverseitigen Verschlüsselung ↗{linkclose} verschlüsselt. Ausserdem ist deser Server mittels Festplattenverschlüsselung geschützt.",
+    "This server is using full-disk-encryption." : "Dieser Server verwendet Festplattenverschlüsselung.",
     "Your data is located in: " : "Ihre Daten befinden sich in: ",
     "The admin hasn't selected the location of the server yet." : "Der Administrator hat den Standort des Servers noch nicht ausgewählt.",
     "Please select a country" : "Bitte wählen die ein Land",
@@ -199,6 +204,7 @@
     "Administrators" : "Administratoren",
     "People you shared with" : "Menschen, mit denen Sie geteilt haben",
     "Privacy policy" : "Datenschutz",
-    "Read the privacy policy." : "Lesen Sie die Datenschutzerklärung."
+    "Read the privacy policy." : "Lesen Sie die Datenschutzerklärung.",
+    "Encryption" : "Verschlüsselung"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }

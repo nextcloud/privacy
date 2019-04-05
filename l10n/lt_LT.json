@@ -1,6 +1,7 @@
 { "translations": {
     "Privacy" : "Privatumas",
     "-" : "-",
+    "Your files are not protected by encryption." : "Jūsų failai nėra apsaugoti šifravimu.",
     "The admin hasn't selected the location of the server yet." : "Administratorius kol kas nepasirinko serverio vietovės.",
     "Please select a country" : "Pasirinkite šalį",
     "You don't have any shares with individual users." : "Jūs neturite jokių viešinių su atskirais naudotojais.",

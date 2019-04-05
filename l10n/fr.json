@@ -2,6 +2,9 @@
     "Privacy" : "Vie privée",
     "-" : "-",
     "Add external admin" : "Ajouter un administrateur externe",
+    "Your files are not protected by encryption." : "Vos fichiers ne sont pas protégés par chiffrement.",
+    "This server is protected with full-disk-encryption." : "Les disques de ce serveur sont protégés par chiffrement.",
+    "This server is using full-disk-encryption." : "Les disques de ce serveur sont chiffrés.",
     "Your data is located in: " : "Vos données sont situées en :",
     "The admin hasn't selected the location of the server yet." : "L'administrateur n'a pas encore indiqué l'emplacement du serveur.",
     "Please select a country" : "Veuillez sélectionner un pays",
@@ -199,6 +202,7 @@
     "Administrators" : "Administrateurs",
     "People you shared with" : "Personnes avec qui vous avez partagé",
     "Privacy policy" : "Politique de confidentialité",
-    "Read the privacy policy." : "Lisez la politique de confidentialité."
+    "Read the privacy policy." : "Lisez la politique de confidentialité.",
+    "Encryption" : "Chiffrement"
 },"pluralForm" :"nplurals=2; plural=(n > 1);"
 }
