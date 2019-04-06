@@ -2,6 +2,11 @@
     "Privacy" : "Privacidad",
     "-" : "-",
     "Add external admin" : "Añadir administrador externo",
+    "Your files are not protected by encryption." : "Tus archivos no están protegidos por la encriptación.",
+    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "Tus archivos están encriptados con {linkopen}server-side-encryption ↗{linkclose}.",
+    "This server is protected with full-disk-encryption." : "Este servidor está protegido con cifrado de disco completo.",
+    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}. Additionally, this server is protected with full-disk-encryption." : "Tus archivos están encriptados por {linkopen}server-side-encryption ↗{linkclose}. Además, este servidor está protegido con cifrado de disco completo.",
+    "This server is using full-disk-encryption." : "Este servidor está usando cifrado de disco completo.",
     "Your data is located in: " : "Tus datos se encuentran en: ",
     "The admin hasn't selected the location of the server yet." : "Los administradores no han seleccionado todavía la localización del servidor.",
     "Please select a country" : "Por favor, selecciona un país",
@@ -181,7 +186,7 @@
     "Zambia" : "Zambia",
     "Zimbabwe" : "Zimbabue",
     "Your Nextcloud account" : "Tu cuenta de Nextcloud",
-    "Your data represents who you are and can easily be abused. We at Nextcloud believe that you have a right to decide what happens with your data. Nextcloud protects your rights as defined in the User Data Manifesto!" : "Tus datos representan quien eres y pueden ser abusados fácilmente. En Nextcloud creemos que tienes derecho a decidir que pasa con tus datos. Nextcloud protege tus derechos como esta definido en el Manifiesto de los Datos del Usuario.",
+    "Your data represents who you are and can easily be abused. We at Nextcloud believe that you have a right to decide what happens with your data. Nextcloud protects your rights as defined in the User Data Manifesto!" : "Tus datos representan quien eres y pueden ser robados fácilmente. En Nextcloud creemos que tienes derecho a decidir que pasa con tus datos. Nextcloud protege tus derechos como esta definido en el Manifiesto de los Datos del Usuario.",
     "User Data Manifesto 2.0" : "Manifiesto de Datos de Usuario 2.0",
     "Defining basic rights for people to control their own data in the internet age" : "Definiendo los derechos básicos para que las personas controlen sus propios datos en la era de internet.",
     "Control" : "Control",
@@ -199,6 +204,7 @@
     "Administrators" : "Administradores",
     "People you shared with" : "Gente con la que los has compartido",
     "Privacy policy" : "Política de privacidad",
-    "Read the privacy policy." : "Leer la política de privacidad."
+    "Read the privacy policy." : "Leer la política de privacidad.",
+    "Encryption" : "Cifrado"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }
