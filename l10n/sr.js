@@ -10,7 +10,7 @@ OC.L10N.register(
     "You don't have any shares with individual users." : "Немате дељења са појединачним корисницима.",
     "Somaliland" : "Сомалиланд",
     "United Arab Emirates" : "Уједињени Арапски Емирати",
-    "Afghanistan" : "Афганистан",
+    "Afghanistan" : "Авганистан",
     "Albania" : "Албанија",
     "Armenia" : "Јерменија",
     "Angola" : "Ангола",
