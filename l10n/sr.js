@@ -4,6 +4,7 @@ OC.L10N.register(
     "Privacy" : "Приватност",
     "-" : "-",
     "Add external admin" : "Додајте спољног администратора",
+    "Your files are not protected by encryption." : "Ваши фајлови нису заштићени шифровањем.",
     "Your data is located in: " : "Ваши подаци се налазе у:",
     "The admin hasn't selected the location of the server yet." : "Администратор још није означио локацију сервера.",
     "Please select a country" : "Одаберите државу",
