@@ -3,7 +3,14 @@ OC.L10N.register(
     {
     "Privacy" : "Meðferð persónuupplýsinga",
     "-" : "-",
+    "Add external admin" : "Bæta við utanaðkomandi stjórnanda",
+    "Your files are not protected by encryption." : "Skrárnar þínar eru ekki varðar með dulritun.",
+    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "Skrárnar þínar eru dulritaðar með {linkopen}dulritun á þjóni ↗{linkclose}.",
+    "This server is protected with full-disk-encryption." : "Þessi þjónn er varinn með fullri dulritun diska.",
+    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}. Additionally, this server is protected with full-disk-encryption." : "Skrárnar þínar eru dulritaðar með {linkopen}dulritun á þjóni ↗{linkclose}. Að auki er þjónninn varinn með fullri dulritun diska.",
+    "This server is using full-disk-encryption." : "Þessi þjónn er að nota fulla dulritun diska.",
     "Your data is located in: " : "Gögnin þín eru geymd í: ",
+    "The admin hasn't selected the location of the server yet." : "Kerfisstjórinn er ekki ennþá búinn að velja staðsetningu þjónsins.",
     "Please select a country" : "Veldu land",
     "You don't have any shares with individual users." : "Þú ert ekki með neinar sameignir með einstökum notendum.",
     "Somaliland" : "Sómalíland",
@@ -180,7 +187,9 @@ OC.L10N.register(
     "South Africa" : "Suður-Afríka",
     "Zambia" : "Sambía",
     "Zimbabwe" : "Simbabve",
+    "Your Nextcloud account" : "Nextcloud aðgangurinn þinn",
     "Your data represents who you are and can easily be abused. We at Nextcloud believe that you have a right to decide what happens with your data. Nextcloud protects your rights as defined in the User Data Manifesto!" : "Gögnin þín standa fyrir það sem þú ert og er því miður auðvelt að misnota þau. Við sem stöndum að Nextcloud trúum því að þú hafir rétt til að ákveða hvað verður um gögnin þín. Nextcloud mun verja réttindi þín eins og þau eru skilgreind í yfirlýsingu um notandagögn!",
+    "User Data Manifesto 2.0" : "Yfirlýsing vegna notandagagna 2.0",
     "Defining basic rights for people to control their own data in the internet age" : "Skilgreinir grunnréttindi notenda til að stýra sínum eigin gögnum á internetinu",
     "Control" : "Stjórnun",
     "over user data access" : "aðgangs að notendagögnum",
@@ -192,7 +201,12 @@ OC.L10N.register(
     "to choose a platform" : "til að velja sér kerfi",
     "Users should always be able to extract their data from the service at any time without experiencing any vendor lock-in. Open standards for formats and protocols are necessary to guarantee this." : "Notendur ættu ávallt að geta náð í gögnin sín frá viðkomandi þjónustu, hvenær sem er og án skilyrða af hálfu þjónustuaðilans. Opnir staðlar fyrir skráasnið og samskiptamáta eru grunnurinn til að tryggja það.",
     "Learn more ↗" : "Kanna nánar ↗",
+    "Where is your data?" : "Hvar eru gögnin þín?",
+    "Who has access to your data?" : "Hver hefur aðgang að gögnunum þínum?",
     "Administrators" : "Stjórnendur",
-    "People you shared with" : "Fólk sem þú deildir með"
+    "People you shared with" : "Fólk sem þú deildir með",
+    "Privacy policy" : "Meðferð persónulegra gagna",
+    "Read the privacy policy." : "Lestu stefnu varðandi meðferð persónulegra gagna.",
+    "Encryption" : "Dulritun"
 },
 "nplurals=2; plural=(n % 10 != 1 || n % 100 == 11);");
