@@ -3,7 +3,14 @@ OC.L10N.register(
     {
     "Privacy" : "Privacy",
     "-" : "-",
+    "Add external admin" : "Voeg externe beheerder toe",
+    "Your files are not protected by encryption." : "Je bestanden zijn niet versleuteld.",
+    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "Je bestanden zijn versleuteld met {linkopen}server-side-encryptie ↗{linkclose}.",
+    "This server is protected with full-disk-encryption." : "De server is beschermd met full-disk-encryptie.",
+    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}. Additionally, this server is protected with full-disk-encryption." : "Je bestanden zijn versleuteld via {linkopen}server-side-encryption ↗{linkclose}. Daarnaast is deze server beveiligd met full-disk-encryptie.",
+    "This server is using full-disk-encryption." : "Deze server maakt gebruik van full-disk-encryptie.",
     "Your data is located in: " : "Je bestanden zijn in:",
+    "The admin hasn't selected the location of the server yet." : "De beheerder heeft nog geen locatie van de server opgegeven.",
     "Please select a country" : "Graag een land selecteren",
     "You don't have any shares with individual users." : "Je hebt geen shares met individuele gebruikers",
     "Somaliland" : "Samaliland",
@@ -180,7 +187,9 @@ OC.L10N.register(
     "South Africa" : "Zuid-Afrika",
     "Zambia" : "Zambia",
     "Zimbabwe" : "Zimbabwe",
+    "Your Nextcloud account" : "Je Nextcloud account",
     "Your data represents who you are and can easily be abused. We at Nextcloud believe that you have a right to decide what happens with your data. Nextcloud protects your rights as defined in the User Data Manifesto!" : "Uw gegevens geven weer wie u bent en kunnen snel misbruikt worden. Nextcloud is van mening dat mag beslissen wat er met uw gegevens gebeurt. Nextcloud beveiligt uw rechten zoals vastgelegd in het Gegevensbeheerdocument!",
+    "User Data Manifesto 2.0" : "Manifest Gebruikerdata 2.0 (Engels)",
     "Defining basic rights for people to control their own data in the internet age" : "Vastleggen van grondrechten voor mensen om hun eigen data te beheren in het internet tijdperk",
     "Control" : "Controle",
     "over user data access" : "Over toegang tot gebruikersgegevens",
@@ -192,9 +201,12 @@ OC.L10N.register(
     "to choose a platform" : "om een platform te kiezen",
     "Users should always be able to extract their data from the service at any time without experiencing any vendor lock-in. Open standards for formats and protocols are necessary to guarantee this." : "Gebruikers moeten steeds in staat zijn hun gegevens uit een dienst te halen zonder problemen dat ze vasthangen aan een dienstverlener. Open standaarden voor datastructuren en protocollen zijn nodig om dit te kunnen garanderen.",
     "Learn more ↗" : "Meer weten",
+    "Where is your data?" : "Waar wordt je data opgeslagen?",
+    "Who has access to your data?" : "Wie hebben toegang tot je gegevens?",
     "Administrators" : "Beheerders",
     "People you shared with" : "Mensen waarmee je hebt gedeeld",
     "Privacy policy" : "Privacybeleid",
-    "Read the privacy policy." : "Lees het %sprivacy beleid%s nu."
+    "Read the privacy policy." : "Lees het %sprivacy beleid%s nu.",
+    "Encryption" : "Versleuteling"
 },
 "nplurals=2; plural=(n != 1);");
