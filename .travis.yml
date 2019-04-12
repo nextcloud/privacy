@@ -15,7 +15,7 @@ services:
 
 env:
     global:
-        - CORE_BRANCH=master
+        - CORE_BRANCH=stable16
     matrix:
         - DB=pgsql
 
