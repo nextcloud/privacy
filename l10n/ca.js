@@ -24,7 +24,7 @@ OC.L10N.register(
     "Australia" : "Austràlia",
     "Azerbaijan" : "Azerbaitjan",
     "Bosnia and Herzegowina" : "Bòsnia i Hercegovina",
-    "Bangladesh" : "Bangla Desh",
+    "Bangladesh" : "Bangladesh",
     "Belgium" : "Bèlgica",
     "Burkina Faso" : "Burkina Faso",
     "Bulgaria" : "Bulgària",
