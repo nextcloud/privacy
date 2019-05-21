@@ -206,7 +206,7 @@ OC.L10N.register(
     "Administrators" : "Administratoren",
     "People you shared with" : "Menschen, mit denen Du geteilt hast",
     "Privacy policy" : "Datenschutz",
-    "Read the privacy policy." : "Lesen Sie die Datenschutzerklärung.",
+    "Read the privacy policy." : "Lese hier die Datenschutzerklärung.",
     "Encryption" : "Verschlüsselung"
 },
 "nplurals=2; plural=(n != 1);");
