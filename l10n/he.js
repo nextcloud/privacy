@@ -3,6 +3,12 @@ OC.L10N.register(
     {
     "Privacy" : "פרטיות",
     "-" : "-",
+    "Add external admin" : "הוספת הנהלה חיצונית",
+    "Your files are not protected by encryption." : "הקבצים שלך אינם מוגנים בהצפנה.",
+    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "הקבצים שלך מוצפנים עם {linkopen}הצפנה בצד השרת ↖{linkclose}.",
+    "This server is protected with full-disk-encryption." : "שרת זה מוגן בהצפנה על כל הכונן.",
+    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}. Additionally, this server is protected with full-disk-encryption." : "הקבצים שלך מוצפנים עם {linkopen}הצפנה בצד השרת ↖{linkclose}. בנוסף, השרת הזה מוגן עם הצפנה על כל הכונן.",
+    "This server is using full-disk-encryption." : "השרת הזה משתמש בהצפנה על כל הכונן.",
     "Your data is located in: " : "הנתונים שלך נמצאים תחת:",
     "The admin hasn't selected the location of the server yet." : "המנהל לא בחר את מיקום השרת עדיין.",
     "Please select a country" : "נא לבחור מדינה",
@@ -200,6 +206,7 @@ OC.L10N.register(
     "Administrators" : "מנהלים",
     "People you shared with" : "אנשים אתם שיתפת",
     "Privacy policy" : "מדיניות פרטיות",
-    "Read the privacy policy." : "הצגת מדיניות הפרטיות."
+    "Read the privacy policy." : "הצגת מדיניות הפרטיות.",
+    "Encryption" : "הצפנה"
 },
 "nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % 1 == 0) ? 1: (n % 10 == 0 && n % 1 == 0 && n > 10) ? 2 : 3;");
