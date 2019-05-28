@@ -42,7 +42,6 @@ cache:
 
 before_install:
     - make
-    - make appstore
     # install core
     - cd ../
     - git clone https://github.com/nextcloud/server.git --recursive --depth 1 -b $CORE_BRANCH nextcloud
