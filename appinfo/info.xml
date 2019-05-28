@@ -4,7 +4,7 @@
     <id>privacy</id>
     <name>Privacy</name>
     <summary>-</summary>
-    <description><![CDATA[-]]></description>
+    <description><![CDATA[The privacy center shows you where your data is stored and who can access it, either because you shared with them or because they are administrators.]]></description>
     <version>1.1.0</version>
     <licence>agpl</licence>
     <author mail="georg.ehrke@nextcloud.com" >Georg Ehrke</author>
