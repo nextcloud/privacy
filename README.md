@@ -1,5 +1,10 @@
-# Privacy
-Place this app in **nextcloud/apps/**
+# :key: Privacy
+
+The privacy center shows you where your data is stored and who can access it, either because you shared with them or because they are administrators.
+
+## Installation
+
+This app is shipped and enabled by default in every Nextcloud instance starting with Nextcloud 16. If you wish to disable this app, go to `Apps`, `Active Apps`, scroll down to find `Privacy` and click `Disable`.
 
 ## Building the app
 
