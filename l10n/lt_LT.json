@@ -1,6 +1,7 @@
 { "translations": {
     "Privacy" : "Privatumas",
     "-" : "-",
+    "The privacy center shows you where your data is stored and who can access it, either because you shared with them or because they are administrators." : "Privatumo centras rodo kur yra laikomi jūsų duomenys ir kas turi prieigą prie jų, arba dėl to, kad bendrinote savo duomenis su šiais asmenimis, arba dėl to, kad jie yra administratoriai.",
     "Add external admin" : "Pridėti išorinį administratorių",
     "Your files are not protected by encryption." : "Jūsų failai nėra apsaugoti šifravimu.",
     "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "Jūsų failai yra šifruoti naudojant {linkopen}serverio šifravimą ↗{linkclose}.",

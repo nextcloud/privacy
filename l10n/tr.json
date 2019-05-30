@@ -1,6 +1,7 @@
 { "translations": {
     "Privacy" : "Gizlilik",
     "-" : "-",
+    "The privacy center shows you where your data is stored and who can access it, either because you shared with them or because they are administrators." : "Gizlilik merkezinden verilerinizin nerede depolandığını ve yöneticiler ya da varsa paylaştığınız kişiler gibi verilerinize erişebilecek kişileri görebilirsiniz. ",
     "Add external admin" : "Dış yönetici ekle",
     "Your files are not protected by encryption." : "Dosyalarınız şifreleme ile korunmuyor.",
     "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "Dosyalarınız {linkopen}sunucu tarafı şifrelemesi ↗{linkclose} ile korunuyor.",
