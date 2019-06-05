@@ -3,6 +3,7 @@ OC.L10N.register(
     {
     "Privacy" : "Datenschutz",
     "-" : "-",
+    "The privacy center shows you where your data is stored and who can access it, either because you shared with them or because they are administrators." : "Das Zentrum für Datenschutz zeigt Ihnen, wo Ihre Daten gespeichert werden und wer darauf Zugriff hat. Egal ob Sie Daten freigegeben haben oder es Administratoren sind.",
     "Add external admin" : "Einen externen Administrator hinzufügen",
     "Your files are not protected by encryption." : "Deine Dateien sind nicht mittels Verschlüsselung geschützt.",
     "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "Deine Dateien sind mittels der {linkopen}serverseitigen Verschlüsselung ↗{linkclose} verschlüsselt.",
