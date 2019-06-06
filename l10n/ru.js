@@ -3,6 +3,7 @@ OC.L10N.register(
     {
     "Privacy" : "Конфиденциальность",
     "-" : "—",
+    "The privacy center shows you where your data is stored and who can access it, either because you shared with them or because they are administrators." : "Центр конфиденциальности показывает вам, где хранятся ваши данные и кто может получить к ним доступ: администраторы и те, с кем вы поделились этими данными.",
     "Add external admin" : "Добавить внешнего администратора",
     "Your files are not protected by encryption." : "Ваши файлы не защищены шифрованием.",
     "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "Для защиты ваших файлов используется {linkopen}шифрование на стороне сервера ↗{linkclose}.",
