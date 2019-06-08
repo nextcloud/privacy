@@ -1,6 +1,7 @@
 { "translations": {
     "Privacy" : "Prywatność",
     "-" : "-",
+    "The privacy center shows you where your data is stored and who can access it, either because you shared with them or because they are administrators." : "Centrum prywatności pokazuje, gdzie są przechowywane Twoje dane i kto może uzyskać do nich dostęp, ponieważ udostępniłeś je lub jesteś administratorem.",
     "Add external admin" : "Dodaj zewnętrznego administratora",
     "Your files are not protected by encryption." : "Twoje pliki nie są chronione przez szyfrowanie.",
     "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "Twoje pliki są szyfrowane za pomocą {linkopen}server-side-encryption ↗{linkclose}.",
