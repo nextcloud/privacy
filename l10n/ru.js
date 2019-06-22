@@ -27,7 +27,7 @@ OC.L10N.register(
     "Bosnia and Herzegowina" : "Босния и Герцеговина",
     "Bangladesh" : "Бангладеш",
     "Belgium" : "Бельгия",
-    "Burkina Faso" : "Буркина Фасо",
+    "Burkina Faso" : "Буркина-Фасо",
     "Bulgaria" : "Болгария",
     "Burundi" : "Бурунди",
     "Benin" : "Бенин",
