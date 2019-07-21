@@ -142,6 +142,9 @@ OC.L10N.register(
     "to choose a platform" : "plataforma aukeratzea",
     "Learn more ↗" : "Ikasi gehiago ↗",
     "Administrators" : "Administratzaileak",
-    "People you shared with" : "Pertsona hauekin elkarbanatu duzu"
+    "People you shared with" : "Pertsona hauekin elkarbanatu duzu",
+    "Privacy policy" : "Pribatutasun politika",
+    "Read the privacy policy." : "Irakurri pribatutasun politika",
+    "Encryption" : "Zifratzea"
 },
 "nplurals=2; plural=(n != 1);");
