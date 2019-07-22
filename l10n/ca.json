@@ -1,7 +1,7 @@
 { "translations": {
     "Privacy" : "Privadesa",
     "-" : "-",
-    "The privacy center shows you where your data is stored and who can access it, either because you shared with them or because they are administrators." : "El centre de privacitat us mostra a on s'emmagatzema les vostres dades i qui pot accedir-hi, ja sia perquè vau compartir amb ell/ella o perquè són usuaris administradors.",
+    "The privacy center shows you where your data is stored and who can access it, either because you shared with them or because they are administrators." : "El centre de privacitat us mostra a on s'emmagatzemen les vostres dades i qui pot accedir-hi, ja sia perquè vau compartir amb ell/ella o perquè són usuaris administradors.",
     "Add external admin" : "Afegeix un administrador extern",
     "Your files are not protected by encryption." : "Els vostres fitxers no estan protegits per xifratge.",
     "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "Els vostres fitxers estan xifrats amb {linkopen}xifratge del costat del servidor ↗{linkclose}.",
