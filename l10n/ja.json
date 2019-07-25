@@ -1,6 +1,7 @@
 { "translations": {
     "Privacy" : "プライバシー",
     "-" : "-",
+    "The privacy center shows you where your data is stored and who can access it, either because you shared with them or because they are administrators." : "プライバシーセンターでは、あなたのデータがどこに保存され、誰がそれにアクセスできるか、あなたがどういうデータを共有しているのか、それとも管理者からであるのかのを示します。",
     "Add external admin" : "外部管理者を追加",
     "Your files are not protected by encryption." : "ファイルは暗号化されていません。",
     "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "あなたのファイルは {linkopen}サーバサイド暗号化↗{linkclose} で暗号化されています。",
