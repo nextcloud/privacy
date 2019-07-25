@@ -72,7 +72,7 @@ export default {
 				oldElm.style.fill = null
 			}
 			if (newElm) {
-				newElm.style.fill = '#e6605c'
+				newElm.style.fill = 'var(--color-primary)'
 			}
 		}
 	},
