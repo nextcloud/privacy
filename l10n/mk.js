@@ -5,7 +5,7 @@ OC.L10N.register(
     "-" : "-",
     "The privacy center shows you where your data is stored and who can access it, either because you shared with them or because they are administrators." : "Центарот за приватност ви покажува каде се складираат вашите податоци и кој има пристап до нив, или затоа што сте ги споделиле со некој или затоа што тие се администратори.",
     "Add external admin" : "Додади надворешен администратор",
-    "Your files are not protected by encryption." : "Вашите датотеки не се заштитено со енкрипција.",
+    "Your files are not protected by encryption." : "Вашите датотеки не се заштитени со енкрипција.",
     "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "Вашите датотеки се енкриптирани со {linkopen}енкрипција од страна на серверот ↗{linkclose}.",
     "This server is protected with full-disk-encryption." : "Овој сервер е заштитен со целосно енкриптиран диск.",
     "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}. Additionally, this server is protected with full-disk-encryption." : "Вашите датотеки се енкриптирани со {linkopen}енкрипција од страна на серверот ↗{linkclose}. Дополнително, овој сервер е заштитен со целосно енкриптиран диск.",
