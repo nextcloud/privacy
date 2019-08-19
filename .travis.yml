@@ -8,6 +8,7 @@ php:
 
 addons:
     mariadb: '10.1'
+    postgresql: '9.6'
 
 services:
     - postgresql
