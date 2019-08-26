@@ -1,7 +1,6 @@
 <template>
 	<div class="where-is-my-data">
 		<span v-show="isLoading" class="icon icon-loading" />
-		<Map v-show="!isLoading" />
 		<p v-show="!isEditingLocation && !isLoading">
 			<span v-show="country">{{ label }}<strong>{{ country }}.</strong></span>
 			<span v-show="!country">{{ labelForNoCountry }}</span>
@@ -19,6 +18,7 @@
 			/>
 			<span v-show="isSavingChanges" class="icon icon-loading" />
 		</div>
+		<Map v-show="!isLoading" />
 	</div>
 </template>
 
