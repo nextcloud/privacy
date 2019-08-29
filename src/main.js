@@ -20,13 +20,10 @@
  */
 import '@babel/polyfill'
 import Vue from 'vue'
-import Avatar from 'nextcloud-vue/dist/Components/Avatar'
 import Admins from './Admins.vue'
 import Location from './Location.vue'
 import Encryption from './Encryption.vue'
 import Shares from './Shares.vue'
-
-Vue.component('Avatar', Avatar)
 
 // CSP config for webpack dynamic chunk loading
 // eslint-disable-next-line

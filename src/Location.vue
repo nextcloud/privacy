@@ -4,18 +4,19 @@
 		<p v-show="!isEditingLocation && !isLoading">
 			<span v-show="country">{{ label }}<strong>{{ country }}.</strong></span>
 			<span v-show="!country">{{ labelForNoCountry }}</span>
-			<span v-show="isAdmin" class="icon icon-rename" @click="editLocation" />
+			<Actions v-if="isAdmin">
+				<ActionButton icon="icon-rename" @click="editLocation" />
+			</Actions>
 		</p>
 		<div v-show="isEditingLocation && !isLoading" class="multiselect-container">
-			<multiselect
+			<Multiselect
 				:disabled="isSavingChanges"
 				:options="options"
 				:searchable="true"
 				track-by="code"
 				label="label"
 				:placeholder="placeholderLabel"
-				@input="onChange"
-			/>
+				@input="onChange" />
 			<span v-show="isSavingChanges" class="icon icon-loading" />
 		</div>
 		<Map v-show="!isLoading" />
@@ -28,6 +29,8 @@ import HttpClient from 'nextcloud-axios'
 import { generateUrl } from 'nextcloud-server/dist/router'
 
 import Multiselect from 'nextcloud-vue/dist/Components/Multiselect'
+import Actions from 'nextcloud-vue/dist/Components/Actions'
+import ActionButton from 'nextcloud-vue/dist/Components/ActionButton'
 import {
 	getCountryList,
 	getNameForCountryCode
@@ -36,16 +39,20 @@ import {
 export default {
 	name: 'Location',
 	components: {
+		ActionButton,
+		Actions,
 		Map,
 		Multiselect
 	},
-	data: () => ({
-		selectedCountry: 'de',
-		isAdmin: false,
-		isEditingLocation: false,
-		isLoading: true,
-		isSavingChanges: false,
-	}),
+	data() {
+		return {
+			selectedCountry: 'de',
+			isAdmin: false,
+			isEditingLocation: false,
+			isLoading: true,
+			isSavingChanges: false
+		}
+	},
 	computed: {
 		label() {
 			return t('privacy', 'Your data is located in: ')
@@ -108,6 +115,6 @@ export default {
 				this.isSavingChanges = false
 			})
 		}
-	},
+	}
 }
 </script>

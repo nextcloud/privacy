@@ -4,24 +4,30 @@
 		<span :class="{hidden: !isEmptyList}">
 			{{ emptyLabel }}
 		</span>
-		<avatar v-for="uid in uniqueShareUIDs" :key="uid" :user="uid"
-			:display-name="uidDisplaynameMap[uid]" :size="64"
-		/>
+		<Avatar v-for="uid in uniqueShareUIDs" :key="uid" :user="uid"
+			:display-name="uidDisplaynameMap[uid]" :size="64" />
 	</div>
 </template>
 
 <script>
-import { generateOcsUrl } from 'nextcloud-server/dist/router'
 import HttpClient from 'nextcloud-axios'
 import Vue from 'vue'
 
+import { generateOcsUrl } from 'nextcloud-server/dist/router'
+import Avatar from 'nextcloud-vue/dist/Components/Avatar'
+
 export default {
 	name: 'Shares',
-	data: () => ({
-		uniqueShareUIDs: [],
-		uidDisplaynameMap: {},
-		isLoading: true
-	}),
+	components: {
+		Avatar
+	},
+	data() {
+		return {
+			uniqueShareUIDs: [],
+			uidDisplaynameMap: {},
+			isLoading: true
+		}
+	},
 	computed: {
 		isEmptyList() {
 			return this.isLoading === false && this.uniqueShareUIDs.length === 0

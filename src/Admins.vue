@@ -1,28 +1,26 @@
 <template>
 	<div class="who-has-access">
-		<span :class="{hidden: !isLoading}" class="icon icon-loading" />
+		<span :class="{ hidden: !isLoading }" class="icon icon-loading" />
 		<div v-for="admin in admins" :key="admin.id" class="admin-avatar-container">
-			<avatar :user="admin.internal ? admin.id : null"
-				:display-name="admin.displayname" :size="64" :is-no-user="!admin.internal"
-			/>
-			<span v-if="!admin.internal" class="icon icon-close"
-				@click="deleteAdditionalAdmin(admin)"
-			/>
+			<Avatar :user="admin.internal ? admin.id : null"
+				:display-name="admin.displayname" :size="64" :is-no-user="!admin.internal" />
+			<Actions v-if="!admin.internal">
+				<ActionButton icon="icon-close" @click="deleteAdditionalAdmin(admin)" />
+			</Actions>
 		</div>
 
 		<div v-if="isAdmin">
 			<div v-if="!isAdding" class="addAdditionalAdmin"
-				:title="additionalAdminPlaceholderLabel" @click="openNewAdmin"
-			>
+				:title="additionalAdminPlaceholderLabel" @click="openNewAdmin">
 				+
 			</div>
-			<form v-if="isAdding" v-click-outside="closeNewAdmin" class="addAdditionalAdminFormContainer"
-				@submit.prevent="addAdditionalAdmin"
-			>
+			<form v-if="isAdding"
+				v-click-outside="closeNewAdmin"
+				class="addAdditionalAdminFormContainer"
+				@submit.prevent="addAdditionalAdmin">
 				<input v-model="newAdditionalAdminInputField" type="text" maxlength="64"
 					autocomplete="new-password" autocorrect="off" autocapitalize="off"
-					spellcheck="false" :placeholder="additionalAdminPlaceholderLabel"
-				>
+					spellcheck="false" :placeholder="additionalAdminPlaceholderLabel">
 				<input type="submit" value="" class="icon-confirm">
 				<!-- add icon-loading -->
 			</form>
@@ -31,24 +29,35 @@
 </template>
 
 <script>
-import { generateUrl } from 'nextcloud-server/dist/router'
+import ClickOutside from 'vue-click-outside'
 import HttpClient from 'nextcloud-axios'
 import Vue from 'vue'
-import ClickOutside from 'vue-click-outside'
+
+import Actions from 'nextcloud-vue/dist/Components/Actions'
+import ActionButton from 'nextcloud-vue/dist/Components/ActionButton'
+import Avatar from 'nextcloud-vue/dist/Components/Avatar'
+import { generateUrl } from 'nextcloud-server/dist/router'
 
 export default {
 	name: 'Admins',
+	components: {
+		Actions,
+		ActionButton,
+		Avatar
+	},
 	directives: {
 		ClickOutside
 	},
-	data: () => ({
-		admins: [],
-		newAdditionalAdminInputField: '',
-		isAdmin: false,
-		isLoading: true,
-		isAdding: false,
-		isSavingChanges: false
-	}),
+	data() {
+		return {
+			admins: [],
+			newAdditionalAdminInputField: '',
+			isAdmin: false,
+			isLoading: true,
+			isAdding: false,
+			isSavingChanges: false
+		}
+	},
 	computed: {
 		additionalAdminPlaceholderLabel() {
 			return t('privacy', 'Add external admin')
