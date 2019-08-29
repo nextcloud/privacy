@@ -20,7 +20,7 @@
  */
 import '@babel/polyfill'
 import Vue from 'vue'
-import { Avatar } from 'nextcloud-vue'
+import Avatar from 'nextcloud-vue/dist/Components/Avatar'
 import Admins from './Admins.vue'
 import Location from './Location.vue'
 import Encryption from './Encryption.vue'

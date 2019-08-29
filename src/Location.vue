@@ -27,7 +27,7 @@ import Map from './Map.vue'
 import HttpClient from 'nextcloud-axios'
 import { generateUrl } from 'nextcloud-server/dist/router'
 
-import { Multiselect } from 'nextcloud-vue'
+import Multiselect from 'nextcloud-vue/dist/Components/Multiselect'
 import {
 	getCountryList,
 	getNameForCountryCode
