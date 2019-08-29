@@ -2,7 +2,7 @@
 	"name": "privacy",
 	"version": "1.0.0",
 	"description": "Place this app in **nextcloud/apps/**",
-	"main": "js/script.js",
+	"main": "js/privacy.js",
 	"directories": {
 		"lib": "lib",
 		"test": "tests"
