@@ -8,11 +8,8 @@ module.exports = {
 	},
 	globals: {
 		t: true,
-		n: true,
 		OC: true,
-		OCA: true,
 		Vue: true,
-		VueRouter: true
 	},
 	parserOptions: {
 		parser: 'babel-eslint',

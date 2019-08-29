@@ -1,6 +1,6 @@
 <?php
-script('privacy', 'script');
-style('privacy', 'style');
+script('privacy', 'privacy');
+style('privacy', 'privacy');
 ?>
 
 <div id="themes" class="section">

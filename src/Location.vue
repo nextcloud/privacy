@@ -5,7 +5,9 @@
 			<span v-show="country">{{ label }}<strong>{{ country }}.</strong></span>
 			<span v-show="!country">{{ labelForNoCountry }}</span>
 			<Actions v-if="isAdmin">
-				<ActionButton icon="icon-rename" @click="editLocation" />
+				<ActionButton icon="icon-rename" @click="editLocation">
+					{{ t('privacy', 'Change data location') }}
+				</ActionButton>
 			</Actions>
 		</p>
 		<div v-show="isEditingLocation && !isLoading" class="multiselect-container">

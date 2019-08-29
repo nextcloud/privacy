@@ -66,8 +66,8 @@ export default {
 		}
 	},
 	created() {
-		this.fullDiskEncryptionEnabled = (this.$parent.$el.getAttribute('data-full-disk-encryption') === '1')
-		this.serverSideEncryptionEnabled = (this.$parent.$el.getAttribute('data-server-side-encryption') === '1')
+		this.fullDiskEncryptionEnabled = this.$parent.fullDiskEncryptionEnabled
+		this.serverSideEncryptionEnabled = this.$parent.serverSideEncryptionEnabled
 		this.isAdmin = OC.isUserAdmin()
 	},
 	methods: {

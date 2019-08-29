@@ -106,9 +106,10 @@
 .who-has-access {
 	display: flex;
 	flex-wrap: wrap;
+	align-items: center;
 
 	div.avatardiv,
-	div.addAdditionalAdmin,
+	.action-item.addAdditionalAdmin,
 	form.addAdditionalAdminFormContainer {
 		margin: 10px;
 	}
@@ -116,27 +117,18 @@
 	div.admin-avatar-container {
 		position: relative;
 
-		> span.icon.icon-close {
-			display: none;
+		> .action-item {
 			position: absolute;
-			top: 0;
-			right: 0;
-		}
-
-		&:hover span.icon.icon-close {
-			display: inline-block;
+			top: -8px;
+			right: -8px;
 		}
 	}
 
-	div.addAdditionalAdmin {
-		width: 64px;
-		height: 64px;
-		line-height: 64px;
-		font-size: 35px;
-		background-color: var(--color-background-darker);
-		border-radius: 50%;
-		color: var(--color-main-text);
-		text-align: center;
+	.action-item.addAdditionalAdmin {
+		width: 64px !important;
+		height: 64px !important;
+		border-radius: 64px !important;
+		background-color: var(--color-background-dark);
 	}
 
 	form.addAdditionalAdminFormContainer {

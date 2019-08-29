@@ -5,15 +5,18 @@
 			<Avatar :user="admin.internal ? admin.id : null"
 				:display-name="admin.displayname" :size="64" :is-no-user="!admin.internal" />
 			<Actions v-if="!admin.internal">
-				<ActionButton icon="icon-close" @click="deleteAdditionalAdmin(admin)" />
+				<ActionButton icon="icon-close" @click="deleteAdditionalAdmin(admin)">
+					{{ t('privacy', 'Remove external admin') }}
+				</ActionButton>
 			</Actions>
 		</div>
 
 		<div v-if="isAdmin">
-			<div v-if="!isAdding" class="addAdditionalAdmin"
-				:title="additionalAdminPlaceholderLabel" @click="openNewAdmin">
-				+
-			</div>
+			<Actions v-if="!isAdding" class="addAdditionalAdmin">
+				<ActionButton icon="icon-add" @click="openNewAdmin">
+					{{ t('privacy', 'Add external admin') }}
+				</ActionButton>
+			</Actions>
 			<form v-if="isAdding"
 				v-click-outside="closeNewAdmin"
 				class="addAdditionalAdminFormContainer"
@@ -56,11 +59,6 @@ export default {
 			isLoading: true,
 			isAdding: false,
 			isSavingChanges: false
-		}
-	},
-	computed: {
-		additionalAdminPlaceholderLabel() {
-			return t('privacy', 'Add external admin')
 		}
 	},
 	mounted() {
