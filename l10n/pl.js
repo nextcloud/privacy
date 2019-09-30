@@ -200,7 +200,7 @@ OC.L10N.register(
     "When the data is uploaded to a specific service provider, users should be informed about where that specific service provider stores the data, how long, in which jurisdiction the specific service provider operates, and which laws apply." : "Kiedy dane są przesyłane do określonego usługodawcy, użytkownicy powinni być informowani o tym, gdzie dany dostawca usług przechowuje dane, jak długo, w jakiej jurysdykcji działa dany usługodawca, i które przepisy mają zastosowanie.",
     "Freedom" : "Dowolność",
     "to choose a platform" : "wybór platformy",
-    "Users should always be able to extract their data from the service at any time without experiencing any vendor lock-in. Open standards for formats and protocols are necessary to guarantee this." : "Użytkownicy powinni mieć zawsze możliwość wyodrębnienia swoich danych z usługi w dowolnym czasie, nie mając możliwości zablokowania dostawcy. Aby to zagwarantować, niezbędne są otwarte standardy formatów i protokołów.",
+    "Users should always be able to extract their data from the service at any time without experiencing any vendor lock-in. Open standards for formats and protocols are necessary to guarantee this." : "Użytkownicy powinni mieć zawsze możliwość wyodrębnienia swoich danych z usługi w dowolnym czasie, bez możliwości zablokowania przez dostawcę. Aby to zagwarantować, niezbędne są otwarte standardy formatów i protokołów.",
     "Learn more ↗" : "Dowiedz się więcej ↗",
     "Where is your data?" : "Gdzie są Twoje dane?",
     "Who has access to your data?" : "Kto ma dostęp do Twoich danych?",

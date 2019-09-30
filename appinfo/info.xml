@@ -5,14 +5,14 @@
     <name>Privacy</name>
     <summary>-</summary>
     <description><![CDATA[The privacy center shows you where your data is stored and who can access it, either because you shared with them or because they are administrators.]]></description>
-    <version>1.1.0</version>
+    <version>1.2.0</version>
     <licence>agpl</licence>
     <author mail="georg.ehrke@nextcloud.com" >Georg Ehrke</author>
     <namespace>Privacy</namespace>
     <category>tools</category>
     <bugs>https://github.com/nextcloud/privacy/issues/</bugs>
     <dependencies>
-        <nextcloud min-version="17" max-version="17"/>
+		<nextcloud min-version="18" max-version="18" />
     </dependencies>
     <default_enable />
     <settings>
