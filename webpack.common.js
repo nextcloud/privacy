@@ -1,15 +1,14 @@
 const path = require('path')
-const webpack = require('webpack')
-const { VueLoaderPlugin } = require('vue-loader')
 const StyleLintPlugin = require('stylelint-webpack-plugin')
+const { VueLoaderPlugin } = require('vue-loader')
 
 module.exports = {
 	entry: path.join(__dirname, 'src', 'main.js'),
 	output: {
 		path: path.resolve(__dirname, './js'),
 		publicPath: '/js/',
-		filename: 'script.js',
-		chunkFilename: 'chunks/[name].js'
+		filename: 'privacy.js',
+		chunkFilename: 'privacy.[name].[contenthash].js',
 	},
 	module: {
 		rules: [
@@ -24,11 +23,13 @@ module.exports = {
 			{
 				test: /\.(js|vue)$/,
 				use: 'eslint-loader',
+				exclude: /node_modules/,
 				enforce: 'pre'
 			},
 			{
 				test: /\.vue$/,
-				loader: 'vue-loader'
+				loader: 'vue-loader',
+				exclude: /node_modules/
 			},
 			{
 				test: /\.js$/,
@@ -46,13 +47,9 @@ module.exports = {
 	},
 	plugins: [
 		new VueLoaderPlugin(),
-		// new StyleLintPlugin(),
-		new webpack.IgnorePlugin(/^\.\/locale$/, /moment$/)
+		new StyleLintPlugin()
 	],
 	resolve: {
-		alias: {
-			vue$: 'vue/dist/vue.esm.js'
-		},
-		extensions: ['*', '.js', '.vue', '.json']
+		extensions: ['*', '.js', '.vue']
 	}
 }

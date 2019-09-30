@@ -1,0 +1,152 @@
+/**
+ * Privacy App
+ *
+ * @author Georg Ehrke
+ * @copyright 2019 Georg Ehrke <oc.list@georgehrke.com>
+ *
+ * This library is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU AFFERO GENERAL PUBLIC LICENSE
+ * License as published by the Free Software Foundation; either
+ * version 3 of the License, or any later version.
+ *
+ * This library is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU AFFERO GENERAL PUBLIC LICENSE for more details.
+ *
+ * You should have received a copy of the GNU Affero General Public
+ * License along with this library.  If not, see <http://www.gnu.org/licenses/>.
+ *
+ */
+@include icon-black-white('control', 'privacy', 1);
+@include icon-black-white('freedom', 'privacy', 1);
+@include icon-black-white('knowledge', 'privacy', 1);
+
+.user-data-manifesto-rights {
+	padding: 15px 0;
+
+	@media screen and (min-width: 600px) {
+		display: flex;
+	}
+
+	div {
+		padding: 0 10px;
+
+		div.icon {
+			background-size: 32px;
+			min-width: 32px;
+			min-height: 32px;
+		}
+
+		h5 {
+			text-align: center;
+		}
+
+		h5:first-of-type {
+			margin-top: 10px;
+		}
+
+		p {
+			margin-top: 10px;
+		}
+	}
+}
+
+.section {
+	h4:not(:first-of-type) {
+		margin-top: 20px;
+	}
+}
+
+.who-has-access,
+.where-is-my-data {
+	span.icon.icon-rename {
+		display: inline-block;
+		opacity: 0.5;
+
+		&:hover {
+			opacity: 0.8;
+		}
+	}
+}
+
+.where-is-my-data {
+	max-width: 500px;
+
+	> span.icon.icon-loading {
+		display: block;
+		height: 320px;
+		width: 500px;
+	}
+
+	> svg {
+		> path,
+		> g {
+			fill: #dddddd;
+			stroke: #f4f4f4;
+		}
+	}
+
+	> div.multiselect-container {
+		position: relative;
+
+		> div.multiselect {
+			width: 100%;
+		}
+
+		> span.icon.icon-loading {
+			display: inline-block;
+			position: absolute;
+			top: 9px;
+			left: calc(50% - 23px);
+		}
+	}
+}
+
+.who-has-access {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+
+	div.avatardiv,
+	.action-item.addAdditionalAdmin,
+	form.addAdditionalAdminFormContainer {
+		margin: 10px;
+	}
+
+	div.admin-avatar-container {
+		position: relative;
+
+		> .action-item {
+			position: absolute;
+			top: -8px;
+			right: -8px;
+		}
+	}
+
+	.action-item.addAdditionalAdmin {
+		width: 64px !important;
+		height: 64px !important;
+		border-radius: 64px !important;
+		background-color: var(--color-background-dark);
+	}
+
+	form.addAdditionalAdminFormContainer {
+		margin-top: 20px;
+		position: relative;
+		grid-row: 1;
+		display: inline-flex;
+		align-items: center;
+	}
+
+	span.icon.icon-loading {
+		display: block;
+		height: 32px;
+		width: 32px;
+		margin: 26px;
+
+		&.hidden {
+			display: none;
+		}
+	}
+}

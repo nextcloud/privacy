@@ -54,8 +54,7 @@ stylelint-fix:
 
 # Cleaning
 clean:
-	rm -f js/script.js
-	rm -f js/script.js.map
+	rm -rf js
 
 clean-dev:
 	rm -rf node_modules

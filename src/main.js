@@ -20,13 +20,11 @@
  */
 import '@babel/polyfill'
 import Vue from 'vue'
-import Avatar from 'nextcloud-vue/dist/Components/Avatar'
-import Admins from './Admins.vue'
-import Location from './Location.vue'
-import Encryption from './Encryption.vue'
-import Shares from './Shares.vue'
 
-Vue.component('Avatar', Avatar)
+const Admins = () => import('./Admins.vue')
+const Location = () => import('./Location.vue')
+const Encryption = () => import('./Encryption.vue')
+const Shares = () => import('./Shares.vue')
 
 // CSP config for webpack dynamic chunk loading
 // eslint-disable-next-line
@@ -40,10 +38,7 @@ __webpack_nonce__ = btoa(OC.requestToken)
 __webpack_public_path__ = OC.linkTo('privacy', 'js/')
 
 Vue.prototype.t = t
-Vue.prototype.n = n
 Vue.prototype.OC = OC
-Vue.prototype.OCA = OCA
-// Vue.prototype.is_admin = is_admin
 
 const location = new Vue({
 	el: '#privacy_where_location',
@@ -57,8 +52,18 @@ const shares = new Vue({
 	el: '#privacy_access_shares',
 	render: h => h(Shares)
 })
+
+const privacyAccesEncryption = document.getElementById('privacy_access_encryption')
+const fullDiskEncryptionEnabled = privacyAccesEncryption.dataset.fullDiskEncryption === '1'
+const serverSideEncryptionEnabled = privacyAccesEncryption.dataset.serverSideEncryption === '1'
 const encryption = new Vue({
 	el: '#privacy_access_encryption',
+	data() {
+		return {
+			fullDiskEncryptionEnabled,
+			serverSideEncryptionEnabled
+		}
+	},
 	render: h => h(Encryption)
 })
 
