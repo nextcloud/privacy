@@ -63,7 +63,7 @@
 		"prettier-eslint": "^9.0.0",
 		"stylelint": "^10.1.0",
 		"stylelint-config-recommended-scss": "^4.0.0",
-		"stylelint-scss": "^3.11.1",
+		"stylelint-scss": "^3.12.1",
 		"stylelint-webpack-plugin": "^0.10.5",
 		"vue-jest": "^3.0.4",
 		"vue-loader": "^15.7.1",
