@@ -1,0 +1,15 @@
+{ "translations": {
+    "Privacy" : "隱私",
+    "-" : "－",
+    "The privacy center shows you where your data is stored and who can access it, either because you shared with them or because they are administrators." : "隱私中心顯示您的資料存在那裡及何人可以取得它。只有您分享的對象或管理員身份的號可以取得您的資料。",
+    "Add external admin" : "新增外部管理員",
+    "Your files are not protected by encryption." : "您的資料並未設定加密保護。",
+    "Your data is located in: " : "您的資料在",
+    "Taiwan" : "台灣",
+    "Your Nextcloud account" : "您的Nextcloud帳號",
+    "Your data represents who you are and can easily be abused. We at Nextcloud believe that you have a right to decide what happens with your data. Nextcloud protects your rights as defined in the User Data Manifesto!" : "你的資料就是你自己，在網路上很容易被濫用。Nextcloud團隊相信你有權決定你的資料如何被使用。Nextcloud會依照使用者資料宣言所述，捍衛你的權利。",
+    "User Data Manifesto 2.0" : "使用者資料宣言 2.0",
+    "Data explicitly and willingly uploaded by a user should be under the ultimate control of the user. Users should be able to decide whom to grant direct access to their data and with which permissions and licenses such access should be granted." : "使用者自願將特定的資料上傳，他就應該有完全的掌控爟。使用者應該可以決定誰能被授權取得資料，而且此授權的權限及規則也由使用者涋定。",
+    "Freedom" : "自由"
+},"pluralForm" :"nplurals=1; plural=0;"
+}

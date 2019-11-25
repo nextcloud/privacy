@@ -187,6 +187,8 @@ OC.L10N.register(
     "Your Nextcloud account" : "Jūsų Nextcloud paskyra",
     "Your data represents who you are and can easily be abused. We at Nextcloud believe that you have a right to decide what happens with your data. Nextcloud protects your rights as defined in the User Data Manifesto!" : "Jūsų duomenys atvaizduoja kas jūs esate ir gali būti lengvai netinkamai panaudoti. Mes, Nextcloud, tikime, kad jūs turite teisę spręsti kas nutiks su jūsų duomenimis. Nextcloud apsaugo jūsų teises kaip tai yra apibrėžta Naudotojo Duomenų Manifeste!",
     "User Data Manifesto 2.0" : "Naudotojo Duomenų Manifestas 2.0",
+    "Control" : "Valdoma",
+    "over user data access" : "prieiga prie naudotojo duomenų",
     "Knowledge" : "Žinios",
     "of how the data is stored" : "apie tai, kaip yra saugomi duomenys",
     "Freedom" : "Laisvė",
