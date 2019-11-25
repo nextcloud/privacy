@@ -3,6 +3,7 @@ OC.L10N.register(
     {
     "Privacy" : "Soukromí",
     "-" : "–",
+    "The privacy center shows you where your data is stored and who can access it, either because you shared with them or because they are administrators." : "Centrum soukromí ukazuje, kde jsou vaše data fyzicky uložena a kdo k nim může přistupovat, buď protože jste jim je nasdíleli nebo protože jsou správci.",
     "Add external admin" : "Přidat správce zvenčí",
     "Your files are not protected by encryption." : "Vaše soubory nejsou chráněny šifrováním.",
     "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "Vaše soubory jsou šifrovány pomocí {linkopen}šifrování na straně serveru ↗{linkclose}.",
@@ -191,7 +192,7 @@ OC.L10N.register(
     "Your data represents who you are and can easily be abused. We at Nextcloud believe that you have a right to decide what happens with your data. Nextcloud protects your rights as defined in the User Data Manifesto!" : "Vaše data představují to, kdo jste a je možné je snadno zneužít. My u Nextcloud věříme, že máte právo rozhodovat, co se děje s vašimi daty. Nextcloud chrání vaše práva, definovaná v manifestu o datech uživatelů!",
     "User Data Manifesto 2.0" : "Manifest o datech uživatelů, verze 2.0",
     "Defining basic rights for people to control their own data in the internet age" : "Definování základních práv pro to, aby lidé měli kontrolu nad svými daty v internetové době",
-    "Control" : "Řízení",
+    "Control" : "Kontrola",
     "over user data access" : " nad přístupem k datům uživatele",
     "Data explicitly and willingly uploaded by a user should be under the ultimate control of the user. Users should be able to decide whom to grant direct access to their data and with which permissions and licenses such access should be granted." : "Data výslovně a úmyslně nahraná uživatelem by měla být pod nepochybnou kontrolou uživatele. Uživatelé by měli být moci rozhodovat, komu udělit přímý přístup k jejich datům a jaká oprávnění a licence má takový přístup udělovat.",
     "Knowledge" : "Znalost",
