@@ -14,7 +14,5 @@
 	<?php endif; ?>
 
 	<h4><?php p($l->t('Encryption')) ?></h4>
-	<div id="privacy_access_encryption"
-		 data-full-disk-encryption="<?php print_unescaped($_['fullDiskEncryptionEnabled']) ?>"
-		 data-server-side-encryption="<?php print_unescaped($_['serverSideEncryptionEnabled']) ?>"></div>
+	<div id="privacy_access_encryption"></div>
 </div>

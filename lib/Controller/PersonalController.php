@@ -69,23 +69,6 @@ class PersonalController extends Controller {
 	 *
 	 * @return JSONResponse
 	 */
-	public function getReadableLocation():JSONResponse {
-		$location = $this->config->getAppValue($this->appName, 'readableLocation');
-
-		if ($location === null) {
-			return new JSONResponse([], Http::STATUS_NOT_FOUND);
-		}
-
-		return new JSONResponse([
-			'code' => $location,
-		], Http::STATUS_OK);
-	}
-
-	/**
-	 * @NoAdminRequired
-	 *
-	 * @return JSONResponse
-	 */
 	public function getAdmins():JSONResponse {
 		$adminGroup = $this->groupManager->get('admin');
 
@@ -107,7 +90,7 @@ class PersonalController extends Controller {
 				'internal' => true,
 			];
 		}
-		
+
 		$query = $this->dbConnection->getQueryBuilder();
 		$query->select(['id', 'displayname'])
 			->from('privacy_admins');

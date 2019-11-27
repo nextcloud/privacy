@@ -26,6 +26,7 @@ use OCA\Theming\ThemingDefaults;
 use OCP\AppFramework\Http\TemplateResponse;
 use OCP\IConfig;
 use OCP\Encryption\IManager as IEncryptionManager;
+use OCP\IInitialStateService;
 use OCP\Settings\ISettings;
 
 /**
@@ -41,16 +42,22 @@ class WhoHasAccessSettings implements ISettings {
 	/** @var IEncryptionManager */
 	private $encryptionManager;
 
+	/** @var IInitialStateService */
+	private $initialStateService;
+
 	/**
 	 * WhoHasAccessSettings constructor.
 	 *
 	 * @param IConfig $config
 	 * @param IEncryptionManager $manager
+	 * @param IInitialStateService $initialStateService
 	 */
-	public function __construct(IConfig $config, IEncryptionManager $manager) {
+	public function __construct(IConfig $config,
+								IEncryptionManager $manager,
+								IInitialStateService $initialStateService) {
 		$this->config = $config;
 		$this->encryptionManager = $manager;
-
+		$this->initialStateService = $initialStateService;
 	}
 
 	/**
@@ -64,14 +71,11 @@ class WhoHasAccessSettings implements ISettings {
 			$privacyPolicyUrl = null;
 		}
 
-		$fullDiskEncryption = $this->config->getAppValue('privacy', 'fullDiskEncryptionEnabled', '0');
-		$serverSideEncryption = $this->encryptionManager->isEnabled();
+		$this->initialStateService->provideInitialState('privacy', 'privacyPolicyUrl', $privacyPolicyUrl);
+		$this->initialStateService->provideInitialState('privacy', 'fullDiskEncryptionEnabled', $this->config->getAppValue('privacy', 'fullDiskEncryptionEnabled', '0'));
+		$this->initialStateService->provideInitialState('privacy', 'serverSideEncryptionEnabled', $this->encryptionManager->isEnabled() ? '1' : '0');
 
-		return new TemplateResponse('privacy', 'who-has-access', [
-			'privacyPolicyUrl' => $privacyPolicyUrl,
-			'fullDiskEncryptionEnabled' => $fullDiskEncryption,
-			'serverSideEncryptionEnabled' => $serverSideEncryption ? '1' : '0',
-		]);
+		return new TemplateResponse('privacy', 'who-has-access');
 	}
 
 	/**
