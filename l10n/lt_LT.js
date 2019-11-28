@@ -7,6 +7,7 @@ OC.L10N.register(
     "Add external admin" : "Pridėti išorinį administratorių",
     "Your files are not protected by encryption." : "Jūsų failai nėra apsaugoti šifravimu.",
     "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "Jūsų failai yra šifruoti naudojant {linkopen}serverio šifravimą ↗{linkclose}.",
+    "Change data location" : "Keisti duomenų vietą",
     "Your data is located in: " : "Jūsų duomenų vieta yra čia: ",
     "The admin hasn't selected the location of the server yet." : "Administratorius kol kas nepasirinko serverio vietovės.",
     "Please select a country" : "Pasirinkite šalį",
