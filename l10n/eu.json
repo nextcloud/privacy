@@ -1,6 +1,8 @@
 { "translations": {
     "Privacy" : "Pribatutasuna",
     "-" : "-",
+    "Remove external admin" : "Kendu kanpo administratzailea",
+    "Add external admin" : "Gehitu kanpo administratzailea",
     "Your data is located in: " : "Zure datuak hemen daude:",
     "Please select a country" : "Mesedez aukeratu herrialde bat",
     "You don't have any shares with individual users." : "Ez duzu ezer elkarbanatuta banakako erabiltzaileren batekin.",
