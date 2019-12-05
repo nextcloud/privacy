@@ -13,7 +13,7 @@ class PageControllerTest extends PHPUnit_Framework_TestCase {
 	private $controller;
 	private $userId = 'john';
 
-	public function setUp() {
+	protected function setUp(): void {
 		$request = $this->getMockBuilder('OCP\IRequest')->getMock();
 
 		$this->controller = new PageController(

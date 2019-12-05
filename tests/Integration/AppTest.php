@@ -15,7 +15,7 @@ class AppTest extends TestCase {
 
     private $container;
 
-    public function setUp() {
+    protected function setUp(): void {
         parent::setUp();
         $app = new App('privacy');
         $this->container = $app->getContainer();

@@ -2,9 +2,9 @@ sudo: false
 dist: trusty
 language: php
 php:
-    - 7.1
     - 7.2
     - 7.3
+    - 7.4snapshot
 
 addons:
     mariadb: '10.1'
@@ -22,11 +22,11 @@ env:
 
 matrix:
     include:
-        - php: 7.2
+        - php: 7.3
           env: DB=sqlite
-        - php: 7.2
+        - php: 7.3
           env: DB=mysql
-        - php: 7.2
+        - php: 7.3
           env: DB=pgsql
     fast_finish: true
 
