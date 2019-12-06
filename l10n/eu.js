@@ -6,6 +6,8 @@ OC.L10N.register(
     "Remove external admin" : "Kendu kanpo administratzailea",
     "Add external admin" : "Gehitu kanpo administratzailea",
     "Your files are not protected by encryption." : "Zure fitxategiak ez daude zifratze bidez babestuta",
+    "This server is protected with full-disk-encryption." : "Zerbitzari hau disko osoko zifratzearekin babestuta dago",
+    "This server is using full-disk-encryption." : "Zerbitzari hau disko osoko zifratzea ari da erabiltzen.",
     "Your data is located in: " : "Zure datuak hemen daude:",
     "Please select a country" : "Mesedez aukeratu herrialde bat",
     "You don't have any shares with individual users." : "Ez duzu ezer elkarbanatuta banakako erabiltzaileren batekin.",
