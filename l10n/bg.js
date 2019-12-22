@@ -1,6 +1,7 @@
 OC.L10N.register(
     "privacy",
     {
+    "Privacy" : "Защита на лични данни",
     "-" : "-",
     "Your data is located in: " : "Вашите данни се съхраняват в:",
     "Please select a country" : "Моля изберете държава",
@@ -42,6 +43,7 @@ OC.L10N.register(
     "Costa Rica" : "Коста Рика",
     "Cuba" : "Куба",
     "Cyprus" : "Кипър",
+    "Czech" : "чешки",
     "Germany" : "Германия",
     "Djibouti" : "Джибути",
     "Denmark" : "Дания",
@@ -103,6 +105,7 @@ OC.L10N.register(
     "Libya" : "Либия",
     "Morocco" : "Мароко",
     "Moldova" : "Молдова",
+    "Montenegro" : "Черна гора",
     "Madagascar" : "Мадагаскар",
     "Mali" : "Мали",
     "Myanmar" : "Мианмар",
@@ -121,6 +124,7 @@ OC.L10N.register(
     "Norway" : "Норвегия",
     "Nepal" : "Непал",
     "New Zealand" : "Нова Зеландия",
+    "Oman" : "Оман",
     "Panama" : "Панама",
     "Peru" : "Перу",
     "Papua New Guinea" : "Папуа Нова Гвинея",
@@ -175,6 +179,7 @@ OC.L10N.register(
     "Zimbabwe" : "Зимбабве",
     "Control" : "Control Center",
     "Learn more ↗" : "Научете повече ↗",
-    "Administrators" : "Администратори"
+    "Administrators" : "Администратори",
+    "Encryption" : "Криптиране"
 },
 "nplurals=2; plural=(n != 1);");

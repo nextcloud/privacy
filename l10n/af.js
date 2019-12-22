@@ -46,6 +46,7 @@ OC.L10N.register(
     "Dominican Republic" : "Dominikaanse Republiek",
     "Algeria" : "Algerië",
     "Ecuador" : "Ecuador",
+    "Estonia" : "Estland",
     "Egypt" : "Egipte",
     "West Sahara" : "Wes-Sahara",
     "Eritrea" : "Eritrea",
