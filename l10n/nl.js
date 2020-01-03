@@ -4,6 +4,7 @@ OC.L10N.register(
     "Privacy" : "Privacy",
     "-" : "-",
     "The privacy center shows you where your data is stored and who can access it, either because you shared with them or because they are administrators." : "Het privacy center laat zien waar je data is opgeslagen en wie er toegang toe heeft, omdat je de data met hen deelt of omdat het administrators zijn.",
+    "Remove external admin" : "Verwijder een externe beheerder",
     "Add external admin" : "Voeg externe beheerder toe",
     "Your files are not protected by encryption." : "Je bestanden zijn niet versleuteld.",
     "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "Je bestanden zijn versleuteld met {linkopen}server-side-encryptie ↗{linkclose}.",
