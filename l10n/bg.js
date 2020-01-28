@@ -3,6 +3,7 @@ OC.L10N.register(
     {
     "Privacy" : "Защита на лични данни",
     "-" : "-",
+    "This server is protected with full-disk-encryption." : "Този сървър е криптиран",
     "Your data is located in: " : "Вашите данни се съхраняват в:",
     "Please select a country" : "Моля изберете държава",
     "Somaliland" : "Сомалиленд",
@@ -179,7 +180,10 @@ OC.L10N.register(
     "Zimbabwe" : "Зимбабве",
     "Control" : "Control Center",
     "Learn more ↗" : "Научете повече ↗",
+    "Where is your data?" : "Къде е информацията ви?",
+    "Who has access to your data?" : "Кой има достъп до информацията?",
     "Administrators" : "Администратори",
+    "People you shared with" : "Хора с които е споделено",
     "Encryption" : "Криптиране"
 },
 "nplurals=2; plural=(n != 1);");
