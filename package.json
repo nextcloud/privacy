@@ -62,7 +62,7 @@
 		"jest-serializer-vue": "^2.0.2",
 		"prettier-eslint": "^9.0.1",
 		"stylelint": "^12.0.1",
-		"stylelint-config-recommended-scss": "^4.1.0",
+		"stylelint-config-recommended-scss": "^4.2.0",
 		"stylelint-scss": "^3.14.2",
 		"stylelint-webpack-plugin": "^1.2.1",
 		"vue-jest": "^3.0.4",
