@@ -118,7 +118,7 @@ OC.L10N.register(
     "Moldova" : "Moldova",
     "Montenegro" : "Μαυροβούνιο",
     "Madagascar" : "Μαδαγασκάρη",
-    "Macedonia" : "Βόρεια Μακεδονία",
+    "Macedonia" : "Δημοκρατία της Βόρειας Μακεδονίας",
     "Mali" : "Μάλι",
     "Myanmar" : "Myanmar",
     "Mongolia" : "Μογγολία",
