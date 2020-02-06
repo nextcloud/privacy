@@ -2,6 +2,7 @@ OC.L10N.register(
     "privacy",
     {
     "Privacy" : "Personvern",
+    "United Arab Emirates" : "De forente arabiske emirater",
     "Afghanistan" : "Afganistan",
     "Albania" : "Albania",
     "Armenia" : "Armenia",
@@ -31,6 +32,9 @@ OC.L10N.register(
     "Algeria" : "Algeri",
     "Spain" : "Spania",
     "Croatia" : "Kroatia",
+    "Iraq" : "Irak",
+    "Iceland" : "Island",
+    "Italy" : "Italia",
     "Cambodia" : "Kambodia",
     "Sri Lanka" : "Sri Lanka",
     "Norway" : "Norge",
