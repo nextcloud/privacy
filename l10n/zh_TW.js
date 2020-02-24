@@ -151,6 +151,7 @@ OC.L10N.register(
     "User Data Manifesto 2.0" : "使用者資料宣言 2.0",
     "Data explicitly and willingly uploaded by a user should be under the ultimate control of the user. Users should be able to decide whom to grant direct access to their data and with which permissions and licenses such access should be granted." : "使用者自願將特定的資料上傳，他就應該有完全的掌控爟。使用者應該可以決定誰能被授權取得資料，而且此授權的權限及規則也由使用者涋定。",
     "Freedom" : "自由",
+    "Privacy policy" : "隱私權政策",
     "Encryption" : "加密"
 },
 "nplurals=1; plural=0;");
