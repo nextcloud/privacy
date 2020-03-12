@@ -159,7 +159,7 @@ OC.L10N.register(
     "Somalia" : "Somalis",
     "Suriname" : "Surinamas",
     "South Sudan" : "Pietų Sudanas",
-    "El Salvador" : "El Salvadoras",
+    "El Salvador" : "Salvadoras",
     "Syria" : "Sirija",
     "Swaziland" : "Svazilandas",
     "Chad" : "Čadas",
