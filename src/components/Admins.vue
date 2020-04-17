@@ -64,6 +64,7 @@ import Vue from 'vue'
 import ClickOutside from 'vue-click-outside'
 import HttpClient from '@nextcloud/axios'
 import { generateUrl } from '@nextcloud/router'
+import { showError } from '@nextcloud/dialogs'
 import Actions from '@nextcloud/vue/dist/Components/Actions'
 import ActionButton from '@nextcloud/vue/dist/Components/ActionButton'
 import Avatar from '@nextcloud/vue/dist/Components/Avatar'
@@ -99,7 +100,7 @@ export default {
 			Vue.set(this, 'admins', resp.data)
 		} catch (error) {
 			console.error(error)
-			this.$toast('Error loading additional administrator.')
+			showError('Error loading additional administrator.')
 		} finally {
 			this.isLoading = false
 		}
@@ -132,7 +133,7 @@ export default {
 				this.admins.push(response.data)
 			} catch (error) {
 				console.error(error)
-				this.$toast('Error adding new administrator.')
+				showError('Error adding new administrator.')
 			} finally {
 				this.isSavingChanges = false
 				this.isAdding = false
@@ -157,7 +158,7 @@ export default {
 				}
 			} catch (error) {
 				console.error(error)
-				this.$toast('Error deleting new administrator.')
+				showError('Error deleting new administrator.')
 			}
 		},
 	},

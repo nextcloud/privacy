@@ -51,6 +51,7 @@ import { generateUrl } from '@nextcloud/router'
 import Actions from '@nextcloud/vue/dist/Components/Actions'
 import ActionButton from '@nextcloud/vue/dist/Components/ActionButton'
 import { loadState } from '@nextcloud/initial-state'
+import { showError } from '@nextcloud/dialogs'
 
 export default {
 	name: 'Encryption',
@@ -123,7 +124,7 @@ export default {
 				await HttpClient.post(url, { enabled: this.fullDiskEncryptionEnabled ? '1' : '0' })
 			} catch (error) {
 				console.error(error)
-				this.$toast('Error saving new state of full-disk-encryption')
+				showError('Error saving new state of full-disk-encryption')
 
 				// Reset state
 				this.fullDiskEncryptionEnabled = !this.fullDiskEncryptionEnabled

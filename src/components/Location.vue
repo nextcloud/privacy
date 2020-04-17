@@ -52,6 +52,7 @@ import Multiselect from '@nextcloud/vue/dist/Components/Multiselect'
 import Actions from '@nextcloud/vue/dist/Components/Actions'
 import ActionButton from '@nextcloud/vue/dist/Components/ActionButton'
 import { loadState } from '@nextcloud/initial-state'
+import { showError } from '@nextcloud/dialogs'
 
 import {
 	getCountryList,
@@ -136,7 +137,7 @@ export default {
 				this.selectedCountry = value.code
 			} catch (error) {
 				console.error(error)
-				this.$toast('Error saving new location of the server')
+				showError('Error saving new location of the server')
 			} finally {
 				this.isEditingLocation = false
 				this.isSavingChanges = false

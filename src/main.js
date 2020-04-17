@@ -22,6 +22,7 @@ import 'core-js/stable'
 import Vue from 'vue'
 import { linkTo } from '@nextcloud/router'
 import { translate, translatePlural } from '@nextcloud/l10n'
+import { getRequestToken } from '@nextcloud/auth'
 
 const Admins = () => import('./components/Admins.vue')
 const Location = () => import('./components/Location.vue')
@@ -30,7 +31,7 @@ const Shares = () => import('./components/Shares.vue')
 
 // CSP config for webpack dynamic chunk loading
 // eslint-disable-next-line
-__webpack_nonce__ = btoa(OC.requestToken)
+__webpack_nonce__ = btoa(getRequestToken())
 
 // Correct the root of the app for chunk loading
 // OC.linkTo matches the apps folders
@@ -42,7 +43,6 @@ __webpack_public_path__ = linkTo('privacy', 'js/')
 Vue.prototype.$t = translate
 Vue.prototype.$n = translatePlural
 Vue.prototype.$is_admin = OC.isUserAdmin()
-Vue.prototype.$toast = OCP.Toast // eslint-disable-line no-undef
 
 // The nextcloud-vue package does currently rely on t and n
 Vue.prototype.t = translate

@@ -39,6 +39,7 @@ import Vue from 'vue'
 import HttpClient from '@nextcloud/axios'
 import { generateOcsUrl } from '@nextcloud/router'
 import { getCurrentUser } from '@nextcloud/auth'
+import { showError } from '@nextcloud/dialogs'
 import Avatar from '@nextcloud/vue/dist/Components/Avatar'
 
 export default {
@@ -92,7 +93,7 @@ export default {
 			})
 		} catch (error) {
 			console.error(error)
-			this.$toast('Error loading information about shares.')
+			showError('Error loading information about shares.')
 		} finally {
 			this.isLoading = false
 		}
