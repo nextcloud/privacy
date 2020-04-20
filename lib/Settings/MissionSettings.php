@@ -51,5 +51,4 @@ class MissionSettings implements ISettings {
 	public function getPriority():int {
 		return 0;
 	}
-
 }

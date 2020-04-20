@@ -51,5 +51,4 @@ class UserDataManifestoSettings implements ISettings {
 	public function getPriority():int {
 		return 5;
 	}
-
 }

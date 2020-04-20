@@ -79,7 +79,7 @@ class PersonalController extends Controller {
 
 		$adminUsers = $adminGroup->getUsers();
 		$uids = [];
-		foreach($adminUsers as $adminUser) {
+		foreach ($adminUsers as $adminUser) {
 			if (!$adminUser->isEnabled()) {
 				continue;
 			}
@@ -96,7 +96,7 @@ class PersonalController extends Controller {
 			->from('privacy_admins');
 		$stmt = $query->execute();
 
-		foreach($stmt->fetchAll(\PDO::FETCH_ASSOC) as $row) {
+		foreach ($stmt->fetchAll(\PDO::FETCH_ASSOC) as $row) {
 			$uids[] = [
 				'id' => (int)$row['id'],
 				'displayname' => (string)$row['displayname'],
@@ -106,5 +106,4 @@ class PersonalController extends Controller {
 
 		return new JSONResponse($uids, Http::STATUS_OK);
 	}
-
 }
