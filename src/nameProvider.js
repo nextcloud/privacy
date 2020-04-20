@@ -172,7 +172,7 @@ const list = [
 	{ code: 'ye', label: t('privacy', 'Yemen') },
 	{ code: 'za', label: t('privacy', 'South Africa') },
 	{ code: 'zm', label: t('privacy', 'Zambia') },
-	{ code: 'zw', label: t('privacy', 'Zimbabwe') }
+	{ code: 'zw', label: t('privacy', 'Zimbabwe') },
 ]
 
 export function getCountryList() {
