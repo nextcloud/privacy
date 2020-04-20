@@ -6,4 +6,4 @@
  * @license  MIT
  */
 t.exports=function(t){return null!=t&&(n(t)||function(t){return"function"==typeof t.readFloatLE&&"function"==typeof t.slice&&n(t.slice(0,0))}(t)||!!t._isBuffer)}}}]);
-//# sourceMappingURL=2-5d0ff2f447789cec2233.js.map
+//# sourceMappingURL=2-779c9a1dd894d19ed27d.js.map
