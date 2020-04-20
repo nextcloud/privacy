@@ -88,5 +88,4 @@ class PrivacySection implements IIconSection {
 	public function getIcon() {
 		return $this->url->imagePath('privacy', 'app-dark.svg');
 	}
-	
 }

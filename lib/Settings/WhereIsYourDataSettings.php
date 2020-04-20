@@ -74,5 +74,4 @@ class WhereIsYourDataSettings implements ISettings {
 	public function getPriority():int {
 		return 15;
 	}
-
 }
