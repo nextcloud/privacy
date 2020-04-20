@@ -15,8 +15,8 @@
     },
     "scripts": {
         "lint": "find . -name \\*.php -not -path './vendor/*' -exec php -l \"{}\" \\;",
-		"cs:check": "php-cs-fixer fix --dry-run --diff",
-		"cs:fix": "php-cs-fixer fix"
+        "cs:check": "php-cs-fixer fix --dry-run --diff",
+        "cs:fix": "php-cs-fixer fix"
     },
     "config": {
         "platform": {
