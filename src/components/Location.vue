@@ -37,7 +37,7 @@
 				:searchable="true"
 				track-by="code"
 				label="label"
-				:placeholder="$t('privacy', 'Please select a country')"
+				:placeholder="$t('privacy', 'Please select a region')"
 				@input="onChange" />
 			<span v-show="isSavingChanges" class="icon icon-loading" />
 		</div>
