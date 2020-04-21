@@ -12,7 +12,6 @@ OC.L10N.register(
     "Austria" : "Oostenryk",
     "Australia" : "Australië",
     "Azerbaijan" : "Azerbeidjan",
-    "Bosnia and Herzegowina" : "Bosnië-Herzegowina",
     "Bangladesh" : "Bangladesj",
     "Belgium" : "België",
     "Burkina Faso" : "Burkina Faso",
@@ -176,6 +175,7 @@ OC.L10N.register(
     "Who has access to your data?" : "Wie het toegang tot u data?",
     "Privacy policy" : "Privaatheidsbeleid",
     "Read the privacy policy." : "Lees die privaatheidsbeleid.",
-    "Encryption" : "Enkripsie"
+    "Encryption" : "Enkripsie",
+    "Bosnia and Herzegowina" : "Bosnië-Herzegowina"
 },
 "nplurals=2; plural=(n != 1);");

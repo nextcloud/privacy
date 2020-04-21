@@ -5,7 +5,6 @@ OC.L10N.register(
     "-" : "-",
     "This server is protected with full-disk-encryption." : "Този сървър е криптиран",
     "Your data is located in: " : "Вашите данни се съхраняват в:",
-    "Please select a country" : "Моля изберете държава",
     "Somaliland" : "Сомалиленд",
     "United Arab Emirates" : "Обединени арабски емирства",
     "Afghanistan" : "Афганистан",
@@ -16,7 +15,6 @@ OC.L10N.register(
     "Austria" : "Австрия",
     "Australia" : "Австралия",
     "Azerbaijan" : "Азербайджан",
-    "Bosnia and Herzegowina" : "Босна и Херцеговина",
     "Bangladesh" : "Бангладеш",
     "Belgium" : "Белгия",
     "Burkina Faso" : "Буркина Фасо",
@@ -184,6 +182,8 @@ OC.L10N.register(
     "Who has access to your data?" : "Кой има достъп до информацията?",
     "Administrators" : "Администратори",
     "People you shared with" : "Хора с които е споделено",
-    "Encryption" : "Криптиране"
+    "Encryption" : "Криптиране",
+    "Please select a country" : "Моля изберете държава",
+    "Bosnia and Herzegowina" : "Босна и Херцеговина"
 },
 "nplurals=2; plural=(n != 1);");
