@@ -3,14 +3,13 @@
     "-" : "–",
     "Remove external admin" : "Odstrani zunanjega skrbnika",
     "Add external admin" : "Dodaj zunanjega skrbnika",
+    "This server is using full-disk-encryption." : "Strežnik uporablja celostno diskovnom šifriranje.",
     "Your files are not protected by encryption." : "Datoteke niso zaščitene s šifriranjem.",
     "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "Datoteke so šifrirane prek {linkopen}strežniškega šifriranja ↗{linkclose}.",
     "This server is protected with full-disk-encryption." : "Strežnik je zaščiten s celostnim diskovnim šifriranjem.",
-    "This server is using full-disk-encryption." : "Strežnik uporablja celostno diskovnom šifriranje.",
-    "Change data location" : "Spremeni mesto podatkov",
     "Your data is located in: " : "Podatki so na:",
     "The admin hasn't selected the location of the server yet." : "Skrbnik še ni določil mesta strežnika.",
-    "Please select a country" : "Izbor države",
+    "Change data location" : "Spremeni mesto podatkov",
     "Somaliland" : "Somaliland",
     "United Arab Emirates" : "Združeni Arabski Emirati",
     "Afghanistan" : "Afganistan",
@@ -21,7 +20,6 @@
     "Austria" : "Avstrija",
     "Australia" : "Australija",
     "Azerbaijan" : "Azerbajdžan",
-    "Bosnia and Herzegowina" : "Bosna in Hercegovina",
     "Bangladesh" : "Bangladeš",
     "Belgium" : "Belgija",
     "Burkina Faso" : "Burkina Faso",
@@ -199,6 +197,8 @@
     "People you shared with" : "Osebe, ki jim omogočate souporabo",
     "Privacy policy" : "Pravila zasebnosti",
     "Read the privacy policy." : "Preberite pravila zasebnosti",
-    "Encryption" : "Šifriranje"
+    "Encryption" : "Šifriranje",
+    "Please select a country" : "Izbor države",
+    "Bosnia and Herzegowina" : "Bosna in Hercegovina"
 },"pluralForm" :"nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);"
 }

@@ -4,14 +4,13 @@ OC.L10N.register(
     "Privacy" : "Meðferð persónuupplýsinga",
     "-" : "-",
     "Add external admin" : "Bæta við utanaðkomandi stjórnanda",
+    "This server is using full-disk-encryption." : "Þessi þjónn er að nota fulla dulritun diska.",
     "Your files are not protected by encryption." : "Skrárnar þínar eru ekki varðar með dulritun.",
     "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "Skrárnar þínar eru dulritaðar með {linkopen}dulritun á þjóni ↗{linkclose}.",
     "This server is protected with full-disk-encryption." : "Þessi þjónn er varinn með fullri dulritun diska.",
     "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}. Additionally, this server is protected with full-disk-encryption." : "Skrárnar þínar eru dulritaðar með {linkopen}dulritun á þjóni ↗{linkclose}. Að auki er þjónninn varinn með fullri dulritun diska.",
-    "This server is using full-disk-encryption." : "Þessi þjónn er að nota fulla dulritun diska.",
     "Your data is located in: " : "Gögnin þín eru geymd í: ",
     "The admin hasn't selected the location of the server yet." : "Kerfisstjórinn er ekki ennþá búinn að velja staðsetningu þjónsins.",
-    "Please select a country" : "Veldu land",
     "You don't have any shares with individual users." : "Þú ert ekki með neinar sameignir með einstökum notendum.",
     "Somaliland" : "Sómalíland",
     "United Arab Emirates" : "Sameinuðu arabísku furstadæmin",
@@ -23,7 +22,6 @@ OC.L10N.register(
     "Austria" : "Austurríki",
     "Australia" : "Ástralía",
     "Azerbaijan" : "Aserbaídsjan",
-    "Bosnia and Herzegowina" : "Bosnía og Hersegóvína",
     "Bangladesh" : "Bangladess",
     "Belgium" : "Belgía",
     "Burkina Faso" : "Búrkína Fasó",
@@ -207,6 +205,8 @@ OC.L10N.register(
     "People you shared with" : "Fólk sem þú deildir með",
     "Privacy policy" : "Meðferð persónulegra gagna",
     "Read the privacy policy." : "Lestu stefnu varðandi meðferð persónulegra gagna.",
-    "Encryption" : "Dulritun"
+    "Encryption" : "Dulritun",
+    "Please select a country" : "Veldu land",
+    "Bosnia and Herzegowina" : "Bosnía og Hersegóvína"
 },
 "nplurals=2; plural=(n % 10 != 1 || n % 100 == 11);");
