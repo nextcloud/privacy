@@ -4,15 +4,14 @@
     "The privacy center shows you where your data is stored and who can access it, either because you shared with them or because they are administrators." : "Pribatutasun guneak zure datuak non dauden eta nork atzitu ditzakeen erakusten dizu, zuk berarekin partekatu dituzulako edo kudeatzaileak direlako.",
     "Remove external admin" : "Kendu kanpo administratzailea",
     "Add external admin" : "Gehitu kanpo administratzailea",
+    "This server is using full-disk-encryption." : "Zerbitzari hau disko osoko zifratzea ari da erabiltzen.",
     "Your files are not protected by encryption." : "Zure fitxategiak ez daude zifratze bidez babestuta",
     "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "Zure fitxategiak {linkopen}zerbitzari-aldeko zifratzea erabiliz ↗{linkclose} zifratuta daude.",
     "This server is protected with full-disk-encryption." : "Zerbitzari hau disko osoko zifratzearekin babestuta dago",
     "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}. Additionally, this server is protected with full-disk-encryption." : "Zure fitxategiak {linkopen}zerbitzari-aldeko zifratzea erabiliz ↗{linkclose} zifratuta daude. Gainera zerbitzari hau disko-osoko-zifratzearekin babestuta dago.",
-    "This server is using full-disk-encryption." : "Zerbitzari hau disko osoko zifratzea ari da erabiltzen.",
-    "Change data location" : "Datuen kokapena aldatu",
     "Your data is located in: " : "Zure datuak hemen daude:",
     "The admin hasn't selected the location of the server yet." : "Kudeatzaileak ez du zerbitzariaren kokapena zehaztu.",
-    "Please select a country" : "Mesedez aukeratu herrialde bat",
+    "Change data location" : "Datuen kokapena aldatu",
     "You don't have any shares with individual users." : "Ez duzu ezer elkarbanatuta banakako erabiltzaileren batekin.",
     "Somaliland" : "Somalilandia",
     "United Arab Emirates" : "Arabiar Emirerri Batuak",
@@ -24,7 +23,6 @@
     "Austria" : "Austria",
     "Australia" : "Australia",
     "Azerbaijan" : "Azerbaijan",
-    "Bosnia and Herzegowina" : "Bosnia-Herzegovina",
     "Bangladesh" : "Bangladesh",
     "Belgium" : "Belgika",
     "Burkina Faso" : "Burkina Faso",
@@ -208,6 +206,8 @@
     "People you shared with" : "Pertsona hauekin elkarbanatu duzu",
     "Privacy policy" : "Pribatutasun politika",
     "Read the privacy policy." : "Irakurri pribatutasun politika",
-    "Encryption" : "Zifratzea"
+    "Encryption" : "Zifratzea",
+    "Please select a country" : "Mesedez aukeratu herrialde bat",
+    "Bosnia and Herzegowina" : "Bosnia-Herzegovina"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }

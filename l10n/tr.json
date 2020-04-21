@@ -4,15 +4,14 @@
     "The privacy center shows you where your data is stored and who can access it, either because you shared with them or because they are administrators." : "Gizlilik merkezinden verilerinizin nerede depolandığını ve yöneticiler ya da varsa paylaştığınız kişiler gibi verilerinize erişebilecek kişileri görebilirsiniz. ",
     "Remove external admin" : "Dış yöneticiyi sil",
     "Add external admin" : "Dış yönetici ekle",
+    "This server is using full-disk-encryption." : "Bu sunucu tam disk şifrelemesi ile korunuyor.",
     "Your files are not protected by encryption." : "Dosyalarınız şifreleme ile korunmuyor.",
     "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "Dosyalarınız {linkopen}sunucu tarafı şifrelemesi ↗{linkclose} ile korunuyor.",
     "This server is protected with full-disk-encryption." : "Bu sunucu tam disk şifrelemesi ile korunuyor.",
     "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}. Additionally, this server is protected with full-disk-encryption." : "Dosyalarınız {linkopen}sunucu tarafı şifrelemesi ↗{linkclose} ile korunuyor. Ek olarak bu sunucu tam disk şifrelemesi ile korunuyor.",
-    "This server is using full-disk-encryption." : "Bu sunucu tam disk şifrelemesi ile korunuyor.",
-    "Change data location" : "Veri konumunu değiştir",
     "Your data is located in: " : "Verileriniz şurada tutuluyor:",
     "The admin hasn't selected the location of the server yet." : "Yönetici henüz sunucunun konumunu seçmemiş.",
-    "Please select a country" : "Lütfen bir ülke seçin",
+    "Change data location" : "Veri konumunu değiştir",
     "You don't have any shares with individual users." : "Diğer kullanıcılar ile herhangi bir şey paylaşmıyorsunuz.",
     "Somaliland" : "Somaliland",
     "United Arab Emirates" : "Birleşik Arap Emirlikleri",
@@ -24,7 +23,6 @@
     "Austria" : "Avusturya",
     "Australia" : "Avustralya",
     "Azerbaijan" : "Azerbaycan",
-    "Bosnia and Herzegowina" : "Bosna ve Hersek",
     "Bangladesh" : "Bangladeş",
     "Belgium" : "Belçika",
     "Burkina Faso" : "Burkina Faso",
@@ -208,6 +206,8 @@
     "People you shared with" : "Verilerinizi paylaştığınız kişiler",
     "Privacy policy" : "Kişisel gizliliğin korunması ilkesi",
     "Read the privacy policy." : "Kişisel verilerinizin korunması ilkesini gözden geçirin.",
-    "Encryption" : "Şifreleme"
+    "Encryption" : "Şifreleme",
+    "Please select a country" : "Lütfen bir ülke seçin",
+    "Bosnia and Herzegowina" : "Bosna ve Hersek"
 },"pluralForm" :"nplurals=2; plural=(n > 1);"
 }

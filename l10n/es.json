@@ -4,15 +4,14 @@
     "The privacy center shows you where your data is stored and who can access it, either because you shared with them or because they are administrators." : "El Centro de privacidad muestra dónde están almacenados sus datos y quién puede acceder a los mismos, tanto debido a que los ha compartido con ellos o porque son administradores del sistema.",
     "Remove external admin" : "Quitar administrador externo",
     "Add external admin" : "Añadir administrador externo",
+    "This server is using full-disk-encryption." : "Este servidor está usando cifrado de disco completo.",
     "Your files are not protected by encryption." : "Tus archivos no están protegidos por la encriptación.",
     "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "Tus archivos están encriptados con {linkopen}server-side-encryption ↗{linkclose}.",
     "This server is protected with full-disk-encryption." : "Este servidor está protegido con cifrado de disco completo.",
     "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}. Additionally, this server is protected with full-disk-encryption." : "Tus archivos están encriptados por {linkopen}server-side-encryption ↗{linkclose}. Además, este servidor está protegido con cifrado de disco completo.",
-    "This server is using full-disk-encryption." : "Este servidor está usando cifrado de disco completo.",
-    "Change data location" : "Cambiar localización de los datos",
     "Your data is located in: " : "Tus datos se encuentran en: ",
     "The admin hasn't selected the location of the server yet." : "Los administradores no han seleccionado todavía la localización del servidor.",
-    "Please select a country" : "Por favor, selecciona un país",
+    "Change data location" : "Cambiar localización de los datos",
     "You don't have any shares with individual users." : "No tienes recursos compartidos con usuarios individuales.",
     "Somaliland" : "Somalilandia",
     "United Arab Emirates" : "Emiratos Árabes Unidos",
@@ -24,7 +23,6 @@
     "Austria" : "Austria",
     "Australia" : "Australia",
     "Azerbaijan" : "Azerbaiyán",
-    "Bosnia and Herzegowina" : "Bosnia y Herzegovina",
     "Bangladesh" : "Bangladesh",
     "Belgium" : "Bélgica",
     "Burkina Faso" : "Burkina Faso",
@@ -208,6 +206,8 @@
     "People you shared with" : "Gente con la que los has compartido",
     "Privacy policy" : "Política de privacidad",
     "Read the privacy policy." : "Leer la política de privacidad.",
-    "Encryption" : "Cifrado"
+    "Encryption" : "Cifrado",
+    "Please select a country" : "Por favor, selecciona un país",
+    "Bosnia and Herzegowina" : "Bosnia y Herzegovina"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }

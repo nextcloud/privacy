@@ -5,10 +5,9 @@
     "Add external admin" : "Pridėti išorinį administratorių",
     "Your files are not protected by encryption." : "Jūsų failai nėra apsaugoti šifravimu.",
     "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "Jūsų failai yra šifruoti naudojant {linkopen}serverio šifravimą ↗{linkclose}.",
-    "Change data location" : "Keisti duomenų vietą",
     "Your data is located in: " : "Jūsų duomenų vieta yra čia: ",
     "The admin hasn't selected the location of the server yet." : "Administratorius kol kas nepasirinko serverio vietovės.",
-    "Please select a country" : "Pasirinkite šalį",
+    "Change data location" : "Keisti duomenų vietą",
     "You don't have any shares with individual users." : "Jūs neturite jokių viešinių su atskirais naudotojais.",
     "Somaliland" : "Somalilandas",
     "United Arab Emirates" : "Jungtiniai Arabų Emyratai",
@@ -20,7 +19,6 @@
     "Austria" : "Austrija",
     "Australia" : "Australija",
     "Azerbaijan" : "Azerbaidžanas",
-    "Bosnia and Herzegowina" : "Bosnija ir Hercegovina",
     "Bangladesh" : "Bangladešas",
     "Belgium" : "Belgija",
     "Burkina Faso" : "Burkina Fasas",
@@ -199,6 +197,8 @@
     "People you shared with" : "Žmonės su kuriais bendrinote",
     "Privacy policy" : "Privatumo politika",
     "Read the privacy policy." : "Skaitykite privatumo politiką.",
-    "Encryption" : "Šifravimas"
+    "Encryption" : "Šifravimas",
+    "Please select a country" : "Pasirinkite šalį",
+    "Bosnia and Herzegowina" : "Bosnija ir Hercegovina"
 },"pluralForm" :"nplurals=4; plural=(n % 10 == 1 && (n % 100 > 19 || n % 100 < 11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? 1 : n % 1 != 0 ? 2: 3);"
 }
