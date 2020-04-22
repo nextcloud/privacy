@@ -172,6 +172,7 @@ OC.L10N.register(
     "Timor-Leste" : "تیمور-لست",
     "Turkmenistan" : "ترکمنستان",
     "Tunisia" : "تونس",
+    "Tonga" : "تونگا",
     "Turkey" : "jv;di",
     "Trinidad and Tobago" : "ترینیداد و توباگو",
     "Taiwan" : "تایوان",
