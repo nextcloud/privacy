@@ -29,7 +29,7 @@ const list = [
 	{ code: 'bm', label: t('privacy', 'Bermuda') },
 	{ code: 'bn', label: t('privacy', 'Brunei') },
 	{ code: 'bo', label: t('privacy', 'Bolivia') },
-	{ code: 'bq', label: t('privacy', 'Bonaire, Sint Eustatius and Sab') },
+	{ code: 'bq', label: t('privacy', 'Bonaire, Sint Eustatius and Saba') },
 	{ code: 'br', label: t('privacy', 'Brazil') },
 	{ code: 'bs', label: t('privacy', 'Bahamas') },
 	{ code: 'bt', label: t('privacy', 'Bhutan') },
