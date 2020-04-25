@@ -47,7 +47,7 @@ OC.L10N.register(
     "Bermuda" : "Bermudas",
     "Brunei" : "Brunei",
     "Bolivia" : "Bolivia",
-    "Bonaire, Sint Eustatius and Sab" : "Bonaire, San Eustaquio e Saba",
+    "Bonaire, Sint Eustatius and Saba" : "Bonaire, San Eustaquio e Saba",
     "Brazil" : "Brasil",
     "Bahamas" : "Bahamas",
     "Bhutan" : "Bután",
