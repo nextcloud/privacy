@@ -45,6 +45,7 @@ OC.L10N.register(
     "Bermuda" : "百慕大",
     "Brunei" : "文莱",
     "Bolivia" : "玻利维亚",
+    "Bonaire, Sint Eustatius and Saba" : "博内尔岛，圣尤斯特歇斯岛和萨巴岛",
     "Brazil" : "巴西",
     "Bahamas" : "巴哈马",
     "Bhutan" : "不丹",

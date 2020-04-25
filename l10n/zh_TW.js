@@ -31,6 +31,7 @@ OC.L10N.register(
     "Burundi" : "蒲隆地",
     "Benin" : "貝南",
     "Bermuda" : "百慕達",
+    "Bonaire, Sint Eustatius and Saba" : "荷蘭加勒比區",
     "Brazil" : "巴西",
     "Bahamas" : "巴哈馬",
     "Bhutan" : "不丹",
