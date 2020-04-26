@@ -29,6 +29,7 @@ OC.L10N.register(
     "Benin" : "Benin",
     "Saint Barthélemy" : "Saint Barthélemy",
     "Bermuda" : "Bermuda",
+    "Bonaire, Sint Eustatius and Saba" : "Bonaire, Sint Eustatius and Saba",
     "Brazil" : "Brazil",
     "Bahamas" : "Bahamas",
     "Bhutan" : "Bhutan",
