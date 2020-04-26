@@ -31,6 +31,7 @@ OC.L10N.register(
     "Saint Barthélemy" : "Sint Bartholomeus",
     "Bermuda" : "Bermuda",
     "Brunei" : "Broenei",
+    "Bonaire, Sint Eustatius and Saba" : "Bonaire, Sint-Eustatius en Saba",
     "Brazil" : "Brasilië",
     "Bahamas" : "Bahamas",
     "Bhutan" : "Bhoetan",

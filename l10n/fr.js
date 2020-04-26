@@ -225,6 +225,7 @@ OC.L10N.register(
     "South Sudan" : "Soudan du Sud",
     "Sao Tome and Principe" : "Sao Tomé et Principe",
     "El Salvador" : "Salvador",
+    "Sint Maarten" : "Saint Martin",
     "Syria" : "Syrie",
     "Swaziland" : "Swaziland",
     "Turks and Caicos Islands" : "Îles Turques et Caïques",
