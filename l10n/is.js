@@ -3,6 +3,7 @@ OC.L10N.register(
     {
     "Privacy" : "Meðferð persónuupplýsinga",
     "-" : "-",
+    "The privacy center shows you where your data is stored and who can access it, either because you shared with them or because they are administrators." : "Síðan um meðferð persónuupplýsinga sýnir hvar gögnin þín eru geymd og hverjir hafi aðgang að þeim, annað hvort vegna þess að þú deildir þeim eða vegna þess að viðkomandi er kerfisstjórnandi.",
     "Remove external admin" : "Fjarlægja utanaðkomandi stjórnanda",
     "Add external admin" : "Bæta við utanaðkomandi stjórnanda",
     "Name of external admin" : "Nafn utanaðkomandi stjórnanda",
