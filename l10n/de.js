@@ -6,7 +6,7 @@ OC.L10N.register(
     "The privacy center shows you where your data is stored and who can access it, either because you shared with them or because they are administrators." : "Das Zentrum für Datenschutz zeigt Ihnen, wo Ihre Daten gespeichert werden und wer darauf Zugriff hat. Egal ob Sie Daten freigegeben haben oder es Administratoren sind.",
     "Remove external admin" : "Externen Administrator entfernen",
     "Add external admin" : "Einen externen Administrator hinzufügen",
-    "Name of external admin" : "Namen des externen Administrators",
+    "Name of external admin" : "Name des externen Administrators",
     "This server is using full-disk-encryption." : "Dieser Server verwendet Festplattenverschlüsselung.",
     "Your files are not protected by encryption." : "Deine Dateien sind nicht mittels Verschlüsselung geschützt.",
     "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "Deine Dateien sind mittels der {linkopen}serverseitigen Verschlüsselung ↗{linkclose} verschlüsselt.",
