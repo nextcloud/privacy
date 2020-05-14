@@ -217,6 +217,7 @@ OC.L10N.register(
     "Timor-Leste" : "מזרח טימור",
     "Turkmenistan" : "טורקמניסטן",
     "Tunisia" : "תוניסיה",
+    "Tonga" : "טונגאית",
     "Turkey" : "טורקיה",
     "Trinidad and Tobago" : "טרינידד וטובגו",
     "Taiwan" : "טאיוואן",
