@@ -6,6 +6,7 @@ OC.L10N.register(
     "The privacy center shows you where your data is stored and who can access it, either because you shared with them or because they are administrators." : "Tämä tietosuojakeskus näyttää missä tietosi sijaitsevat ja kenellä on pääsy tietoihisi. Pääsy voi olla mahdollinen koska olet jakanut tietojasi muiden kanssa tai ylläpitäjällä on pääsy tiedostoihisi.",
     "Remove external admin" : "Poista ulkoinen ylläpitäjä",
     "Add external admin" : "Lisää ulkoinen ylläpitäjä",
+    "Name of external admin" : "Ulkoisen järjestelmänvalvojan nimi",
     "This server is using full-disk-encryption." : "Tämä palvelin käyttää täyttä levyn salausta.",
     "Your files are not protected by encryption." : "Tiedostojasi ei ole suojattu salauksella.",
     "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "Tiedostosi on salattu {linkopen}palvelinpään salauksella ↗{linkclose}.",
