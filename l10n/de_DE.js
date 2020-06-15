@@ -270,7 +270,7 @@ OC.L10N.register(
     "Defining basic rights for people to control their own data in the internet age" : "Definition von Grundrechten für Menschen zur Kontrolle ihrer eigenen Daten im Internetzeitalter",
     "Control" : "Kontrolle",
     "over user data access" : "über den Zugriff auf Benutzerdaten",
-    "Data explicitly and willingly uploaded by a user should be under the ultimate control of the user. Users should be able to decide whom to grant direct access to their data and with which permissions and licenses such access should be granted." : "Daten, die explizit und bereitwillig von einem Benutzer hochgeladen werden, sollten unter der endgültigen Kontrolle des Benutzers stehen. Die Benutzer sollten entscheiden können, wer direkten Zugriff auf ihre Daten gewährt und mit welchen Berechtigungen und Lizenzen dieser Zugriff gewährt werden soll.",
+    "Data explicitly and willingly uploaded by a user should be under the ultimate control of the user. Users should be able to decide whom to grant direct access to their data and with which permissions and licenses such access should be granted." : "Daten, die explizit und bereitwillig von einem Benutzer hochgeladen werden, sollten unter der endgültigen Kontrolle des Benutzers stehen. Die Benutzer sollten entscheiden können, wem sie direkten Zugriff auf ihre Daten gewähren und mit welchen Berechtigungen und Lizenzen dieser Zugriff gewährt werden soll.",
     "Knowledge" : "Wissenswertes",
     "of how the data is stored" : "wie die Daten gespeichert werden",
     "When the data is uploaded to a specific service provider, users should be informed about where that specific service provider stores the data, how long, in which jurisdiction the specific service provider operates, and which laws apply." : "Wenn die Daten zu einem bestimmten Dienstanbieter hochgeladen werden, sollten die Benutzer darüber informiert werden, wo dieser bestimmte Dienstanbieter die Daten speichert, wie lange, in welcher Rechtsordnung der jeweilige Dienstanbieter tätig ist und welche Gesetze gelten.",
@@ -285,7 +285,7 @@ OC.L10N.register(
     "Privacy policy" : "Datenschutz",
     "Read the privacy policy." : "Lesen Sie die Datenschutzerklärung.",
     "Encryption" : "Verschlüsselung",
-    "Please select a country" : "Bitte wählen die ein Land",
+    "Please select a country" : "Bitte wählen Sie ein Land",
     "Bosnia and Herzegowina" : "Bosnien und Herzegowina"
 },
 "nplurals=2; plural=(n != 1);");
