@@ -228,7 +228,7 @@ OC.L10N.register(
     "Sint Maarten" : "San Martín (parte holandesa)",
     "Syria" : "Siria",
     "Swaziland" : "Suazilandia",
-    "Turks and Caicos Islands" : "Illas Turks e Caicos",
+    "Turks and Caicos Islands" : "Illas Turcas e Caicos",
     "Chad" : "Chad",
     "Fr. S. Antarctic Lands" : "Terras Austrais e Antárticas Francesas",
     "Togo" : "Togo",
