@@ -84,7 +84,7 @@ OC.L10N.register(
     "Finland" : "Finska",
     "Fiji" : "Fiji",
     "Falkland Islands" : "Falklandsko otočje",
-    "Faroe Islands" : "Farski otoki",
+    "Faroe Islands" : "Ferski otoki",
     "France" : "Francija",
     "Gabon" : "Gabon",
     "United Kingdom" : "Združeno kraljestvo",
