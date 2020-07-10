@@ -2,6 +2,9 @@ OC.L10N.register(
     "privacy",
     {
     "Privacy" : "Privatliv",
+    "Your files are not protected by encryption." : "Dine filer er ikke beskyttet med kryptering.",
+    "The admin hasn't selected the location of the server yet." : "Administratoren har ikke valgt serverens placering.",
+    "You don't have any shares with individual users." : "Du har ingen delinger med individuelle brugere.",
     "Andorra" : "Andorra",
     "Afghanistan" : "Afghanistan",
     "Albania" : "Albanien",
@@ -88,6 +91,9 @@ OC.L10N.register(
     "Yemen" : "Yemen",
     "South Africa" : "Sydafrika",
     "Zimbabwe" : "Zimbabwe",
+    "Where is your data?" : "Hvor er dine data?",
+    "Who has access to your data?" : "Hvem har adgang til dine data?",
+    "People you shared with" : "Brugere du deler med",
     "Privacy policy" : "Fortrolighedspolitik",
     "Encryption" : "Kryptering"
 },

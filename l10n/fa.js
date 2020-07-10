@@ -5,7 +5,7 @@ OC.L10N.register(
     "-" : "-",
     "The privacy center shows you where your data is stored and who can access it, either because you shared with them or because they are administrators." : "مرکز حفظ حریم خصوصی به شما نشان می دهد که داده های شما در کجا ذخیره شده است و چه کسی می تواند به آن دسترسی پیدا کند ، یا بخاطر اینکه با آنها به اشتراک گذاشته اید یا به دلیل اینکه آنها مدیر هستند",
     "Remove external admin" : "مدیر خارجی را حذف کنید",
-    "Add external admin" : "مدیر خارجی را افزودن",
+    "Add external admin" : "اضافه کردن مدیر خارجی",
     "This server is using full-disk-encryption." : "این سرور از رمزگذاری کامل دیسک استفاده می کند.",
     "Your files are not protected by encryption." : "پرونده های شما توسط رمزگذاری محافظت نمی شوند.",
     "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "فایل های خود را با {} linkopen سمت سرور رمزگذاری ↗ {linkclose} رمزگذاری شده است.",
