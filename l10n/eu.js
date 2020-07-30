@@ -156,7 +156,7 @@ OC.L10N.register(
     "Montenegro" : "Montenegro",
     "Madagascar" : "Madagaskar",
     "Marshall Islands" : "Marshall uharteak",
-    "Macedonia" : "Macedonia",
+    "Macedonia" : "Mazedonia",
     "Mali" : "Mali",
     "Myanmar" : "Myanmar",
     "Mongolia" : "Mongolia",
