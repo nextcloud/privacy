@@ -15,6 +15,7 @@ OC.L10N.register(
     "Your data is located in: " : "Tietojesi sijaintipaikka on:",
     "The admin hasn't selected the location of the server yet." : "Ylläpitäjä ei ole vielä valinnut palvelimen sijaintia.",
     "Change data location" : "Vaihda tietojen sijainti",
+    "Please select a region" : "Valitse alue",
     "You don't have any shares with individual users." : "Sinulla ei ole jakoja yksittäisten käyttäjien kanssa.",
     "Austria" : "Itävalta",
     "Belgium" : "Belgia",
