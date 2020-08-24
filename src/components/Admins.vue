@@ -26,7 +26,8 @@
 			<Avatar :user="admin.internal ? admin.id : null"
 				:display-name="admin.displayname"
 				:size="64"
-				:is-no-user="!admin.internal" />
+				:is-no-user="!admin.internal"
+				:show-user-status="false" />
 			<Actions v-if="!admin.internal">
 				<ActionButton icon="icon-close" @click="deleteAdditionalAdmin(admin)">
 					{{ $t('privacy', 'Remove external admin') }}

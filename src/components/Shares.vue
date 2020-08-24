@@ -29,7 +29,8 @@
 			:key="uid"
 			:user="uid"
 			:display-name="uidDisplaynameMap[uid]"
-			:size="64" />
+			:size="64"
+			:show-user-status="false" />
 	</div>
 </template>
 
