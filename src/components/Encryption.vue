@@ -93,8 +93,8 @@ export default {
 	 * are enabled
 	 */
 	mounted() {
-		this.fullDiskEncryptionEnabled = loadState('privacy', 'fullDiskEncryptionEnabled') === 1
-		this.serverSideEncryptionEnabled = loadState('privacy', 'serverSideEncryptionEnabled') === 1
+		this.fullDiskEncryptionEnabled = loadState('privacy', 'fullDiskEncryptionEnabled')
+		this.serverSideEncryptionEnabled = loadState('privacy', 'serverSideEncryptionEnabled')
 	},
 	methods: {
 		/**
