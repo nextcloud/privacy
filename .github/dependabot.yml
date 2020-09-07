@@ -7,8 +7,6 @@ updates:
     time: "03:00"
     timezone: Europe/Paris
   open-pull-requests-limit: 10
-  reviewers:
-  - georgehrke
 - package-ecosystem: composer
   directory: "/"
   schedule:
