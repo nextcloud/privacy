@@ -53,7 +53,7 @@ OC.L10N.register(
     "Bhutan" : "Bhutan",
     "Bouvet Island" : "Bouvetinsel",
     "Botswana" : "Botswana",
-    "Belarus" : "Weißrussland",
+    "Belarus" : "Belarus",
     "Belize" : "Belize",
     "Canada" : "Kanada",
     "Cocos (Keeling) Islands" : "Kokosinseln",
