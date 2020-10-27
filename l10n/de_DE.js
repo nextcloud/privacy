@@ -253,7 +253,7 @@ OC.L10N.register(
     "Holy See" : "Vatikanstadt",
     "Saint Vincent and the Grenadines" : "St. Vincent und die Grenadinen",
     "Venezuela" : "Venezuela",
-    "Virgin Islands (British)" : "Jungferninseln (Britisch)",
+    "Virgin Islands (British)" : "Jungferninseln (britisch)",
     "Virgin Islands (U.S.)" : "Jungferninseln (U.S.)",
     "Vietnam" : "Vietnam",
     "Vanuatu" : "Vanuatu",
