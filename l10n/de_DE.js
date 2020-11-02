@@ -3,7 +3,7 @@ OC.L10N.register(
     {
     "Privacy" : "Datenschutz",
     "-" : "-",
-    "The privacy center shows you where your data is stored and who can access it, either because you shared with them or because they are administrators." : "Das Zentrum für Datenschutz zeigt Ihnen, wo Ihre Daten gespeichert werden und wer darauf Zugriff hat. Egal ob Sie Daten freigegeben haben oder es Administratoren sind.",
+    "The privacy center shows you where your data is stored and who can access it, either because you shared with them or because they are administrators." : "Die Datenschutzübersicht zeigt Ihnen, wo Ihre Daten gespeichert werden und wer darauf Zugriff hat. Entweder weil Sie die Daten freigegeben haben oder es sich um Administratoren handelt.",
     "Remove external admin" : "Externen Administrator entfernen",
     "Add external admin" : "Einen externen Administrator hinzufügen",
     "Name of external admin" : "Namen des externen Administrators",
