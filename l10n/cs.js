@@ -269,7 +269,7 @@ OC.L10N.register(
     "User Data Manifesto 2.0" : "Manifest o datech uživatelů, verze 2.0",
     "Defining basic rights for people to control their own data in the internet age" : "Definující základní práva lidí na kontrolu nad svými daty v éře Internetu",
     "Control" : "Kontrola",
-    "over user data access" : " nad přístupem k datům uživatele",
+    "over user data access" : "nad přístupem k datům uživatele",
     "Data explicitly and willingly uploaded by a user should be under the ultimate control of the user. Users should be able to decide whom to grant direct access to their data and with which permissions and licenses such access should be granted." : "Data výslovně a úmyslně nahraná uživatelem by měla být pod nepochybnou kontrolou uživatele. Uživatelé by měli být schopní rozhodovat, komu udělit přímý přístup k jejich datům a jaká oprávnění a licence má takový přístup udělovat.",
     "Knowledge" : "Znalost",
     "of how the data is stored" : "toho, jak jsou data ukládána",
@@ -283,7 +283,7 @@ OC.L10N.register(
     "Administrators" : "Správci",
     "People you shared with" : "Lidé, se kterými jste sdíleli",
     "Privacy policy" : "Zásada ochrany osobních údajů",
-    "Read the privacy policy." : "Přečíst si zásadu ochrany osobních údajů",
+    "Read the privacy policy." : "Přečíst si zásady ochrany osobních údajů.",
     "Encryption" : "Šifrování",
     "Please select a country" : "Vyberte zemi",
     "Bosnia and Herzegowina" : "Bosna a Hercegovina"
