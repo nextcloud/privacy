@@ -207,7 +207,7 @@ OC.L10N.register(
     "Serbia" : "Serbien",
     "Russia" : "Russland",
     "Rwanda" : "Ruanda",
-    "Saudi Arabia" : "Saudiarabien",
+    "Saudi Arabia" : "Saudi-Arabien",
     "Solomon Islands" : "Salomonen",
     "Seychelles" : "Seychellen",
     "Sudan" : "Sudan",
