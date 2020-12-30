@@ -227,7 +227,7 @@ OC.L10N.register(
     "El Salvador" : "El Salvador",
     "Sint Maarten" : "Sint Maarten",
     "Syria" : "Syrien",
-    "Swaziland" : "Swaziland",
+    "Swaziland" : "Swasiland",
     "Turks and Caicos Islands" : "Turks- und Caicosinseln",
     "Chad" : "Tschad",
     "Fr. S. Antarctic Lands" : "Französische Süd- und Antarktisgebiete",
