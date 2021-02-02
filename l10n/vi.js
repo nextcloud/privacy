@@ -34,7 +34,6 @@ OC.L10N.register(
     "People you shared with" : "Những người mà bạn chia sẻ với",
     "Privacy policy" : "Chính sách riêng tư",
     "Read the privacy policy." : "Đọc chính sách riêng tư.",
-    "Encryption" : "Mã hóa",
-    "Please select a country" : "Vui lòng chọn một quốc gia"
+    "Encryption" : "Mã hóa"
 },
 "nplurals=1; plural=0;");

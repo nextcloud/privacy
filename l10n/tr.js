@@ -284,8 +284,6 @@ OC.L10N.register(
     "People you shared with" : "Verilerinizi paylaştığınız kişiler",
     "Privacy policy" : "Kişisel gizliliğin korunması ilkesi",
     "Read the privacy policy." : "Kişisel verilerinizin korunması ilkesini gözden geçirin.",
-    "Encryption" : "Şifreleme",
-    "Please select a country" : "Lütfen bir ülke seçin",
-    "Bosnia and Herzegowina" : "Bosna ve Hersek"
+    "Encryption" : "Şifreleme"
 },
 "nplurals=2; plural=(n > 1);");
