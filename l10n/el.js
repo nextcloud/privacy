@@ -284,8 +284,6 @@ OC.L10N.register(
     "People you shared with" : "Άτομα με κοινή χρήση",
     "Privacy policy" : "Πολιτική Απορρήτου",
     "Read the privacy policy." : "Διαβάστε την πολιτική απορρήτου.",
-    "Encryption" : "Κρυπτογράφηση",
-    "Please select a country" : "Παρακαλώ επιλέξτε μια χώρα",
-    "Bosnia and Herzegowina" : "Bosnia and Herzegowina"
+    "Encryption" : "Κρυπτογράφηση"
 },
 "nplurals=2; plural=(n != 1);");

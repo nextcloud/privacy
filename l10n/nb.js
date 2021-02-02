@@ -127,8 +127,6 @@ OC.L10N.register(
     "Administrators" : "Administratorer",
     "Privacy policy" : "Personvern politikk",
     "Read the privacy policy." : "Les personvernsærkleringen.",
-    "Encryption" : "Kryptering",
-    "Please select a country" : "Vennligst velg et land",
-    "Bosnia and Herzegowina" : "Bosnia-Hercegovina"
+    "Encryption" : "Kryptering"
 },
 "nplurals=2; plural=(n != 1);");

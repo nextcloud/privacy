@@ -209,8 +209,6 @@ OC.L10N.register(
     "People you shared with" : "افرادی که با آنها به اشتراک گذاشتید",
     "Privacy policy" : "سیاست حفظ حریم خصوصی",
     "Read the privacy policy." : "خط مشی رازداری را بخوانید.",
-    "Encryption" : "رمزگذاری",
-    "Please select a country" : "لطفاً یک کشور را انتخاب کنید",
-    "Bosnia and Herzegowina" : "بوسنی و هرزگوین"
+    "Encryption" : "رمزگذاری"
 },
 "nplurals=2; plural=(n > 1);");
