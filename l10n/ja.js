@@ -284,8 +284,6 @@ OC.L10N.register(
     "People you shared with" : "あなたが共有した人",
     "Privacy policy" : "プライバシーポリシー",
     "Read the privacy policy." : "プライバシーポリシーを読みます。",
-    "Encryption" : "暗号化",
-    "Please select a country" : "国を選択してください",
-    "Bosnia and Herzegowina" : "ボスニア・ヘルツェゴビナ"
+    "Encryption" : "暗号化"
 },
 "nplurals=1; plural=0;");

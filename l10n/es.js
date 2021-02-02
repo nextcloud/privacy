@@ -284,8 +284,6 @@ OC.L10N.register(
     "People you shared with" : "Gente con la que los has compartido",
     "Privacy policy" : "Política de privacidad",
     "Read the privacy policy." : "Leer la política de privacidad.",
-    "Encryption" : "Cifrado",
-    "Please select a country" : "Por favor, selecciona un país",
-    "Bosnia and Herzegowina" : "Bosnia y Herzegovina"
+    "Encryption" : "Cifrado"
 },
 "nplurals=2; plural=(n != 1);");

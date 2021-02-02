@@ -251,8 +251,6 @@ OC.L10N.register(
     "Who has access to your data?" : "Кой има достъп до информацията?",
     "Administrators" : "Администратори",
     "People you shared with" : "Хора с които е споделено",
-    "Encryption" : "Криптиране",
-    "Please select a country" : "Моля изберете държава",
-    "Bosnia and Herzegowina" : "Босна и Херцеговина"
+    "Encryption" : "Криптиране"
 },
 "nplurals=2; plural=(n != 1);");

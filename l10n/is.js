@@ -284,8 +284,6 @@ OC.L10N.register(
     "People you shared with" : "Fólk sem þú deildir með",
     "Privacy policy" : "Meðferð persónulegra gagna",
     "Read the privacy policy." : "Lestu stefnu varðandi meðferð persónulegra gagna.",
-    "Encryption" : "Dulritun",
-    "Please select a country" : "Veldu land",
-    "Bosnia and Herzegowina" : "Bosnía og Hersegóvína"
+    "Encryption" : "Dulritun"
 },
 "nplurals=2; plural=(n % 10 != 1 || n % 100 == 11);");

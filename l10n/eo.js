@@ -277,8 +277,6 @@ OC.L10N.register(
     "People you shared with" : "Homoj, kun kiuj vi kunhavigis ion",
     "Privacy policy" : "Privateca regularo",
     "Read the privacy policy." : "Legi la regularon pri privateco.",
-    "Encryption" : "Ĉifrado",
-    "Please select a country" : "Bv. elekti landon",
-    "Bosnia and Herzegowina" : "Bosnujo kaj Hercegovino"
+    "Encryption" : "Ĉifrado"
 },
 "nplurals=2; plural=(n != 1);");

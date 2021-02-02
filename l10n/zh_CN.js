@@ -284,8 +284,6 @@ OC.L10N.register(
     "People you shared with" : "与您共享的人",
     "Privacy policy" : "隐私政策",
     "Read the privacy policy." : "阅读隐私政策。",
-    "Encryption" : "加密",
-    "Please select a country" : "请选择一个国家",
-    "Bosnia and Herzegowina" : "波黑"
+    "Encryption" : "加密"
 },
 "nplurals=1; plural=0;");

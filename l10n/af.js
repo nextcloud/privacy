@@ -244,7 +244,6 @@ OC.L10N.register(
     "Who has access to your data?" : "Wie het toegang tot u data?",
     "Privacy policy" : "Privaatheidsbeleid",
     "Read the privacy policy." : "Lees die privaatheidsbeleid.",
-    "Encryption" : "Enkripsie",
-    "Bosnia and Herzegowina" : "Bosnië-Herzegowina"
+    "Encryption" : "Enkripsie"
 },
 "nplurals=2; plural=(n != 1);");
