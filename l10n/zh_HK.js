@@ -53,7 +53,7 @@ OC.L10N.register(
     "Central African Republic" : "中非共和國",
     "Congo" : "剛果",
     "Switzerland" : "瑞士",
-    "Cote d'Ivoire" : "象牙海岸共和國",
+    "Cote d'Ivoire" : "象牙海岸",
     "Cook Islands" : "科克群島",
     "Chile" : "智利",
     "Cameroon" : "喀麥隆",
