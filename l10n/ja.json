@@ -280,8 +280,8 @@
     "Who has access to your data?" : "誰があなたのデータにアクセスできますか？",
     "Administrators" : "管理者",
     "People you shared with" : "あなたが共有した人",
-    "Privacy policy" : "プライバシーポリシー",
-    "Read the privacy policy." : "プライバシーポリシーを読みます。",
+    "Privacy policy" : "個人情報保護方針",
+    "Read the privacy policy." : "個人情報保護方針を読みます。",
     "Encryption" : "暗号化"
 },"pluralForm" :"nplurals=1; plural=0;"
 }
