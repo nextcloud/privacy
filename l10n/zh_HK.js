@@ -1,7 +1,7 @@
 OC.L10N.register(
     "privacy",
     {
-    "Privacy" : "隱私",
+    "Privacy" : "私隱",
     "-" : "－",
     "The privacy center shows you where your data is stored and who can access it, either because you shared with them or because they are administrators." : "私隱權中心會向您顯示數據的存儲位置以及可以存取這些數據的人 - 這些人是您分享了數據的人，或者是因為他們是管理員。",
     "Remove external admin" : "移除外部管理員",
@@ -270,7 +270,7 @@ OC.L10N.register(
     "Defining basic rights for people to control their own data in the internet age" : "定義互聯網時代人們控制自己的數據的基本權利",
     "Control" : "掌控",
     "over user data access" : "用戶資料存取 ",
-    "Data explicitly and willingly uploaded by a user should be under the ultimate control of the user. Users should be able to decide whom to grant direct access to their data and with which permissions and licenses such access should be granted." : "用戶明確和自願上傳的數據應在用戶的最終控制之下。 用戶應該能夠決定授予誰直接訪問其數據的權限，以及應該授予哪些權限和許可的訪問權限。",
+    "Data explicitly and willingly uploaded by a user should be under the ultimate control of the user. Users should be able to decide whom to grant direct access to their data and with which permissions and licenses such access should be granted." : "用戶明確和自願上傳的數據應在用戶的最終控制之下。 用戶應該能夠決定授予誰直接存取其數據的權限，以及應該授予哪些權限和許可的存取權限。",
     "Knowledge" : "知情",
     "of how the data is stored" : "知道數據如何存儲 ",
     "When the data is uploaded to a specific service provider, users should be informed about where that specific service provider stores the data, how long, in which jurisdiction the specific service provider operates, and which laws apply." : "將數據上載到特定服務提供商時，應告知用戶該特定服務提供商將數據存儲在何處，該特定服務提供商在多長時間內，在哪個管轄範圍內運營以及適用哪些法律。",
