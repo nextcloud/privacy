@@ -12,7 +12,6 @@ OC.L10N.register(
     "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "Vaše soubory jsou chráněny pomocí {linkopen}šifrování na straně serveru ↗{linkclose}.",
     "This server is protected with full-disk-encryption." : "Tento server je chráněn šifrováním celého úložiště.",
     "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}. Additionally, this server is protected with full-disk-encryption." : "Vaše soubory jsou chráněny pomocí {linkopen}šifrování na straně serveru ↗{linkclose}. Dále je tento server chráněn šifrováním celého úložiště.",
-    "Your data is located in: " : "Vaše data se nacházejí v:",
     "The admin hasn't selected the location of the server yet." : "Správce doposud nezadal umístění serveru.",
     "Change data location" : "Změnit umístění dat",
     "Please select a region" : "Vyberte oblast",
@@ -284,6 +283,7 @@ OC.L10N.register(
     "People you shared with" : "Lidé, kterým jste nadíleli",
     "Privacy policy" : "Zásada ochrany osobních údajů",
     "Read the privacy policy." : "Přečíst si zásady ochrany osobních údajů.",
-    "Encryption" : "Šifrování"
+    "Encryption" : "Šifrování",
+    "Your data is located in: " : "Vaše data se nacházejí v:"
 },
 "nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;");

@@ -12,7 +12,6 @@ OC.L10N.register(
     "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "Вашите файлове са криптирани с {linkopen} сървърно криптиране ↗ {linkclose}.",
     "This server is protected with full-disk-encryption." : "Този сървър е криптиран",
     "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}. Additionally, this server is protected with full-disk-encryption." : "Вашите файлове са криптирани с {linkopen} сървърно криптиране ↗ {linkclose}. В допълнение, този сървър е защитен с шифроване на пълен диск.",
-    "Your data is located in: " : "Вашите данни се съхраняват в:",
     "The admin hasn't selected the location of the server yet." : "Администраторът все още не е избрал местоположението на сървъра.",
     "Change data location" : "Промяна на местоположението на данните",
     "Please select a region" : "Моля, изберете регион",
@@ -284,6 +283,7 @@ OC.L10N.register(
     "People you shared with" : "Хора с които е споделено",
     "Privacy policy" : "Политика за поверителност",
     "Read the privacy policy." : "Прочетете политиката за поверителност",
-    "Encryption" : "Криптиране"
+    "Encryption" : "Криптиране",
+    "Your data is located in: " : "Вашите данни се съхраняват в:"
 },
 "nplurals=2; plural=(n != 1);");

@@ -12,7 +12,6 @@ OC.L10N.register(
     "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "您的文件由 {linkopen}服务器端加密机制 ↗{linkclose} 进行加密。",
     "This server is protected with full-disk-encryption." : "此服务器被全盘加密保护。",
     "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}. Additionally, this server is protected with full-disk-encryption." : "您的文件由 {linkopen}服务器端加密机制 ↗{linkclose} 进行加密。同时，此服务器被全盘加密保护。",
-    "Your data is located in: " : "您的数据位于：",
     "The admin hasn't selected the location of the server yet." : "管理员尚未选定此服务器所在的地区。",
     "Change data location" : "修改数据位置",
     "Please select a region" : "请选择一个区域",
@@ -284,6 +283,7 @@ OC.L10N.register(
     "People you shared with" : "与您共享的人",
     "Privacy policy" : "隐私政策",
     "Read the privacy policy." : "阅读隐私政策。",
-    "Encryption" : "加密"
+    "Encryption" : "加密",
+    "Your data is located in: " : "您的数据位于："
 },
 "nplurals=1; plural=0;");
