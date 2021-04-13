@@ -10,7 +10,6 @@
     "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "あなたのファイルは {linkopen}サーバーサイド暗号化↗{linkclose} で暗号化されています。",
     "This server is protected with full-disk-encryption." : "このサーバーはフルディスク暗号化で保護されています。",
     "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}. Additionally, this server is protected with full-disk-encryption." : "あなたのファイルは {linkopen}サーバーサイド暗号化↗{linkclose} で暗号化されています。さらに、このサーバーはフルディスク暗号化で保護されています。",
-    "Your data is located in: " : "あなたのデータは以下に格納:",
     "The admin hasn't selected the location of the server yet." : "管理者はまだサーバーの場所を選択していません。",
     "Change data location" : "データの保存場所を変更",
     "Please select a region" : "地域を選択してください",
@@ -281,7 +280,8 @@
     "Administrators" : "管理者",
     "People you shared with" : "あなたが共有した人",
     "Privacy policy" : "個人情報保護方針",
-    "Read the privacy policy." : "個人情報保護方針を読みます。",
-    "Encryption" : "暗号化"
+    "Read the privacy policy." : "個人情報保護方針を読んでください。",
+    "Encryption" : "暗号化",
+    "Your data is located in: " : "あなたのデータは以下に格納:"
 },"pluralForm" :"nplurals=1; plural=0;"
 }

@@ -12,7 +12,6 @@ OC.L10N.register(
     "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "Вашите датотеки се енкриптирани со {linkopen}енкрипција од страна на серверот ↗{linkclose}.",
     "This server is protected with full-disk-encryption." : "Овој сервер е заштитен со целосно енкриптиран диск.",
     "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}. Additionally, this server is protected with full-disk-encryption." : "Вашите датотеки се енкриптирани со {linkopen}енкрипција од страна на серверот ↗{linkclose}. Дополнително, овој сервер е заштитен со целосно енкриптиран диск.",
-    "Your data is located in: " : "Вашите податоци се лоцирани во: ",
     "The admin hasn't selected the location of the server yet." : "Администраторот сеуште нема избрано локација на серверот.",
     "Change data location" : "Промени ја локацијата на податоците",
     "Please select a region" : "Изберете регион",
@@ -284,6 +283,7 @@ OC.L10N.register(
     "People you shared with" : "Луѓе со кој споделувате податоци",
     "Privacy policy" : "Политика за приватност",
     "Read the privacy policy." : "Прочитај ја политиката за приватност",
-    "Encryption" : "Енкрипција"
+    "Encryption" : "Енкрипција",
+    "Your data is located in: " : "Вашите податоци се лоцирани во: "
 },
 "nplurals=2; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : 1;");
