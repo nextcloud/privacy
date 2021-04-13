@@ -12,7 +12,6 @@ OC.L10N.register(
     "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "Dosyalarınız {linkopen}sunucu tarafı şifrelemesi ↗{linkclose} ile korunuyor.",
     "This server is protected with full-disk-encryption." : "Bu sunucu tam disk şifrelemesi ile korunuyor.",
     "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}. Additionally, this server is protected with full-disk-encryption." : "Dosyalarınız {linkopen}sunucu tarafı şifrelemesi ↗{linkclose} ile korunuyor. Ek olarak bu sunucu tam disk şifrelemesi ile korunuyor.",
-    "Your data is located in: " : "Verileriniz şurada tutuluyor:",
     "The admin hasn't selected the location of the server yet." : "Yönetici henüz sunucunun konumunu seçmemiş.",
     "Change data location" : "Veri konumunu değiştir",
     "Please select a region" : "Lütfen bir bölge seçin",
@@ -284,6 +283,7 @@ OC.L10N.register(
     "People you shared with" : "Verilerinizi paylaştığınız kişiler",
     "Privacy policy" : "Kişisel gizliliğin korunması ilkesi",
     "Read the privacy policy." : "Kişisel verilerinizin korunması ilkesini gözden geçirin.",
-    "Encryption" : "Şifreleme"
+    "Encryption" : "Şifreleme",
+    "Your data is located in: " : "Verileriniz şurada tutuluyor:"
 },
 "nplurals=2; plural=(n > 1);");

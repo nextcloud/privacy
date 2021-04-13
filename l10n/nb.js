@@ -10,7 +10,6 @@ OC.L10N.register(
     "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "Filene dine er kryptert med {linkopen}server-side-encryption ↗{linkclose}.",
     "This server is protected with full-disk-encryption." : "Filene dine er beskyttet med full-disk kryptering.",
     "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}. Additionally, this server is protected with full-disk-encryption." : "Filene dine er kryptert med {linkopen}server-side-encryption ↗{linkclose}. I tillegg er denne serveren beskyttet med full-disk kryptering.",
-    "Your data is located in: " : "Din data befinner seg i:",
     "The admin hasn't selected the location of the server yet." : "Administratoren har ikke valgt plasseringen til serveren enda.",
     "Please select a region" : "Vennligst velg en region",
     "You don't have any shares with individual users." : "Du har ingen delinger med individuelle brukere.",
@@ -127,6 +126,7 @@ OC.L10N.register(
     "Administrators" : "Administratorer",
     "Privacy policy" : "Personvern politikk",
     "Read the privacy policy." : "Les personvernsærkleringen.",
-    "Encryption" : "Kryptering"
+    "Encryption" : "Kryptering",
+    "Your data is located in: " : "Din data befinner seg i:"
 },
 "nplurals=2; plural=(n != 1);");

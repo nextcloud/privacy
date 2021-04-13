@@ -11,7 +11,6 @@ OC.L10N.register(
     "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "Viaj dosieroj estas ĉifrataj per {linkopen}ĉeservila ĉifrado ↗{linkclose}.",
     "This server is protected with full-disk-encryption." : "Tiu servilo estas protektita per ĉifrado de la tuta disko.",
     "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}. Additionally, this server is protected with full-disk-encryption." : "Viaj dosieroj estas ĉifrataj per {linkopen}ĉeservila ĉifrado ↗{linkclose}. Krome, tiu servilo estas protektita per ĉifrado de la tuta disko.",
-    "Your data is located in: " : "Viaj datumoj estas en:",
     "The admin hasn't selected the location of the server yet." : "La administranto ankoraŭ ne elektis la lokon de tiu servilo.",
     "Change data location" : "Ŝanĝi la lokon de la datumoj",
     "You don't have any shares with individual users." : "Vi havas neniun kunhavon kun individuaj uzantoj.",
@@ -277,6 +276,7 @@ OC.L10N.register(
     "People you shared with" : "Homoj, kun kiuj vi kunhavigis ion",
     "Privacy policy" : "Privateca regularo",
     "Read the privacy policy." : "Legi la regularon pri privateco.",
-    "Encryption" : "Ĉifrado"
+    "Encryption" : "Ĉifrado",
+    "Your data is located in: " : "Viaj datumoj estas en:"
 },
 "nplurals=2; plural=(n != 1);");

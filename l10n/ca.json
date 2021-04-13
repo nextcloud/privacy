@@ -10,7 +10,6 @@
     "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "Els vostres fitxers estan xifrats amb {linkopen}xifratge del costat del servidor ↗{linkclose}.",
     "This server is protected with full-disk-encryption." : "Aquest servidor està protegit amb xifratge complet del disc.",
     "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}. Additionally, this server is protected with full-disk-encryption." : "Els vostres fitxers estan xifrats amb {linkopen}xifratge del costat del servidor ↗{linkclose}. A més, aquest servidor està protegit amb el xifratge complet del disc.",
-    "Your data is located in: " : "Les vostres dades es troben a: ",
     "The admin hasn't selected the location of the server yet." : "L'administrador encara no ha seleccionat la ubicació del servidor.",
     "Change data location" : "Canvia la ubicació de les dades",
     "Please select a region" : "Seleccioneu una regió",
@@ -282,6 +281,7 @@
     "People you shared with" : "Persones amb les quals heu compartit",
     "Privacy policy" : "Política de privadesa",
     "Read the privacy policy." : "Llegiu la política de privadesa.",
-    "Encryption" : "Xifratge"
+    "Encryption" : "Xifratge",
+    "Your data is located in: " : "Les vostres dades es troben a: "
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }

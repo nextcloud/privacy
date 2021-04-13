@@ -12,7 +12,6 @@ OC.L10N.register(
     "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "Je bestanden zijn versleuteld met {linkopen}server-side-encryptie ↗{linkclose}.",
     "This server is protected with full-disk-encryption." : "De server is beschermd met full-disk-encryptie.",
     "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}. Additionally, this server is protected with full-disk-encryption." : "Je bestanden zijn versleuteld via {linkopen}server-side-encryption ↗{linkclose}. Daarnaast is deze server beveiligd met full-disk-encryptie.",
-    "Your data is located in: " : "Je bestanden staan in:",
     "The admin hasn't selected the location of the server yet." : "De beheerder heeft nog geen locatie van de server opgegeven.",
     "Change data location" : "Wijzig de gegevenslocatie",
     "Please select a region" : "Kies een regio",
@@ -284,6 +283,7 @@ OC.L10N.register(
     "People you shared with" : "Mensen waarmee je hebt gedeeld",
     "Privacy policy" : "Privacybeleid",
     "Read the privacy policy." : "Lees het %sprivacy beleid%s nu.",
-    "Encryption" : "Versleuteling"
+    "Encryption" : "Versleuteling",
+    "Your data is located in: " : "Je bestanden staan in:"
 },
 "nplurals=2; plural=(n != 1);");

@@ -12,7 +12,6 @@ OC.L10N.register(
     "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "Tiedostosi on salattu {linkopen}palvelinpään salauksella ↗{linkclose}.",
     "This server is protected with full-disk-encryption." : "Tämä palvelin on suojattu täydellä levyn salauksella.",
     "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}. Additionally, this server is protected with full-disk-encryption." : "Tiedostosi on salattu {linkopen}palvelinpään salauksella ↗{linkclose}. Lisäksi palvelin on suojattu täydellä levyn salauksella.",
-    "Your data is located in: " : "Tietojesi sijaintipaikka on:",
     "The admin hasn't selected the location of the server yet." : "Ylläpitäjä ei ole vielä valinnut palvelimen sijaintia.",
     "Change data location" : "Vaihda tietojen sijainti",
     "Please select a region" : "Valitse alue",
@@ -85,6 +84,7 @@ OC.L10N.register(
     "People you shared with" : "Ihmiset joiden kanssa jaoit tiedot",
     "Privacy policy" : "Tietosuojakäytäntö",
     "Read the privacy policy." : "Lue tietosuojakäytäntö.",
-    "Encryption" : "Salaus"
+    "Encryption" : "Salaus",
+    "Your data is located in: " : "Tietojesi sijaintipaikka on:"
 },
 "nplurals=2; plural=(n != 1);");

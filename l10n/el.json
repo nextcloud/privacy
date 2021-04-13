@@ -10,7 +10,6 @@
     "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "Τα αρχεία σας κρυπτογραφούνται με {linkopen}κρυπτογράφηση-διακομιστή ↗{linkclose}.",
     "This server is protected with full-disk-encryption." : "Ο διακομιστής είναι προστατευμένος με κρυπτογράφηση πλήρους δίσκου.",
     "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}. Additionally, this server is protected with full-disk-encryption." : "Τα αρχεία σας κρυπτογραφούνται με {linkopen}κρυπτογράφηση-διακομιστή ↗{linkclose}. Επιπλέον, ο διακομιστής προστατεύεται με κρυπτογράφηση πλήρους δίσκου.",
-    "Your data is located in: " : "Τα δεδομένα σας βρίσκονται σε:",
     "The admin hasn't selected the location of the server yet." : "Ο διαχειριστής δεν έχει επιλέξει ακόμη την τοποθεσία του διακομιστή.",
     "Change data location" : "Αλλαγή θέσης δεδομένων",
     "Please select a region" : "Επιλέξτε περιοχή",
@@ -282,6 +281,7 @@
     "People you shared with" : "Άτομα με κοινή χρήση",
     "Privacy policy" : "Πολιτική Απορρήτου",
     "Read the privacy policy." : "Διαβάστε την πολιτική απορρήτου.",
-    "Encryption" : "Κρυπτογράφηση"
+    "Encryption" : "Κρυπτογράφηση",
+    "Your data is located in: " : "Τα δεδομένα σας βρίσκονται σε:"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }
