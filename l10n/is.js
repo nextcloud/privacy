@@ -12,7 +12,6 @@ OC.L10N.register(
     "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "Skrárnar þínar eru dulritaðar með {linkopen}dulritun á þjóni ↗{linkclose}.",
     "This server is protected with full-disk-encryption." : "Þessi þjónn er varinn með fullri dulritun diska.",
     "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}. Additionally, this server is protected with full-disk-encryption." : "Skrárnar þínar eru dulritaðar með {linkopen}dulritun á þjóni ↗{linkclose}. Að auki er þjónninn varinn með fullri dulritun diska.",
-    "Your data is located in: " : "Gögnin þín eru geymd í: ",
     "The admin hasn't selected the location of the server yet." : "Kerfisstjórinn er ekki ennþá búinn að velja staðsetningu þjónsins.",
     "Change data location" : "Breyta staðsetningu gagna",
     "Please select a region" : "Veldu svæði",
@@ -284,6 +283,7 @@ OC.L10N.register(
     "People you shared with" : "Fólk sem þú deildir með",
     "Privacy policy" : "Meðferð persónulegra gagna",
     "Read the privacy policy." : "Lestu stefnu varðandi meðferð persónulegra gagna.",
-    "Encryption" : "Dulritun"
+    "Encryption" : "Dulritun",
+    "Your data is located in: " : "Gögnin þín eru geymd í: "
 },
 "nplurals=2; plural=(n % 10 != 1 || n % 100 == 11);");

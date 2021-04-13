@@ -12,7 +12,6 @@ OC.L10N.register(
     "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "Datoteke so {linkopen}strežniško šifrirane ↗{linkclose}.",
     "This server is protected with full-disk-encryption." : "Strežnik je zaščiten s celostnim diskovnim šifriranjem.",
     "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}. Additionally, this server is protected with full-disk-encryption." : "Datoteke so {linkopen}strežniško šifrirane ↗{linkclose}, dodatno pa je strežnik zaščiten tudi s polnim diskovnim šifriranjem.",
-    "Your data is located in: " : "Mesto podatkov: ",
     "The admin hasn't selected the location of the server yet." : "Skrbnik še ni določil mesta strežnika.",
     "Change data location" : "Spremeni mesto podatkov",
     "Please select a region" : "Izbor regije",
@@ -284,6 +283,7 @@ OC.L10N.register(
     "People you shared with" : "Osebe, ki jim omogočate souporabo vaših pdoatkov",
     "Privacy policy" : "Pravila zasebnosti",
     "Read the privacy policy." : "Preglejte pravila zasebnosti",
-    "Encryption" : "Šifriranje"
+    "Encryption" : "Šifriranje",
+    "Your data is located in: " : "Mesto podatkov: "
 },
 "nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);");

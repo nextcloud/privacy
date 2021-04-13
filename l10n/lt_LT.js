@@ -9,7 +9,6 @@ OC.L10N.register(
     "Name of external admin" : "Išorinio administratoriaus vardas",
     "Your files are not protected by encryption." : "Jūsų failai nėra apsaugoti šifravimu.",
     "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "Jūsų failai yra šifruoti naudojant {linkopen}serverio šifravimą ↗{linkclose}.",
-    "Your data is located in: " : "Jūsų duomenų vieta yra čia: ",
     "The admin hasn't selected the location of the server yet." : "Administratorius kol kas nepasirinko serverio vietovės.",
     "Change data location" : "Keisti duomenų vietą",
     "Please select a region" : "Pasirinkite regioną",
@@ -223,6 +222,7 @@ OC.L10N.register(
     "People you shared with" : "Žmonės su kuriais bendrinote",
     "Privacy policy" : "Privatumo politika",
     "Read the privacy policy." : "Skaitykite privatumo politiką.",
-    "Encryption" : "Šifravimas"
+    "Encryption" : "Šifravimas",
+    "Your data is located in: " : "Jūsų duomenų vieta yra čia: "
 },
 "nplurals=4; plural=(n % 10 == 1 && (n % 100 > 19 || n % 100 < 11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? 1 : n % 1 != 0 ? 2: 3);");

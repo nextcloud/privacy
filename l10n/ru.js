@@ -12,7 +12,6 @@ OC.L10N.register(
     "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "Для защиты ваших файлов используется {linkopen}шифрование на стороне сервера ↗{linkclose}.",
     "This server is protected with full-disk-encryption." : "Этот сервер защищён шифрованием диска.",
     "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}. Additionally, this server is protected with full-disk-encryption." : "Для защиты ваших файлов используется {linkopen}шифрование на стороне сервера ↗{linkclose}. Также этот сервер защищён с помощью шифрования диска.",
-    "Your data is located in: " : "Размещение данных:",
     "The admin hasn't selected the location of the server yet." : "Место размещения сервера ещё не указано администратором.",
     "Change data location" : "Изменить расположение данных",
     "Please select a region" : "Пожалуйста, выберите регион",
@@ -284,6 +283,7 @@ OC.L10N.register(
     "People you shared with" : "Люди, с которыми вы поделились",
     "Privacy policy" : "Политика конфиденциальности",
     "Read the privacy policy." : "Ознакомиться с политикой конфиденциальности.",
-    "Encryption" : "Шифрование"
+    "Encryption" : "Шифрование",
+    "Your data is located in: " : "Размещение данных:"
 },
 "nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);");
