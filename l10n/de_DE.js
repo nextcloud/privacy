@@ -12,6 +12,7 @@ OC.L10N.register(
     "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "Ihre Dateien sind mittels der {linkopen}serverseitigen Verschlüsselung ↗{linkclose} verschlüsselt.",
     "This server is protected with full-disk-encryption." : "Dieser Server ist mittels Festplattenverschlüsselung geschützt.",
     "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}. Additionally, this server is protected with full-disk-encryption." : "Ihre Dateien sind mittels der {linkopen}serverseitigen Verschlüsselung ↗{linkclose} verschlüsselt. Ausserdem ist dieser Server mittels Festplattenverschlüsselung geschützt.",
+    "Your data is located in:" : "Ihre Daten befinden sich in: ",
     "The admin hasn't selected the location of the server yet." : "Der Administrator hat den Serverstandort noch nicht angegeben.",
     "Change data location" : "Datenspeicherort ändern",
     "Please select a region" : "Bitte eine Region auswählen",
