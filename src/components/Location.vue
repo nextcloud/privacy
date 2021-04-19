@@ -84,7 +84,7 @@ export default {
 		},
 	},
 	watch: {
-		selectedCountry: (newCountry, oldCountry) => {
+		selectedCountry(newCountry, oldCountry) {
 			if (oldCountry !== '') {
 				const oldElm = document.querySelector('.where-is-my-data #' + oldCountry)
 
