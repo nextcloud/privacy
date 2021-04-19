@@ -1,5 +1,5 @@
 <?php
-script('privacy', 'privacy');
+script('privacy', 'privacy-main');
 style('privacy', 'privacy');
 ?>
 

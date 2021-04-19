@@ -18,27 +18,13 @@
  * License along with this library.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-import 'core-js/stable'
 import Vue from 'vue'
-import { linkTo } from '@nextcloud/router'
 import { translate, translatePlural } from '@nextcloud/l10n'
-import { getRequestToken } from '@nextcloud/auth'
 
-const Admins = () => import('./components/Admins.vue')
-const Location = () => import('./components/Location.vue')
-const Encryption = () => import('./components/Encryption.vue')
-const Shares = () => import('./components/Shares.vue')
-
-// CSP config for webpack dynamic chunk loading
-// eslint-disable-next-line
-__webpack_nonce__ = btoa(getRequestToken())
-
-// Correct the root of the app for chunk loading
-// OC.linkTo matches the apps folders
-// OC.generateUrl ensure the index.php (or not)
-// We do not want the index.php since we're loading files
-// eslint-disable-next-line
-__webpack_public_path__ = linkTo('privacy', 'js/')
+import Admins from './components/Admins'
+import Location from './components/Location'
+import Encryption from './components/Encryption'
+import Shares from './components/Shares'
 
 Vue.prototype.$t = translate
 Vue.prototype.$n = translatePlural
@@ -48,21 +34,19 @@ Vue.prototype.$is_admin = OC.isUserAdmin()
 Vue.prototype.t = translate
 Vue.prototype.n = translatePlural
 
-const location = new Vue({
+export const location = new Vue({
 	el: '#privacy_where_location',
 	render: h => h(Location),
 })
-const admins = new Vue({
+export const admins = new Vue({
 	el: '#privacy_access_admins',
 	render: h => h(Admins),
 })
-const shares = new Vue({
+export const shares = new Vue({
 	el: '#privacy_access_shares',
 	render: h => h(Shares),
 })
-const encryption = new Vue({
+export const encryption = new Vue({
 	el: '#privacy_access_encryption',
 	render: h => h(Encryption),
 })
-
-export default { location, admins, shares, encryption }
