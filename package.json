@@ -9,7 +9,7 @@
 	},
 	"private": true,
 	"scripts": {
-		"build": "NODE_ENV=production webpack --progress --hide-modules --config webpack.prod.js",
+		"build": "NODE_ENV=production webpack --progress --config webpack.prod.js",
 		"dev": "NODE_ENV=development webpack --progress --config webpack.dev.js",
 		"watch": "NODE_ENV=development webpack --progress --watch --config webpack.dev.js",
 		"lint": "eslint --ext .js,.vue src",
@@ -72,7 +72,7 @@
 		"vue-loader": "^15.9.3",
 		"vue-template-compiler": "^2.6.12",
 		"webpack": "^4.44.2",
-		"webpack-cli": "^3.3.12",
+		"webpack-cli": "^4.6.0",
 		"webpack-merge": "^5.7.3"
 	}
 }
