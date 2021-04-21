@@ -12,6 +12,7 @@ OC.L10N.register(
     "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "Datoteke so {linkopen}strežniško šifrirane ↗{linkclose}.",
     "This server is protected with full-disk-encryption." : "Strežnik je zaščiten s celostnim diskovnim šifriranjem.",
     "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}. Additionally, this server is protected with full-disk-encryption." : "Datoteke so {linkopen}strežniško šifrirane ↗{linkclose}, dodatno pa je strežnik zaščiten tudi s polnim diskovnim šifriranjem.",
+    "Your data is located in:" : "Mesto podatkov: ",
     "The admin hasn't selected the location of the server yet." : "Skrbnik še ni določil mesta strežnika.",
     "Change data location" : "Spremeni mesto podatkov",
     "Please select a region" : "Izbor regije",
