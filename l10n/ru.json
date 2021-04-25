@@ -10,6 +10,7 @@
     "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "Для защиты ваших файлов используется {linkopen}шифрование на стороне сервера ↗{linkclose}.",
     "This server is protected with full-disk-encryption." : "Этот сервер защищён шифрованием диска.",
     "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}. Additionally, this server is protected with full-disk-encryption." : "Для защиты ваших файлов используется {linkopen}шифрование на стороне сервера ↗{linkclose}. Также этот сервер защищён с помощью шифрования диска.",
+    "Your data is located in:" : "Ваши данные находятся в:",
     "The admin hasn't selected the location of the server yet." : "Место размещения сервера ещё не указано администратором.",
     "Change data location" : "Изменить расположение данных",
     "Please select a region" : "Пожалуйста, выберите регион",
