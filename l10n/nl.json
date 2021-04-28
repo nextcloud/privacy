@@ -10,6 +10,7 @@
     "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "Je bestanden zijn versleuteld met {linkopen}server-side-encryptie ↗{linkclose}.",
     "This server is protected with full-disk-encryption." : "De server is beschermd met full-disk-encryptie.",
     "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}. Additionally, this server is protected with full-disk-encryption." : "Je bestanden zijn versleuteld via {linkopen}server-side-encryption ↗{linkclose}. Daarnaast is deze server beveiligd met full-disk-encryptie.",
+    "Your data is located in:" : "Je gegevens staan in:",
     "The admin hasn't selected the location of the server yet." : "De beheerder heeft nog geen locatie van de server opgegeven.",
     "Change data location" : "Wijzig de gegevenslocatie",
     "Please select a region" : "Kies een regio",
