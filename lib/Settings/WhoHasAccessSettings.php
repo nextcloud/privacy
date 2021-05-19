@@ -28,6 +28,7 @@ use OCP\IConfig;
 use OCP\Encryption\IManager as IEncryptionManager;
 use OCP\IInitialStateService;
 use OCP\Settings\ISettings;
+use Throwable;
 
 /**
  * Class WhoHasAccessSettings
@@ -71,9 +72,27 @@ class WhoHasAccessSettings implements ISettings {
 			$privacyPolicyUrl = null;
 		}
 
+		$isHomeStorageEncrypted = false;
+		$isMasterKeyEnabled = false;
+		if ($this->encryptionManager->isEnabled()) {
+			try {
+				$moduleId = $this->encryptionManager->getDefaultEncryptionModuleId();
+				if ($moduleId === 'OC_DEFAULT_MODULE') {
+					/** @var \OCA\Encryption\Util $util */
+					$util = \OC::$server->get(\OCA\Encryption\Util::class);
+					$isHomeStorageEncrypted = $util->shouldEncryptHomeStorage();
+					$isMasterKeyEnabled = $util->isMasterKeyEnabled();
+				}
+			} catch (Throwable $e) {
+			}
+		}
+
 		$this->initialStateService->provideInitialState('privacy', 'privacyPolicyUrl', $privacyPolicyUrl);
 		$this->initialStateService->provideInitialState('privacy', 'fullDiskEncryptionEnabled', $this->config->getAppValue('privacy', 'fullDiskEncryptionEnabled', '0') === '1');
 		$this->initialStateService->provideInitialState('privacy', 'serverSideEncryptionEnabled', $this->encryptionManager->isEnabled());
+		$this->initialStateService->provideInitialState('privacy', 'homeStorageEncryptionEnabled', $isHomeStorageEncrypted);
+		$this->initialStateService->provideInitialState('privacy', 'masterKeyEncryptionEnabled', $isMasterKeyEnabled);
+
 
 		return new TemplateResponse('privacy', 'who-has-access');
 	}

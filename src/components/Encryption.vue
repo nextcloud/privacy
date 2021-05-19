@@ -21,8 +21,14 @@
 
 <template>
 	<div class="who-has-access">
-		<!-- eslint-disable-next-line vue/no-v-html -->
-		<p v-show="!isEditing" v-html="label" />
+		<div class="encryption-details">
+			<!-- eslint-disable vue/no-v-html -->
+			<p v-for="label in labels"
+				v-show="!isEditing"
+				:key="label"
+				v-html="label" />
+			<!--eslint-enable-->
+		</div>
 		<Actions v-if="$is_admin && !isEditing">
 			<ActionButton icon="icon-rename" @click.stop.prevent="openEditFullDiskEncryptionForm" />
 		</Actions>
@@ -66,25 +72,49 @@ export default {
 		return {
 			fullDiskEncryptionEnabled: false,
 			serverSideEncryptionEnabled: false,
+			homeStorageEncryptionEnabled: false,
+			masterKeyEncryptionEnabled: false,
 			isEditing: false,
 			isSavingChanges: false,
 		}
 	},
 	computed: {
-		label() {
-			if (!this.serverSideEncryptionEnabled && !this.fullDiskEncryptionEnabled) {
-				return this.$t('privacy', 'Your files are not protected by encryption.')
-			} else if (this.serverSideEncryptionEnabled && !this.fullDiskEncryptionEnabled) {
-				return this.$t('privacy', 'Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}.')
-					.replace('{linkopen}', '<a href="https://nextcloud.com/blog/encryption-in-nextcloud/" target="_blank" title="" rel="noreferrer noopener">')
-					.replace('{linkclose}', '</a>')
-			} else if (!this.serverSideEncryptionEnabled && this.fullDiskEncryptionEnabled) {
-				return this.$t('privacy', 'This server is protected with full-disk-encryption.')
-			} else {
-				return this.$t('privacy', 'Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}. Additionally, this server is protected with full-disk-encryption.')
-					.replace('{linkopen}', '<a href="https://nextcloud.com/blog/encryption-in-nextcloud/" target="_blank" title="" rel="noreferrer noopener">')
-					.replace('{linkclose}', '</a>')
+		labels() {
+			const labels = []
+
+			const addLabel = (text) => labels.push(text
+				.replace('{linkopen}', '<a href="https://nextcloud.com/blog/encryption-in-nextcloud/" target="_blank" title="" rel="noreferrer noopener">')
+				.replace('{linkclose}', '</a>'))
+
+			if (this.serverSideEncryptionEnabled) {
+				if (this.homeStorageEncryptionEnabled) {
+					if (this.masterKeyEncryptionEnabled) {
+						addLabel(this.$t('privacy', 'Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key.'))
+						addLabel(this.$t('privacy', 'Your files on external storages may be encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key based on their configuration.'))
+					} else {
+						addLabel(this.$t('privacy', 'Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key.'))
+						addLabel(this.$t('privacy', 'Your files on external storages may be encrypted using {linkopen}server-side-encryption ↗{linkclose} with an invididual key based on their configuration.'))
+					}
+				} else {
+					if (this.masterKeyEncryptionEnabled) {
+						addLabel(this.$t('privacy', 'Your files on external storages may be encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key based on their configuration.'))
+					} else {
+						addLabel(this.$t('privacy', 'Your files on external storages may be encrypted using {linkopen}server-side-encryption ↗{linkclose} with an invididual key based on their configuration.'))
+					}
+				}
 			}
+
+			if (this.fullDiskEncryptionEnabled && this.serverSideEncryptionEnabled) {
+				labels.push(this.$t('privacy', 'Additionally, this server is protected with full-disk-encryption.'))
+			} else if (this.fullDiskEncryptionEnabled && !this.serverSideEncryptionEnabled) {
+				labels.push(this.$t('privacy', 'This server is protected with full-disk-encryption.'))
+			}
+
+			if (labels.length === 0) {
+				labels.push(this.$t('privacy', 'Your files are not protected by encryption.'))
+			}
+
+			return labels
 		},
 	},
 	/**
@@ -95,6 +125,8 @@ export default {
 	mounted() {
 		this.fullDiskEncryptionEnabled = loadState('privacy', 'fullDiskEncryptionEnabled')
 		this.serverSideEncryptionEnabled = loadState('privacy', 'serverSideEncryptionEnabled')
+		this.homeStorageEncryptionEnabled = loadState('privacy', 'homeStorageEncryptionEnabled')
+		this.masterKeyEncryptionEnabled = loadState('privacy', 'masterKeyEncryptionEnabled')
 	},
 	methods: {
 		/**
@@ -134,3 +166,8 @@ export default {
 	},
 }
 </script>
+<style>
+.encryption-details {
+	margin-right: 20px;
+}
+</style>
