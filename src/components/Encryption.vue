@@ -93,13 +93,13 @@ export default {
 						addLabel(this.$t('privacy', 'Your files on external storages may be encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key based on their configuration.'))
 					} else {
 						addLabel(this.$t('privacy', 'Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key.'))
-						addLabel(this.$t('privacy', 'Your files on external storages may be encrypted using {linkopen}server-side-encryption ↗{linkclose} with an invididual key based on their configuration.'))
+						addLabel(this.$t('privacy', 'Your files on external storages may be encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual key based on their configuration.'))
 					}
 				} else {
 					if (this.masterKeyEncryptionEnabled) {
 						addLabel(this.$t('privacy', 'Your files on external storages may be encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key based on their configuration.'))
 					} else {
-						addLabel(this.$t('privacy', 'Your files on external storages may be encrypted using {linkopen}server-side-encryption ↗{linkclose} with an invididual key based on their configuration.'))
+						addLabel(this.$t('privacy', 'Your files on external storages may be encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual key based on their configuration.'))
 					}
 				}
 			}
