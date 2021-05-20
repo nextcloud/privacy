@@ -8,10 +8,8 @@ OC.L10N.register(
     "Add external admin" : "Aggiungi amministratore esterno",
     "Name of external admin" : "Nome dell'amministratore esterno",
     "This server is using full-disk-encryption." : "Questo server utilizzar la cifratura completa del disco.",
-    "Your files are not protected by encryption." : "I tuoi file non sono protetti con la cifratura.",
-    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "I tuoi file sono cifrati con la. {linkopen}cifratura lato server ↗{linkclose}.",
     "This server is protected with full-disk-encryption." : "Questo server è protetto con la cifratura completa del disco.",
-    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}. Additionally, this server is protected with full-disk-encryption." : "I tuoi file sono cifrati con la. {linkopen}cifratura lato server ↗{linkclose}. In aggiunta, questo server è protetto con la cifratura completa del disco.",
+    "Your files are not protected by encryption." : "I tuoi file non sono protetti con la cifratura.",
     "Your data is located in:" : "I tuoi dati si trovano in:",
     "The admin hasn't selected the location of the server yet." : "L'amministratore non ha ancora selezionato la posizione del server.",
     "Change data location" : "Cambia posizione dei dati",
@@ -285,6 +283,8 @@ OC.L10N.register(
     "Privacy policy" : "Criterio di riservatezza",
     "Read the privacy policy." : "Leggi subito i criteri di riservatezza.",
     "Encryption" : "Cifratura",
+    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "I tuoi file sono cifrati con la. {linkopen}cifratura lato server ↗{linkclose}.",
+    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}. Additionally, this server is protected with full-disk-encryption." : "I tuoi file sono cifrati con la. {linkopen}cifratura lato server ↗{linkclose}. In aggiunta, questo server è protetto con la cifratura completa del disco.",
     "Your data is located in: " : "I tuoi dati si trovano in: "
 },
 "nplurals=2; plural=(n != 1);");

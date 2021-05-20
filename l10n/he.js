@@ -8,10 +8,8 @@ OC.L10N.register(
     "Add external admin" : "הוספת הנהלה חיצונית",
     "Name of external admin" : "שם ההנהלה החיצונית",
     "This server is using full-disk-encryption." : "השרת הזה משתמש בהצפנה על כל הכונן.",
-    "Your files are not protected by encryption." : "הקבצים שלך אינם מוגנים בהצפנה.",
-    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "הקבצים שלך מוצפנים עם {linkopen}הצפנה בצד השרת ↖{linkclose}.",
     "This server is protected with full-disk-encryption." : "שרת זה מוגן בהצפנה על כל הכונן.",
-    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}. Additionally, this server is protected with full-disk-encryption." : "הקבצים שלך מוצפנים עם {linkopen}הצפנה בצד השרת ↖{linkclose}. בנוסף, השרת הזה מוגן עם הצפנה על כל הכונן.",
+    "Your files are not protected by encryption." : "הקבצים שלך אינם מוגנים בהצפנה.",
     "The admin hasn't selected the location of the server yet." : "המנהל לא בחר את מיקום השרת עדיין.",
     "Change data location" : "החלפת מיקום הנתונים",
     "Please select a region" : "נא לבחור אזור",
@@ -284,6 +282,8 @@ OC.L10N.register(
     "Privacy policy" : "מדיניות פרטיות",
     "Read the privacy policy." : "הצגת מדיניות הפרטיות.",
     "Encryption" : "הצפנה",
+    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "הקבצים שלך מוצפנים עם {linkopen}הצפנה בצד השרת ↖{linkclose}.",
+    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}. Additionally, this server is protected with full-disk-encryption." : "הקבצים שלך מוצפנים עם {linkopen}הצפנה בצד השרת ↖{linkclose}. בנוסף, השרת הזה מוגן עם הצפנה על כל הכונן.",
     "Your data is located in: " : "הנתונים שלך נמצאים תחת:"
 },
 "nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % 1 == 0) ? 1: (n % 10 == 0 && n % 1 == 0 && n > 10) ? 2 : 3;");

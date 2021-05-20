@@ -6,10 +6,8 @@ OC.L10N.register(
     "Add external admin" : "Legg til ekstern admin",
     "Name of external admin" : "Navn til ekstern admin",
     "This server is using full-disk-encryption." : "Denne serveren bruker full-disk kryptering.",
-    "Your files are not protected by encryption." : "Filene dine er ikke beskyttet med kryptering.",
-    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "Filene dine er kryptert med {linkopen}server-side-encryption ↗{linkclose}.",
     "This server is protected with full-disk-encryption." : "Filene dine er beskyttet med full-disk kryptering.",
-    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}. Additionally, this server is protected with full-disk-encryption." : "Filene dine er kryptert med {linkopen}server-side-encryption ↗{linkclose}. I tillegg er denne serveren beskyttet med full-disk kryptering.",
+    "Your files are not protected by encryption." : "Filene dine er ikke beskyttet med kryptering.",
     "The admin hasn't selected the location of the server yet." : "Administratoren har ikke valgt plasseringen til serveren enda.",
     "Please select a region" : "Vennligst velg en region",
     "You don't have any shares with individual users." : "Du har ingen delinger med individuelle brukere.",
@@ -127,6 +125,8 @@ OC.L10N.register(
     "Privacy policy" : "Personvern politikk",
     "Read the privacy policy." : "Les personvernsærkleringen.",
     "Encryption" : "Kryptering",
+    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "Filene dine er kryptert med {linkopen}server-side-encryption ↗{linkclose}.",
+    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}. Additionally, this server is protected with full-disk-encryption." : "Filene dine er kryptert med {linkopen}server-side-encryption ↗{linkclose}. I tillegg er denne serveren beskyttet med full-disk kryptering.",
     "Your data is located in: " : "Din data befinner seg i:"
 },
 "nplurals=2; plural=(n != 1);");
