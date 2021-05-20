@@ -6,10 +6,8 @@
     "Add external admin" : "Ajouter un administrateur externe",
     "Name of external admin" : "Nom de l'administrateur externe",
     "This server is using full-disk-encryption." : "Les disques de ce serveur sont chiffrés.",
-    "Your files are not protected by encryption." : "Vos fichiers ne sont pas protégés par chiffrement.",
-    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "Vos fichiers sont chiffrés avec {linkopen}server-side-encryption ↗{linkclose}.",
     "This server is protected with full-disk-encryption." : "Les disques de ce serveur sont protégés par chiffrement.",
-    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}. Additionally, this server is protected with full-disk-encryption." : "Vos fichiers sont chiffrés avec {linkopen}server-side-encryption ↗{linkclose}. De plus, ce serveur est protégé avec full-disk-encryption.",
+    "Your files are not protected by encryption." : "Vos fichiers ne sont pas protégés par chiffrement.",
     "The admin hasn't selected the location of the server yet." : "L'administrateur n'a pas encore indiqué l'emplacement du serveur.",
     "Change data location" : "Modifier l'emplacement des données",
     "Please select a region" : "Veuillez sélectionner un Pays",
@@ -282,6 +280,8 @@
     "Privacy policy" : "Politique de confidentialité",
     "Read the privacy policy." : "Lisez la politique de confidentialité.",
     "Encryption" : "Chiffrement",
+    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "Vos fichiers sont chiffrés avec {linkopen}server-side-encryption ↗{linkclose}.",
+    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}. Additionally, this server is protected with full-disk-encryption." : "Vos fichiers sont chiffrés avec {linkopen}server-side-encryption ↗{linkclose}. De plus, ce serveur est protégé avec full-disk-encryption.",
     "Your data is located in: " : "Vos données sont situées en :"
 },"pluralForm" :"nplurals=2; plural=(n > 1);"
 }

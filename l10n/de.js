@@ -8,10 +8,8 @@ OC.L10N.register(
     "Add external admin" : "Einen externen Administrator hinzufügen",
     "Name of external admin" : "Name des externen Administrators",
     "This server is using full-disk-encryption." : "Dieser Server verwendet Festplattenverschlüsselung.",
-    "Your files are not protected by encryption." : "Deine Dateien sind nicht mittels Verschlüsselung geschützt.",
-    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "Deine Dateien sind mittels der {linkopen}serverseitigen Verschlüsselung ↗{linkclose} verschlüsselt.",
     "This server is protected with full-disk-encryption." : "Dieser Server ist mittels Festplattenverschlüsselung geschützt.",
-    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}. Additionally, this server is protected with full-disk-encryption." : "Deine Dateien sind mittels der {linkopen}serverseitigen Verschlüsselung ↗{linkclose} verschlüsselt. Ausserdem ist dieser Server mittels Festplattenverschlüsselung geschützt.",
+    "Your files are not protected by encryption." : "Deine Dateien sind nicht mittels Verschlüsselung geschützt.",
     "Your data is located in:" : "Deine Daten befinden sich in: ",
     "The admin hasn't selected the location of the server yet." : "Der Administrator hat den Standort des Servers noch nicht ausgewählt.",
     "Change data location" : "Datenspeicherort ändern",
@@ -285,6 +283,8 @@ OC.L10N.register(
     "Privacy policy" : "Datenschutz",
     "Read the privacy policy." : "Lese hier die Datenschutzerklärung.",
     "Encryption" : "Verschlüsselung",
+    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "Deine Dateien sind mittels der {linkopen}serverseitigen Verschlüsselung ↗{linkclose} verschlüsselt.",
+    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}. Additionally, this server is protected with full-disk-encryption." : "Deine Dateien sind mittels der {linkopen}serverseitigen Verschlüsselung ↗{linkclose} verschlüsselt. Ausserdem ist dieser Server mittels Festplattenverschlüsselung geschützt.",
     "Your data is located in: " : "Deine Daten befinden sich in: "
 },
 "nplurals=2; plural=(n != 1);");

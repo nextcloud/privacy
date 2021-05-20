@@ -8,10 +8,8 @@ OC.L10N.register(
     "Add external admin" : "Lägg till extern administratör",
     "Name of external admin" : "Namn på extern administratör",
     "This server is using full-disk-encryption." : "Servern använder fullständig disk-kryptering.",
-    "Your files are not protected by encryption." : "Dina filer är inte skyddade med kryptering.",
-    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "Dina filer är krypterade med  {linkopen}serverkryptering ↗{linkclose}.",
     "This server is protected with full-disk-encryption." : "Servern är skyddad med fullständig disk-kryptering.",
-    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}. Additionally, this server is protected with full-disk-encryption." : "Dina filer är krypterade med {linkopen}serverkryptering ↗{linkclose}. Dessutom är den här servern skyddad med fullständig disk-kryptering.",
+    "Your files are not protected by encryption." : "Dina filer är inte skyddade med kryptering.",
     "The admin hasn't selected the location of the server yet." : "Administratören har inte valt någon plats för servern än.",
     "Change data location" : "Ändra lagringsplats för data",
     "Please select a region" : "Välj en region",
@@ -284,6 +282,8 @@ OC.L10N.register(
     "Privacy policy" : "Integritetspolicy",
     "Read the privacy policy." : "Läs integritetspolicy.",
     "Encryption" : "Kryptering",
+    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "Dina filer är krypterade med  {linkopen}serverkryptering ↗{linkclose}.",
+    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}. Additionally, this server is protected with full-disk-encryption." : "Dina filer är krypterade med {linkopen}serverkryptering ↗{linkclose}. Dessutom är den här servern skyddad med fullständig disk-kryptering.",
     "Your data is located in: " : "Dina data finns i:"
 },
 "nplurals=2; plural=(n != 1);");

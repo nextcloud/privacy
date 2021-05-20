@@ -6,10 +6,8 @@
     "Add external admin" : "Додади надворешен администратор",
     "Name of external admin" : "Име на надворешен администратор",
     "This server is using full-disk-encryption." : "Овој сервер користи целосно енкриптиран диск.",
-    "Your files are not protected by encryption." : "Вашите датотеки не се заштитени со енкрипција.",
-    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "Вашите датотеки се енкриптирани со {linkopen}енкрипција од страна на серверот ↗{linkclose}.",
     "This server is protected with full-disk-encryption." : "Овој сервер е заштитен со целосно енкриптиран диск.",
-    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}. Additionally, this server is protected with full-disk-encryption." : "Вашите датотеки се енкриптирани со {linkopen}енкрипција од страна на серверот ↗{linkclose}. Дополнително, овој сервер е заштитен со целосно енкриптиран диск.",
+    "Your files are not protected by encryption." : "Вашите датотеки не се заштитени со енкрипција.",
     "Your data is located in:" : "Вашите податоци се наоѓаат во:",
     "The admin hasn't selected the location of the server yet." : "Администраторот сеуште нема избрано локација на серверот.",
     "Change data location" : "Промени ја локацијата на податоците",
@@ -283,6 +281,8 @@
     "Privacy policy" : "Политика за приватност",
     "Read the privacy policy." : "Прочитај ја политиката за приватност",
     "Encryption" : "Енкрипција",
+    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "Вашите датотеки се енкриптирани со {linkopen}енкрипција од страна на серверот ↗{linkclose}.",
+    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}. Additionally, this server is protected with full-disk-encryption." : "Вашите датотеки се енкриптирани со {linkopen}енкрипција од страна на серверот ↗{linkclose}. Дополнително, овој сервер е заштитен со целосно енкриптиран диск.",
     "Your data is located in: " : "Вашите податоци се лоцирани во: "
 },"pluralForm" :"nplurals=2; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : 1;"
 }
