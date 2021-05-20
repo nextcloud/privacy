@@ -8,10 +8,8 @@ OC.L10N.register(
     "Add external admin" : "Добавяне на външен администратор",
     "Name of external admin" : "Име на външен администратор",
     "This server is using full-disk-encryption." : "Този сървър използва шифроване на пълен диск.",
-    "Your files are not protected by encryption." : "Вашите файлове не са защитени чрез криптиране.",
-    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "Вашите файлове са криптирани с {linkopen} сървърно криптиране ↗ {linkclose}.",
     "This server is protected with full-disk-encryption." : "Този сървър е криптиран",
-    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}. Additionally, this server is protected with full-disk-encryption." : "Вашите файлове са криптирани с {linkopen} сървърно криптиране ↗ {linkclose}. В допълнение, този сървър е защитен с шифроване на пълен диск.",
+    "Your files are not protected by encryption." : "Вашите файлове не са защитени чрез криптиране.",
     "The admin hasn't selected the location of the server yet." : "Администраторът все още не е избрал местоположението на сървъра.",
     "Change data location" : "Промяна на местоположението на данните",
     "Please select a region" : "Моля, изберете регион",
@@ -284,6 +282,8 @@ OC.L10N.register(
     "Privacy policy" : "Политика за поверителност",
     "Read the privacy policy." : "Прочетете политиката за поверителност",
     "Encryption" : "Криптиране",
+    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "Вашите файлове са криптирани с {linkopen} сървърно криптиране ↗ {linkclose}.",
+    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}. Additionally, this server is protected with full-disk-encryption." : "Вашите файлове са криптирани с {linkopen} сървърно криптиране ↗ {linkclose}. В допълнение, този сървър е защитен с шифроване на пълен диск.",
     "Your data is located in: " : "Вашите данни се съхраняват в:"
 },
 "nplurals=2; plural=(n != 1);");

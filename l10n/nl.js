@@ -8,10 +8,8 @@ OC.L10N.register(
     "Add external admin" : "Voeg externe beheerder toe",
     "Name of external admin" : "Naam van externe beheerder",
     "This server is using full-disk-encryption." : "Deze server maakt gebruik van full-disk-encryptie.",
-    "Your files are not protected by encryption." : "Je bestanden zijn niet versleuteld.",
-    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "Je bestanden zijn versleuteld met {linkopen}server-side-encryptie ↗{linkclose}.",
     "This server is protected with full-disk-encryption." : "De server is beschermd met full-disk-encryptie.",
-    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}. Additionally, this server is protected with full-disk-encryption." : "Je bestanden zijn versleuteld via {linkopen}server-side-encryption ↗{linkclose}. Daarnaast is deze server beveiligd met full-disk-encryptie.",
+    "Your files are not protected by encryption." : "Je bestanden zijn niet versleuteld.",
     "Your data is located in:" : "Je gegevens staan in:",
     "The admin hasn't selected the location of the server yet." : "De beheerder heeft nog geen locatie van de server opgegeven.",
     "Change data location" : "Wijzig de gegevenslocatie",
@@ -285,6 +283,8 @@ OC.L10N.register(
     "Privacy policy" : "Privacybeleid",
     "Read the privacy policy." : "Lees het %sprivacy beleid%s nu.",
     "Encryption" : "Versleuteling",
+    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "Je bestanden zijn versleuteld met {linkopen}server-side-encryptie ↗{linkclose}.",
+    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}. Additionally, this server is protected with full-disk-encryption." : "Je bestanden zijn versleuteld via {linkopen}server-side-encryption ↗{linkclose}. Daarnaast is deze server beveiligd met full-disk-encryptie.",
     "Your data is located in: " : "Je bestanden staan in:"
 },
 "nplurals=2; plural=(n != 1);");
