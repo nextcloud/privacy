@@ -6,10 +6,8 @@
     "Add external admin" : "Додај спољног администратора",
     "Name of external admin" : "Име спољног администратора",
     "This server is using full-disk-encryption." : "Овај сервер користи шифровање целог диска.",
-    "Your files are not protected by encryption." : "Ваши фајлови нису заштићени шифровањем.",
-    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "Ваши фајлови су шифровани {linkopen}шифровањем на серверској страни ↗{linkclose}.",
     "This server is protected with full-disk-encryption." : "Овај сервер је заштићен са шифровањем целог диска.",
-    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}. Additionally, this server is protected with full-disk-encryption." : "Ваши фајлови су шифровани {linkopen}шифровањем на серверској страни ↗{linkclose}. Додатно, сервер је заштићен шифровањем целог диска.",
+    "Your files are not protected by encryption." : "Ваши фајлови нису заштићени шифровањем.",
     "The admin hasn't selected the location of the server yet." : "Администратор још није означио локацију сервера.",
     "Change data location" : "Промени локацију података",
     "Please select a region" : "Молимо одаберите регију",
@@ -282,6 +280,8 @@
     "Privacy policy" : "Политика приватност",
     "Read the privacy policy." : "Прочитајте политику приватности.",
     "Encryption" : "Шифровање",
+    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "Ваши фајлови су шифровани {linkopen}шифровањем на серверској страни ↗{linkclose}.",
+    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}. Additionally, this server is protected with full-disk-encryption." : "Ваши фајлови су шифровани {linkopen}шифровањем на серверској страни ↗{linkclose}. Додатно, сервер је заштићен шифровањем целог диска.",
     "Your data is located in: " : "Држава у којој се налазе ваши подаци: "
 },"pluralForm" :"nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);"
 }

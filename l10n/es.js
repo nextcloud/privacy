@@ -8,10 +8,8 @@ OC.L10N.register(
     "Add external admin" : "Añadir administrador externo",
     "Name of external admin" : "Nombre del administrador externo",
     "This server is using full-disk-encryption." : "Este servidor está usando cifrado de disco completo.",
-    "Your files are not protected by encryption." : "Tus archivos no están protegidos por la encriptación.",
-    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "Tus archivos están encriptados con {linkopen}server-side-encryption ↗{linkclose}.",
     "This server is protected with full-disk-encryption." : "Este servidor está protegido con cifrado de disco completo.",
-    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}. Additionally, this server is protected with full-disk-encryption." : "Tus archivos están encriptados por {linkopen}server-side-encryption ↗{linkclose}. Además, este servidor está protegido con cifrado de disco completo.",
+    "Your files are not protected by encryption." : "Tus archivos no están protegidos por la encriptación.",
     "Your data is located in:" : "Tus datos se encuentran en:",
     "The admin hasn't selected the location of the server yet." : "Los administradores no han seleccionado todavía la localización del servidor.",
     "Change data location" : "Cambiar localización de los datos",
@@ -285,6 +283,8 @@ OC.L10N.register(
     "Privacy policy" : "Política de privacidad",
     "Read the privacy policy." : "Leer la política de privacidad.",
     "Encryption" : "Cifrado",
+    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "Tus archivos están encriptados con {linkopen}server-side-encryption ↗{linkclose}.",
+    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}. Additionally, this server is protected with full-disk-encryption." : "Tus archivos están encriptados por {linkopen}server-side-encryption ↗{linkclose}. Además, este servidor está protegido con cifrado de disco completo.",
     "Your data is located in: " : "Tus datos se encuentran en: "
 },
 "nplurals=2; plural=(n != 1);");

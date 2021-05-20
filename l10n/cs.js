@@ -8,10 +8,8 @@ OC.L10N.register(
     "Add external admin" : "Přidat správce zvenčí",
     "Name of external admin" : "Jméno externího správce",
     "This server is using full-disk-encryption." : "Tento server používá šifrování celého úložiště.",
-    "Your files are not protected by encryption." : "Vaše soubory nejsou chráněny šifrováním.",
-    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "Vaše soubory jsou chráněny pomocí {linkopen}šifrování na straně serveru ↗{linkclose}.",
     "This server is protected with full-disk-encryption." : "Tento server je chráněn šifrováním celého úložiště.",
-    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}. Additionally, this server is protected with full-disk-encryption." : "Vaše soubory jsou chráněny pomocí {linkopen}šifrování na straně serveru ↗{linkclose}. Dále je tento server chráněn šifrováním celého úložiště.",
+    "Your files are not protected by encryption." : "Vaše soubory nejsou chráněny šifrováním.",
     "Your data is located in:" : "Vaše data se nacházejí v:",
     "The admin hasn't selected the location of the server yet." : "Správce doposud nezadal umístění serveru.",
     "Change data location" : "Změnit umístění dat",
@@ -285,6 +283,8 @@ OC.L10N.register(
     "Privacy policy" : "Zásada ochrany osobních údajů",
     "Read the privacy policy." : "Přečíst si zásady ochrany osobních údajů.",
     "Encryption" : "Šifrování",
+    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "Vaše soubory jsou chráněny pomocí {linkopen}šifrování na straně serveru ↗{linkclose}.",
+    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}. Additionally, this server is protected with full-disk-encryption." : "Vaše soubory jsou chráněny pomocí {linkopen}šifrování na straně serveru ↗{linkclose}. Dále je tento server chráněn šifrováním celého úložiště.",
     "Your data is located in: " : "Vaše data se nacházejí v:"
 },
 "nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;");

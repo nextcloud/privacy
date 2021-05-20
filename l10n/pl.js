@@ -8,10 +8,8 @@ OC.L10N.register(
     "Add external admin" : "Dodaj zewnętrznego administratora",
     "Name of external admin" : "Nazwa zewnętrznego administratora",
     "This server is using full-disk-encryption." : "Ten serwer używa full-disk-encryption.",
-    "Your files are not protected by encryption." : "Twoje pliki nie są chronione przez szyfrowanie.",
-    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "Twoje pliki są szyfrowane za pomocą {linkopen}server-side-encryption ↗{linkclose}.",
     "This server is protected with full-disk-encryption." : "Ten serwer jest chroniony za pomocą full-disk-encryption.",
-    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}. Additionally, this server is protected with full-disk-encryption." : "Twoje pliki są szyfrowane za pomocą {linkopen}server-side-encryption ↗{linkclose}. Ponadto ten serwer jest chroniony za pomocą full-disk-encryption.",
+    "Your files are not protected by encryption." : "Twoje pliki nie są chronione przez szyfrowanie.",
     "Your data is located in:" : "Twoje dane znajdują się w:",
     "The admin hasn't selected the location of the server yet." : "Administrator nie wybrał jeszcze lokalizacji serwera.",
     "Change data location" : "Zmień dane lokalizacji",
@@ -285,6 +283,8 @@ OC.L10N.register(
     "Privacy policy" : "Polityka prywatności",
     "Read the privacy policy." : "Przeczytaj politykę prywatności.",
     "Encryption" : "Szyfrowanie",
+    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "Twoje pliki są szyfrowane za pomocą {linkopen}server-side-encryption ↗{linkclose}.",
+    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}. Additionally, this server is protected with full-disk-encryption." : "Twoje pliki są szyfrowane za pomocą {linkopen}server-side-encryption ↗{linkclose}. Ponadto ten serwer jest chroniony za pomocą full-disk-encryption.",
     "Your data is located in: " : "Twoje dane znajdują się w: "
 },
 "nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);");

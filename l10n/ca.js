@@ -8,10 +8,8 @@ OC.L10N.register(
     "Add external admin" : "Afegeix un administrador extern",
     "Name of external admin" : "Nom de l'administrador extern",
     "This server is using full-disk-encryption." : "Aquest servidor està fent servir xifratge complet de disc.",
-    "Your files are not protected by encryption." : "Els vostres fitxers no estan protegits per xifratge.",
-    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "Els vostres fitxers estan xifrats amb {linkopen}xifratge del costat del servidor ↗{linkclose}.",
     "This server is protected with full-disk-encryption." : "Aquest servidor està protegit amb xifratge complet del disc.",
-    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}. Additionally, this server is protected with full-disk-encryption." : "Els vostres fitxers estan xifrats amb {linkopen}xifratge del costat del servidor ↗{linkclose}. A més, aquest servidor està protegit amb el xifratge complet del disc.",
+    "Your files are not protected by encryption." : "Els vostres fitxers no estan protegits per xifratge.",
     "Your data is located in:" : "Les vostres dades es troben a:",
     "The admin hasn't selected the location of the server yet." : "L'administrador encara no ha seleccionat la ubicació del servidor.",
     "Change data location" : "Canvia la ubicació de les dades",
@@ -285,6 +283,8 @@ OC.L10N.register(
     "Privacy policy" : "Política de privadesa",
     "Read the privacy policy." : "Llegiu la política de privadesa.",
     "Encryption" : "Xifratge",
+    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "Els vostres fitxers estan xifrats amb {linkopen}xifratge del costat del servidor ↗{linkclose}.",
+    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}. Additionally, this server is protected with full-disk-encryption." : "Els vostres fitxers estan xifrats amb {linkopen}xifratge del costat del servidor ↗{linkclose}. A més, aquest servidor està protegit amb el xifratge complet del disc.",
     "Your data is located in: " : "Les vostres dades es troben a: "
 },
 "nplurals=2; plural=(n != 1);");

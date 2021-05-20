@@ -5,10 +5,8 @@ OC.L10N.register(
     "-" : "-",
     "Add external admin" : "외부 관리자 추가",
     "This server is using full-disk-encryption." : "이 서버에서 전체 디스크 암호화를 사용하고 있습니다.",
-    "Your files are not protected by encryption." : "파일이 더 이상 암호화로 보호되지 않습니다.",
-    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "파일이 {linkopen}서버 측 암호화 ↗{linkclose}로 보호됩니다.",
     "This server is protected with full-disk-encryption." : "이 서버는 전체 디스크 암호화로 보호됩니다.",
-    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}. Additionally, this server is protected with full-disk-encryption." : "파일이 {linkopen}서버 측 암호화 ↗{linkclose}로 보호됩니다. 추가적으로 이 서버에서 전체 디스크 암호화를 사용하고 있습니다.",
+    "Your files are not protected by encryption." : "파일이 더 이상 암호화로 보호되지 않습니다.",
     "The admin hasn't selected the location of the server yet." : "관리자가 서버 위치를 지정하지 않았습니다.",
     "You don't have any shares with individual users." : "개인 사용자와 공유한 항목이 없습니다.",
     "Andorra" : "안도라",
@@ -50,6 +48,8 @@ OC.L10N.register(
     "Privacy policy" : "개인 정보 취급 방침",
     "Read the privacy policy." : "개인 정보 취급 방침을 읽습니다.",
     "Encryption" : "암호화",
+    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "파일이 {linkopen}서버 측 암호화 ↗{linkclose}로 보호됩니다.",
+    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}. Additionally, this server is protected with full-disk-encryption." : "파일이 {linkopen}서버 측 암호화 ↗{linkclose}로 보호됩니다. 추가적으로 이 서버에서 전체 디스크 암호화를 사용하고 있습니다.",
     "Your data is located in: " : "귀하의 데이터는 여기에 있습니다:"
 },
 "nplurals=1; plural=0;");

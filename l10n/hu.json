@@ -6,10 +6,8 @@
     "Add external admin" : "Külső rendszergazda hozzáadása",
     "Name of external admin" : "Külső rendszergazda neve",
     "This server is using full-disk-encryption." : "Ez a kiszolgáló teljes lemez titkosítást használ.",
-    "Your files are not protected by encryption." : "A fájljai nincsenek titkosítással védve.",
-    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "A fájljai {linkopen}kiszolgáló oldali titkosítással ↗{linkclose} védettek.",
     "This server is protected with full-disk-encryption." : "Ez a kiszolgáló teljes lemez titkosítással védett.",
-    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}. Additionally, this server is protected with full-disk-encryption." : "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}. Ezen felül a kiszolgáló teljes lemez titkosítással is védett.",
+    "Your files are not protected by encryption." : "A fájljai nincsenek titkosítással védve.",
     "Your data is located in:" : "Az adatai itt találhatók: ",
     "The admin hasn't selected the location of the server yet." : "A rendszergazda még nem állította be a szerver helyét.",
     "Change data location" : "Adat helyének módosítása",
@@ -283,6 +281,8 @@
     "Privacy policy" : "Adatvédelmi irányelvek",
     "Read the privacy policy." : "Olvassa el az adatvédelmi irányelveket.",
     "Encryption" : "Titkosítás",
+    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "A fájljai {linkopen}kiszolgáló oldali titkosítással ↗{linkclose} védettek.",
+    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}. Additionally, this server is protected with full-disk-encryption." : "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}. Ezen felül a kiszolgáló teljes lemez titkosítással is védett.",
     "Your data is located in: " : "Az adatai itt találhatók: "
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }
