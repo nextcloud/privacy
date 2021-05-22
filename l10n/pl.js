@@ -11,6 +11,7 @@ OC.L10N.register(
     "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "Twój magazyn główny jest zaszyfrowany przy użyciu {linkopen}server-side-encryption ↗{linkclose} z kluczem głównym.",
     "Your files on external storages may be encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key based on their configuration." : "Twoje pliki na magazynach zewnętrznych mogą być zaszyfrowane przy użyciu {linkopen}server-side-encryption ↗{linkclose} z kluczem głównym opartym na ich konfiguracji.",
     "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "Twój magazyn główny jest zaszyfrowany przy użyciu {linkopen}server-side-encryption ↗{linkclose} z indywidualnym kluczem użytkownika.",
+    "Your files on external storages may be encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual key based on their configuration." : "Twoje pliki na magazynach zewnętrznych mogą być zaszyfrowane przy użyciu {linkopen}server-side-encryption ↗{linkclose} z indywidualnym kluczem opartym na ich konfiguracji.",
     "Additionally, this server is protected with full-disk-encryption." : "Dodatkowo ten serwer jest chroniony szyfrowaniem full-disk-encryption.",
     "This server is protected with full-disk-encryption." : "Ten serwer jest chroniony za pomocą full-disk-encryption.",
     "Your files are not protected by encryption." : "Twoje pliki nie są chronione przez szyfrowanie.",
