@@ -11,6 +11,7 @@ OC.L10N.register(
     "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "您的主存儲使用{linkopen}服務器端加密↗{linkclose}和主密鑰進行了加密。",
     "Your files on external storages may be encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key based on their configuration." : "您可以使用 {linkopen} 伺服器端加密↗{linkclose}並根據其配置使用主密鑰對外部存儲設備上的檔案進行加密。",
     "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "您的主存儲使用{linkopen}服務器端加密↗{linkclose}和私有密鑰進行了加密。",
+    "Your files on external storages may be encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual key based on their configuration." : "您可以使用{linkopen}伺服器端加密↗{linkclose}使用基於其配置的私有密鑰對外部存儲設備上的檔案進行加密。",
     "Additionally, this server is protected with full-disk-encryption." : "此外，該伺服器還受全磁盤加密保護。",
     "This server is protected with full-disk-encryption." : "該伺服器受全盤加密保護。",
     "Your files are not protected by encryption." : "您的資料並未設定加密保護。",
