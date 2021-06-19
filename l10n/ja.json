@@ -274,7 +274,7 @@
     "to choose a platform" : "プラットフォームを選択する",
     "Users should always be able to extract their data from the service at any time without experiencing any vendor lock-in. Open standards for formats and protocols are necessary to guarantee this." : "ユーザーはベンダーのロックインを経験することなく、いつでも自分のデータを抽出することができるはずです。これを保証するためにオープンスタンダードなフォーマットとプロトコルが必要です。",
     "Learn more ↗" : "もっと詳しく知る",
-    "Where is your data?" : "あなたのデータはどこにありますか？",
+    "Where is your data?" : "データはどこにありますか？",
     "Who has access to your data?" : "誰があなたのデータにアクセスできますか？",
     "Administrators" : "管理者",
     "People you shared with" : "あなたが共有した人",
@@ -283,6 +283,6 @@
     "Encryption" : "暗号化",
     "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "あなたのファイルは {linkopen}サーバーサイド暗号化↗{linkclose} で暗号化されています。",
     "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}. Additionally, this server is protected with full-disk-encryption." : "あなたのファイルは {linkopen}サーバーサイド暗号化↗{linkclose} で暗号化されています。さらに、このサーバーはフルディスク暗号化で保護されています。",
-    "Your data is located in: " : "あなたのデータは以下に格納:"
+    "Your data is located in: " : "データは以下に格納:"
 },"pluralForm" :"nplurals=1; plural=0;"
 }
