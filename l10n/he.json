@@ -8,6 +8,7 @@
     "This server is using full-disk-encryption." : "השרת הזה משתמש בהצפנה על כל הכונן.",
     "This server is protected with full-disk-encryption." : "שרת זה מוגן בהצפנה על כל הכונן.",
     "Your files are not protected by encryption." : "הקבצים שלך אינם מוגנים בהצפנה.",
+    "Your data is located in:" : "הנתונים שלך נמצאים תחת:",
     "The admin hasn't selected the location of the server yet." : "המנהל לא בחר את מיקום השרת עדיין.",
     "Change data location" : "החלפת מיקום הנתונים",
     "Please select a region" : "נא לבחור אזור",
