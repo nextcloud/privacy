@@ -8,6 +8,7 @@ OC.L10N.register(
     "Add external admin" : "外部管理者を追加",
     "Name of external admin" : "外部管理者名",
     "This server is using full-disk-encryption." : "このサーバーはフルディスク暗号化を使用しています。",
+    "Additionally, this server is protected with full-disk-encryption." : "更にこのサーバーは、ディスク全体の暗号化により保護されています。",
     "This server is protected with full-disk-encryption." : "このサーバーはフルディスク暗号化で保護されています。",
     "Your files are not protected by encryption." : "ファイルは暗号化されていません。",
     "Your data is located in:" : "あなたのデータは以下の場所にあります:",
