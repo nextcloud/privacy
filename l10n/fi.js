@@ -8,6 +8,7 @@ OC.L10N.register(
     "Add external admin" : "Lisää ulkoinen ylläpitäjä",
     "Name of external admin" : "Ulkoisen järjestelmänvalvojan nimi",
     "This server is using full-disk-encryption." : "Tämä palvelin käyttää täyttä levyn salausta.",
+    "Additionally, this server is protected with full-disk-encryption." : "Lisäksi tämä palvelin on suojattu täydellä levyn salauksella.",
     "This server is protected with full-disk-encryption." : "Tämä palvelin on suojattu täydellä levyn salauksella.",
     "Your files are not protected by encryption." : "Tiedostojasi ei ole suojattu salauksella.",
     "Your data is located in:" : "Tietojesi sijainti on:",
