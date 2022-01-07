@@ -9,7 +9,6 @@ OC.L10N.register(
     "This server is using full-disk-encryption." : "Máy chủ này đang sử dụng toàn-bộ-ổ-đĩa-mã-hóa.",
     "This server is protected with full-disk-encryption." : "Máy chủ này được mã hóa với toàn-bộ-ổ-đĩa-mã-hóa.",
     "Your files are not protected by encryption." : "Các tệp của bạn KHÔNG được bảo vệ bởi sự mã hóa.",
-    "The admin hasn't selected the location of the server yet." : "Quản trị viên chưa chọn địa điểm đăt dữ liệu của máy chủ.",
     "Change data location" : "Thay đổi địa điểm dữ liệu",
     "Please select a region" : "Chọn một khu vực",
     "You don't have any shares with individual users." : "Bạn không có bất cứ một chia sẻ nào với các cá nhân người dùng.",
@@ -36,6 +35,7 @@ OC.L10N.register(
     "Encryption" : "Mã hóa",
     "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "Các tệp của bạn đã được mã hóa với {linkopen}chũi-khóa-trên-máy-chủ↗{linkclose}.",
     "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}. Additionally, this server is protected with full-disk-encryption." : "Các tệp của bạn đã được mã hóa với {linkopen}chũi-khóa-trên-máy-chủ↗{linkclose}. Thêm nữa, máy chủ này được mã hóa với toàn-bộ-ổ-đĩa-mã-hóa.",
-    "Your data is located in: " : "Dữ liệu của bạn được đặt ở:"
+    "Your data is located in: " : "Dữ liệu của bạn được đặt ở:",
+    "The admin hasn't selected the location of the server yet." : "Quản trị viên chưa chọn địa điểm đăt dữ liệu của máy chủ."
 },
 "nplurals=1; plural=0;");

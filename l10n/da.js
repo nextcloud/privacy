@@ -3,7 +3,6 @@ OC.L10N.register(
     {
     "Privacy" : "Privatliv",
     "Your files are not protected by encryption." : "Dine filer er ikke beskyttet med kryptering.",
-    "The admin hasn't selected the location of the server yet." : "Administratoren har ikke valgt serverens placering.",
     "You don't have any shares with individual users." : "Du har ingen delinger med individuelle brugere.",
     "Andorra" : "Andorra",
     "Afghanistan" : "Afghanistan",
@@ -95,6 +94,7 @@ OC.L10N.register(
     "Who has access to your data?" : "Hvem har adgang til dine data?",
     "People you shared with" : "Brugere du deler med",
     "Privacy policy" : "Fortrolighedspolitik",
-    "Encryption" : "Kryptering"
+    "Encryption" : "Kryptering",
+    "The admin hasn't selected the location of the server yet." : "Administratoren har ikke valgt serverens placering."
 },
 "nplurals=2; plural=(n != 1);");

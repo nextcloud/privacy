@@ -16,7 +16,6 @@ OC.L10N.register(
     "This server is protected with full-disk-encryption." : "Custu serbidore est protetu cun una tzifradura de discu cumpletu.",
     "Your files are not protected by encryption." : "Is archìvios tuos no sunt protetos dae tzifradura.",
     "Your data is located in:" : "Is datos tuos sunt allogados in:",
-    "The admin hasn't selected the location of the server yet." : "S'amministratzione no at ancora seletzionadu sa positzione de su serbidore.",
     "Change data location" : "Càmbia sa positzione de is datos",
     "Please select a region" : "Seletziona una regione",
     "You don't have any shares with individual users." : "No tenes peruna cumpartzidura cun utentes individuales.",
@@ -290,6 +289,7 @@ OC.L10N.register(
     "Encryption" : "Tzifradura",
     "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "Is archìvios tuos sunt tzifrados cun {linkopen}tzifradura ladu serbidore ↗{linkclose}.",
     "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}. Additionally, this server is protected with full-disk-encryption." : "Is archìvios tuos sunt tzifrados cun {linkopen}tzifradura ladu serbidore ↗{linkclose}. In prus, custu serbidore est bardiadu cun una tzifradura de discu cumpletu.",
-    "Your data is located in: " : "Is datos tuos sunt allogados in:"
+    "Your data is located in: " : "Is datos tuos sunt allogados in:",
+    "The admin hasn't selected the location of the server yet." : "S'amministratzione no at ancora seletzionadu sa positzione de su serbidore."
 },
 "nplurals=2; plural=(n != 1);");

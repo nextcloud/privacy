@@ -16,7 +16,6 @@ OC.L10N.register(
     "This server is protected with full-disk-encryption." : "Ο διακομιστής είναι προστατευμένος με κρυπτογράφηση πλήρους δίσκου.",
     "Your files are not protected by encryption." : "Τα αρχεία σας δεν προστατεύονται με κρυπτογράφηση.",
     "Your data is located in:" : "Τα δεδομένα σας βρίσκονται σε:",
-    "The admin hasn't selected the location of the server yet." : "Ο διαχειριστής δεν έχει επιλέξει ακόμη την τοποθεσία του διακομιστή.",
     "Change data location" : "Αλλαγή θέσης δεδομένων",
     "Please select a region" : "Επιλέξτε περιοχή",
     "You don't have any shares with individual users." : "Δεν έχετε μερίδια με μεμονωμένους χρήστες.",
@@ -290,6 +289,7 @@ OC.L10N.register(
     "Encryption" : "Κρυπτογράφηση",
     "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "Τα αρχεία σας κρυπτογραφούνται με {linkopen}κρυπτογράφηση-διακομιστή ↗{linkclose}.",
     "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}. Additionally, this server is protected with full-disk-encryption." : "Τα αρχεία σας κρυπτογραφούνται με {linkopen}κρυπτογράφηση-διακομιστή ↗{linkclose}. Επιπλέον, ο διακομιστής προστατεύεται με κρυπτογράφηση πλήρους δίσκου.",
-    "Your data is located in: " : "Τα δεδομένα σας βρίσκονται σε: "
+    "Your data is located in: " : "Τα δεδομένα σας βρίσκονται σε: ",
+    "The admin hasn't selected the location of the server yet." : "Ο διαχειριστής δεν έχει επιλέξει ακόμη την τοποθεσία του διακομιστή."
 },
 "nplurals=2; plural=(n != 1);");

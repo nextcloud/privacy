@@ -11,7 +11,6 @@ OC.L10N.register(
     "This server is protected with full-disk-encryption." : "Aquest servidor està protegit amb xifratge complet del disc.",
     "Your files are not protected by encryption." : "Els vostres fitxers no estan protegits per xifratge.",
     "Your data is located in:" : "Les vostres dades es troben a:",
-    "The admin hasn't selected the location of the server yet." : "L'administrador encara no ha seleccionat la ubicació del servidor.",
     "Change data location" : "Canvia la ubicació de les dades",
     "Please select a region" : "Seleccioneu una regió",
     "You don't have any shares with individual users." : "No teniu cap compartició amb usuaris individuals.",
@@ -285,6 +284,7 @@ OC.L10N.register(
     "Encryption" : "Xifratge",
     "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "Els vostres fitxers estan xifrats amb {linkopen}xifratge del costat del servidor ↗{linkclose}.",
     "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}. Additionally, this server is protected with full-disk-encryption." : "Els vostres fitxers estan xifrats amb {linkopen}xifratge del costat del servidor ↗{linkclose}. A més, aquest servidor està protegit amb el xifratge complet del disc.",
-    "Your data is located in: " : "Les vostres dades es troben a: "
+    "Your data is located in: " : "Les vostres dades es troben a: ",
+    "The admin hasn't selected the location of the server yet." : "L'administrador encara no ha seleccionat la ubicació del servidor."
 },
 "nplurals=2; plural=(n != 1);");

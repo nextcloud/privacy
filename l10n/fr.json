@@ -14,7 +14,6 @@
     "This server is protected with full-disk-encryption." : "Les disques de ce serveur sont protégés par chiffrement.",
     "Your files are not protected by encryption." : "Vos fichiers ne sont pas protégés par chiffrement.",
     "Your data is located in:" : "Vos données sont situées en ",
-    "The admin hasn't selected the location of the server yet." : "L'administrateur n'a pas encore indiqué l'emplacement du serveur.",
     "Change data location" : "Modifier l'emplacement des données",
     "Please select a region" : "Veuillez sélectionner un Pays",
     "You don't have any shares with individual users." : "Vous n'avez aucun partage avec des utilisateurs individuels.",
@@ -288,6 +287,7 @@
     "Encryption" : "Chiffrement",
     "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "Vos fichiers sont chiffrés avec {linkopen}server-side-encryption ↗{linkclose}.",
     "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}. Additionally, this server is protected with full-disk-encryption." : "Vos fichiers sont chiffrés avec {linkopen}server-side-encryption ↗{linkclose}. De plus, ce serveur est protégé avec full-disk-encryption.",
-    "Your data is located in: " : "Vos données sont situées en :"
+    "Your data is located in: " : "Vos données sont situées en :",
+    "The admin hasn't selected the location of the server yet." : "L'administrateur n'a pas encore indiqué l'emplacement du serveur."
 },"pluralForm" :"nplurals=2; plural=(n > 1);"
 }

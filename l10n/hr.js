@@ -16,7 +16,6 @@ OC.L10N.register(
     "This server is protected with full-disk-encryption." : "Ovaj je poslužitelj zaštićen šifriranjem cijelog diska.",
     "Your files are not protected by encryption." : "Vaše datoteke nisu zaštićene šifriranjem.",
     "Your data is located in:" : "Vaši se podaci nalaze u:",
-    "The admin hasn't selected the location of the server yet." : "Administrator još nije odabrao lokaciju poslužitelja.",
     "Change data location" : "Promijeni lokaciju podataka",
     "Please select a region" : "Odaberite regiju",
     "You don't have any shares with individual users." : "Nemate dijeljenja s pojedinačnim korisnicima.",
@@ -290,6 +289,7 @@ OC.L10N.register(
     "Encryption" : "Šifriranje",
     "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "Vaše su datoteke šifrirane s pomoću {linkopen}šifriranja na poslužitelju ↗{linkclose}.",
     "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}. Additionally, this server is protected with full-disk-encryption." : "Vaše su datoteke šifrirane s pomoću {linkopen}šifriranja na poslužitelju ↗{linkclose}. Poslužitelj je također zaštićen šifriranjem cijelog diska.",
-    "Your data is located in: " : "Vaši se podaci nalaze u: "
+    "Your data is located in: " : "Vaši se podaci nalaze u: ",
+    "The admin hasn't selected the location of the server yet." : "Administrator još nije odabrao lokaciju poslužitelja."
 },
 "nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;");

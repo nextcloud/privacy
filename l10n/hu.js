@@ -11,7 +11,6 @@ OC.L10N.register(
     "This server is protected with full-disk-encryption." : "Ez a kiszolgáló teljes lemez titkosítással védett.",
     "Your files are not protected by encryption." : "A fájljai nincsenek titkosítással védve.",
     "Your data is located in:" : "Az adatai itt találhatók: ",
-    "The admin hasn't selected the location of the server yet." : "A rendszergazda még nem állította be a szerver helyét.",
     "Change data location" : "Adat helyének módosítása",
     "Please select a region" : "Régió kiválasztása",
     "You don't have any shares with individual users." : "Neked nincs semilyen megosztásod egyetlen felhasználóval sem.",
@@ -285,6 +284,7 @@ OC.L10N.register(
     "Encryption" : "Titkosítás",
     "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "A fájljai {linkopen}kiszolgáló oldali titkosítással ↗{linkclose} védettek.",
     "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}. Additionally, this server is protected with full-disk-encryption." : "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}. Ezen felül a kiszolgáló teljes lemez titkosítással is védett.",
-    "Your data is located in: " : "Az adatai itt találhatók: "
+    "Your data is located in: " : "Az adatai itt találhatók: ",
+    "The admin hasn't selected the location of the server yet." : "A rendszergazda még nem állította be a szerver helyét."
 },
 "nplurals=2; plural=(n != 1);");
