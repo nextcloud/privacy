@@ -16,7 +16,6 @@ OC.L10N.register(
     "This server is protected with full-disk-encryption." : "Este servidor está protegido con cifrado de disco completo.",
     "Your files are not protected by encryption." : "Tus archivos no están protegidos por la encriptación.",
     "Your data is located in:" : "Tus datos se encuentran en:",
-    "The admin hasn't selected the location of the server yet." : "Los administradores no han seleccionado todavía la localización del servidor.",
     "Change data location" : "Cambiar localización de los datos",
     "Please select a region" : "Por favor, selecciona una región",
     "You don't have any shares with individual users." : "No tienes recursos compartidos con usuarios individuales.",
@@ -290,6 +289,7 @@ OC.L10N.register(
     "Encryption" : "Cifrado",
     "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "Tus archivos están encriptados con {linkopen}server-side-encryption ↗{linkclose}.",
     "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}. Additionally, this server is protected with full-disk-encryption." : "Tus archivos están encriptados por {linkopen}server-side-encryption ↗{linkclose}. Además, este servidor está protegido con cifrado de disco completo.",
-    "Your data is located in: " : "Tus datos se encuentran en: "
+    "Your data is located in: " : "Tus datos se encuentran en: ",
+    "The admin hasn't selected the location of the server yet." : "Los administradores no han seleccionado todavía la localización del servidor."
 },
 "nplurals=2; plural=(n != 1);");
