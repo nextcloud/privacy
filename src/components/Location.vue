@@ -23,7 +23,7 @@
 	<div class="where-is-my-data">
 		<p v-show="!isEditingLocation">
 			<span v-show="country">{{ $t('privacy', 'Your data is located in:') }} <strong>{{ country }}</strong>.</span>
-			<span v-show="!country">{{ $t('privacy', 'The admin hasn\'t selected the location of the server yet.') }}</span>
+			<span v-show="!country">{{ $t('privacy', 'The admin has not selected the location of the server yet.') }}</span>
 			<Actions v-if="$is_admin">
 				<ActionButton icon="icon-rename" @click="editLocation">
 					{{ t('privacy', 'Change data location') }}
