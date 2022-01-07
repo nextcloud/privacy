@@ -10,7 +10,6 @@ OC.L10N.register(
     "This server is using full-disk-encryption." : "Þessi þjónn er að nota fulla dulritun diska.",
     "This server is protected with full-disk-encryption." : "Þessi þjónn er varinn með fullri dulritun diska.",
     "Your files are not protected by encryption." : "Skrárnar þínar eru ekki varðar með dulritun.",
-    "The admin hasn't selected the location of the server yet." : "Kerfisstjórinn er ekki ennþá búinn að velja staðsetningu þjónsins.",
     "Change data location" : "Breyta staðsetningu gagna",
     "Please select a region" : "Veldu svæði",
     "You don't have any shares with individual users." : "Þú ert ekki með neinar sameignir með einstökum notendum.",
@@ -284,6 +283,7 @@ OC.L10N.register(
     "Encryption" : "Dulritun",
     "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "Skrárnar þínar eru dulritaðar með {linkopen}dulritun á þjóni ↗{linkclose}.",
     "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}. Additionally, this server is protected with full-disk-encryption." : "Skrárnar þínar eru dulritaðar með {linkopen}dulritun á þjóni ↗{linkclose}. Að auki er þjónninn varinn með fullri dulritun diska.",
-    "Your data is located in: " : "Gögnin þín eru geymd í: "
+    "Your data is located in: " : "Gögnin þín eru geymd í: ",
+    "The admin hasn't selected the location of the server yet." : "Kerfisstjórinn er ekki ennþá búinn að velja staðsetningu þjónsins."
 },
 "nplurals=2; plural=(n % 10 != 1 || n % 100 == 11);");

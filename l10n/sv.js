@@ -16,7 +16,6 @@ OC.L10N.register(
     "This server is protected with full-disk-encryption." : "Servern är skyddad med fullständig disk-kryptering.",
     "Your files are not protected by encryption." : "Dina filer är inte skyddade med kryptering.",
     "Your data is located in:" : "Din data finns i:",
-    "The admin hasn't selected the location of the server yet." : "Administratören har inte valt någon plats för servern än.",
     "Change data location" : "Ändra lagringsplats för data",
     "Please select a region" : "Välj en region",
     "You don't have any shares with individual users." : "Du har inga delningar med enskilda användare.",
@@ -290,6 +289,7 @@ OC.L10N.register(
     "Encryption" : "Kryptering",
     "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "Dina filer är krypterade med  {linkopen}serverkryptering ↗{linkclose}.",
     "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}. Additionally, this server is protected with full-disk-encryption." : "Dina filer är krypterade med {linkopen}serverkryptering ↗{linkclose}. Dessutom är den här servern skyddad med fullständig disk-kryptering.",
-    "Your data is located in: " : "Din data finns i: "
+    "Your data is located in: " : "Din data finns i: ",
+    "The admin hasn't selected the location of the server yet." : "Administratören har inte valt någon plats för servern än."
 },
 "nplurals=2; plural=(n != 1);");
