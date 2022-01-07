@@ -35,6 +35,8 @@ class MissionSettings implements ISettings {
 	 * @return TemplateResponse
 	 */
 	public function getForm():TemplateResponse {
+		\OCP\Util::addScript('privacy', 'privacy-main');
+		\OCP\Util::addStyle('privacy', 'privacy');
 		return new TemplateResponse('privacy', 'mission');
 	}
 
