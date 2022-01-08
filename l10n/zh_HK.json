@@ -14,7 +14,7 @@
     "This server is protected with full-disk-encryption." : "該伺服器受全盤加密保護。",
     "Your files are not protected by encryption." : "您的資料並未設定加密保護。",
     "Your data is located in:" : "您的數據存儲於：",
-    "The admin hasn't selected the location of the server yet." : "管理員尚未選擇伺服器所在的位置。",
+    "The admin has not selected the location of the server yet." : "管理員尚未選擇伺服器所在的位置。",
     "Change data location" : "更改數據存儲位置",
     "Please select a region" : "請選擇地區",
     "You don't have any shares with individual users." : "您沒有與任何個人用戶的分享。",
@@ -288,6 +288,7 @@
     "Encryption" : "加密",
     "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "您的檔案已通過 {linkopen} 伺服器端加密進行了加密↗{linkclose}。",
     "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}. Additionally, this server is protected with full-disk-encryption." : "您的檔案已通過 {linkopen} 伺服器端加密進行了加密↗{linkclose}。此外，此伺服器還受全磁盤加密保護。",
-    "Your data is located in: " : "您的數據存儲於："
+    "Your data is located in: " : "您的數據存儲於：",
+    "The admin hasn't selected the location of the server yet." : "管理員尚未選擇伺服器所在的位置。"
 },"pluralForm" :"nplurals=1; plural=0;"
 }
