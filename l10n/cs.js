@@ -16,6 +16,7 @@ OC.L10N.register(
     "This server is protected with full-disk-encryption." : "Tento server je chráněn šifrováním celého úložiště.",
     "Your files are not protected by encryption." : "Vaše soubory nejsou chráněny šifrováním.",
     "Your data is located in:" : "Vaše data se nacházejí v:",
+    "The admin has not selected the location of the server yet." : "Správce doposud nezadal umístění serveru.",
     "Change data location" : "Změnit umístění dat",
     "Please select a region" : "Vyberte oblast",
     "You don't have any shares with individual users." : "Nemáte žádná sdílení s jednotlivými uživateli.",
