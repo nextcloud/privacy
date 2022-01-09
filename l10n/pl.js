@@ -16,6 +16,7 @@ OC.L10N.register(
     "This server is protected with full-disk-encryption." : "Ten serwer jest chroniony za pomocą full-disk-encryption.",
     "Your files are not protected by encryption." : "Twoje pliki nie są chronione przez szyfrowanie.",
     "Your data is located in:" : "Twoje dane znajdują się w:",
+    "The admin has not selected the location of the server yet." : "Administrator nie wybrał jeszcze lokalizacji serwera.",
     "Change data location" : "Zmień dane lokalizacji",
     "Please select a region" : "Wybierz region",
     "You don't have any shares with individual users." : "Nie masz żadnych udostępnień dla poszczególnych użytkowników.",
