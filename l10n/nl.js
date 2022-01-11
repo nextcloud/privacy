@@ -16,6 +16,7 @@ OC.L10N.register(
     "This server is protected with full-disk-encryption." : "De server is beschermd met full-disk-encryptie.",
     "Your files are not protected by encryption." : "Je bestanden zijn niet versleuteld.",
     "Your data is located in:" : "Je gegevens staan in:",
+    "The admin has not selected the location of the server yet." : "De beheerder heeft nog geen lokatie van de server opgegeven.",
     "Change data location" : "Wijzig de gegevenslocatie",
     "Please select a region" : "Kies een regio",
     "You don't have any shares with individual users." : "Je hebt geen shares met individuele gebruikers",

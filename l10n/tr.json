@@ -14,6 +14,7 @@
     "This server is protected with full-disk-encryption." : "Bu sunucu tam disk şifrelemesi ile korunuyor.",
     "Your files are not protected by encryption." : "Dosyalarınız şifreleme ile korunmuyor.",
     "Your data is located in:" : "Verileriniz şurada tutuluyor:",
+    "The admin has not selected the location of the server yet." : "Yönetici henüz sunucunun konumunu seçmemiş.",
     "Change data location" : "Veri konumunu değiştir",
     "Please select a region" : "Lütfen bir bölge seçin",
     "You don't have any shares with individual users." : "Diğer kullanıcılar ile herhangi bir şey paylaşmıyorsunuz.",
