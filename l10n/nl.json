@@ -14,7 +14,7 @@
     "This server is protected with full-disk-encryption." : "De server is beschermd met full-disk-encryptie.",
     "Your files are not protected by encryption." : "Je bestanden zijn niet versleuteld.",
     "Your data is located in:" : "Je gegevens staan in:",
-    "The admin hasn't selected the location of the server yet." : "De beheerder heeft nog geen locatie van de server opgegeven.",
+    "The admin has not selected the location of the server yet." : "De beheerder heeft nog geen lokatie van de server opgegeven.",
     "Change data location" : "Wijzig de gegevenslocatie",
     "Please select a region" : "Kies een regio",
     "You don't have any shares with individual users." : "Je hebt geen shares met individuele gebruikers",
@@ -271,7 +271,7 @@
     "Defining basic rights for people to control their own data in the internet age" : "Vastleggen van grondrechten voor mensen om hun eigen data te beheren in het internet tijdperk",
     "Control" : "Controle",
     "over user data access" : "Over toegang tot gebruikersgegevens",
-    "Data explicitly and willingly uploaded by a user should be under the ultimate control of the user. Users should be able to decide whom to grant direct access to their data and with which permissions and licenses such access should be granted." : "Gegevens die bewust en uitdrukkelijk opgeladen werden door een gebruiker moeten steeds onder de uiteindelijke controle van deze gebruiker liggen. Gebruikers moeten in staat zijn om te beslissen aan wie ze rechtstreekse toegang tot hun gegevens verlenen en met welke toegangsrechten en licenties die toegangen toegekend kunnen worden.",
+    "Data explicitly and willingly uploaded by a user should be under the ultimate control of the user. Users should be able to decide whom to grant direct access to their data and with which permissions and licenses such access should be granted." : "Gegevens die bewust en uitdrukkelijk opgeladen werden door een gebruiker moeten steeds onder de uiteindelijke controle van deze gebruiker liggen. Gebruikers moeten in staat zijn om te beslissen aan wie ze rechtstreekse toegang tot hun gegevens verlenen en met welke toegangsmachtigingen en licenties die toegangen toegekend kunnen worden.",
     "Knowledge" : "Kennis",
     "of how the data is stored" : "van hoe de gegevens zijn opgeslagen",
     "When the data is uploaded to a specific service provider, users should be informed about where that specific service provider stores the data, how long, in which jurisdiction the specific service provider operates, and which laws apply." : "Wanneer de gegevens opgeladen zijn naar een specifieke dienstverlener, dan moeten gebruikers ingelicht worden over de locatie waar deze specifieke dienstverlener de gegevens opslaat, voor welke duurtijd dat is, onder welke juridische authoriteit deze dienstverlener werkt, en welke wetgeving erop van toepassing is.",
@@ -288,6 +288,7 @@
     "Encryption" : "Versleuteling",
     "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "Je bestanden zijn versleuteld met {linkopen}server-side-encryptie ↗{linkclose}.",
     "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}. Additionally, this server is protected with full-disk-encryption." : "Je bestanden zijn versleuteld via {linkopen}server-side-encryption ↗{linkclose}. Daarnaast is deze server beveiligd met full-disk-encryptie.",
-    "Your data is located in: " : "Je bestanden staan in:"
+    "Your data is located in: " : "Je bestanden staan in:",
+    "The admin hasn't selected the location of the server yet." : "De beheerder heeft nog geen locatie van de server opgegeven."
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }

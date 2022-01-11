@@ -16,7 +16,6 @@ OC.L10N.register(
     "This server is protected with full-disk-encryption." : "Zerbitzari hau disko osoko zifratzearekin babestuta dago",
     "Your files are not protected by encryption." : "Zure fitxategiak ez daude zifratze bidez babestuta",
     "Your data is located in:" : "Zure datuak hemen daude:",
-    "The admin hasn't selected the location of the server yet." : "Kudeatzaileak ez du zerbitzariaren kokapena zehaztu.",
     "Change data location" : "Datuen kokapena aldatu",
     "Please select a region" : "Mesedez aukeratu eskualde bat",
     "You don't have any shares with individual users." : "Ez duzu ezer elkarbanatuta banakako erabiltzaileren batekin.",
@@ -290,6 +289,7 @@ OC.L10N.register(
     "Encryption" : "Zifratzea",
     "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "Zure fitxategiak {linkopen}zerbitzari-aldeko zifratzea erabiliz ↗{linkclose} zifratuta daude.",
     "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}. Additionally, this server is protected with full-disk-encryption." : "Zure fitxategiak {linkopen}zerbitzari-aldeko zifratzea erabiliz ↗{linkclose} zifratuta daude. Gainera zerbitzari hau disko-osoko-zifratzearekin babestuta dago.",
-    "Your data is located in: " : "Zure datuak hemen daude:"
+    "Your data is located in: " : "Zure datuak hemen daude:",
+    "The admin hasn't selected the location of the server yet." : "Kudeatzaileak ez du zerbitzariaren kokapena zehaztu."
 },
 "nplurals=2; plural=(n != 1);");

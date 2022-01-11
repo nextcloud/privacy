@@ -16,7 +16,7 @@ OC.L10N.register(
     "This server is protected with full-disk-encryption." : "此伺服器已由全磁碟加密保護。",
     "Your files are not protected by encryption." : "您的檔案並未受加密保護。",
     "Your data is located in:" : "您的資料位於：",
-    "The admin hasn't selected the location of the server yet." : "管理員尚未選取伺服器的位置。",
+    "The admin has not selected the location of the server yet." : "管理員尚未選取伺服器所在位置。",
     "Change data location" : "變更資料位置",
     "Please select a region" : "請選取區域",
     "You don't have any shares with individual users." : "您沒有與個人使用者分享的任何內容。",
@@ -290,6 +290,7 @@ OC.L10N.register(
     "Encryption" : "加密",
     "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "您的檔案已使用{linkopen}伺服器端加密 ↗{linkclose}來加密。",
     "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}. Additionally, this server is protected with full-disk-encryption." : "您的檔案已使用{linkopen}伺服器端加密 ↗{linkclose}來加密。此外，此伺服器已由全磁碟加密保護。",
-    "Your data is located in: " : "您的資料位於："
+    "Your data is located in: " : "您的資料位於：",
+    "The admin hasn't selected the location of the server yet." : "管理員尚未選取伺服器的位置。"
 },
 "nplurals=1; plural=0;");

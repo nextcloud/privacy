@@ -1,20 +1,20 @@
 { "translations": {
     "Privacy" : "Datenschutz",
     "-" : "-",
-    "The privacy center shows you where your data is stored and who can access it, either because you shared with them or because they are administrators." : "Das Zentrum für Datenschutz zeigt Ihnen, wo Ihre Daten gespeichert werden und wer darauf Zugriff hat. Egal ob Sie Daten freigegeben haben oder es Administratoren sind.",
+    "The privacy center shows you where your data is stored and who can access it, either because you shared with them or because they are administrators." : "Das Zentrum für Datenschutz zeigt Ihnen, wo Deine Daten gespeichert werden und wer darauf Zugriff hat. Egal ob Du Daten freigegeben hast oder es Administratoren sind.",
     "Remove external admin" : "Externen Administrator entfernen",
     "Add external admin" : "Einen externen Administrator hinzufügen",
     "Name of external admin" : "Name des externen Administrators",
     "This server is using full-disk-encryption." : "Dieser Server verwendet Festplattenverschlüsselung.",
-    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "Ihr Speicher ist mit einem Hauptschlüssel mittels der {linkopen}serverseitigen Verschlüsselung ↗{linkclose} verschlüsselt.",
-    "Your files on external storages may be encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key based on their configuration." : "Ihre Dateien auf externen Speichern können mittels der {linkopen}serverseitigen Verschlüsselung ↗{linkclose}  und einem Hauptschlüssel verschlüsselt werden.",
-    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "Ihr Speicher ist mit einem individuellen Benutzerschlüssel mittels der {linkopen}serverseitigen Verschlüsselung ↗{linkclose} verschlüsselt.",
+    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "Dein Speicher ist mit einem Hauptschlüssel mittels der {linkopen}serverseitigen Verschlüsselung ↗{linkclose} verschlüsselt.",
+    "Your files on external storages may be encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key based on their configuration." : "Deine Dateien auf externen Speichern können mittels der {linkopen}serverseitigen Verschlüsselung ↗{linkclose}  und einem Hauptschlüssel verschlüsselt werden.",
+    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "Dein Speicher ist mit einem individuellen Benutzerschlüssel mittels der {linkopen}serverseitigen Verschlüsselung ↗{linkclose} verschlüsselt.",
     "Your files on external storages may be encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual key based on their configuration." : "Deine Dateien auf externen Speichern können mittels der {linkopen}serverseitigen Verschlüsselung ↗{linkclose}  und einem individuellen Benutzerschlüssel verschlüsselt werden.",
     "Additionally, this server is protected with full-disk-encryption." : "Zusätzlich ist dieser Server mit einer Festplattenverschlüsselung geschützt.",
     "This server is protected with full-disk-encryption." : "Dieser Server ist mittels Festplattenverschlüsselung geschützt.",
     "Your files are not protected by encryption." : "Deine Dateien sind nicht mittels Verschlüsselung geschützt.",
     "Your data is located in:" : "Deine Daten befinden sich in: ",
-    "The admin hasn't selected the location of the server yet." : "Der Administrator hat den Standort des Servers noch nicht ausgewählt.",
+    "The admin has not selected the location of the server yet." : "Der Administrator hat den Standort des Servers noch nicht ausgewählt.",
     "Change data location" : "Datenspeicherort ändern",
     "Please select a region" : "Bitte eine Region auswählen",
     "You don't have any shares with individual users." : "Du teilst keine Dateien mit einzelnen Nutzern.",
@@ -288,6 +288,7 @@
     "Encryption" : "Verschlüsselung",
     "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "Deine Dateien sind mittels der {linkopen}serverseitigen Verschlüsselung ↗{linkclose} verschlüsselt.",
     "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}. Additionally, this server is protected with full-disk-encryption." : "Deine Dateien sind mittels der {linkopen}serverseitigen Verschlüsselung ↗{linkclose} verschlüsselt. Ausserdem ist dieser Server mittels Festplattenverschlüsselung geschützt.",
-    "Your data is located in: " : "Deine Daten befinden sich in: "
+    "Your data is located in: " : "Deine Daten befinden sich in: ",
+    "The admin hasn't selected the location of the server yet." : "Der Administrator hat den Standort des Servers noch nicht ausgewählt."
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }

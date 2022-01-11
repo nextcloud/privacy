@@ -9,7 +9,6 @@ OC.L10N.register(
     "This server is using full-disk-encryption." : "این سرور از رمزگذاری کامل دیسک استفاده می کند.",
     "This server is protected with full-disk-encryption." : "این سرور با رمزگذاری کامل دیسک محافظت می شود.",
     "Your files are not protected by encryption." : "پرونده های شما توسط رمزگذاری محافظت نمی شوند.",
-    "The admin hasn't selected the location of the server yet." : "مدیر هنوز محل سرور را انتخاب نکرده است.",
     "Change data location" : "مکان داده را تغییر دهید",
     "You don't have any shares with individual users." : "شما با کاربران جداگانه اشتراکی ندارید.",
     "Somaliland" : "سومالیلند",
@@ -209,6 +208,7 @@ OC.L10N.register(
     "Encryption" : "رمزگذاری",
     "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "فایل های خود را با {} linkopen سمت سرور رمزگذاری ↗ {linkclose} رمزگذاری شده است.",
     "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}. Additionally, this server is protected with full-disk-encryption." : "فایل های خود را با {} linkopen سمت سرور رمزگذاری ↗ {linkclose} رمزگذاری شده است. علاوه بر این ، این سرور با رمزگذاری کامل دیسک محافظت می شود.",
-    "Your data is located in: " : "داده شما در:"
+    "Your data is located in: " : "داده شما در:",
+    "The admin hasn't selected the location of the server yet." : "مدیر هنوز محل سرور را انتخاب نکرده است."
 },
 "nplurals=2; plural=(n > 1);");

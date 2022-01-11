@@ -14,7 +14,7 @@
     "This server is protected with full-disk-encryption." : "Bu sunucu tam disk şifrelemesi ile korunuyor.",
     "Your files are not protected by encryption." : "Dosyalarınız şifreleme ile korunmuyor.",
     "Your data is located in:" : "Verileriniz şurada tutuluyor:",
-    "The admin hasn't selected the location of the server yet." : "Yönetici henüz sunucunun konumunu seçmemiş.",
+    "The admin has not selected the location of the server yet." : "Yönetici henüz sunucunun konumunu seçmemiş.",
     "Change data location" : "Veri konumunu değiştir",
     "Please select a region" : "Lütfen bir bölge seçin",
     "You don't have any shares with individual users." : "Diğer kullanıcılar ile herhangi bir şey paylaşmıyorsunuz.",
@@ -288,6 +288,7 @@
     "Encryption" : "Şifreleme",
     "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "Dosyalarınız {linkopen}sunucu tarafı şifrelemesi ↗{linkclose} ile korunuyor.",
     "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}. Additionally, this server is protected with full-disk-encryption." : "Dosyalarınız {linkopen}sunucu tarafı şifrelemesi ↗{linkclose} ile korunuyor. Ek olarak bu sunucu tam disk şifrelemesi ile korunuyor.",
-    "Your data is located in: " : "Verileriniz şurada tutuluyor:"
+    "Your data is located in: " : "Verileriniz şurada tutuluyor:",
+    "The admin hasn't selected the location of the server yet." : "Yönetici henüz sunucunun konumunu seçmemiş."
 },"pluralForm" :"nplurals=2; plural=(n > 1);"
 }
