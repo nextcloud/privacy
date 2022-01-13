@@ -14,6 +14,7 @@
     "This server is protected with full-disk-encryption." : "Les disques de ce serveur sont protégés par chiffrement.",
     "Your files are not protected by encryption." : "Vos fichiers ne sont pas protégés par chiffrement.",
     "Your data is located in:" : "Vos données sont situées en ",
+    "The admin has not selected the location of the server yet." : "L'administrateur n'a pas encore sélectionné la localisation du serveur.",
     "Change data location" : "Modifier l'emplacement des données",
     "Please select a region" : "Veuillez sélectionner un Pays",
     "You don't have any shares with individual users." : "Vous n'avez aucun partage avec des utilisateurs individuels.",
