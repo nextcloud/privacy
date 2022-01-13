@@ -1,4 +1,6 @@
 <?php
+
+declare(strict_types=1);
 /**
  * Privacy App
  *
@@ -23,34 +25,32 @@ namespace OCA\Privacy\Settings;
 
 use OCP\AppFramework\Http\TemplateResponse;
 use OCP\Settings\ISettings;
+use OCP\Support\Subscription\IRegistry;
 
-/**
- * Class MissionSettings
- *
- * @package OCA\Privacy\Settings
- */
 class MissionSettings implements ISettings {
 
-	/**
-	 * @return TemplateResponse
-	 */
-	public function getForm():TemplateResponse {
+	/** @var IRegistry */
+	protected $subscription;
+
+	public function __construct(IRegistry $subscription) {
+		$this->subscription = $subscription;
+	}
+
+	public function getForm(): TemplateResponse {
 		\OCP\Util::addScript('privacy', 'privacy-main');
 		\OCP\Util::addStyle('privacy', 'privacy');
 		return new TemplateResponse('privacy', 'mission');
 	}
 
-	/**
-	 * @return string
-	 */
-	public function getSection():string {
+	public function getSection(): ?string {
+		if ($this->subscription->delegateHasValidSubscription()) {
+			return null;
+		}
+
 		return 'privacy';
 	}
 
-	/**
-	 * @return int
-	 */
-	public function getPriority():int {
+	public function getPriority(): int {
 		return 0;
 	}
 }
