@@ -261,7 +261,6 @@ OC.L10N.register(
     "South Africa" : "דרום אפריקה",
     "Zambia" : "זמביה",
     "Zimbabwe" : "זימבבואה",
-    "Your Nextcloud account" : "חשבון ה־Nextcloud שלך",
     "Your data represents who you are and can easily be abused. We at Nextcloud believe that you have a right to decide what happens with your data. Nextcloud protects your rights as defined in the User Data Manifesto!" : "הנתונים שלך מייצגים את מי שאתה וניתן לנצל אותם לרעה בקלות. אנחנו ב־Nextcloud מאמינים שיש לך את הזכות לבחור מה קורה לנתונים שלך. הזכויות שלך מוגנות עם Nextcloud כפי שמופיע בהצהרת נתוני המשתמשים!",
     "User Data Manifesto 2.0" : "הצהרת נתוני המשתמשים 2.0",
     "Defining basic rights for people to control their own data in the internet age" : "הגדרת זכויות בסיסיות לשליטתם של האנשים בנתונים שלהם עצמם בעידן האינטרנט",

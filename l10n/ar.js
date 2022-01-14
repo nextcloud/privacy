@@ -119,7 +119,6 @@ OC.L10N.register(
     "South Africa" : "إفريقيا الجنوبية",
     "Zambia" : "زامبيا",
     "Zimbabwe" : "زيمبابوي",
-    "Your Nextcloud account" : "حسابك على ناكست كلاود",
     "Freedom" : "الحرية",
     "to choose a platform" : "في اختيار منصة",
     "Learn more ↗" : "تعلم المزيد ↗",
