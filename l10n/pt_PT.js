@@ -214,7 +214,6 @@ OC.L10N.register(
     "South Africa" : "África do Sul",
     "Zambia" : "Zâmbia",
     "Zimbabwe" : "Zimbábue ",
-    "Your Nextcloud account" : "A sua conta Nextcloud",
     "Control" : "Controle",
     "Knowledge" : "Conhecimento",
     "of how the data is stored" : "como os dados estão armazenados",
