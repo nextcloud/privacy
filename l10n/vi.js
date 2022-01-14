@@ -12,7 +12,6 @@ OC.L10N.register(
     "Change data location" : "Thay đổi địa điểm dữ liệu",
     "Please select a region" : "Chọn một khu vực",
     "You don't have any shares with individual users." : "Bạn không có bất cứ một chia sẻ nào với các cá nhân người dùng.",
-    "Your Nextcloud account" : "Tài khoản vWorkspace của bạn",
     "Your data represents who you are and can easily be abused. We at Nextcloud believe that you have a right to decide what happens with your data. Nextcloud protects your rights as defined in the User Data Manifesto!" : "Dữ liệu của bạn tượng trưng cho chính bạn và rất dễ dàng bị lợi dụng. Chúng tôi ở vWorkspace tin rằng bạn là người có quyền quyết định mọi thứ đối với dữ liệu của bạn. vWorkspace bảo vệ các quyền của bạn như là đã dược định rõ trong Quyền Dữ Liệu Người Dùng Manifesto!",
     "User Data Manifesto 2.0" : "Quyền Dữ Liệu Người Dùng Manifesto 2.0",
     "Defining basic rights for people to control their own data in the internet age" : "Định hình rõ các quyền cơ bản cho mọi người để quản lý dữ liệu của chính họ trong thời đại internet",

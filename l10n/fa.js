@@ -185,7 +185,6 @@ OC.L10N.register(
     "South Africa" : "آفریقا شمالی",
     "Zambia" : "زامبی",
     "Zimbabwe" : "زیمباوه",
-    "Your Nextcloud account" : "شما نکست کلود حساب",
     "Your data represents who you are and can easily be abused. We at Nextcloud believe that you have a right to decide what happens with your data. Nextcloud protects your rights as defined in the User Data Manifesto!" : "داده  شما نشانگر شما چه کسی هستند و به راحتی می توانید از آنها سوء استفاده کنید. ما در نکست کلود معتقدیم که شما حق دارید تصمیم بگیرید که با داده های شما چه اتفاقی می افتد. نکست کلود از حقوق شما همانطور که در مانیفست داده اطلاعات کاربر تعریف شده است ، محافظت می کند!",
     "User Data Manifesto 2.0" : "مانیفست داده کاربر 2.0",
     "Defining basic rights for people to control their own data in the internet age" : "تعیین حقوق اساسی برای افراد برای کنترل داده خود در عصر اینترنت",
