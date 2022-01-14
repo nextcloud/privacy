@@ -108,7 +108,6 @@ OC.L10N.register(
     "Ukraine" : "Ukraina",
     "Uganda" : "Uganda",
     "United States" : "USA (De Forente Stater)",
-    "Your Nextcloud account" : "Din Nextcloud-konto",
     "Your data represents who you are and can easily be abused. We at Nextcloud believe that you have a right to decide what happens with your data. Nextcloud protects your rights as defined in the User Data Manifesto!" : "Din informasjon representerer hvem du er, og kan enkelt misbrukes. Vi hos Nextcloud mener at du har retten til å velge hva som skjer med din informasjon. Nextcloud beskytter dine rettigheter som er definert i Brukerdata-Manifestoet!",
     "User Data Manifesto 2.0" : "Brukerdatamanifestet 2.0",
     "Control" : "Kontroll",

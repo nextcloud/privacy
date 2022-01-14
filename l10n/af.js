@@ -239,7 +239,6 @@ OC.L10N.register(
     "South Africa" : "Suid-Afrika",
     "Zambia" : "Zambië",
     "Zimbabwe" : "Zimbabwe",
-    "Your Nextcloud account" : "U Nextcloud-rekening",
     "Where is your data?" : "Waar is u data?",
     "Who has access to your data?" : "Wie het toegang tot u data?",
     "Privacy policy" : "Privaatheidsbeleid",
