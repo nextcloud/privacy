@@ -123,7 +123,7 @@ export default {
 		/**
 		 * Creates an additional (virtual) admin on the server
 		 *
-		 * @returns {Promise<void>}
+		 * @return {Promise<void>}
 		 */
 		async addAdditionalAdmin() {
 			const url = generateUrl('/apps/privacy/api/admins')
@@ -144,8 +144,8 @@ export default {
 		/**
 		 * Deletes an additional (virtual) admin from the server
 		 *
-		 * @param {Object} admin The admin object from this.admins
-		 * @returns {Promise<void>}
+		 * @param {object} admin The admin object from this.admins
+		 * @return {Promise<void>}
 		 */
 		async deleteAdditionalAdmin(admin) {
 			const url = generateUrl('/apps/privacy/api/admins/{id}', { id: admin.id })

@@ -249,10 +249,16 @@ const list = [
 	{ code: 'zw', label: t('privacy', 'Zimbabwe') },
 ]
 
+/**
+ *
+ */
 export function getCountryList() {
 	return list.sort((a, b) => a.label < b.label ? -1 : 1)
 }
 
+/**
+ * @param code
+ */
 export function getNameForCountryCode(code) {
 	const element = list.find((e) => e.code === code)
 	if (element) {

@@ -31,8 +31,7 @@
 			</Actions>
 		</p>
 		<div v-show="isEditingLocation" class="multiselect-container">
-			<Multiselect
-				:disabled="isSavingChanges"
+			<Multiselect :disabled="isSavingChanges"
 				:options="options"
 				:searchable="true"
 				track-by="code"
@@ -125,8 +124,8 @@ export default {
 		/**
 		 * Saves changes to the location form
 		 *
-		 * @param {Object} value The new country object
-		 * @returns {Promise<void>}
+		 * @param {object} value The new country object
+		 * @return {Promise<void>}
 		 */
 		async onChange(value) {
 			const url = generateUrl('/apps/privacy/api/location')
