@@ -59,7 +59,7 @@ export default {
 		/**
 		 * Checks if the list of shares is empty
 		 *
-		 * @returns {boolean}
+		 * @return {boolean}
 		 */
 		isEmptyList() {
 			return this.isLoading === false && this.uniqueShareUIDs.length === 0

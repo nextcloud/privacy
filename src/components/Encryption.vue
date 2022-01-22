@@ -144,7 +144,7 @@ export default {
 		/**
 		 * Saves the new full-disk-encryption-state
 		 *
-		 * @returns {Promise<void>}
+		 * @return {Promise<void>}
 		 */
 		async saveFullDiskEncryptionForm() {
 			const url = generateUrl('/apps/privacy/api/fullDiskEncryption')
