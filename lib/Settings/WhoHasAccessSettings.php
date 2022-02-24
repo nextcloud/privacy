@@ -65,6 +65,8 @@ class WhoHasAccessSettings implements ISettings {
 	 * @return TemplateResponse
 	 */
 	public function getForm():TemplateResponse {
+		\OCP\Util::addScript('privacy', 'privacy-main');
+		\OCP\Util::addStyle('privacy', 'privacy');
 		$themingDefaults = OC::$server->getThemingDefaults();
 		if ($themingDefaults instanceof ThemingDefaults) {
 			$privacyPolicyUrl = $themingDefaults->getPrivacyUrl();
