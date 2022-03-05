@@ -1,9 +1,3 @@
-/*
-object-assign
-(c) Sindre Sorhus
-@license MIT
-*/
-
 /*!
    * Toastify js 1.9.1
    * https://github.com/apvarun/toastify-js
