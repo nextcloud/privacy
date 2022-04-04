@@ -10,7 +10,7 @@ on:
 env:
   # Location of the phpunit.xml and phpunit.integration.xml files
   # Comment to disable
-  PHPUNIT_CONFIG: ./tests/phpunit.xml
+  # PHPUNIT_CONFIG: ./tests/phpunit.xml
   PHPUNIT_INTEGRATION_CONFIG: ./tests/phpunit.integration.xml
 
 jobs:
@@ -59,7 +59,7 @@ jobs:
           DB_PORT: 4444
         run: |
           mkdir data
-          ./occ maintenance:install --verbose --database=sqlite --database-name=nextcloud --database-host=127.0.0.1 --database-port=$DB_PORT --database-user=root --database-pass=rootpassword --admin-user admin --admin-pass password 
+          ./occ maintenance:install --verbose --database=sqlite --database-name=nextcloud --database-host=127.0.0.1 --database-port=$DB_PORT --database-user=root --database-pass=rootpassword --admin-user admin --admin-pass password
           ./occ app:enable --force ${{ env.APP_NAME }}
           php -S localhost:8080 &
 
