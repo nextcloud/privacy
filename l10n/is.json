@@ -278,9 +278,6 @@
     "Privacy policy" : "Meðferð persónulegra gagna",
     "Read the privacy policy." : "Lestu stefnu varðandi meðferð persónulegra gagna.",
     "Encryption" : "Dulritun",
-    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "Skrárnar þínar eru dulritaðar með {linkopen}dulritun á þjóni ↗{linkclose}.",
-    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}. Additionally, this server is protected with full-disk-encryption." : "Skrárnar þínar eru dulritaðar með {linkopen}dulritun á þjóni ↗{linkclose}. Að auki er þjónninn varinn með fullri dulritun diska.",
-    "Your data is located in: " : "Gögnin þín eru geymd í: ",
     "The admin hasn't selected the location of the server yet." : "Kerfisstjórinn er ekki ennþá búinn að velja staðsetningu þjónsins."
 },"pluralForm" :"nplurals=2; plural=(n % 10 != 1 || n % 100 == 11);"
 }

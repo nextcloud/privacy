@@ -273,9 +273,6 @@ OC.L10N.register(
     "Privacy policy" : "Privateca regularo",
     "Read the privacy policy." : "Legi la regularon pri privateco.",
     "Encryption" : "Ĉifrado",
-    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "Viaj dosieroj estas ĉifrataj per {linkopen}ĉeservila ĉifrado ↗{linkclose}.",
-    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}. Additionally, this server is protected with full-disk-encryption." : "Viaj dosieroj estas ĉifrataj per {linkopen}ĉeservila ĉifrado ↗{linkclose}. Krome, tiu servilo estas protektita per ĉifrado de la tuta disko.",
-    "Your data is located in: " : "Viaj datumoj estas en:",
     "The admin hasn't selected the location of the server yet." : "La administranto ankoraŭ ne elektis la lokon de tiu servilo."
 },
 "nplurals=2; plural=(n != 1);");

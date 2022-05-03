@@ -286,9 +286,6 @@
     "Privacy policy" : "Politique de confidentialité",
     "Read the privacy policy." : "Lisez la politique de confidentialité.",
     "Encryption" : "Chiffrement",
-    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "Vos fichiers sont chiffrés avec {linkopen}server-side-encryption ↗{linkclose}.",
-    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}. Additionally, this server is protected with full-disk-encryption." : "Vos fichiers sont chiffrés avec {linkopen}server-side-encryption ↗{linkclose}. De plus, ce serveur est protégé avec full-disk-encryption.",
-    "Your data is located in: " : "Vos données sont situées en :",
     "The admin hasn't selected the location of the server yet." : "L'administrateur n'a pas encore indiqué l'emplacement du serveur."
 },"pluralForm" :"nplurals=2; plural=(n > 1);"
 }

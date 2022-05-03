@@ -288,9 +288,6 @@ OC.L10N.register(
     "Privacy policy" : "Zásady ochrany osobných údajov",
     "Read the privacy policy." : "Prečítať si zásady ochrany osobných údajov",
     "Encryption" : "Šifrovanie",
-    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "Vaše súbory sú šifrované pomocou {linkopen}server-side-encryption ↗{linkclose}.",
-    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}. Additionally, this server is protected with full-disk-encryption." : "Vaše súbory sú šifrované pomocou {linkopen}server-side-encryption ↗{linkclose}. Navyše je tento server chránený šifrovaním celého úložiska.",
-    "Your data is located in: " : "Vaše dáta sa nachádzajú v:",
     "The admin hasn't selected the location of the server yet." : "Správca zatiaľ nezadal umiestnenie servera."
 },
 "nplurals=4; plural=(n % 1 == 0 && n == 1 ? 0 : n % 1 == 0 && n >= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);");
