@@ -287,9 +287,6 @@ OC.L10N.register(
     "Privacy policy" : "Privacybeleid",
     "Read the privacy policy." : "Lees het %sprivacy beleid%s nu.",
     "Encryption" : "Versleuteling",
-    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "Je bestanden zijn versleuteld met {linkopen}server-side-encryptie ↗{linkclose}.",
-    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}. Additionally, this server is protected with full-disk-encryption." : "Je bestanden zijn versleuteld via {linkopen}server-side-encryption ↗{linkclose}. Daarnaast is deze server beveiligd met full-disk-encryptie.",
-    "Your data is located in: " : "Je bestanden staan in:",
     "The admin hasn't selected the location of the server yet." : "De beheerder heeft nog geen locatie van de server opgegeven."
 },
 "nplurals=2; plural=(n != 1);");

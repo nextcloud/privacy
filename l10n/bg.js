@@ -288,9 +288,6 @@ OC.L10N.register(
     "Privacy policy" : "Политика за поверителност",
     "Read the privacy policy." : "Прочетете политиката за поверителност",
     "Encryption" : "Криптиране",
-    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "Вашите файлове са криптирани с {linkopen} сървърно криптиране ↗ {linkclose}.",
-    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}. Additionally, this server is protected with full-disk-encryption." : "Вашите файлове са криптирани с {linkopen} сървърно криптиране ↗ {linkclose}. В допълнение, този сървър е защитен с шифроване на пълен диск.",
-    "Your data is located in: " : "Вашите данни се съхраняват в:",
     "The admin hasn't selected the location of the server yet." : "Администраторът все още не е избрал местоположението на сървъра."
 },
 "nplurals=2; plural=(n != 1);");

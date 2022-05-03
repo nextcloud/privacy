@@ -288,9 +288,6 @@ OC.L10N.register(
     "Privacy policy" : "Adatvédelmi irányelvek",
     "Read the privacy policy." : "Az adatvédelmi irányelvek elolvasása.",
     "Encryption" : "Titkosítás",
-    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "A fájljai {linkopen}kiszolgáló oldali titkosítással ↗{linkclose} védettek.",
-    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}. Additionally, this server is protected with full-disk-encryption." : "A fájljai {linkopen}kiszolgáló oldali titkosítással ↗{linkclose} védettek. Ezen felül a kiszolgáló teljes lemeztitkosítással is védett.",
-    "Your data is located in: " : "Az adatai itt találhatók: ",
     "The admin hasn't selected the location of the server yet." : "A rendszergazda még nem állította be a kiszolgáló helyét."
 },
 "nplurals=2; plural=(n != 1);");

@@ -288,9 +288,6 @@ OC.L10N.register(
     "Privacy policy" : "Datenschutz",
     "Read the privacy policy." : "Lese hier die Datenschutzerklärung.",
     "Encryption" : "Verschlüsselung",
-    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "Deine Dateien sind mittels der {linkopen}serverseitigen Verschlüsselung ↗{linkclose} verschlüsselt.",
-    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}. Additionally, this server is protected with full-disk-encryption." : "Deine Dateien sind mittels der {linkopen}serverseitigen Verschlüsselung ↗{linkclose} verschlüsselt. Ausserdem ist dieser Server mittels Festplattenverschlüsselung geschützt.",
-    "Your data is located in: " : "Deine Daten befinden sich in: ",
     "The admin hasn't selected the location of the server yet." : "Der Administrator hat den Standort des Servers noch nicht ausgewählt."
 },
 "nplurals=2; plural=(n != 1);");

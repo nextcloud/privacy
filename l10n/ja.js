@@ -282,9 +282,6 @@ OC.L10N.register(
     "Privacy policy" : "個人情報保護方針",
     "Read the privacy policy." : "個人情報保護方針を読んでください。",
     "Encryption" : "暗号化",
-    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "あなたのファイルは {linkopen}サーバーサイド暗号化↗{linkclose} で暗号化されています。",
-    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}. Additionally, this server is protected with full-disk-encryption." : "あなたのファイルは {linkopen}サーバーサイド暗号化↗{linkclose} で暗号化されています。さらに、このサーバーはフルディスク暗号化で保護されています。",
-    "Your data is located in: " : "データは以下に格納:",
     "The admin hasn't selected the location of the server yet." : "管理者はまだサーバーの場所を選択していません。"
 },
 "nplurals=1; plural=0;");

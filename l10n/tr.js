@@ -288,9 +288,6 @@ OC.L10N.register(
     "Privacy policy" : "Kişisel gizliliğin korunması ilkesi",
     "Read the privacy policy." : "Kişisel verilerinizin korunması ilkesini gözden geçirin.",
     "Encryption" : "Şifreleme",
-    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "Dosyalarınız {linkopen}sunucu tarafı şifrelemesi ↗{linkclose} ile korunuyor.",
-    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}. Additionally, this server is protected with full-disk-encryption." : "Dosyalarınız {linkopen}sunucu tarafı şifrelemesi ↗{linkclose} ile korunuyor. Ek olarak bu sunucu tam disk şifrelemesi ile korunuyor.",
-    "Your data is located in: " : "Verileriniz şurada tutuluyor:",
     "The admin hasn't selected the location of the server yet." : "Yönetici henüz sunucunun konumunu seçmemiş."
 },
 "nplurals=2; plural=(n > 1);");
