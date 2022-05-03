@@ -286,9 +286,6 @@ OC.L10N.register(
     "Privacy policy" : "Polìtica de riservadesa",
     "Read the privacy policy." : "Leghe sa polìtica de riservadesa.",
     "Encryption" : "Tzifradura",
-    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "Is archìvios tuos sunt tzifrados cun {linkopen}tzifradura ladu serbidore ↗{linkclose}.",
-    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}. Additionally, this server is protected with full-disk-encryption." : "Is archìvios tuos sunt tzifrados cun {linkopen}tzifradura ladu serbidore ↗{linkclose}. In prus, custu serbidore est bardiadu cun una tzifradura de discu cumpletu.",
-    "Your data is located in: " : "Is datos tuos sunt allogados in:",
     "The admin hasn't selected the location of the server yet." : "S'amministratzione no at ancora seletzionadu sa positzione de su serbidore."
 },
 "nplurals=2; plural=(n != 1);");

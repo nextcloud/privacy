@@ -205,9 +205,6 @@ OC.L10N.register(
     "Privacy policy" : "سیاست حفظ حریم خصوصی",
     "Read the privacy policy." : "خط مشی رازداری را بخوانید.",
     "Encryption" : "رمزگذاری",
-    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "فایل های خود را با {} linkopen سمت سرور رمزگذاری ↗ {linkclose} رمزگذاری شده است.",
-    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}. Additionally, this server is protected with full-disk-encryption." : "فایل های خود را با {} linkopen سمت سرور رمزگذاری ↗ {linkclose} رمزگذاری شده است. علاوه بر این ، این سرور با رمزگذاری کامل دیسک محافظت می شود.",
-    "Your data is located in: " : "داده شما در:",
     "The admin hasn't selected the location of the server yet." : "مدیر هنوز محل سرور را انتخاب نکرده است."
 },
 "nplurals=2; plural=(n > 1);");

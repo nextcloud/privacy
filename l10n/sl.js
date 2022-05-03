@@ -281,9 +281,6 @@ OC.L10N.register(
     "Privacy policy" : "Pravila zasebnosti",
     "Read the privacy policy." : "Preglejte pravila zasebnosti",
     "Encryption" : "Šifriranje",
-    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "Datoteke so {linkopen}strežniško šifrirane ↗{linkclose}.",
-    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}. Additionally, this server is protected with full-disk-encryption." : "Datoteke so {linkopen}strežniško šifrirane ↗{linkclose}, dodatno pa je strežnik zaščiten tudi s polnim diskovnim šifriranjem.",
-    "Your data is located in: " : "Mesto podatkov: ",
     "The admin hasn't selected the location of the server yet." : "Skrbnik še ni določil mesta strežnika."
 },
 "nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);");

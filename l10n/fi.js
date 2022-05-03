@@ -282,9 +282,6 @@ OC.L10N.register(
     "Privacy policy" : "Tietosuojakäytäntö",
     "Read the privacy policy." : "Lue tietosuojakäytäntö.",
     "Encryption" : "Salaus",
-    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "Tiedostosi on salattu {linkopen}palvelinpään salauksella ↗{linkclose}.",
-    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}. Additionally, this server is protected with full-disk-encryption." : "Tiedostosi on salattu {linkopen}palvelinpään salauksella ↗{linkclose}. Lisäksi palvelin on suojattu täydellä levyn salauksella.",
-    "Your data is located in: " : "Tietojesi sijaintipaikka on:",
     "The admin hasn't selected the location of the server yet." : "Ylläpitäjä ei ole vielä valinnut palvelimen sijaintia."
 },
 "nplurals=2; plural=(n != 1);");
