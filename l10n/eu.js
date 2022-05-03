@@ -16,6 +16,7 @@ OC.L10N.register(
     "This server is protected with full-disk-encryption." : "Zerbitzari hau disko osoko zifratzearekin babestuta dago",
     "Your files are not protected by encryption." : "Zure fitxategiak ez daude zifratze bidez babestuta",
     "Your data is located in:" : "Zure datuak hemen daude:",
+    "The admin has not selected the location of the server yet." : "Kudeatzaileak ez du zerbitzariaren kokapena zehaztu.",
     "Change data location" : "Datuen kokapena aldatu",
     "Please select a region" : "Mesedez aukeratu eskualde bat",
     "You don't have any shares with individual users." : "Ez duzu ezer elkarbanatuta banakako erabiltzaileren batekin.",
@@ -266,6 +267,7 @@ OC.L10N.register(
     "South Africa" : "Hegoafrika",
     "Zambia" : "Zambia",
     "Zimbabwe" : "Zimbabwe",
+    "Your %s account" : "Zure %skontua",
     "Your data represents who you are and can easily be abused. We at Nextcloud believe that you have a right to decide what happens with your data. Nextcloud protects your rights as defined in the User Data Manifesto!" : "Zure datuek nor zaren diote. Nextclouden uste dugu eskubidea duzula zure datuekin zer gertatzen den erabakitzeko. Nextclouden Erabiltzaileen Datuen Manifestoak esan bezala babesten ditu zure eskubideak!",
     "User Data Manifesto 2.0" : "Erabiltzaileen Datuen Manifestua 2.0",
     "Defining basic rights for people to control their own data in the internet age" : "Interneten garaian jendeari beren datuen kontrolatzeko oinarrizko eskubidea definitzea.",
@@ -286,9 +288,6 @@ OC.L10N.register(
     "Privacy policy" : "Pribatutasun politika",
     "Read the privacy policy." : "Irakurri pribatutasun politika",
     "Encryption" : "Zifratzea",
-    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "Zure fitxategiak {linkopen}zerbitzari-aldeko zifratzea erabiliz ↗{linkclose} zifratuta daude.",
-    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}. Additionally, this server is protected with full-disk-encryption." : "Zure fitxategiak {linkopen}zerbitzari-aldeko zifratzea erabiliz ↗{linkclose} zifratuta daude. Gainera zerbitzari hau disko-osoko-zifratzearekin babestuta dago.",
-    "Your data is located in: " : "Zure datuak hemen daude:",
     "The admin hasn't selected the location of the server yet." : "Kudeatzaileak ez du zerbitzariaren kokapena zehaztu."
 },
 "nplurals=2; plural=(n != 1);");

@@ -288,9 +288,6 @@ OC.L10N.register(
     "Privacy policy" : "Integritetspolicy",
     "Read the privacy policy." : "Läs integritetspolicy.",
     "Encryption" : "Kryptering",
-    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "Dina filer är krypterade med  {linkopen}serverkryptering ↗{linkclose}.",
-    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}. Additionally, this server is protected with full-disk-encryption." : "Dina filer är krypterade med {linkopen}serverkryptering ↗{linkclose}. Dessutom är den här servern skyddad med fullständig disk-kryptering.",
-    "Your data is located in: " : "Din data finns i: ",
     "The admin hasn't selected the location of the server yet." : "Administratören har inte valt någon plats för servern än."
 },
 "nplurals=2; plural=(n != 1);");

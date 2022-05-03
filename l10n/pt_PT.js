@@ -226,7 +226,6 @@ OC.L10N.register(
     "People you shared with" : "Pessoas com quem partilhou",
     "Privacy policy" : "Politica de privacidade",
     "Read the privacy policy." : "Leia a politica de privacidade",
-    "Encryption" : "Cifragem",
-    "Your data is located in: " : "Os seus dados estão localizados em:"
+    "Encryption" : "Cifragem"
 },
 "nplurals=2; plural=(n != 1);");

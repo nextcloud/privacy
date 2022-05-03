@@ -288,9 +288,6 @@ OC.L10N.register(
     "Privacy policy" : "隱私權政策",
     "Read the privacy policy." : "閱讀隱私權政策",
     "Encryption" : "加密",
-    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "您的檔案已使用{linkopen}伺服器端加密 ↗{linkclose}來加密。",
-    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}. Additionally, this server is protected with full-disk-encryption." : "您的檔案已使用{linkopen}伺服器端加密 ↗{linkclose}來加密。此外，此伺服器已由全磁碟加密保護。",
-    "Your data is located in: " : "您的資料位於：",
     "The admin hasn't selected the location of the server yet." : "管理員尚未選取伺服器的位置。"
 },
 "nplurals=1; plural=0;");

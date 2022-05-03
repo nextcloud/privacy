@@ -16,6 +16,7 @@ OC.L10N.register(
     "This server is protected with full-disk-encryption." : "Този сървър е криптиран",
     "Your files are not protected by encryption." : "Вашите файлове не са защитени чрез криптиране.",
     "Your data is located in:" : "Вашите данни се намират в:",
+    "The admin has not selected the location of the server yet." : "Администраторът все още не е избрал местоположението на сървъра.",
     "Change data location" : "Промяна на местоположението на данните",
     "Please select a region" : "Моля, изберете регион",
     "You don't have any shares with individual users." : "Нямате никакви споделяния с отделни потребители.",
@@ -266,6 +267,7 @@ OC.L10N.register(
     "South Africa" : "Южна Африка",
     "Zambia" : "Замбия",
     "Zimbabwe" : "Зимбабве",
+    "Your %s account" : "Вашият %s профил",
     "Your data represents who you are and can easily be abused. We at Nextcloud believe that you have a right to decide what happens with your data. Nextcloud protects your rights as defined in the User Data Manifesto!" : "Вашите данни представят кой сте и с тях лесно може да се злоупотреби. Ние от Nextcloud вярваме, че имате право да решите какво да се случи с вашите данни. Nextcloud защитава вашите права, както са дефинирани в Манифеста за потребителските данни!",
     "User Data Manifesto 2.0" : "Манифест за потребителски данни 2.0",
     "Defining basic rights for people to control their own data in the internet age" : "Дефиниране на основните права на хората да контролират собствените си данни в ерата на интернет",
@@ -286,9 +288,6 @@ OC.L10N.register(
     "Privacy policy" : "Политика за поверителност",
     "Read the privacy policy." : "Прочетете политиката за поверителност",
     "Encryption" : "Криптиране",
-    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}." : "Вашите файлове са криптирани с {linkopen} сървърно криптиране ↗ {linkclose}.",
-    "Your files are encrypted with {linkopen}server-side-encryption ↗{linkclose}. Additionally, this server is protected with full-disk-encryption." : "Вашите файлове са криптирани с {linkopen} сървърно криптиране ↗ {linkclose}. В допълнение, този сървър е защитен с шифроване на пълен диск.",
-    "Your data is located in: " : "Вашите данни се съхраняват в:",
     "The admin hasn't selected the location of the server yet." : "Администраторът все още не е избрал местоположението на сървъра."
 },
 "nplurals=2; plural=(n != 1);");
