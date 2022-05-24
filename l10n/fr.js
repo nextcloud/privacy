@@ -290,4 +290,4 @@ OC.L10N.register(
     "Encryption" : "Chiffrement",
     "The admin hasn't selected the location of the server yet." : "L'administrateur n'a pas encore indiqué l'emplacement du serveur."
 },
-"nplurals=2; plural=(n > 1);");
+"nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;");
