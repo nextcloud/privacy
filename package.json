@@ -1,56 +1,56 @@
 {
-	"name": "privacy",
-	"version": "1.9.0",
-	"description": "Place this app in **nextcloud/apps/**",
-	"private": true,
-	"scripts": {
-		"build": "NODE_ENV=production webpack --progress --config webpack.js",
-		"dev": "NODE_ENV=development webpack --progress --config webpack.js",
-		"watch": "NODE_ENV=development webpack --progress --watch --config webpack.js",
-		"lint": "eslint --ext .js,.vue src",
-		"lint:fix": "eslint --ext .js,.vue src --fix",
-		"stylelint": "stylelint src",
-		"stylelint:fix": "stylelint src --fix",
-		"test": "jest",
-		"test:coverage": "jest --coverage"
-	},
-	"homepage": "https://github.com/nextcloud/privacy",
-	"bugs": {
-		"url": "https://github.com/nextcloud/privacy/issues"
-	},
-	"repository": {
-		"url": "git+https://github.com/nextcloud/privacy.git",
-		"type": "git"
-	},
-	"author": "Georg Ehrke",
-	"contributors": [
-		"John Molakvoæ <skjnldsv@protonmail.com>"
-	],
-	"license": "AGPL-3.0-or-later",
-	"dependencies": {
-		"@nextcloud/auth": "^1.3.0",
-		"@nextcloud/axios": "^1.9.0",
-		"@nextcloud/dialogs": "^3.1.2",
-		"@nextcloud/initial-state": "^1.2.1",
-		"@nextcloud/l10n": "^1.4.1",
-		"@nextcloud/router": "^2.0.0",
-		"@nextcloud/vue": "^5.3.1",
-		"vue": "^2.6.14",
-		"vue-click-outside": "^1.1.0"
-	},
-	"browserslist": [
-		"extends @nextcloud/browserslist-config"
-	],
-	"engines": {
-		"node": "^14.0.0",
-		"npm": "^7.0.0"
-	},
-	"devDependencies": {
-		"@nextcloud/babel-config": "^1.0.0",
-		"@nextcloud/browserslist-config": "^2.2.0",
-		"@nextcloud/eslint-config": "^7.0.2",
-		"@nextcloud/stylelint-config": "^2.1.2",
-		"@nextcloud/webpack-vue-config": "^5.1.0",
-		"babel-loader-exclude-node-modules-except": "^1.2.1"
-	}
+  "name": "privacy",
+  "version": "1.9.0",
+  "description": "Place this app in **nextcloud/apps/**",
+  "private": true,
+  "scripts": {
+    "build": "NODE_ENV=production webpack --progress --config webpack.js",
+    "dev": "NODE_ENV=development webpack --progress --config webpack.js",
+    "watch": "NODE_ENV=development webpack --progress --watch --config webpack.js",
+    "lint": "eslint --ext .js,.vue src",
+    "lint:fix": "eslint --ext .js,.vue src --fix",
+    "stylelint": "stylelint src",
+    "stylelint:fix": "stylelint src --fix",
+    "test": "jest",
+    "test:coverage": "jest --coverage"
+  },
+  "homepage": "https://github.com/nextcloud/privacy",
+  "bugs": {
+    "url": "https://github.com/nextcloud/privacy/issues"
+  },
+  "repository": {
+    "url": "git+https://github.com/nextcloud/privacy.git",
+    "type": "git"
+  },
+  "author": "Georg Ehrke",
+  "contributors": [
+    "John Molakvoæ <skjnldsv@protonmail.com>"
+  ],
+  "license": "AGPL-3.0-or-later",
+  "dependencies": {
+    "@nextcloud/auth": "^1.3.0",
+    "@nextcloud/axios": "^1.9.0",
+    "@nextcloud/dialogs": "^3.1.2",
+    "@nextcloud/initial-state": "^1.2.1",
+    "@nextcloud/l10n": "^1.4.1",
+    "@nextcloud/router": "^2.0.0",
+    "@nextcloud/vue": "^5.3.1",
+    "vue": "^2.6.14",
+    "vue-click-outside": "^1.1.0"
+  },
+  "browserslist": [
+    "extends @nextcloud/browserslist-config"
+  ],
+  "engines": {
+    "node": "^16.0.0",
+    "npm": "^7.0.0 || ^8.0.0"
+  },
+  "devDependencies": {
+    "@nextcloud/babel-config": "^1.0.0",
+    "@nextcloud/browserslist-config": "^2.2.0",
+    "@nextcloud/eslint-config": "^7.0.2",
+    "@nextcloud/stylelint-config": "^2.1.2",
+    "@nextcloud/webpack-vue-config": "^5.1.0",
+    "babel-loader-exclude-node-modules-except": "^1.2.1"
+  }
 }
