@@ -145,3 +145,9 @@ export default {
 	},
 }
 </script>
+
+<style scoped lang="scss">
+.where-is-my-data {
+    fill: var(--color-text-lighter);
+}
+</style>
