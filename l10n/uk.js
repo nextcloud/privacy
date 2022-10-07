@@ -4,7 +4,7 @@ OC.L10N.register(
     "Privacy" : "Конфіденційність",
     "-" : "-",
     "The privacy center shows you where your data is stored and who can access it, either because you shared with them or because they are administrators." : "Центр конфіденційності показує, де зберігаються ваші дані та хто може отримати до них доступ, оскільки ви поділилися з ними або тому, що вони адміністратори.",
-    "Remove external admin" : "Видалити зовнішнього адміністратора",
+    "Remove external admin" : "Вилучити зовнішнього адміністратора",
     "Add external admin" : "Додати зовнішнього адміністратора",
     "Name of external admin" : "Ім'я зовнішнього адміністратора",
     "This server is using full-disk-encryption." : "Цей сервер використовує повне шифрування диска.",
