@@ -90,6 +90,7 @@ OC.L10N.register(
     "Yemen" : "Yemen",
     "South Africa" : "Sydafrika",
     "Zimbabwe" : "Zimbabwe",
+    "Learn more ↗" : "Lær mere ↗",
     "Where is your data?" : "Hvor er dine data?",
     "Who has access to your data?" : "Hvem har adgang til dine data?",
     "People you shared with" : "Brugere du deler med",
