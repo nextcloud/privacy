@@ -284,7 +284,7 @@ OC.L10N.register(
     "Where is your data?" : "Kde se vaše data nacházejí?",
     "Who has access to your data?" : "Kdo má přístup k vašim datům?",
     "Administrators" : "Správci",
-    "People you shared with" : "Lidé, kterým jste nadíleli",
+    "People you shared with" : "Lidé, kterým jste nasdíleli",
     "Privacy policy" : "Zásada ochrany osobních údajů",
     "Read the privacy policy." : "Přečíst si zásady ochrany osobních údajů.",
     "Encryption" : "Šifrování",
