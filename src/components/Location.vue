@@ -40,16 +40,16 @@
 				@input="onChange" />
 			<span v-show="isSavingChanges" class="icon icon-loading" />
 		</div>
-		<Map />
+		<MapSvg />
 	</div>
 </template>
 
 <script>
 import HttpClient from '@nextcloud/axios'
 import { generateUrl } from '@nextcloud/router'
-import Multiselect from '@nextcloud/vue/dist/Components/Multiselect'
-import Actions from '@nextcloud/vue/dist/Components/Actions'
-import ActionButton from '@nextcloud/vue/dist/Components/ActionButton'
+import Multiselect from '@nextcloud/vue/dist/Components/Multiselect.js'
+import Actions from '@nextcloud/vue/dist/Components/Actions.js'
+import ActionButton from '@nextcloud/vue/dist/Components/ActionButton.js'
 import { loadState } from '@nextcloud/initial-state'
 import { showError } from '@nextcloud/dialogs'
 
@@ -57,14 +57,14 @@ import {
 	getCountryList,
 	getNameForCountryCode,
 } from '../nameProvider.js'
-import Map from './Map.vue'
+import MapSvg from './Map.vue'
 
 export default {
 	name: 'Location',
 	components: {
 		ActionButton,
 		Actions,
-		Map,
+		MapSvg,
 		Multiselect,
 	},
 	data() {

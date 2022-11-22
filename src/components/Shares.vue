@@ -41,7 +41,7 @@ import HttpClient from '@nextcloud/axios'
 import { generateOcsUrl } from '@nextcloud/router'
 import { getCurrentUser } from '@nextcloud/auth'
 import { showError } from '@nextcloud/dialogs'
-import Avatar from '@nextcloud/vue/dist/Components/Avatar'
+import Avatar from '@nextcloud/vue/dist/Components/Avatar.js'
 
 export default {
 	name: 'Shares',
