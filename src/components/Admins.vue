@@ -66,9 +66,9 @@ import ClickOutside from 'vue-click-outside'
 import HttpClient from '@nextcloud/axios'
 import { generateUrl } from '@nextcloud/router'
 import { showError } from '@nextcloud/dialogs'
-import Actions from '@nextcloud/vue/dist/Components/Actions'
-import ActionButton from '@nextcloud/vue/dist/Components/ActionButton'
-import Avatar from '@nextcloud/vue/dist/Components/Avatar'
+import Actions from '@nextcloud/vue/dist/Components/Actions.js'
+import ActionButton from '@nextcloud/vue/dist/Components/ActionButton.js'
+import Avatar from '@nextcloud/vue/dist/Components/Avatar.js'
 
 export default {
 	name: 'Admins',

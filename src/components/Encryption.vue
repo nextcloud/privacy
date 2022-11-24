@@ -54,8 +54,8 @@ import ClickOutside from 'vue-click-outside'
 
 import HttpClient from '@nextcloud/axios'
 import { generateUrl } from '@nextcloud/router'
-import Actions from '@nextcloud/vue/dist/Components/Actions'
-import ActionButton from '@nextcloud/vue/dist/Components/ActionButton'
+import Actions from '@nextcloud/vue/dist/Components/Actions.js'
+import ActionButton from '@nextcloud/vue/dist/Components/ActionButton.js'
 import { loadState } from '@nextcloud/initial-state'
 import { showError } from '@nextcloud/dialogs'
 
