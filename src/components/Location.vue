@@ -24,14 +24,14 @@
 		<p v-show="!isEditingLocation">
 			<span v-show="country">{{ $t('privacy', 'Your data is located in:') }} <strong>{{ country }}</strong>.</span>
 			<span v-show="!country">{{ $t('privacy', 'The admin has not selected the location of the server yet.') }}</span>
-			<Actions v-if="$is_admin">
-				<ActionButton icon="icon-rename" @click="editLocation">
+			<NcActions v-if="$is_admin">
+				<NcActionButton icon="icon-rename" @click="editLocation">
 					{{ t('privacy', 'Change data location') }}
-				</ActionButton>
-			</Actions>
+				</NcActionButton>
+			</NcActions>
 		</p>
-		<div v-show="isEditingLocation" class="multiselect-container">
-			<Multiselect :disabled="isSavingChanges"
+		<div v-show="isEditingLocation" class="NcMultiselect-container">
+			<NcMultiselect :disabled="isSavingChanges"
 				:options="options"
 				:searchable="true"
 				track-by="code"
@@ -47,9 +47,9 @@
 <script>
 import HttpClient from '@nextcloud/axios'
 import { generateUrl } from '@nextcloud/router'
-import Multiselect from '@nextcloud/vue/dist/Components/Multiselect'
-import Actions from '@nextcloud/vue/dist/Components/Actions'
-import ActionButton from '@nextcloud/vue/dist/Components/ActionButton'
+import NcMultiselect from '@nextcloud/vue/dist/Components/NcMultiselect.js'
+import NcActions from '@nextcloud/vue/dist/Components/NcActions.js'
+import NcActionButton from '@nextcloud/vue/dist/Components/NcActionButton.js'
 import { loadState } from '@nextcloud/initial-state'
 import { showError } from '@nextcloud/dialogs'
 
@@ -62,10 +62,10 @@ import Map from './Map.vue'
 export default {
 	name: 'Location',
 	components: {
-		ActionButton,
-		Actions,
+		NcActionButton,
+		NcActions,
 		Map,
-		Multiselect,
+		NcMultiselect,
 	},
 	data() {
 		return {
