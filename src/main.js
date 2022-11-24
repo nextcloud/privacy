@@ -21,10 +21,12 @@
 import Vue from 'vue'
 import { translate, translatePlural } from '@nextcloud/l10n'
 
-import Admins from './components/Admins'
-import Location from './components/Location'
-import Encryption from './components/Encryption'
-import Shares from './components/Shares'
+import Admins from './components/Admins.vue'
+import Location from './components/Location.vue'
+import Encryption from './components/Encryption.vue'
+import Shares from './components/Shares.vue'
+
+import './css/privacy.scss'
 
 Vue.prototype.$t = translate
 Vue.prototype.$n = translatePlural

@@ -22,25 +22,25 @@
 <template>
 	<div class="who-has-access">
 		<span :class="{ hidden: !isLoading }" class="icon icon-loading" />
-		<div v-for="admin in admins" :key="admin.id" class="admin-avatar-container">
-			<Avatar :user="admin.internal ? admin.id : null"
+		<div v-for="admin in admins" :key="admin.id" class="admin-NcAvatar-container">
+			<NcAvatar :user="admin.internal ? admin.id : null"
 				:display-name="admin.displayname"
 				:size="64"
 				:is-no-user="!admin.internal"
 				:show-user-status="false" />
-			<Actions v-if="!admin.internal">
-				<ActionButton icon="icon-close" @click="deleteAdditionalAdmin(admin)">
+			<NcActions v-if="!admin.internal">
+				<NcActionButton icon="icon-close" @click="deleteAdditionalAdmin(admin)">
 					{{ $t('privacy', 'Remove external admin') }}
-				</ActionButton>
-			</Actions>
+				</NcActionButton>
+			</NcActions>
 		</div>
 
 		<div v-if="$is_admin">
-			<Actions v-if="!isAdding" class="addAdditionalAdmin">
-				<ActionButton icon="icon-add" @click.stop.prevent="openNewAdmin">
+			<NcActions v-if="!isAdding" class="addAdditionalAdmin">
+				<NcActionButton icon="icon-add" @click.stop.prevent="openNewAdmin">
 					{{ $t('privacy', 'Add external admin') }}
-				</ActionButton>
-			</Actions>
+				</NcActionButton>
+			</NcActions>
 			<form v-if="isAdding"
 				v-click-outside="closeNewAdmin"
 				class="addAdditionalAdminFormContainer"
@@ -66,16 +66,16 @@ import ClickOutside from 'vue-click-outside'
 import HttpClient from '@nextcloud/axios'
 import { generateUrl } from '@nextcloud/router'
 import { showError } from '@nextcloud/dialogs'
-import Actions from '@nextcloud/vue/dist/Components/Actions'
-import ActionButton from '@nextcloud/vue/dist/Components/ActionButton'
-import Avatar from '@nextcloud/vue/dist/Components/Avatar'
+import NcActions from '@nextcloud/vue/dist/Components/NcActions.js'
+import NcActionButton from '@nextcloud/vue/dist/Components/NcActionButton.js'
+import NcAvatar from '@nextcloud/vue/dist/Components/NcAvatar.js'
 
 export default {
 	name: 'Admins',
 	components: {
-		Actions,
-		ActionButton,
-		Avatar,
+		NcActions,
+		NcActionButton,
+		NcAvatar,
 	},
 	directives: {
 		ClickOutside,

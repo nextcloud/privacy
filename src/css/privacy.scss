@@ -18,9 +18,6 @@
  * License along with this library.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-@include icon-black-white('control', 'privacy', 1);
-@include icon-black-white('freedom', 'privacy', 1);
-@include icon-black-white('knowledge', 'privacy', 1);
 
 .user-data-manifesto-rights {
 	padding: 15px 0;
@@ -87,10 +84,10 @@
 		}
 	}
 
-	> div.multiselect-container {
+	> div.NcMultiselect-container {
 		position: relative;
 
-		> div.multiselect {
+		> div.NcMultiselect {
 			width: 100%;
 		}
 
@@ -108,13 +105,13 @@
 	flex-wrap: wrap;
 	align-items: center;
 
-	div.avatardiv,
+	div.NcAvatardiv,
 	.action-item.addAdditionalAdmin,
 	form.addAdditionalAdminFormContainer {
 		margin: 10px;
 	}
 
-	div.admin-avatar-container {
+	div.admin-NcAvatar-container {
 		position: relative;
 
 		> .action-item {
