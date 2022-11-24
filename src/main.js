@@ -26,6 +26,8 @@ import Location from './components/Location.vue'
 import Encryption from './components/Encryption.vue'
 import Shares from './components/Shares.vue'
 
+import './css/privacy.scss'
+
 Vue.prototype.$t = translate
 Vue.prototype.$n = translatePlural
 Vue.prototype.$is_admin = OC.isUserAdmin()

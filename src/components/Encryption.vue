@@ -29,9 +29,9 @@
 				v-html="label" />
 			<!--eslint-enable-->
 		</div>
-		<Actions v-if="$is_admin && !isEditing">
-			<ActionButton icon="icon-rename" @click.stop.prevent="openEditFullDiskEncryptionForm" />
-		</Actions>
+		<NcActions v-if="$is_admin && !isEditing">
+			<NcActionButton icon="icon-rename" @click.stop.prevent="openEditFullDiskEncryptionForm" />
+		</NcActions>
 		<div v-if="isEditing" v-click-outside="cancelEditFullDiskEncryptionForm">
 			<form>
 				<input id="fullDiskEncryptionEnabledCheckbox"
@@ -54,16 +54,16 @@ import ClickOutside from 'vue-click-outside'
 
 import HttpClient from '@nextcloud/axios'
 import { generateUrl } from '@nextcloud/router'
-import Actions from '@nextcloud/vue/dist/Components/Actions.js'
-import ActionButton from '@nextcloud/vue/dist/Components/ActionButton.js'
+import NcActions from '@nextcloud/vue/dist/Components/NcActions.js'
+import NcActionButton from '@nextcloud/vue/dist/Components/NcActionButton.js'
 import { loadState } from '@nextcloud/initial-state'
 import { showError } from '@nextcloud/dialogs'
 
 export default {
 	name: 'Encryption',
 	components: {
-		Actions,
-		ActionButton,
+		NcActions,
+		NcActionButton,
 	},
 	directives: {
 		ClickOutside,
