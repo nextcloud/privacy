@@ -40,7 +40,7 @@
 				@input="onChange" />
 			<span v-show="isSavingChanges" class="icon icon-loading" />
 		</div>
-		<Map />
+		<MapSvg />
 	</div>
 </template>
 
@@ -57,14 +57,14 @@ import {
 	getCountryList,
 	getNameForCountryCode,
 } from '../nameProvider.js'
-import Map from './Map.vue'
+import MapSvg from './Map.vue'
 
 export default {
 	name: 'Location',
 	components: {
 		NcActionButton,
 		NcActions,
-		Map,
+		MapSvg,
 		NcMultiselect,
 	},
 	data() {
@@ -148,6 +148,6 @@ export default {
 
 <style scoped lang="scss">
 .where-is-my-data {
-    fill: var(--color-text-lighter);
+	fill: var(--color-text-lighter);
 }
 </style>
