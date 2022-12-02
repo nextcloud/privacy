@@ -89,10 +89,10 @@ export default {
 			if (this.serverSideEncryptionEnabled) {
 				if (this.homeStorageEncryptionEnabled) {
 					if (this.masterKeyEncryptionEnabled) {
-						addLabel(this.$t('privacy', 'Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key.'))
+						addLabel(this.$t('privacy', 'Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key. It means that administrators can access your files, but not read their content.'))
 						addLabel(this.$t('privacy', 'Your files on external storages may be encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key based on their configuration.'))
 					} else {
-						addLabel(this.$t('privacy', 'Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key.'))
+						addLabel(this.$t('privacy', 'Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key. It means that administrators can access your files, but not read their content.'))
 						addLabel(this.$t('privacy', 'Your files on external storages may be encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual key based on their configuration.'))
 					}
 				} else {
