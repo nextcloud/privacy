@@ -287,7 +287,6 @@ OC.L10N.register(
     "People you shared with" : "People you shared with",
     "Privacy policy" : "Privacy policy",
     "Read the privacy policy." : "Read the privacy policy.",
-    "Encryption" : "Encryption",
-    "The admin hasn't selected the location of the server yet." : "The admin hasn't selected the location of the server yet."
+    "Encryption" : "Encryption"
 },
 "nplurals=2; plural=(n != 1);");

@@ -287,7 +287,6 @@ OC.L10N.register(
     "People you shared with" : "Emberek, akikkel adatokat osztott meg",
     "Privacy policy" : "Adatvédelmi irányelvek",
     "Read the privacy policy." : "Az adatvédelmi irányelvek elolvasása.",
-    "Encryption" : "Titkosítás",
-    "The admin hasn't selected the location of the server yet." : "A rendszergazda még nem állította be a kiszolgáló helyét."
+    "Encryption" : "Titkosítás"
 },
 "nplurals=2; plural=(n != 1);");

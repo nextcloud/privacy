@@ -287,7 +287,6 @@ OC.L10N.register(
     "People you shared with" : "Personer du delat med",
     "Privacy policy" : "Integritetspolicy",
     "Read the privacy policy." : "Läs integritetspolicy.",
-    "Encryption" : "Kryptering",
-    "The admin hasn't selected the location of the server yet." : "Administratören har inte valt någon plats för servern än."
+    "Encryption" : "Kryptering"
 },
 "nplurals=2; plural=(n != 1);");

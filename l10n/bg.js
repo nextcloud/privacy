@@ -287,7 +287,6 @@ OC.L10N.register(
     "People you shared with" : "Хора с които е споделено",
     "Privacy policy" : "Политика за поверителност",
     "Read the privacy policy." : "Прочетете политиката за поверителност",
-    "Encryption" : "Криптиране",
-    "The admin hasn't selected the location of the server yet." : "Администраторът все още не е избрал местоположението на сървъра."
+    "Encryption" : "Криптиране"
 },
 "nplurals=2; plural=(n != 1);");
