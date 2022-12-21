@@ -287,7 +287,6 @@ OC.L10N.register(
     "People you shared with" : "Ľudia s ktorými ste zdieľali",
     "Privacy policy" : "Zásady ochrany osobných údajov",
     "Read the privacy policy." : "Prečítať si zásady ochrany osobných údajov",
-    "Encryption" : "Šifrovanie",
-    "The admin hasn't selected the location of the server yet." : "Správca zatiaľ nezadal umiestnenie servera."
+    "Encryption" : "Šifrovanie"
 },
 "nplurals=4; plural=(n % 1 == 0 && n == 1 ? 0 : n % 1 == 0 && n >= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);");

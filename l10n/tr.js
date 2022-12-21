@@ -287,7 +287,6 @@ OC.L10N.register(
     "People you shared with" : "Verilerinizi paylaştığınız kişiler",
     "Privacy policy" : "Kişisel gizliliğin korunması ilkesi",
     "Read the privacy policy." : "Kişisel verilerinizin korunması ilkesini gözden geçirin.",
-    "Encryption" : "Şifreleme",
-    "The admin hasn't selected the location of the server yet." : "Yönetici henüz sunucunun konumunu seçmemiş."
+    "Encryption" : "Şifreleme"
 },
 "nplurals=2; plural=(n > 1);");

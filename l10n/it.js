@@ -287,7 +287,6 @@ OC.L10N.register(
     "People you shared with" : "Persone con cui hai condiviso",
     "Privacy policy" : "Criterio di riservatezza",
     "Read the privacy policy." : "Leggi subito i criteri di riservatezza.",
-    "Encryption" : "Cifratura",
-    "The admin hasn't selected the location of the server yet." : "L'amministratore non ha ancora selezionato la posizione del server."
+    "Encryption" : "Cifratura"
 },
 "nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;");
