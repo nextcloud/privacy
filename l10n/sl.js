@@ -280,7 +280,6 @@ OC.L10N.register(
     "People you shared with" : "Osebe, ki jim omogočate souporabo vaših pdoatkov",
     "Privacy policy" : "Pravila zasebnosti",
     "Read the privacy policy." : "Preglejte pravila zasebnosti",
-    "Encryption" : "Šifriranje",
-    "The admin hasn't selected the location of the server yet." : "Skrbnik še ni določil mesta strežnika."
+    "Encryption" : "Šifriranje"
 },
 "nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);");

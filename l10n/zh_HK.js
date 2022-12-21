@@ -287,7 +287,6 @@ OC.L10N.register(
     "People you shared with" : "與您共享的人",
     "Privacy policy" : "私隱政策",
     "Read the privacy policy." : "閱覽私隱政策。",
-    "Encryption" : "加密",
-    "The admin hasn't selected the location of the server yet." : "管理員尚未選擇伺服器所在的位置。"
+    "Encryption" : "加密"
 },
 "nplurals=1; plural=0;");

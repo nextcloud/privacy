@@ -287,7 +287,6 @@ OC.L10N.register(
     "People you shared with" : "Pertsona hauekin elkarbanatu duzu",
     "Privacy policy" : "Pribatutasun politika",
     "Read the privacy policy." : "Irakurri pribatutasun politika",
-    "Encryption" : "Zifratzea",
-    "The admin hasn't selected the location of the server yet." : "Kudeatzaileak ez du zerbitzariaren kokapena zehaztu."
+    "Encryption" : "Zifratzea"
 },
 "nplurals=2; plural=(n != 1);");

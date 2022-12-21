@@ -282,7 +282,6 @@ OC.L10N.register(
     "People you shared with" : "Ihmiset joiden kanssa jaoit tiedot",
     "Privacy policy" : "Tietosuojakäytäntö",
     "Read the privacy policy." : "Lue tietosuojakäytäntö.",
-    "Encryption" : "Salaus",
-    "The admin hasn't selected the location of the server yet." : "Ylläpitäjä ei ole vielä valinnut palvelimen sijaintia."
+    "Encryption" : "Salaus"
 },
 "nplurals=2; plural=(n != 1);");

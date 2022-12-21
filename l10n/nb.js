@@ -254,7 +254,6 @@ OC.L10N.register(
     "Administrators" : "Administratorer",
     "Privacy policy" : "Personvern politikk",
     "Read the privacy policy." : "Les personvernsærkleringen.",
-    "Encryption" : "Kryptering",
-    "The admin hasn't selected the location of the server yet." : "Administratoren har ikke valgt plasseringen til serveren enda."
+    "Encryption" : "Kryptering"
 },
 "nplurals=2; plural=(n != 1);");

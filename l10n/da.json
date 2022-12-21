@@ -93,7 +93,6 @@
     "Who has access to your data?" : "Hvem har adgang til dine data?",
     "People you shared with" : "Brugere du deler med",
     "Privacy policy" : "Fortrolighedspolitik",
-    "Encryption" : "Kryptering",
-    "The admin hasn't selected the location of the server yet." : "Administratoren har ikke valgt serverens placering."
+    "Encryption" : "Kryptering"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }

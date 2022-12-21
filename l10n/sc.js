@@ -285,7 +285,6 @@ OC.L10N.register(
     "People you shared with" : "Persones cun is chi as cumpartzidu",
     "Privacy policy" : "Polìtica de riservadesa",
     "Read the privacy policy." : "Leghe sa polìtica de riservadesa.",
-    "Encryption" : "Tzifradura",
-    "The admin hasn't selected the location of the server yet." : "S'amministratzione no at ancora seletzionadu sa positzione de su serbidore."
+    "Encryption" : "Tzifradura"
 },
 "nplurals=2; plural=(n != 1);");

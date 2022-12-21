@@ -287,7 +287,6 @@ OC.L10N.register(
     "People you shared with" : "あなたが共有した人",
     "Privacy policy" : "個人情報保護方針",
     "Read the privacy policy." : "個人情報保護方針を読んでください。",
-    "Encryption" : "暗号化",
-    "The admin hasn't selected the location of the server yet." : "管理者はまだサーバーの場所を選択していません。"
+    "Encryption" : "暗号化"
 },
 "nplurals=1; plural=0;");

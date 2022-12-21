@@ -285,7 +285,6 @@
     "People you shared with" : "Personnes avec qui vous avez partagé",
     "Privacy policy" : "Politique de confidentialité",
     "Read the privacy policy." : "Lisez la politique de confidentialité.",
-    "Encryption" : "Chiffrement",
-    "The admin hasn't selected the location of the server yet." : "L'administrateur n'a pas encore indiqué l'emplacement du serveur."
+    "Encryption" : "Chiffrement"
 },"pluralForm" :"nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;"
 }
