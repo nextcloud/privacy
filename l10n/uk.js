@@ -16,7 +16,7 @@ OC.L10N.register(
     "This server is protected with full-disk-encryption." : "Цей сервер захищено повним дисковим шифруванням.",
     "Your files are not protected by encryption." : "Ваші файли не захищені шифруванням.",
     "Your data is located in:" : "Ваші дані знаходяться в:",
-    "The admin has not selected the location of the server yet." : "Адмін ще не вибрав місце розташування сервера.",
+    "The admin has not selected the location of the server yet." : "Адміністратор ще не вибрав місце розташування сервера хмари.",
     "Change data location" : "Змінити розташування даних",
     "Please select a region" : "Виберіть регіон",
     "You don't have any shares with individual users." : "У вас немає спільного доступу до окремих користувачів.",
@@ -284,7 +284,7 @@ OC.L10N.register(
     "Where is your data?" : "Географія розташування ваших даних",
     "Who has access to your data?" : "Хто має доступ до ваших даних?",
     "Administrators" : "Адміністратори",
-    "People you shared with" : "Люди, з якими ви поділилися",
+    "People you shared with" : "Люди, з якими ви поділилися окремими ресурсами",
     "Privacy policy" : "Політика конфіденційності",
     "Read the privacy policy." : "Переглянути політику конфіденційності.",
     "Encryption" : "Шифрування"
