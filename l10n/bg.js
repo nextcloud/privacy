@@ -8,9 +8,7 @@ OC.L10N.register(
     "Add external admin" : "Добавяне на външен администратор",
     "Name of external admin" : "Име на външен администратор",
     "This server is using full-disk-encryption." : "Този сървър използва шифроване на пълен диск.",
-    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "Домашното ви хранилище е криптирано чрез {linkopen}криптиране от страна на сървъра ↗{linkclose} с главен ключ.",
     "Your files on external storages may be encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key based on their configuration." : "Вашите файлове във външни хранилища може да бъдат криптирани чрез {linkopen}криптиране от страна на сървъра ↗{linkclose} с главен ключ въз основа на тяхната конфигурация.",
-    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "Домашното ви хранилище е криптирано чрез {linkopen}криптиране от страна на сървъра ↗{linkclose} с индивидуален потребителски ключ.",
     "Your files on external storages may be encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual key based on their configuration." : "Вашите файлове във външни хранилища може да бъдат криптирани чрез {linkopen}криптиране от страна на сървъра ↗{linkclose} с индивидуален ключ въз основа на тяхната конфигурация.",
     "Additionally, this server is protected with full-disk-encryption." : "Освен това този сървър е защитен с пълно дисково криптиране.",
     "This server is protected with full-disk-encryption." : "Този сървър е криптиран",
@@ -287,6 +285,8 @@ OC.L10N.register(
     "People you shared with" : "Хора с които е споделено",
     "Privacy policy" : "Политика за поверителност",
     "Read the privacy policy." : "Прочетете политиката за поверителност",
-    "Encryption" : "Криптиране"
+    "Encryption" : "Криптиране",
+    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "Домашното ви хранилище е криптирано чрез {linkopen}криптиране от страна на сървъра ↗{linkclose} с главен ключ.",
+    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "Домашното ви хранилище е криптирано чрез {linkopen}криптиране от страна на сървъра ↗{linkclose} с индивидуален потребителски ключ."
 },
 "nplurals=2; plural=(n != 1);");

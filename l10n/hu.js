@@ -8,9 +8,7 @@ OC.L10N.register(
     "Add external admin" : "Külső rendszergazda hozzáadása",
     "Name of external admin" : "Külső rendszergazda neve",
     "This server is using full-disk-encryption." : "Ez a kiszolgáló teljes lemeztitkosítást használ.",
-    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "A saját tárolója mesterkulcsot használó {linkopen}kiszolgáló oldali titkosítással ↗{linkclose} védett.",
     "Your files on external storages may be encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key based on their configuration." : "A konfiguráció alapján a külső tárolókon lévő adatait mesterkulcsot használó {linkopen}kiszolgáló oldali titkosítás ↗{linkclose} védheti.",
-    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "A saját tárolója egyéni felhasználó kulcsot használó {linkopen}kiszolgáló oldali titkosítással ↗{linkclose} védett.",
     "Your files on external storages may be encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual key based on their configuration." : "A konfiguráció alapján a külső tárolókon lévő adatait egyéni kulcsot használó {linkopen}kiszolgáló oldali titkosítás ↗{linkclose} védheti.",
     "Additionally, this server is protected with full-disk-encryption." : "Továbbá a kiszolgáló teljes lemeztitkosítással védett.",
     "This server is protected with full-disk-encryption." : "Ez a kiszolgáló teljes lemeztitkosítással védett.",
@@ -287,6 +285,8 @@ OC.L10N.register(
     "People you shared with" : "Emberek, akikkel adatokat osztott meg",
     "Privacy policy" : "Adatvédelmi irányelvek",
     "Read the privacy policy." : "Az adatvédelmi irányelvek elolvasása.",
-    "Encryption" : "Titkosítás"
+    "Encryption" : "Titkosítás",
+    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "A saját tárolója mesterkulcsot használó {linkopen}kiszolgáló oldali titkosítással ↗{linkclose} védett.",
+    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "A saját tárolója egyéni felhasználó kulcsot használó {linkopen}kiszolgáló oldali titkosítással ↗{linkclose} védett."
 },
 "nplurals=2; plural=(n != 1);");

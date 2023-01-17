@@ -8,9 +8,7 @@ OC.L10N.register(
     "Add external admin" : "Add external admin",
     "Name of external admin" : "Name of external admin",
     "This server is using full-disk-encryption." : "This server is using full-disk-encryption.",
-    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key.",
     "Your files on external storages may be encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key based on their configuration." : "Your files on external storages may be encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key based on their configuration.",
-    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key.",
     "Your files on external storages may be encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual key based on their configuration." : "Your files on external storages may be encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual key based on their configuration.",
     "Additionally, this server is protected with full-disk-encryption." : "Additionally, this server is protected with full-disk-encryption.",
     "This server is protected with full-disk-encryption." : "This server is protected with full-disk-encryption.",
@@ -287,6 +285,8 @@ OC.L10N.register(
     "People you shared with" : "People you shared with",
     "Privacy policy" : "Privacy policy",
     "Read the privacy policy." : "Read the privacy policy.",
-    "Encryption" : "Encryption"
+    "Encryption" : "Encryption",
+    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key.",
+    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key."
 },
 "nplurals=2; plural=(n != 1);");

@@ -8,9 +8,7 @@ OC.L10N.register(
     "Add external admin" : "Додати зовнішнього адміністратора",
     "Name of external admin" : "Ім'я зовнішнього адміністратора",
     "This server is using full-disk-encryption." : "Цей сервер використовує повне шифрування диска.",
-    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "Ваше домашнє сховище зашифровано за допомогою {linkopen}шифрування на стороні сервера ↗{linkclose} за допомогою головного ключа.",
     "Your files on external storages may be encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key based on their configuration." : "Ваші файли на зовнішніх носіях можуть бути зашифровані за допомогою {linkopen}шифрування на стороні сервера ↗{linkclose} за допомогою головного ключа на основі їх конфігурації.",
-    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "Ваше домашнє сховище зашифровано за допомогою {linkopen}шифрування на стороні сервера ↗{linkclose} індивідуальним ключем користувача.",
     "Your files on external storages may be encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual key based on their configuration." : "Ваші файли на зовнішніх носіях можуть бути зашифровані за допомогою {linkopen}шифрування на стороні сервера ↗{linkclose} з індивідуальним ключем на основі їх конфігурації.",
     "Additionally, this server is protected with full-disk-encryption." : "Крім того, цей сервер захищено повним дисковим шифруванням.",
     "This server is protected with full-disk-encryption." : "Цей сервер захищено повним дисковим шифруванням.",
@@ -287,6 +285,8 @@ OC.L10N.register(
     "People you shared with" : "Люди, з якими ви поділилися окремими ресурсами",
     "Privacy policy" : "Політика конфіденційності",
     "Read the privacy policy." : "Переглянути політику конфіденційності.",
-    "Encryption" : "Шифрування"
+    "Encryption" : "Шифрування",
+    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "Ваше домашнє сховище зашифровано за допомогою {linkopen}шифрування на стороні сервера ↗{linkclose} за допомогою головного ключа.",
+    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "Ваше домашнє сховище зашифровано за допомогою {linkopen}шифрування на стороні сервера ↗{linkclose} індивідуальним ключем користувача."
 },
 "nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);");

@@ -8,9 +8,7 @@ OC.L10N.register(
     "Add external admin" : "Προσθήκη εξωτερικού διαχειριστή",
     "Name of external admin" : "Όνομα εξωτερικού διαχειριστή",
     "This server is using full-disk-encryption." : "Ο διακομιστής χρησιμοποιεί κρυπτογράφηση πλήρους δίσκου.",
-    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "Ο αποθηκευτικός χώρος του home σας είναι κρυπτογραφημένος χρησιμοποιώντας {linkopen}server-side-encryption ↗{linkclose} με ένα κύριο κλειδί.",
     "Your files on external storages may be encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key based on their configuration." : "Τα αρχεία που βρίσκονται σε εξωτερικούς αποθηκευτικούς χώρους ενδέχεται να κρυπτογραφηθούν χρησιμοποιώντας {linkopen}server-side-encryption ↗{linkclose} με κύριο κλειδί με βάση τη διαμόρφωσή τους.",
-    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "Ο αποθηκευτικός χώρος του home σας είναι κρυπτογραφημένος χρησιμοποιώντας {linkopen}server-side-encryption ↗{linkclose} με ένα μεμονωμένο κλειδί χρήστη.",
     "Your files on external storages may be encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual key based on their configuration." : "Τα αρχεία σας που βρίσκονται σε εξωτερικούς αποθηκευτικούς χώρους ενδέχεται να κρυπτογραφηθούν χρησιμοποιώντας {linkopen}server-side-encryption ↗{linkclose} με ένα μεμονωμένο κλειδί με βάση τη διαμόρφωσή τους.",
     "Additionally, this server is protected with full-disk-encryption." : "Επιπλέον, αυτός ο διακομιστής προστατεύεται με κρυπτογράφηση πλήρους δίσκου.",
     "This server is protected with full-disk-encryption." : "Ο διακομιστής είναι προστατευμένος με κρυπτογράφηση πλήρους δίσκου.",
@@ -287,6 +285,8 @@ OC.L10N.register(
     "People you shared with" : "Άτομα με κοινή χρήση",
     "Privacy policy" : "Πολιτική Απορρήτου",
     "Read the privacy policy." : "Διαβάστε την πολιτική απορρήτου.",
-    "Encryption" : "Κρυπτογράφηση"
+    "Encryption" : "Κρυπτογράφηση",
+    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "Ο αποθηκευτικός χώρος του home σας είναι κρυπτογραφημένος χρησιμοποιώντας {linkopen}server-side-encryption ↗{linkclose} με ένα κύριο κλειδί.",
+    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "Ο αποθηκευτικός χώρος του home σας είναι κρυπτογραφημένος χρησιμοποιώντας {linkopen}server-side-encryption ↗{linkclose} με ένα μεμονωμένο κλειδί χρήστη."
 },
 "nplurals=2; plural=(n != 1);");
