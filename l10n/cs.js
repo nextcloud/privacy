@@ -8,9 +8,7 @@ OC.L10N.register(
     "Add external admin" : "Přidat správce zvenčí",
     "Name of external admin" : "Jméno externího správce",
     "This server is using full-disk-encryption." : "Tento server používá šifrování celého úložiště.",
-    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "Vaše domovské úložiště je šifrováno pomocí {linkopen}šifrování na straně serveru ↗{linkclose} pomocí hlavního klíče.",
     "Your files on external storages may be encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key based on their configuration." : "Vaše soubory na externích úložištích mohou být šifrovány pomocí {linkopen}šifrování na straně serveru ↗{linkclose} s hlavním klíčem založeným na jejich nastavení.",
-    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "Vaše domovské úložiště je šifrováno pomocí {linkopen}šifrování na straně serveru ↗{linkclose} pomocí klíče jednotlivého uživatele.",
     "Your files on external storages may be encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual key based on their configuration." : "Vaše soubory na externích úložištích mohou být šifrovány pomocí {linkopen}šifrování na straně serveru ↗{linkclose} s individuálním klíčem založeným na jejich nastavení.",
     "Additionally, this server is protected with full-disk-encryption." : "Dále, tento server je chráněn šifrováním celého úložiště.",
     "This server is protected with full-disk-encryption." : "Tento server je chráněn šifrováním celého úložiště.",
@@ -287,6 +285,8 @@ OC.L10N.register(
     "People you shared with" : "Lidé, kterým jste nasdíleli",
     "Privacy policy" : "Zásada ochrany osobních údajů",
     "Read the privacy policy." : "Přečíst si zásady ochrany osobních údajů.",
-    "Encryption" : "Šifrování"
+    "Encryption" : "Šifrování",
+    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "Vaše domovské úložiště je šifrováno pomocí {linkopen}šifrování na straně serveru ↗{linkclose} pomocí hlavního klíče.",
+    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "Vaše domovské úložiště je šifrováno pomocí {linkopen}šifrování na straně serveru ↗{linkclose} pomocí klíče jednotlivého uživatele."
 },
 "nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;");

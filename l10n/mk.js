@@ -8,9 +8,7 @@ OC.L10N.register(
     "Add external admin" : "Додади надворешен администратор",
     "Name of external admin" : "Име на надворешен администратор",
     "This server is using full-disk-encryption." : "Овој сервер користи целосно енкриптиран диск.",
-    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "Вашите датотеки се енкриптирани со {linkopen}енкрипција од страна на серверот ↗{linkclose} со главен клуч.",
     "Your files on external storages may be encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key based on their configuration." : "Вашите датотеки надворешните складишта може да се криптираат со {linkopen}енкрипција од страна на серверот ↗{linkclose} со главен клуч базиран според конфигурацијата.",
-    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "Вашите датотеки се енкриптирани со {linkopen}енкрипција од страна на серверот ↗{linkclose} со приватен клуч.",
     "Your files on external storages may be encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual key based on their configuration." : "Вашите датотеки надворешните складишта може да се криптираат со {linkopen}енкрипција од страна на серверот ↗{linkclose} со индивидуален клуч базиран според конфигурацијата.",
     "Additionally, this server is protected with full-disk-encryption." : "Овој сервер е заштитен со целосно енкриптиран диск.",
     "This server is protected with full-disk-encryption." : "Овој сервер е заштитен со целосно енкриптиран диск.",
@@ -287,6 +285,8 @@ OC.L10N.register(
     "People you shared with" : "Луѓе со кој споделувате податоци",
     "Privacy policy" : "Политика за приватност",
     "Read the privacy policy." : "Прочитај ја политиката за приватност",
-    "Encryption" : "Енкрипција"
+    "Encryption" : "Енкрипција",
+    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "Вашите датотеки се енкриптирани со {linkopen}енкрипција од страна на серверот ↗{linkclose} со главен клуч.",
+    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "Вашите датотеки се енкриптирани со {linkopen}енкрипција од страна на серверот ↗{linkclose} со приватен клуч."
 },
 "nplurals=2; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : 1;");

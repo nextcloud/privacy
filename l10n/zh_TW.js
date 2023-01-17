@@ -8,9 +8,7 @@ OC.L10N.register(
     "Add external admin" : "新增外部管理員",
     "Name of external admin" : "外部管理員名稱",
     "This server is using full-disk-encryption." : "此伺服器使用了全磁碟加密。",
-    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "您的主要儲存空間使用有主控金鑰的{linkopen}伺服器端加密 ↗{linkclose}加密了。",
     "Your files on external storages may be encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key based on their configuration." : "您在外部儲存空間的檔案根據其設定可以使用有主控金鑰的{linkopen}伺服器端加密 ↗{linkclose}來加密。",
-    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "使用{linkopen}伺服器端加密 ↗{linkclose}與個別的使用者金鑰來對您的主要儲存空間加密。",
     "Your files on external storages may be encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual key based on their configuration." : "您在外部儲存空間的檔案根據其設定可以使用有單獨金鑰的{linkopen}伺服器端加密 ↗{linkclose}來加密。",
     "Additionally, this server is protected with full-disk-encryption." : "此外，此伺服器也受到全磁碟加密的保護。",
     "This server is protected with full-disk-encryption." : "此伺服器已由全磁碟加密保護。",
@@ -287,6 +285,8 @@ OC.L10N.register(
     "People you shared with" : "與您分享的人",
     "Privacy policy" : "隱私權政策",
     "Read the privacy policy." : "閱讀隱私權政策",
-    "Encryption" : "加密"
+    "Encryption" : "加密",
+    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "您的主要儲存空間使用有主控金鑰的{linkopen}伺服器端加密 ↗{linkclose}加密了。",
+    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "使用{linkopen}伺服器端加密 ↗{linkclose}與個別的使用者金鑰來對您的主要儲存空間加密。"
 },
 "nplurals=1; plural=0;");

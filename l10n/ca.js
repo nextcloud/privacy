@@ -8,9 +8,7 @@ OC.L10N.register(
     "Add external admin" : "Afegeix un administrador extern",
     "Name of external admin" : "Nom de l'administrador extern",
     "This server is using full-disk-encryption." : "Aquest servidor utilitza xifratge complet de disc.",
-    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "L'emmagatzematge principal està xifrat mitjançant {linkopen}xifratge del servidor ↗{linkclose} amb una clau mestra.",
     "Your files on external storages may be encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key based on their configuration." : "Els fitxers en ubicacions d'emmagatzematge extern poden estar xifrats mitjançant {linkopen}xifratge del servidor ↗{linkclose} amb una clau mestra en funció de la configuració.",
-    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "L'emmagatzematge principal està xifrat mitjançant {linkopen}xifratge del servidor ↗{linkclose} amb una clau individual d'usuari.",
     "Your files on external storages may be encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual key based on their configuration." : "Els fitxers en ubicacions d'emmagatzematge extern poden estar xifrats mitjançant {linkopen}xifratge del servidor ↗{linkclose} amb una clau individual en funció de la configuració.",
     "Additionally, this server is protected with full-disk-encryption." : "A més, aquest servidor està protegit mitjançant xifratge complet del disc.",
     "This server is protected with full-disk-encryption." : "Aquest servidor està protegit mitjançant xifratge complet del disc.",
@@ -287,6 +285,8 @@ OC.L10N.register(
     "People you shared with" : "Persones amb què heu compartit elements",
     "Privacy policy" : "Política de privadesa",
     "Read the privacy policy." : "Llegiu la política de privadesa.",
-    "Encryption" : "Xifratge"
+    "Encryption" : "Xifratge",
+    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "L'emmagatzematge principal està xifrat mitjançant {linkopen}xifratge del servidor ↗{linkclose} amb una clau mestra.",
+    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "L'emmagatzematge principal està xifrat mitjançant {linkopen}xifratge del servidor ↗{linkclose} amb una clau individual d'usuari."
 },
 "nplurals=2; plural=(n != 1);");

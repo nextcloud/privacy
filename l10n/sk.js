@@ -8,9 +8,7 @@ OC.L10N.register(
     "Add external admin" : "Pridať externého správcu",
     "Name of external admin" : "Meno externého správcu",
     "This server is using full-disk-encryption." : "Tento server používa šifrovanie celého úložiska.",
-    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "Vaše domáce úložisko je šifrované pomocou {linkopen}server-side-encryption ↗{linkclose} s hlavným kľúčom.",
     "Your files on external storages may be encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key based on their configuration." : "Vaše súbory na externých úložiskách môžu byť šifrované pomocou {linkopen} šifrovania na strane servera ↗ {linkclose} s hlavným kľúčom na základe ich konfigurácie.",
-    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "Vaše domáce úložisko je šifrované pomocou šifrovania {linkopen} na strane servera ↗ {linkclose} pomocou individuálneho používateľského kľúča.",
     "Your files on external storages may be encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual key based on their configuration." : "Vaše súbory vo externých úložiskách môžu byť šifrované pomocou {linkopen} šifrovania na strane servera ↗ {linkclose} s individuálnym kľúčom na základe ich konfigurácie.",
     "Additionally, this server is protected with full-disk-encryption." : "Naviac, tento server je chránený šifrovaním celého úložiska.",
     "This server is protected with full-disk-encryption." : "Tento server je chránený šifrovaním celého úložiska.",
@@ -287,6 +285,8 @@ OC.L10N.register(
     "People you shared with" : "Ľudia s ktorými ste zdieľali",
     "Privacy policy" : "Zásady ochrany osobných údajov",
     "Read the privacy policy." : "Prečítať si zásady ochrany osobných údajov",
-    "Encryption" : "Šifrovanie"
+    "Encryption" : "Šifrovanie",
+    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "Vaše domáce úložisko je šifrované pomocou {linkopen}server-side-encryption ↗{linkclose} s hlavným kľúčom.",
+    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "Vaše domáce úložisko je šifrované pomocou šifrovania {linkopen} na strane servera ↗ {linkclose} pomocou individuálneho používateľského kľúča."
 },
 "nplurals=4; plural=(n % 1 == 0 && n == 1 ? 0 : n % 1 == 0 && n >= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);");

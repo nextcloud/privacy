@@ -8,9 +8,7 @@ OC.L10N.register(
     "Add external admin" : "Dodaj zewnętrznego administratora",
     "Name of external admin" : "Nazwa zewnętrznego administratora",
     "This server is using full-disk-encryption." : "Ten serwer używa full-disk-encryption.",
-    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "Twój magazyn główny jest zaszyfrowany przy użyciu {linkopen}server-side-encryption ↗{linkclose} z kluczem głównym.",
     "Your files on external storages may be encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key based on their configuration." : "Twoje pliki na magazynach zewnętrznych mogą być zaszyfrowane przy użyciu {linkopen}server-side-encryption ↗{linkclose} z kluczem głównym opartym na ich konfiguracji.",
-    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "Twój magazyn główny jest zaszyfrowany przy użyciu {linkopen}server-side-encryption ↗{linkclose} z indywidualnym kluczem użytkownika.",
     "Your files on external storages may be encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual key based on their configuration." : "Twoje pliki na magazynach zewnętrznych mogą być zaszyfrowane przy użyciu {linkopen}server-side-encryption ↗{linkclose} z indywidualnym kluczem opartym na ich konfiguracji.",
     "Additionally, this server is protected with full-disk-encryption." : "Dodatkowo ten serwer jest chroniony szyfrowaniem full-disk-encryption.",
     "This server is protected with full-disk-encryption." : "Ten serwer jest chroniony za pomocą full-disk-encryption.",
@@ -287,6 +285,8 @@ OC.L10N.register(
     "People you shared with" : "Osoby, którym udostępniasz",
     "Privacy policy" : "Polityka prywatności",
     "Read the privacy policy." : "Przeczytaj politykę prywatności.",
-    "Encryption" : "Szyfrowanie"
+    "Encryption" : "Szyfrowanie",
+    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "Twój magazyn główny jest zaszyfrowany przy użyciu {linkopen}server-side-encryption ↗{linkclose} z kluczem głównym.",
+    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "Twój magazyn główny jest zaszyfrowany przy użyciu {linkopen}server-side-encryption ↗{linkclose} z indywidualnym kluczem użytkownika."
 },
 "nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);");

@@ -8,9 +8,7 @@ OC.L10N.register(
     "Add external admin" : "外部管理者を追加",
     "Name of external admin" : "外部管理者名",
     "This server is using full-disk-encryption." : "このサーバーはフルディスク暗号化を使用しています。",
-    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "あなたのホームストレージは、マスターキーによる {linkopen}サーバーサイド暗号化 ↗{linkclose} で暗号化されています。",
     "Your files on external storages may be encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key based on their configuration." : "外部ストレージ上に存在するあなたのファイルは、設定によりマスターキーによる {linkopen}サーバーサイド暗号化 ↗{linkclose} で暗号化されています。",
-    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "あなたのホームストレージは、個別のユーザーキーによる {linkopen}サーバーサイド暗号化 ↗{linkclose} で暗号化されています。",
     "Your files on external storages may be encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual key based on their configuration." : "外部ストレージ上に存在するあなたのファイルは、設定により個別のユーザーキーによる {linkopen}サーバーサイド暗号化 ↗{linkclose} で暗号化されています。",
     "Additionally, this server is protected with full-disk-encryption." : "更にこのサーバーは、ディスク全体の暗号化により保護されています。",
     "This server is protected with full-disk-encryption." : "このサーバーはフルディスク暗号化で保護されています。",
@@ -287,6 +285,8 @@ OC.L10N.register(
     "People you shared with" : "あなたが共有した人",
     "Privacy policy" : "個人情報保護方針",
     "Read the privacy policy." : "個人情報保護方針を読んでください。",
-    "Encryption" : "暗号化"
+    "Encryption" : "暗号化",
+    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "あなたのホームストレージは、マスターキーによる {linkopen}サーバーサイド暗号化 ↗{linkclose} で暗号化されています。",
+    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "あなたのホームストレージは、個別のユーザーキーによる {linkopen}サーバーサイド暗号化 ↗{linkclose} で暗号化されています。"
 },
 "nplurals=1; plural=0;");

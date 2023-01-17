@@ -8,9 +8,7 @@ OC.L10N.register(
     "Add external admin" : "Ajouter un administrateur externe",
     "Name of external admin" : "Nom de l'administrateur externe",
     "This server is using full-disk-encryption." : "Les disques de ce serveur sont chiffrés.",
-    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "Votre espace de stockage est chiffré avec {linkopen}server-side-encryption ↗{linkclose} avec une clé principale.",
     "Your files on external storages may be encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key based on their configuration." : "Vos fichiers sur les stockages externes peuvent être chiffrés avec {linkopen}server-side-encryption ↗{linkclose} avec une clé principale reposant sur leur configuration.",
-    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "Votre espace de stockage est chiffré avec {linkopen}server-side-encryption ↗{linkclose} avec une clé d'utilisateur individuelle.",
     "Your files on external storages may be encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual key based on their configuration." : "Vos fichiers sur les stockages externes peuvent être chiffrés avec {linkopen}server-side-encryption ↗{linkclose} avec une clé individuelle reposant sur leur configuration.",
     "Additionally, this server is protected with full-disk-encryption." : "De plus, ce serveur est protégé par un chiffrement complet du disque.",
     "This server is protected with full-disk-encryption." : "Les disques de ce serveur sont protégés par chiffrement.",
@@ -287,6 +285,8 @@ OC.L10N.register(
     "People you shared with" : "Personnes avec qui vous avez partagé",
     "Privacy policy" : "Politique de confidentialité",
     "Read the privacy policy." : "Lisez la politique de confidentialité.",
-    "Encryption" : "Chiffrement"
+    "Encryption" : "Chiffrement",
+    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "Votre espace de stockage est chiffré avec {linkopen}server-side-encryption ↗{linkclose} avec une clé principale.",
+    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "Votre espace de stockage est chiffré avec {linkopen}server-side-encryption ↗{linkclose} avec une clé d'utilisateur individuelle."
 },
 "nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;");

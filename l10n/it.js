@@ -8,9 +8,7 @@ OC.L10N.register(
     "Add external admin" : "Aggiungi amministratore esterno",
     "Name of external admin" : "Nome dell'amministratore esterno",
     "This server is using full-disk-encryption." : "Questo server utilizzar la cifratura completa del disco.",
-    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "La tua archiviazione è cifrata usando una {linkopen}crittografia lato server ↗{linkclose} con una chiave primaria.",
     "Your files on external storages may be encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key based on their configuration." : "I tuoi file su archiviazioni esterne possono essere cifrati usando una {linkopen}crittografia lato server ↗{linkclose} con una chiave primaria in base alla loro configurazione.",
-    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "La tua archiviazione è cifrata usando una {linkopen}crittografia lato server ↗{linkclose} con una chiave utente individuale.",
     "Your files on external storages may be encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual key based on their configuration." : "I tuoi file su archiviazioni esterne possono essere cifrati usando una {linkopen}crittografia lato server ↗{linkclose} con una chiave utente individuale in base alla loro configurazione.",
     "Additionally, this server is protected with full-disk-encryption." : "Inoltre, questo server è protetto da una crittografia del disco completa.",
     "This server is protected with full-disk-encryption." : "Questo server è protetto con la cifratura completa del disco.",
@@ -287,6 +285,8 @@ OC.L10N.register(
     "People you shared with" : "Persone con cui hai condiviso",
     "Privacy policy" : "Criterio di riservatezza",
     "Read the privacy policy." : "Leggi subito i criteri di riservatezza.",
-    "Encryption" : "Cifratura"
+    "Encryption" : "Cifratura",
+    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "La tua archiviazione è cifrata usando una {linkopen}crittografia lato server ↗{linkclose} con una chiave primaria.",
+    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "La tua archiviazione è cifrata usando una {linkopen}crittografia lato server ↗{linkclose} con una chiave utente individuale."
 },
 "nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;");
