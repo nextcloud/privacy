@@ -6,9 +6,7 @@
     "Add external admin" : "Добавить внешнего администратора",
     "Name of external admin" : "Имя внешнего администратора",
     "This server is using full-disk-encryption." : "Этот сервер использует шифрование диска.",
-    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "Ваше домашнее хранилище зашифровано с помощью {linkopen}server-side-encryption {linkclose} с мастер-ключом.",
     "Your files on external storages may be encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key based on their configuration." : "Ваши файлы на внешних хранилищах могут быть зашифрованы с помощью {linkopen}server-side-encryption {linkclose} с мастер-ключом, основанным на их конфигурации.",
-    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "Ваше домашнее хранилище шифруется с помощью {linkopen}server-side-encryption {linkclose} с индивидуальным ключом пользователя.",
     "Your files on external storages may be encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual key based on their configuration." : "Ваши файлы на внешних хранилищах могут быть зашифрованы с помощью {linkopen}server-side-encryption {linkclose} с индивидуальным ключом в зависимости от их конфигурации.",
     "Additionally, this server is protected with full-disk-encryption." : "Кроме того, этот сервер защищён шифрованием всего диска.",
     "This server is protected with full-disk-encryption." : "Этот сервер защищён шифрованием диска.",
@@ -285,6 +283,8 @@
     "People you shared with" : "Люди, с которыми вы поделились",
     "Privacy policy" : "Политика конфиденциальности",
     "Read the privacy policy." : "Ознакомиться с политикой конфиденциальности.",
-    "Encryption" : "Шифрование"
+    "Encryption" : "Шифрование",
+    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "Ваше домашнее хранилище зашифровано с помощью {linkopen}server-side-encryption {linkclose} с мастер-ключом.",
+    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "Ваше домашнее хранилище шифруется с помощью {linkopen}server-side-encryption {linkclose} с индивидуальным ключом пользователя."
 },"pluralForm" :"nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);"
 }

@@ -6,9 +6,7 @@
     "Add external admin" : "Gehitu kanpo administratzailea",
     "Name of external admin" : "Kanpoko administratzailearen izena",
     "This server is using full-disk-encryption." : "Zerbitzari hau disko osoko zifratzea ari da erabiltzen.",
-    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "Etxeko biltegiratzea gako nagusi batekin {linkopen} zerbitzariaren aldeko enkriptatzea erabiliz ↗ {linkclose} enkriptatzen da.",
     "Your files on external storages may be encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key based on their configuration." : "Kanpoko biltegietan dituzun fitxategiak {linkopen} zerbitzariaren aldeko enkriptatze ↗ {linkclose} bidez enkriptatu daitezke haien konfigurazioaren araberako gako nagusi batekin.",
-    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "Etxeko biltegiratzea {linkopen} zerbitzariaren aldeko enkriptatze ↗ {linkclose} bidez enkriptatzen da erabiltzaile bakoitzaren gako batekin.",
     "Your files on external storages may be encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual key based on their configuration." : "Kanpoko biltegietako zure fitxategiak {linkopen} zerbitzariaren aldeko enkriptatze↗{linkclose} bidez enkriptatu daitezke, haien konfigurazioaren araberako banakako gako batekin.",
     "Additionally, this server is protected with full-disk-encryption." : "Gainera, zerbitzari hau disko osoko enkriptatze bidez babestuta dago.",
     "This server is protected with full-disk-encryption." : "Zerbitzari hau disko osoko zifratzearekin babestuta dago",
@@ -285,6 +283,8 @@
     "People you shared with" : "Pertsona hauekin elkarbanatu duzu",
     "Privacy policy" : "Pribatutasun politika",
     "Read the privacy policy." : "Irakurri pribatutasun politika",
-    "Encryption" : "Zifratzea"
+    "Encryption" : "Zifratzea",
+    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "Etxeko biltegiratzea gako nagusi batekin {linkopen} zerbitzariaren aldeko enkriptatzea erabiliz ↗ {linkclose} enkriptatzen da.",
+    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "Etxeko biltegiratzea {linkopen} zerbitzariaren aldeko enkriptatze ↗ {linkclose} bidez enkriptatzen da erabiltzaile bakoitzaren gako batekin."
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }

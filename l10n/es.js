@@ -8,9 +8,7 @@ OC.L10N.register(
     "Add external admin" : "Añadir administrador externo",
     "Name of external admin" : "Nombre del administrador externo",
     "This server is using full-disk-encryption." : "Este servidor está usando cifrado de disco completo.",
-    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "Tu nube doméstica está cifrada usando el {linkopen}cifrado en el lado del servidor ↗{linkclose} con una llave maestra.",
     "Your files on external storages may be encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key based on their configuration." : "Sus archivos en almacenamientos externos pueden ser cifrados usando el {linkopen}cifrado en el lado del servidor ↗{linkclose} con una llave maestra basada en su configuración.",
-    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "Tu nube doméstica está cifrada usando el {linkopen}cifrado en el lado del servidor ↗{linkclose} con una clave de usuario individual.",
     "Your files on external storages may be encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual key based on their configuration." : "Sus archivos en almacenamientos externos pueden ser cifrados usando el {linkopen}cifrado en el lado del servidor ↗{linkclose} con una clave de usuario individual basada en su configuración.",
     "Additionally, this server is protected with full-disk-encryption." : "Además, este servidor está protegido con un cifrado de disco completo.",
     "This server is protected with full-disk-encryption." : "Este servidor está protegido con cifrado de disco completo.",
@@ -287,6 +285,8 @@ OC.L10N.register(
     "People you shared with" : "Gente con la que los has compartido",
     "Privacy policy" : "Política de privacidad",
     "Read the privacy policy." : "Leer la política de privacidad.",
-    "Encryption" : "Cifrado"
+    "Encryption" : "Cifrado",
+    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "Tu nube doméstica está cifrada usando el {linkopen}cifrado en el lado del servidor ↗{linkclose} con una llave maestra.",
+    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "Tu nube doméstica está cifrada usando el {linkopen}cifrado en el lado del servidor ↗{linkclose} con una clave de usuario individual."
 },
 "nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;");

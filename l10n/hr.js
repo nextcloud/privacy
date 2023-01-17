@@ -8,9 +8,7 @@ OC.L10N.register(
     "Add external admin" : "Dodaj vanjskog administratora",
     "Name of external admin" : "Ime vanjskog administratora",
     "This server is using full-disk-encryption." : "Ovaj poslužitelj koristi šifriranje cijelog diska.",
-    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "Vaša kućna pohrana {linkopen}šifrirana je na poslužitelju ↗{linkclose} s pomoću glavnog ključa.",
     "Your files on external storages may be encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key based on their configuration." : "Vaše datoteke na vanjskim spremištima za pohranu mogu se {linkopen}šifrirati na poslužitelju ↗{linkclose} s pomoću glavnog ključa na temelju njihove konfiguracije.",
-    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "Vaša kućna pohrana {linkopen}šifrirana je na poslužitelju ↗{linkclose} s pomoću odgovarajućeg korisničkog ključa.",
     "Your files on external storages may be encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual key based on their configuration." : "Vaše datoteke na vanjskim spremištima za pohranu mogu se {linkopen}šifrirati na poslužitelju ↗{linkclose} s pomoću odgovarajućeg ključa na temelju njihove konfiguracije.",
     "Additionally, this server is protected with full-disk-encryption." : "Ovaj je poslužitelj također zaštićen šifriranjem cijelog diska.",
     "This server is protected with full-disk-encryption." : "Ovaj je poslužitelj zaštićen šifriranjem cijelog diska.",
@@ -285,6 +283,8 @@ OC.L10N.register(
     "People you shared with" : "Osobe s kojima ih dijelite",
     "Privacy policy" : "Pravila o privatnosti",
     "Read the privacy policy." : "Pročitajte pravila o privatnosti.",
-    "Encryption" : "Šifriranje"
+    "Encryption" : "Šifriranje",
+    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "Vaša kućna pohrana {linkopen}šifrirana je na poslužitelju ↗{linkclose} s pomoću glavnog ključa.",
+    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "Vaša kućna pohrana {linkopen}šifrirana je na poslužitelju ↗{linkclose} s pomoću odgovarajućeg korisničkog ključa."
 },
 "nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;");

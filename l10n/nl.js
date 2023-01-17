@@ -8,9 +8,7 @@ OC.L10N.register(
     "Add external admin" : "Voeg externe beheerder toe",
     "Name of external admin" : "Naam van externe beheerder",
     "This server is using full-disk-encryption." : "Deze server maakt gebruik van full-disk-encryptie.",
-    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "Je thuisopslag is versleuteld met {linkopen} server-side-encryptie ↗ {linkclose} met een hoofdsleutel.",
     "Your files on external storages may be encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key based on their configuration." : "Je bestanden op externe opslag kunnen worden versleuteld met {linkopen} server-side-encryptie ↗ {linkclose} met een hoofdsleutel op basis van hun configuratie.",
-    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "Je thuisopslag is versleuteld met {linkopen} server-side-encryptie ↗ {linkclose} met een individuele gebruikerssleutel.",
     "Your files on external storages may be encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual key based on their configuration." : "Je bestanden op externe opslag kunnen worden versleuteld met {linkopen} server-side-encryptie ↗ {linkclose} met een individuele sleutel op basis van hun configuratie.",
     "Additionally, this server is protected with full-disk-encryption." : "Daarnaast is deze server beschermd met full-disk-encryptie.",
     "This server is protected with full-disk-encryption." : "De server is beschermd met full-disk-encryptie.",
@@ -287,6 +285,8 @@ OC.L10N.register(
     "People you shared with" : "Mensen waarmee je hebt gedeeld",
     "Privacy policy" : "Privacybeleid",
     "Read the privacy policy." : "Lees het %sprivacy beleid%s nu.",
-    "Encryption" : "Versleuteling"
+    "Encryption" : "Versleuteling",
+    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "Je thuisopslag is versleuteld met {linkopen} server-side-encryptie ↗ {linkclose} met een hoofdsleutel.",
+    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "Je thuisopslag is versleuteld met {linkopen} server-side-encryptie ↗ {linkclose} met een individuele gebruikerssleutel."
 },
 "nplurals=2; plural=(n != 1);");

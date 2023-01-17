@@ -8,9 +8,7 @@ OC.L10N.register(
     "Add external admin" : "Dış yönetici ekle",
     "Name of external admin" : "Dış yönetici adı",
     "This server is using full-disk-encryption." : "Bu sunucu tam disk şifrelemesi ile korunuyor.",
-    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "Kendi depolamanız, bir ana anahtar kullanılarak {linkopen}sunucu tarafı şifreleme ↗{linkclose} ile şifrelenmiş.",
     "Your files on external storages may be encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key based on their configuration." : "Dış depolamalardaki dosyalarınız, dış hizmetlerin yapılandırmasına göre, bir ana anahtar kullanılarak {linkopen}sunucu tarafı şifreleme ↗{linkclose} ile şifrelenmiş olabilir.",
-    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "Kendi depolamanız, bir kişisel kullanıcı anahtarı kullanılarak {linkopen}sunucu tarafı şifreleme ↗{linkclose} ile şifrelenmiş.",
     "Your files on external storages may be encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual key based on their configuration." : "Dış depolamalardaki dosyalarınız, dış hizmetlerin yapılandırmasına göre, bir kişisel kullanıcı anahtarı kullanılarak {linkopen}sunucu tarafı şifreleme ↗{linkclose} ile şifrelenmiş olabilir.",
     "Additionally, this server is protected with full-disk-encryption." : "Ayrıca, bu sunucu tam disk şifrelemesi ile korunmuş.",
     "This server is protected with full-disk-encryption." : "Bu sunucu tam disk şifrelemesi ile korunuyor.",
@@ -287,6 +285,8 @@ OC.L10N.register(
     "People you shared with" : "Verilerinizi paylaştığınız kişiler",
     "Privacy policy" : "Kişisel gizliliğin korunması ilkesi",
     "Read the privacy policy." : "Kişisel verilerinizin korunması ilkesini gözden geçirin.",
-    "Encryption" : "Şifreleme"
+    "Encryption" : "Şifreleme",
+    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "Kendi depolamanız, bir ana anahtar kullanılarak {linkopen}sunucu tarafı şifreleme ↗{linkclose} ile şifrelenmiş.",
+    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "Kendi depolamanız, bir kişisel kullanıcı anahtarı kullanılarak {linkopen}sunucu tarafı şifreleme ↗{linkclose} ile şifrelenmiş."
 },
 "nplurals=2; plural=(n > 1);");
