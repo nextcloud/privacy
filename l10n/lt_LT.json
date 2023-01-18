@@ -6,6 +6,7 @@
     "Add external admin" : "Pridėti išorinį administratorių",
     "Name of external admin" : "Išorinio administratoriaus vardas",
     "Your files are not protected by encryption." : "Jūsų failai nėra apsaugoti šifravimu.",
+    "The admin has not selected the location of the server yet." : "Administratorius kol kas nepasirinko serverio vietos.",
     "Change data location" : "Keisti duomenų vietą",
     "Please select a region" : "Pasirinkite regioną",
     "You don't have any shares with individual users." : "Jūs neturite jokių viešinių su atskirais naudotojais.",
