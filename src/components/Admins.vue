@@ -24,7 +24,7 @@
 		<span :class="{ hidden: !isLoading }" class="icon icon-loading" />
 		<div v-for="admin in admins" :key="admin.id" class="admin-avatar-container">
 			<NcAvatar :user="admin.internal ? admin.id : null"
-				:display-name="admin.displayname"
+				:title="admin.displayname"
 				:size="64"
 				:is-no-user="!admin.internal"
 				:show-user-status="false" />

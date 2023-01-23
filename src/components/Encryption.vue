@@ -30,7 +30,10 @@
 			<!--eslint-enable-->
 		</div>
 		<NcActions v-if="$is_admin && !isEditing">
-			<NcActionButton icon="icon-rename" @click.stop.prevent="openEditFullDiskEncryptionForm" />
+			<NcActionButton icon="icon-rename"
+				:aria-label="t('privacy', 'Adapt encryption')"
+				:title="t('privacy', 'Adapt encryption')"
+				@click.stop.prevent="openEditFullDiskEncryptionForm" />
 		</NcActions>
 		<div v-if="isEditing" v-click-outside="cancelEditFullDiskEncryptionForm">
 			<form>

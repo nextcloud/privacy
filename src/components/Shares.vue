@@ -28,7 +28,7 @@
 		<NcAvatar v-for="uid in uniqueShareUIDs"
 			:key="uid"
 			:user="uid"
-			:display-name="uidDisplaynameMap[uid]"
+			:title="uidDisplaynameMap[uid]"
 			:size="64"
 			:show-user-status="false" />
 	</div>
