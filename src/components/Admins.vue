@@ -24,22 +24,25 @@
 		<span :class="{ hidden: !isLoading }" class="icon icon-loading" />
 		<div v-for="admin in admins" :key="admin.id" class="admin-avatar-container">
 			<NcAvatar :user="admin.internal ? admin.id : null"
+				:title="admin.displayname"
 				:display-name="admin.displayname"
 				:size="64"
 				:is-no-user="!admin.internal"
 				:show-user-status="false" />
 			<NcActions v-if="!admin.internal">
-				<NcActionButton icon="icon-close" @click="deleteAdditionalAdmin(admin)">
-					{{ $t('privacy', 'Remove external admin') }}
-				</NcActionButton>
+				<NcActionButton icon="icon-close"
+					:aria-label="t('privacy', 'Remove external {propertyName} admin', { propertyName: admin.displayname })"
+					:title="t('privacy', 'Remove external {propertyName} admin', { propertyName: admin.displayname })"
+					@click="deleteAdditionalAdmin(admin)" />
 			</NcActions>
 		</div>
 
 		<div v-if="$is_admin">
 			<NcActions v-if="!isAdding" class="addAdditionalAdmin">
-				<NcActionButton icon="icon-add" @click.stop.prevent="openNewAdmin">
-					{{ $t('privacy', 'Add external admin') }}
-				</NcActionButton>
+				<NcActionButton icon="icon-add"
+					:aria-label="t('privacy', 'Add external admin')"
+					:title="t('privacy', 'Add external admin')"
+					@click.stop.prevent="openNewAdmin" />
 			</NcActions>
 			<form v-if="isAdding"
 				v-click-outside="closeNewAdmin"
