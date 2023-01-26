@@ -4,7 +4,6 @@ OC.L10N.register(
     "Privacy" : "Privacidade",
     "-" : "-",
     "The privacy center shows you where your data is stored and who can access it, either because you shared with them or because they are administrators." : "O centro de privacidade amósalle onde están almacenados os seus datos e quen pode acceder a eles, ben porque compartiu con eles ou porque son administradores.",
-    "Remove external admin" : "Retirar administrador externo",
     "Add external admin" : "Engadir administrador externo",
     "Name of external admin" : "Nome do administrador externo",
     "This server is using full-disk-encryption." : "Este servidor está a usar o cifrado de disco completo.",
@@ -280,6 +279,7 @@ OC.L10N.register(
     "People you shared with" : "Persoas coas que compartiu",
     "Privacy policy" : "Directiva de privacidade",
     "Read the privacy policy." : "Lea a directiva de privacidade.",
-    "Encryption" : "Cifrado"
+    "Encryption" : "Cifrado",
+    "Remove external admin" : "Retirar administrador externo"
 },
 "nplurals=2; plural=(n != 1);");

@@ -4,7 +4,6 @@ OC.L10N.register(
     "Privacy" : "Privatumas",
     "-" : "-",
     "The privacy center shows you where your data is stored and who can access it, either because you shared with them or because they are administrators." : "Privatumo centras rodo kur yra laikomi jūsų duomenys ir kas turi prieigą prie jų, arba dėl to, kad bendrinote savo duomenis su šiais asmenimis, arba dėl to, kad jie yra administratoriai.",
-    "Remove external admin" : "Šalinti išorinį administratorių",
     "Add external admin" : "Pridėti išorinį administratorių",
     "Name of external admin" : "Išorinio administratoriaus vardas",
     "Your files are not protected by encryption." : "Jūsų failai nėra apsaugoti šifravimu.",
@@ -225,6 +224,7 @@ OC.L10N.register(
     "People you shared with" : "Žmonės su kuriais bendrinote",
     "Privacy policy" : "Privatumo politika",
     "Read the privacy policy." : "Skaitykite privatumo politiką.",
-    "Encryption" : "Šifravimas"
+    "Encryption" : "Šifravimas",
+    "Remove external admin" : "Šalinti išorinį administratorių"
 },
 "nplurals=4; plural=(n % 10 == 1 && (n % 100 > 19 || n % 100 < 11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? 1 : n % 1 != 0 ? 2: 3);");

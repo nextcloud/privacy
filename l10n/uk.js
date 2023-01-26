@@ -4,7 +4,6 @@ OC.L10N.register(
     "Privacy" : "Конфіденційність",
     "-" : "-",
     "The privacy center shows you where your data is stored and who can access it, either because you shared with them or because they are administrators." : "Центр конфіденційності показує, де зберігаються ваші дані та хто може отримати до них доступ, оскільки ви поділилися з ними або тому, що вони адміністратори.",
-    "Remove external admin" : "Вилучити зовнішнього адміністратора",
     "Add external admin" : "Додати зовнішнього адміністратора",
     "Name of external admin" : "Ім'я зовнішнього адміністратора",
     "This server is using full-disk-encryption." : "Цей сервер використовує повне шифрування диска.",
@@ -286,6 +285,7 @@ OC.L10N.register(
     "Privacy policy" : "Політика конфіденційності",
     "Read the privacy policy." : "Переглянути політику конфіденційності.",
     "Encryption" : "Шифрування",
+    "Remove external admin" : "Вилучити зовнішнього адміністратора",
     "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "Ваше домашнє сховище зашифровано за допомогою {linkopen}шифрування на стороні сервера ↗{linkclose} за допомогою головного ключа.",
     "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "Ваше домашнє сховище зашифровано за допомогою {linkopen}шифрування на стороні сервера ↗{linkclose} індивідуальним ключем користувача."
 },

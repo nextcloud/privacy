@@ -4,7 +4,6 @@ OC.L10N.register(
     "Privacy" : "حریم خصوصی",
     "-" : "-",
     "The privacy center shows you where your data is stored and who can access it, either because you shared with them or because they are administrators." : "مرکز حفظ حریم خصوصی به شما نشان می دهد که داده های شما در کجا ذخیره شده است و چه کسی می تواند به آن دسترسی پیدا کند ، یا بخاطر اینکه با آنها به اشتراک گذاشته اید یا به دلیل اینکه آنها مدیر هستند",
-    "Remove external admin" : "مدیر خارجی را حذف کنید",
     "Add external admin" : "اضافه کردن مدیر خارجی",
     "This server is using full-disk-encryption." : "این سرور از رمزگذاری کامل دیسک استفاده می کند.",
     "This server is protected with full-disk-encryption." : "این سرور با رمزگذاری کامل دیسک محافظت می شود.",
@@ -204,6 +203,7 @@ OC.L10N.register(
     "People you shared with" : "افرادی که با آنها به اشتراک گذاشتید",
     "Privacy policy" : "سیاست حفظ حریم خصوصی",
     "Read the privacy policy." : "خط مشی رازداری را بخوانید.",
-    "Encryption" : "رمزگذاری"
+    "Encryption" : "رمزگذاری",
+    "Remove external admin" : "مدیر خارجی را حذف کنید"
 },
 "nplurals=2; plural=(n > 1);");

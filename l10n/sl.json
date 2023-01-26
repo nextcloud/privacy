@@ -2,7 +2,6 @@
     "Privacy" : "Zasebnost",
     "-" : "–",
     "The privacy center shows you where your data is stored and who can access it, either because you shared with them or because they are administrators." : "Središče zasebnosti združuje podatke o mestu shranjevanja podatkov in osebah, ki imajo do njih dostop, na primer take, ki jim omogočate souporabo oziroma skrbniki.",
-    "Remove external admin" : "Odstrani zunanjega skrbnika",
     "Add external admin" : "Dodaj zunanjega skrbnika",
     "Name of external admin" : "Ime zunanjega skrbnika",
     "This server is using full-disk-encryption." : "Strežnik uporablja celostno diskovnom šifriranje.",
@@ -278,6 +277,7 @@
     "People you shared with" : "Osebe, ki jim omogočate souporabo vaših pdoatkov",
     "Privacy policy" : "Pravila zasebnosti",
     "Read the privacy policy." : "Preglejte pravila zasebnosti",
-    "Encryption" : "Šifriranje"
+    "Encryption" : "Šifriranje",
+    "Remove external admin" : "Odstrani zunanjega skrbnika"
 },"pluralForm" :"nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);"
 }

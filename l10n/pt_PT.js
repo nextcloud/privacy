@@ -4,7 +4,6 @@ OC.L10N.register(
     "Privacy" : "Privacidade",
     "-" : "-",
     "The privacy center shows you where your data is stored and who can access it, either because you shared with them or because they are administrators." : "No centro de privacidade pode verificar onde se encontram os seus dados. Pode ainda verificar quem tem acesso a eles, quer porque as partilhou com eles  quer porque são administradores. ",
-    "Remove external admin" : "Remover administrador externo. ",
     "Add external admin" : "Adicionar administrador externo",
     "Name of external admin" : "Nome do administrador externo",
     "Your files are not protected by encryption." : "Os seus ficheiros não estão protegidos com encriptação. ",
@@ -226,6 +225,7 @@ OC.L10N.register(
     "People you shared with" : "Pessoas com quem partilhou",
     "Privacy policy" : "Politica de privacidade",
     "Read the privacy policy." : "Leia a politica de privacidade",
-    "Encryption" : "Cifragem"
+    "Encryption" : "Cifragem",
+    "Remove external admin" : "Remover administrador externo. "
 },
 "nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;");

@@ -3,7 +3,6 @@ OC.L10N.register(
     {
     "Privacy" : "개인 정보 취급 방침",
     "-" : "-",
-    "Remove external admin" : "외부 관리자 제거",
     "Add external admin" : "외부 관리자 추가",
     "Name of external admin" : "외부 관리자 이름",
     "This server is using full-disk-encryption." : "이 서버에서 전체 디스크 암호화를 사용하고 있습니다.",
@@ -278,6 +277,7 @@ OC.L10N.register(
     "People you shared with" : "공유한 다른 사람",
     "Privacy policy" : "개인 정보 취급 방침",
     "Read the privacy policy." : "개인 정보 취급 방침을 읽습니다.",
-    "Encryption" : "암호화"
+    "Encryption" : "암호화",
+    "Remove external admin" : "외부 관리자 제거"
 },
 "nplurals=1; plural=0;");

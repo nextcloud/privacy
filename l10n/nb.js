@@ -2,7 +2,6 @@ OC.L10N.register(
     "privacy",
     {
     "Privacy" : "Personvern",
-    "Remove external admin" : "Fjern ekstern admin",
     "Add external admin" : "Legg til ekstern admin",
     "Name of external admin" : "Navn til ekstern admin",
     "This server is using full-disk-encryption." : "Denne serveren bruker full-disk kryptering.",
@@ -254,6 +253,7 @@ OC.L10N.register(
     "Administrators" : "Administratorer",
     "Privacy policy" : "Personvern politikk",
     "Read the privacy policy." : "Les personvernsærkleringen.",
-    "Encryption" : "Kryptering"
+    "Encryption" : "Kryptering",
+    "Remove external admin" : "Fjern ekstern admin"
 },
 "nplurals=2; plural=(n != 1);");

@@ -4,7 +4,6 @@ OC.L10N.register(
     "Privacy" : "隱私",
     "-" : "－",
     "The privacy center shows you where your data is stored and who can access it, either because you shared with them or because they are administrators." : "隱私中心會顯示您的資料儲存在哪裡，以及誰可以存取它，這可能是因為您與他們分享或是他們是管理員。",
-    "Remove external admin" : "移除外部管理員",
     "Add external admin" : "新增外部管理員",
     "Name of external admin" : "外部管理員名稱",
     "This server is using full-disk-encryption." : "此伺服器使用了全磁碟加密。",
@@ -288,6 +287,7 @@ OC.L10N.register(
     "Privacy policy" : "隱私權政策",
     "Read the privacy policy." : "閱讀隱私權政策",
     "Encryption" : "加密",
+    "Remove external admin" : "移除外部管理員",
     "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "您的主要儲存空間使用有主控金鑰的{linkopen}伺服器端加密 ↗{linkclose}加密了。",
     "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "使用{linkopen}伺服器端加密 ↗{linkclose}與個別的使用者金鑰來對您的主要儲存空間加密。"
 },

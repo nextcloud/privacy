@@ -4,7 +4,6 @@ OC.L10N.register(
     "Privacy" : "Kişisel gizlilik",
     "-" : "-",
     "The privacy center shows you where your data is stored and who can access it, either because you shared with them or because they are administrators." : "Kişisel gizlilik merkezinden verilerinizin nerede depolandığını ve yöneticiler ya da varsa paylaştığınız kişiler gibi verilerinize erişebilecek kişileri görebilirsiniz. ",
-    "Remove external admin" : "Dış yöneticiyi sil",
     "Add external admin" : "Dış yönetici ekle",
     "Name of external admin" : "Dış yönetici adı",
     "This server is using full-disk-encryption." : "Bu sunucu tam disk şifrelemesi ile korunuyor.",
@@ -288,6 +287,7 @@ OC.L10N.register(
     "Privacy policy" : "Kişisel gizliliğin korunması ilkesi",
     "Read the privacy policy." : "Kişisel verilerinizin korunması ilkesini gözden geçirin.",
     "Encryption" : "Şifreleme",
+    "Remove external admin" : "Dış yöneticiyi sil",
     "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "Kendi depolamanız, bir ana anahtar kullanılarak {linkopen}sunucu tarafı şifreleme ↗{linkclose} ile şifrelenmiş.",
     "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "Kendi depolamanız, bir kişisel kullanıcı anahtarı kullanılarak {linkopen}sunucu tarafı şifreleme ↗{linkclose} ile şifrelenmiş."
 },
