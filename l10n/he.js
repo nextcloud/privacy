@@ -4,7 +4,6 @@ OC.L10N.register(
     "Privacy" : "פרטיות",
     "-" : "-",
     "The privacy center shows you where your data is stored and who can access it, either because you shared with them or because they are administrators." : "מרכז הפרטיות מציג היכן מאוחסנים הנתונים שלך ולמי יש אפשרות לגשת אליהם או בגלל ששיתפת אותם או בגלל שהם מנהלים.",
-    "Remove external admin" : "הסרת הנהלה חיצונית",
     "Add external admin" : "הוספת הנהלה חיצונית",
     "Name of external admin" : "שם ההנהלה החיצונית",
     "This server is using full-disk-encryption." : "השרת הזה משתמש בהצפנה על כל הכונן.",
@@ -280,6 +279,7 @@ OC.L10N.register(
     "People you shared with" : "אנשים אתם שיתפת",
     "Privacy policy" : "מדיניות פרטיות",
     "Read the privacy policy." : "הצגת מדיניות הפרטיות.",
-    "Encryption" : "הצפנה"
+    "Encryption" : "הצפנה",
+    "Remove external admin" : "הסרת הנהלה חיצונית"
 },
 "nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % 1 == 0) ? 1: (n % 10 == 0 && n % 1 == 0 && n > 10) ? 2 : 3;");

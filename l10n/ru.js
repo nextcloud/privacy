@@ -4,7 +4,6 @@ OC.L10N.register(
     "Privacy" : "Конфиденциальность",
     "-" : "—",
     "The privacy center shows you where your data is stored and who can access it, either because you shared with them or because they are administrators." : "Центр конфиденциальности показывает вам, где хранятся ваши данные и кто может получить к ним доступ: администраторы и те, с кем вы поделились этими данными.",
-    "Remove external admin" : "Удалить внешнего администратора",
     "Add external admin" : "Добавить внешнего администратора",
     "Name of external admin" : "Имя внешнего администратора",
     "This server is using full-disk-encryption." : "Этот сервер использует шифрование диска.",
@@ -286,6 +285,7 @@ OC.L10N.register(
     "Privacy policy" : "Политика конфиденциальности",
     "Read the privacy policy." : "Ознакомиться с политикой конфиденциальности.",
     "Encryption" : "Шифрование",
+    "Remove external admin" : "Удалить внешнего администратора",
     "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "Ваше домашнее хранилище зашифровано с помощью {linkopen}server-side-encryption {linkclose} с мастер-ключом.",
     "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "Ваше домашнее хранилище шифруется с помощью {linkopen}server-side-encryption {linkclose} с индивидуальным ключом пользователя."
 },

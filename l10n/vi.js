@@ -3,7 +3,6 @@ OC.L10N.register(
     {
     "Privacy" : "Riêng tư",
     "The privacy center shows you where your data is stored and who can access it, either because you shared with them or because they are administrators." : "Trung tâm riêng tư cho bạn thấy nơi mà dữ liệu của bạn được lưu trữ và ai có thể truy cập nó, kể cả là vì bạn chia sẻ với họ hay là vì họ là quản trị viên.",
-    "Remove external admin" : "Gỡ bỏ quản trị viên bên ngoài",
     "Add external admin" : "Thêm vào quản trị viên bên ngoài",
     "Name of external admin" : "Tên của quản trị viên bên ngoài",
     "This server is using full-disk-encryption." : "Máy chủ này đang sử dụng toàn-bộ-ổ-đĩa-mã-hóa.",
@@ -31,6 +30,7 @@ OC.L10N.register(
     "People you shared with" : "Những người mà bạn chia sẻ với",
     "Privacy policy" : "Chính sách riêng tư",
     "Read the privacy policy." : "Đọc chính sách riêng tư.",
-    "Encryption" : "Mã hóa"
+    "Encryption" : "Mã hóa",
+    "Remove external admin" : "Gỡ bỏ quản trị viên bên ngoài"
 },
 "nplurals=1; plural=0;");

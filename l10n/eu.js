@@ -4,7 +4,6 @@ OC.L10N.register(
     "Privacy" : "Pribatutasuna",
     "-" : "-",
     "The privacy center shows you where your data is stored and who can access it, either because you shared with them or because they are administrators." : "Pribatutasun guneak zure datuak non dauden eta nork atzitu ditzakeen erakusten dizu, zuk berarekin partekatu dituzulako edo kudeatzaileak direlako.",
-    "Remove external admin" : "Kendu kanpo administratzailea",
     "Add external admin" : "Gehitu kanpo administratzailea",
     "Name of external admin" : "Kanpoko administratzailearen izena",
     "This server is using full-disk-encryption." : "Zerbitzari hau disko osoko zifratzea ari da erabiltzen.",
@@ -286,6 +285,7 @@ OC.L10N.register(
     "Privacy policy" : "Pribatutasun politika",
     "Read the privacy policy." : "Irakurri pribatutasun politika",
     "Encryption" : "Zifratzea",
+    "Remove external admin" : "Kendu kanpo administratzailea",
     "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "Etxeko biltegiratzea gako nagusi batekin {linkopen} zerbitzariaren aldeko enkriptatzea erabiliz ↗ {linkclose} enkriptatzen da.",
     "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "Etxeko biltegiratzea {linkopen} zerbitzariaren aldeko enkriptatze ↗ {linkclose} bidez enkriptatzen da erabiltzaile bakoitzaren gako batekin."
 },

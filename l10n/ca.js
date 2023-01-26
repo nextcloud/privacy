@@ -4,7 +4,6 @@ OC.L10N.register(
     "Privacy" : "Privadesa",
     "-" : "-",
     "The privacy center shows you where your data is stored and who can access it, either because you shared with them or because they are administrators." : "El centre de privadesa us mostra on s'emmagatzemen les vostres dades i qui pot accedir-hi, ja sigui perquè les vau compartir o perquè són usuaris administradors.",
-    "Remove external admin" : "Suprimeix l'administrador extern",
     "Add external admin" : "Afegeix un administrador extern",
     "Name of external admin" : "Nom de l'administrador extern",
     "This server is using full-disk-encryption." : "Aquest servidor utilitza xifratge complet de disc.",
@@ -286,6 +285,7 @@ OC.L10N.register(
     "Privacy policy" : "Política de privadesa",
     "Read the privacy policy." : "Llegiu la política de privadesa.",
     "Encryption" : "Xifratge",
+    "Remove external admin" : "Suprimeix l'administrador extern",
     "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "L'emmagatzematge principal està xifrat mitjançant {linkopen}xifratge del servidor ↗{linkclose} amb una clau mestra.",
     "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "L'emmagatzematge principal està xifrat mitjançant {linkopen}xifratge del servidor ↗{linkclose} amb una clau individual d'usuari."
 },

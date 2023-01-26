@@ -2,7 +2,6 @@
     "Privacy" : "Защита на лични данни",
     "-" : "-",
     "The privacy center shows you where your data is stored and who can access it, either because you shared with them or because they are administrators." : "Центърът за поверителност ви показва къде се съхраняват вашите данни и кой може да има достъп до тях, или защото сте споделили с тях, или защото те са администратори.",
-    "Remove external admin" : "Премахване на външен администратор",
     "Add external admin" : "Добавяне на външен администратор",
     "Name of external admin" : "Име на външен администратор",
     "This server is using full-disk-encryption." : "Този сървър използва шифроване на пълен диск.",
@@ -286,6 +285,7 @@
     "Privacy policy" : "Политика за поверителност",
     "Read the privacy policy." : "Прочетете политиката за поверителност",
     "Encryption" : "Криптиране",
+    "Remove external admin" : "Премахване на външен администратор",
     "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "Домашното ви хранилище е криптирано чрез {linkopen}криптиране от страна на сървъра ↗{linkclose} с главен ключ.",
     "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "Домашното ви хранилище е криптирано чрез {linkopen}криптиране от страна на сървъра ↗{linkclose} с индивидуален потребителски ключ."
 },"pluralForm" :"nplurals=2; plural=(n != 1);"

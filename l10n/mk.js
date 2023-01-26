@@ -4,7 +4,6 @@ OC.L10N.register(
     "Privacy" : "Приватност",
     "-" : "-",
     "The privacy center shows you where your data is stored and who can access it, either because you shared with them or because they are administrators." : "Центарот за приватност ви покажува каде се складираат вашите податоци и кој има пристап до нив, или затоа што сте ги споделиле со некој или затоа што тие се администратори.",
-    "Remove external admin" : "Отстрани надворешен администратор",
     "Add external admin" : "Додади надворешен администратор",
     "Name of external admin" : "Име на надворешен администратор",
     "This server is using full-disk-encryption." : "Овој сервер користи целосно енкриптиран диск.",
@@ -286,6 +285,7 @@ OC.L10N.register(
     "Privacy policy" : "Политика за приватност",
     "Read the privacy policy." : "Прочитај ја политиката за приватност",
     "Encryption" : "Енкрипција",
+    "Remove external admin" : "Отстрани надворешен администратор",
     "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "Вашите датотеки се енкриптирани со {linkopen}енкрипција од страна на серверот ↗{linkclose} со главен клуч.",
     "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "Вашите датотеки се енкриптирани со {linkopen}енкрипција од страна на серверот ↗{linkclose} со приватен клуч."
 },

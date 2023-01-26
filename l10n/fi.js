@@ -4,7 +4,6 @@ OC.L10N.register(
     "Privacy" : "Tietosuoja",
     "-" : "-",
     "The privacy center shows you where your data is stored and who can access it, either because you shared with them or because they are administrators." : "Tämä tietosuojakeskus näyttää missä tietosi sijaitsevat ja kenellä on pääsy tietoihisi. Pääsy voi olla mahdollinen koska olet jakanut tietojasi muiden kanssa tai ylläpitäjällä on pääsy tiedostoihisi.",
-    "Remove external admin" : "Poista ulkoinen ylläpitäjä",
     "Add external admin" : "Lisää ulkoinen ylläpitäjä",
     "Name of external admin" : "Ulkoisen järjestelmänvalvojan nimi",
     "This server is using full-disk-encryption." : "Tämä palvelin käyttää täyttä levyn salausta.",
@@ -282,6 +281,7 @@ OC.L10N.register(
     "People you shared with" : "Ihmiset joiden kanssa jaoit tiedot",
     "Privacy policy" : "Tietosuojakäytäntö",
     "Read the privacy policy." : "Lue tietosuojakäytäntö.",
-    "Encryption" : "Salaus"
+    "Encryption" : "Salaus",
+    "Remove external admin" : "Poista ulkoinen ylläpitäjä"
 },
 "nplurals=2; plural=(n != 1);");

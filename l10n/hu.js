@@ -4,7 +4,6 @@ OC.L10N.register(
     "Privacy" : "Adatvédelem",
     "-" : "-",
     "The privacy center shows you where your data is stored and who can access it, either because you shared with them or because they are administrators." : "Az adatvédelmi központ megmutatja, hogy az adatait hol tárolják és ki férhet hozzájuk, vagy mert megosztotta velük vagy mert rendszergazdák.",
-    "Remove external admin" : "Külső rendszergazda eltávolítása",
     "Add external admin" : "Külső rendszergazda hozzáadása",
     "Name of external admin" : "Külső rendszergazda neve",
     "This server is using full-disk-encryption." : "Ez a kiszolgáló teljes lemeztitkosítást használ.",
@@ -286,6 +285,7 @@ OC.L10N.register(
     "Privacy policy" : "Adatvédelmi irányelvek",
     "Read the privacy policy." : "Az adatvédelmi irányelvek elolvasása.",
     "Encryption" : "Titkosítás",
+    "Remove external admin" : "Külső rendszergazda eltávolítása",
     "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "A saját tárolója mesterkulcsot használó {linkopen}kiszolgáló oldali titkosítással ↗{linkclose} védett.",
     "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "A saját tárolója egyéni felhasználó kulcsot használó {linkopen}kiszolgáló oldali titkosítással ↗{linkclose} védett."
 },

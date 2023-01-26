@@ -4,7 +4,6 @@ OC.L10N.register(
     "Privacy" : "Prywatność",
     "-" : "-",
     "The privacy center shows you where your data is stored and who can access it, either because you shared with them or because they are administrators." : "Centrum prywatności pokazuje, gdzie są przechowywane Twoje dane i kto może uzyskać do nich dostęp, ponieważ udostępniłeś je lub jesteś administratorem.",
-    "Remove external admin" : "Usuń zewnętrznego administratora",
     "Add external admin" : "Dodaj zewnętrznego administratora",
     "Name of external admin" : "Nazwa zewnętrznego administratora",
     "This server is using full-disk-encryption." : "Ten serwer używa full-disk-encryption.",
@@ -288,6 +287,7 @@ OC.L10N.register(
     "Privacy policy" : "Polityka prywatności",
     "Read the privacy policy." : "Przeczytaj politykę prywatności.",
     "Encryption" : "Szyfrowanie",
+    "Remove external admin" : "Usuń zewnętrznego administratora",
     "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "Twój magazyn główny jest zaszyfrowany przy użyciu {linkopen}server-side-encryption ↗{linkclose} z kluczem głównym.",
     "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "Twój magazyn główny jest zaszyfrowany przy użyciu {linkopen}server-side-encryption ↗{linkclose} z indywidualnym kluczem użytkownika."
 },

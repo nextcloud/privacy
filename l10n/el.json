@@ -2,7 +2,6 @@
     "Privacy" : "Ιδιωτικότητα",
     "-" : "-",
     "The privacy center shows you where your data is stored and who can access it, either because you shared with them or because they are administrators." : "Το κέντρο απορρήτου σας δείχνει πού φυλάσσονται τα δεδομένα σας και ποιος μπορεί να έχει πρόσβαση σε αυτά, είτε επειδή μοιραστήκατε μαζί τους είτε επειδή είναι διαχειριστές.",
-    "Remove external admin" : "Κατάργηση εξωτερικού διαχειριστή",
     "Add external admin" : "Προσθήκη εξωτερικού διαχειριστή",
     "Name of external admin" : "Όνομα εξωτερικού διαχειριστή",
     "This server is using full-disk-encryption." : "Ο διακομιστής χρησιμοποιεί κρυπτογράφηση πλήρους δίσκου.",
@@ -284,6 +283,7 @@
     "Privacy policy" : "Πολιτική Απορρήτου",
     "Read the privacy policy." : "Διαβάστε την πολιτική απορρήτου.",
     "Encryption" : "Κρυπτογράφηση",
+    "Remove external admin" : "Κατάργηση εξωτερικού διαχειριστή",
     "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "Ο αποθηκευτικός χώρος του home σας είναι κρυπτογραφημένος χρησιμοποιώντας {linkopen}server-side-encryption ↗{linkclose} με ένα κύριο κλειδί.",
     "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "Ο αποθηκευτικός χώρος του home σας είναι κρυπτογραφημένος χρησιμοποιώντας {linkopen}server-side-encryption ↗{linkclose} με ένα μεμονωμένο κλειδί χρήστη."
 },"pluralForm" :"nplurals=2; plural=(n != 1);"

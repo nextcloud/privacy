@@ -2,7 +2,6 @@
     "Privacy" : "Integritet",
     "-" : "-",
     "The privacy center shows you where your data is stored and who can access it, either because you shared with them or because they are administrators." : "Sekretesscentret visar var din data lagras och vem som kan komma åt den, antingen för att du delade med dem eller för att de är administratörer.",
-    "Remove external admin" : "Ta bort extern administratör",
     "Add external admin" : "Lägg till extern administratör",
     "Name of external admin" : "Namn på extern administratör",
     "This server is using full-disk-encryption." : "Servern använder fullständig disk-kryptering.",
@@ -284,6 +283,7 @@
     "Privacy policy" : "Integritetspolicy",
     "Read the privacy policy." : "Läs integritetspolicy.",
     "Encryption" : "Kryptering",
+    "Remove external admin" : "Ta bort extern administratör",
     "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "Din hemkatalog är krypterad med {linkopen}serverkryptering ↗{linkclose} med en huvudnyckel.",
     "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "Din hemkatalog är krypterad med {linkopen}serverkryptering ↗{linkclose} med en individuell nyckel per användare."
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
