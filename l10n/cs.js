@@ -4,7 +4,6 @@ OC.L10N.register(
     "Privacy" : "Soukromí",
     "-" : "–",
     "The privacy center shows you where your data is stored and who can access it, either because you shared with them or because they are administrators." : "Centrum soukromí ukazuje, kde jsou vaše data fyzicky uložena a kdo k nim může přistupovat, buď protože jste jim je nasdíleli nebo protože jsou správci.",
-    "Remove external admin" : "Odebrat externího správce",
     "Add external admin" : "Přidat správce zvenčí",
     "Name of external admin" : "Jméno externího správce",
     "This server is using full-disk-encryption." : "Tento server používá šifrování celého úložiště.",
@@ -288,6 +287,7 @@ OC.L10N.register(
     "Privacy policy" : "Zásada ochrany osobních údajů",
     "Read the privacy policy." : "Přečíst si zásady ochrany osobních údajů.",
     "Encryption" : "Šifrování",
+    "Remove external admin" : "Odebrat externího správce",
     "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "Vaše domovské úložiště je šifrováno pomocí {linkopen}šifrování na straně serveru ↗{linkclose} pomocí hlavního klíče.",
     "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "Vaše domovské úložiště je šifrováno pomocí {linkopen}šifrování na straně serveru ↗{linkclose} pomocí klíče jednotlivého uživatele."
 },

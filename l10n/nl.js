@@ -4,7 +4,6 @@ OC.L10N.register(
     "Privacy" : "Privacy",
     "-" : "-",
     "The privacy center shows you where your data is stored and who can access it, either because you shared with them or because they are administrators." : "Het privacy center laat zien waar je data is opgeslagen en wie er toegang toe heeft, omdat je de data met hen deelt of omdat het administrators zijn.",
-    "Remove external admin" : "Verwijder een externe beheerder",
     "Add external admin" : "Voeg externe beheerder toe",
     "Name of external admin" : "Naam van externe beheerder",
     "This server is using full-disk-encryption." : "Deze server maakt gebruik van full-disk-encryptie.",
@@ -286,6 +285,7 @@ OC.L10N.register(
     "Privacy policy" : "Privacybeleid",
     "Read the privacy policy." : "Lees het %sprivacy beleid%s nu.",
     "Encryption" : "Versleuteling",
+    "Remove external admin" : "Verwijder een externe beheerder",
     "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "Je thuisopslag is versleuteld met {linkopen} server-side-encryptie ↗ {linkclose} met een hoofdsleutel.",
     "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "Je thuisopslag is versleuteld met {linkopen} server-side-encryptie ↗ {linkclose} met een individuele gebruikerssleutel."
 },

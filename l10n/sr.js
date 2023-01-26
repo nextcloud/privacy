@@ -4,7 +4,6 @@ OC.L10N.register(
     "Privacy" : "Приватност",
     "-" : "-",
     "The privacy center shows you where your data is stored and who can access it, either because you shared with them or because they are administrators." : "Центар за приватност приказује где су Ваши подаци ускладиштени и ко може да им приступ, или зато што сте их Ви поделили са њима, или зато што су администратори.",
-    "Remove external admin" : "Уклони спољног администратора",
     "Add external admin" : "Додај спољног администратора",
     "Name of external admin" : "Име спољног администратора",
     "This server is using full-disk-encryption." : "Овај сервер користи шифровање целог диска.",
@@ -279,6 +278,7 @@ OC.L10N.register(
     "People you shared with" : "Људи са којима делите",
     "Privacy policy" : "Политика приватност",
     "Read the privacy policy." : "Прочитајте политику приватности.",
-    "Encryption" : "Шифровање"
+    "Encryption" : "Шифровање",
+    "Remove external admin" : "Уклони спољног администратора"
 },
 "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);");

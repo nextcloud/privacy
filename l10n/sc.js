@@ -4,7 +4,6 @@ OC.L10N.register(
     "Privacy" : "Riservadesa",
     "-" : "-",
     "The privacy center shows you where your data is stored and who can access it, either because you shared with them or because they are administrators." : "Su tzentru de riservadesa ti mustrat in ue si regollent is datos tuos e chie podet atzèdere, o ca ddos as cumpartzidos cun isse, o ca sunt de s'amministratzione.",
-    "Remove external admin" : "Boga•nche amministratzione de foras",
     "Add external admin" : "Agiunghe amministratzione de foras",
     "Name of external admin" : "Nùmene de chie amministrat dae foras",
     "This server is using full-disk-encryption." : "Custu serbidore est impreende sa tzifradura cumpleta de su discu.",
@@ -284,6 +283,7 @@ OC.L10N.register(
     "Privacy policy" : "Polìtica de riservadesa",
     "Read the privacy policy." : "Leghe sa polìtica de riservadesa.",
     "Encryption" : "Tzifradura",
+    "Remove external admin" : "Boga•nche amministratzione de foras",
     "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "S'archiviatzione de domo tua est tzifrada cun {linkopen}tzifradura ladu serbidore ↗{linkclose} cun una crae maistra.",
     "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "S'archiviatzione de domo tua est tzifrada cun {linkopen}tzifradura ladu serbidore ↗{linkclose} cun una crae de utente individuale."
 },

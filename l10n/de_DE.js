@@ -4,7 +4,6 @@ OC.L10N.register(
     "Privacy" : "Datenschutz",
     "-" : "-",
     "The privacy center shows you where your data is stored and who can access it, either because you shared with them or because they are administrators." : "Die Datenschutzübersicht zeigt Ihnen, wo Ihre Daten gespeichert werden und wer darauf Zugriff hat. Entweder weil Sie die Daten freigegeben haben oder es sich um Administratoren handelt.",
-    "Remove external admin" : "Externen Administrator entfernen",
     "Add external admin" : "Einen externen Administrator hinzufügen",
     "Name of external admin" : "Namen des externen Administrators",
     "This server is using full-disk-encryption." : "Dieser Server verwendet Festplattenverschlüsselung.",
@@ -288,6 +287,7 @@ OC.L10N.register(
     "Privacy policy" : "Datenschutz",
     "Read the privacy policy." : "Lesen Sie die Datenschutzerklärung.",
     "Encryption" : "Verschlüsselung",
+    "Remove external admin" : "Externen Administrator entfernen",
     "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "Ihr Speicher ist mit einem Hauptschlüssel mittels der {linkopen}serverseitigen Verschlüsselung ↗{linkclose} verschlüsselt.",
     "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "Ihr Speicher ist mit einem individuellen Benutzerschlüssel mittels der {linkopen}serverseitigen Verschlüsselung ↗{linkclose} verschlüsselt."
 },

@@ -2,7 +2,6 @@
     "Privacy" : "Конфіденційність",
     "-" : "-",
     "The privacy center shows you where your data is stored and who can access it, either because you shared with them or because they are administrators." : "Центр конфіденційності показує, де зберігаються ваші дані та хто може отримати до них доступ, оскільки ви поділилися з ними або тому, що вони адміністратори.",
-    "Remove external admin" : "Вилучити зовнішнього адміністратора",
     "Add external admin" : "Додати зовнішнього адміністратора",
     "Name of external admin" : "Ім'я зовнішнього адміністратора",
     "This server is using full-disk-encryption." : "Цей сервер використовує повне шифрування диска.",
@@ -284,6 +283,7 @@
     "Privacy policy" : "Політика конфіденційності",
     "Read the privacy policy." : "Переглянути політику конфіденційності.",
     "Encryption" : "Шифрування",
+    "Remove external admin" : "Вилучити зовнішнього адміністратора",
     "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "Ваше домашнє сховище зашифровано за допомогою {linkopen}шифрування на стороні сервера ↗{linkclose} за допомогою головного ключа.",
     "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "Ваше домашнє сховище зашифровано за допомогою {linkopen}шифрування на стороні сервера ↗{linkclose} індивідуальним ключем користувача."
 },"pluralForm" :"nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);"

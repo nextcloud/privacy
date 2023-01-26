@@ -4,7 +4,6 @@ OC.L10N.register(
     "Privacy" : "Meðferð persónuupplýsinga",
     "-" : "-",
     "The privacy center shows you where your data is stored and who can access it, either because you shared with them or because they are administrators." : "Síðan um meðferð persónuupplýsinga sýnir hvar gögnin þín eru geymd og hverjir hafi aðgang að þeim, annað hvort vegna þess að þú deildir þeim eða vegna þess að viðkomandi er kerfisstjórnandi.",
-    "Remove external admin" : "Fjarlægja utanaðkomandi stjórnanda",
     "Add external admin" : "Bæta við utanaðkomandi stjórnanda",
     "Name of external admin" : "Nafn utanaðkomandi stjórnanda",
     "This server is using full-disk-encryption." : "Þessi þjónn er að nota fulla dulritun diska.",
@@ -279,6 +278,7 @@ OC.L10N.register(
     "People you shared with" : "Fólk sem þú deildir með",
     "Privacy policy" : "Meðferð persónulegra gagna",
     "Read the privacy policy." : "Lestu stefnu varðandi meðferð persónulegra gagna.",
-    "Encryption" : "Dulritun"
+    "Encryption" : "Dulritun",
+    "Remove external admin" : "Fjarlægja utanaðkomandi stjórnanda"
 },
 "nplurals=2; plural=(n % 10 != 1 || n % 100 == 11);");
