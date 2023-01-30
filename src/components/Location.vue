@@ -25,9 +25,10 @@
 			<span v-show="country">{{ $t('privacy', 'Your data is located in:') }} <strong>{{ country }}</strong>.</span>
 			<span v-show="!country">{{ $t('privacy', 'The admin has not selected the location of the server yet.') }}</span>
 			<NcActions v-if="$is_admin">
-				<NcActionButton icon="icon-rename" @click="editLocation">
-					{{ t('privacy', 'Change data location') }}
-				</NcActionButton>
+				<NcActionButton icon="icon-rename"
+					:aria-label="t('privacy', 'Change data location')"
+					:title="t('privacy', 'Change data location')"
+					@click="editLocation" />
 			</NcActions>
 		</p>
 		<div v-show="isEditingLocation" class="NcMultiselect-container">
