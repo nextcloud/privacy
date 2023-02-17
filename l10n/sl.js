@@ -7,6 +7,9 @@ OC.L10N.register(
     "Add external admin" : "Dodaj zunanjega skrbnika",
     "Name of external admin" : "Ime zunanjega skrbnika",
     "This server is using full-disk-encryption." : "Strežnik uporablja celostno diskovnom šifriranje.",
+    "Your files on external storages may be encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key based on their configuration." : "Datoteke v zunanjih shrambah so lahko šifrirane z uporabo {linkkopen}strežniškega šifriranja ↗{linkclose} z glavnim ključem na podlagi določenih nastavitev.",
+    "Your files on external storages may be encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual key based on their configuration." : "Datoteke v zunanjih shrambah so lahko šifrirane z uporabo {linkkopen}strežniškega šifriranja ↗{linkclose} z uporabniškim ključem na podlagi določenih nastavitev.",
+    "Additionally, this server is protected with full-disk-encryption." : "Strežnik je tudi zaščiten s celostnim diskovnim šifriranjem.",
     "This server is protected with full-disk-encryption." : "Strežnik je zaščiten s celostnim diskovnim šifriranjem.",
     "Your files are not protected by encryption." : "Datoteke niso zaščitene s šifriranjem.",
     "Your data is located in:" : "Mesto podatkov: ",
@@ -276,10 +279,12 @@ OC.L10N.register(
     "Where is your data?" : "Kje so shranjeni vaši podatki?",
     "Who has access to your data?" : "Kdo naj ima dostop do vaših podatkov?",
     "Administrators" : "Skrbniki",
-    "People you shared with" : "Osebe, ki jim omogočate souporabo vaših pdoatkov",
+    "People you shared with" : "Osebe, ki jim omogočate souporabo vaših podatkov:",
     "Privacy policy" : "Pravila zasebnosti",
     "Read the privacy policy." : "Preglejte pravila zasebnosti",
     "Encryption" : "Šifriranje",
-    "Remove external admin" : "Odstrani zunanjega skrbnika"
+    "Remove external admin" : "Odstrani zunanjega skrbnika",
+    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "Datoteke v osebni shrambi so šifrirane z uporabo {linkkopen}strežniškega šifriranja ↗{linkclose} z glavnim ključem.",
+    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "Datoteke v osebni shrambi so šifrirane z uporabo {linkkopen}strežniškega šifriranja ↗{linkclose} z individualnim uporabniškim ključem."
 },
 "nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);");
