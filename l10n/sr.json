@@ -2,11 +2,20 @@
     "Privacy" : "Приватност",
     "-" : "-",
     "The privacy center shows you where your data is stored and who can access it, either because you shared with them or because they are administrators." : "Центар за приватност приказује где су Ваши подаци ускладиштени и ко може да им приступ, или зато што сте их Ви поделили са њима, или зато што су администратори.",
+    "Remove external {propertyName} admin" : "Уклони спољног {propertyName} админа",
     "Add external admin" : "Додај спољног администратора",
     "Name of external admin" : "Име спољног администратора",
+    "Adapt encryption" : "Прилагоди шифрирање",
     "This server is using full-disk-encryption." : "Овај сервер користи шифровање целог диска.",
+    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key. It means that administrators can access your files, but not read their content." : "Ваше лично складиште је шифрирано {linkopen}енкрипцијом на страни сервера ↗{linkclose} уз употребу главног кључа. То значи да администратори могу да приступе вашим фајловима, али не могу да прочитају њихов садржај.",
+    "Your files on external storages may be encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key based on their configuration." : "Ваши фајлови на спољним складиштима могу бити шифрирани {linkopen}енкрипцијом на страни сервера ↗{linkclose} уз употребу главног кључа у зависности од тога како су конфигурисана.",
+    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key. It means that administrators can access your files, but not read their content." : "Ваше лично складиште се шифрира {linkopen}екрипцијом на страни сервера ↗{linkclose} уз употребу индивидуалног корисничког кључа. То значи да администратори могу да приступе вашим фајловима, али не могу да прочитају њихов садржај.",
+    "Your files on external storages may be encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual key based on their configuration." : "Ваши фајлови на спољним складиштима могу бити шифрирани {linkopen}енкрипцијом на страни севера ↗{linkclose} уз употребу индивидуалног кључа, у зависности од тога како су конфигурисана.",
+    "Additionally, this server is protected with full-disk-encryption." : "Уз то, овај сервер је заштићен шифрирањем комплетних дискова.",
     "This server is protected with full-disk-encryption." : "Овај сервер је заштићен са шифровањем целог диска.",
     "Your files are not protected by encryption." : "Ваши фајлови нису заштићени шифровањем.",
+    "Your data is located in:" : "Ваши подаци се налазе у:",
+    "The admin has not selected the location of the server yet." : "Админ још увек није подтавио локацију сервера.",
     "Change data location" : "Промени локацију података",
     "Please select a region" : "Молимо одаберите регију",
     "You don't have any shares with individual users." : "Немате дељења са појединачним корисницима.",
@@ -257,6 +266,7 @@
     "South Africa" : "Јужноафричка република",
     "Zambia" : "Замбија",
     "Zimbabwe" : "Зимбабве",
+    "Your %s account" : "Ваш %s налог",
     "Your data represents who you are and can easily be abused. We at Nextcloud believe that you have a right to decide what happens with your data. Nextcloud protects your rights as defined in the User Data Manifesto!" : "Ваши подаци представљају ко сте Ви и лако могу бити злоупотребљени. Ми у Некстклауду верујемо да имате права да изаберете шта се дешава са Вашим подацима. Некстклауд штити ваша права као што је дефинисано у манифесту корисничких података!",
     "User Data Manifesto 2.0" : "Манифест корисничких података 2.0",
     "Defining basic rights for people to control their own data in the internet age" : "Дефинише основна права људи да контролишу сопствене податке у доба интернета",
@@ -277,6 +287,8 @@
     "Privacy policy" : "Политика приватност",
     "Read the privacy policy." : "Прочитајте политику приватности.",
     "Encryption" : "Шифровање",
-    "Remove external admin" : "Уклони спољног администратора"
+    "Remove external admin" : "Уклони спољног администратора",
+    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "Ваше лично складиште је шифрирано {linkopen}енкрипцијом на страни сервера ↗{linkclose} уз употребу главног кључа.",
+    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "Ваше лично складиште је шифрирано {linkopen}енкрипцијом на страни сервера ↗{linkclose} уз употребу индивидуалног корисничког кључа."
 },"pluralForm" :"nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);"
 }
