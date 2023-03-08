@@ -280,7 +280,7 @@ OC.L10N.register(
     "When the data is uploaded to a specific service provider, users should be informed about where that specific service provider stores the data, how long, in which jurisdiction the specific service provider operates, and which laws apply." : "Datuak zerbitzu hornitzaile batera kargatzen direnean, erabiltzaileei adierazi behar zaie datu horiek zehazki non gordeko dituen, noiz arte, eta zein jurisdikziotan dagoen zerbitzu hornitzaile zehatz hori, zein legek eragiten dioten.",
     "Freedom" : "Askatasuna",
     "to choose a platform" : "plataforma aukeratzeko",
-    "Users should always be able to extract their data from the service at any time without experiencing any vendor lock-in. Open standards for formats and protocols are necessary to guarantee this." : "Erabiltzaileek euren datuak edonoiz beren datuak edozein zerbitzutatik ateratzeko gai izan behar dira. Formatu eta protokoloentzako estandar irekiak behar-beharrezkoak dira hau bermatzeko.",
+    "Users should always be able to extract their data from the service at any time without experiencing any vendor lock-in. Open standards for formats and protocols are necessary to guarantee this." : "Erabiltzaileek aukera izan behar dute edozein unetan beren datuak ateratzeko zerbitzutik, saltzailearen blokeorik jasan gabe. Formatu eta protokoloentzako estandar irekiak behar-beharrezkoak dira hori bermatzeko.",
     "Learn more ↗" : "Ikasi gehiago ↗",
     "Where is your data?" : "Non daude zure datuak?",
     "Who has access to your data?" : "Nork du zure datuetarako sarbidea?",
