@@ -217,6 +217,7 @@ OC.L10N.register(
     "South Africa" : "Sudafrica",
     "Zambia" : "Zambia",
     "Zimbabwe" : "Zimbabwe",
+    "Learn more ↗" : "Ne saber mai ↗",
     "Encryption" : "Chiframent"
 },
 "nplurals=2; plural=(n > 1);");
