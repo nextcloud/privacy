@@ -1,7 +1,7 @@
 { "translations": {
-    "Privacy" : "Kişisel gizlilik",
+    "Privacy" : "Gizlilik",
     "-" : "-",
-    "The privacy center shows you where your data is stored and who can access it, either because you shared with them or because they are administrators." : "Kişisel gizlilik merkezinden verilerinizin nerede depolandığını ve yöneticiler ya da varsa paylaştığınız kişiler gibi verilerinize erişebilecek kişileri görebilirsiniz. ",
+    "The privacy center shows you where your data is stored and who can access it, either because you shared with them or because they are administrators." : "Gizlilik merkezinden kişisel verilerinizin nerede depolandığını ve yöneticiler ya da varsa paylaştığınız kişiler gibi verilerinize erişebilecek kişileri görebilirsiniz. ",
     "Remove external {propertyName} admin" : "Dış {propertyName} yöneticisini kaldır",
     "Add external admin" : "Dış yönetici ekle",
     "Name of external admin" : "Dış yönetici adı",
