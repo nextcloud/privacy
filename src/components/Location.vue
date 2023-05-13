@@ -97,7 +97,7 @@ export default {
 				const newElm = document.querySelector('.where-is-my-data #' + newCountry)
 
 				if (newElm) {
-					newElm.style.fill = 'var(--color-primary)'
+					newElm.style.fill = 'var(--color-primary-element)'
 				}
 			}
 		},
