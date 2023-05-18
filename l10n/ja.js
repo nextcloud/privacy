@@ -279,7 +279,7 @@ OC.L10N.register(
     "Freedom" : "自由",
     "to choose a platform" : "プラットフォームを選択する",
     "Users should always be able to extract their data from the service at any time without experiencing any vendor lock-in. Open standards for formats and protocols are necessary to guarantee this." : "ユーザーはベンダーのロックインを経験することなく、いつでも自分のデータを抽出することができるはずです。これを保証するためにオープンスタンダードなフォーマットとプロトコルが必要です。",
-    "Learn more ↗" : "もっと詳しく知る",
+    "Learn more ↗" : "もっと詳しく知る↗",
     "Where is your data?" : "データはどこにありますか？",
     "Who has access to your data?" : "誰があなたのデータにアクセスできますか？",
     "Administrators" : "管理者",
