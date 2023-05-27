@@ -289,7 +289,6 @@ OC.L10N.register(
     "Privacy policy" : "Integritetspolicy",
     "Read the privacy policy." : "Läs integritetspolicy.",
     "Encryption" : "Kryptering",
-    "Remove external admin" : "Ta bort extern administratör",
     "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "Din hemkatalog är krypterad med {linkopen}serverkryptering ↗{linkclose} med en huvudnyckel.",
     "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "Din hemkatalog är krypterad med {linkopen}serverkryptering ↗{linkclose} med en individuell nyckel per användare."
 },

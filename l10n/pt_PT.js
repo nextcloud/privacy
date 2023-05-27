@@ -225,7 +225,6 @@ OC.L10N.register(
     "People you shared with" : "Pessoas com quem partilhou",
     "Privacy policy" : "Politica de privacidade",
     "Read the privacy policy." : "Leia a politica de privacidade",
-    "Encryption" : "Cifragem",
-    "Remove external admin" : "Remover administrador externo. "
+    "Encryption" : "Cifragem"
 },
 "nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;");

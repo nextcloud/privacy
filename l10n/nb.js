@@ -289,7 +289,6 @@ OC.L10N.register(
     "Privacy policy" : "Personvern politikk",
     "Read the privacy policy." : "Les personvernsærkleringen.",
     "Encryption" : "Kryptering",
-    "Remove external admin" : "Fjern ekstern admin",
     "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "Hjemmelagringen din er kryptert med {linkopen}server-side-kryptering ↗{linkclose} med en hovednøkkel.",
     "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "Hjemmelagringen din er kryptert med {linkopen}server-side-kryptering ↗{linkclose} med en individuell brukernøkkel."
 },
