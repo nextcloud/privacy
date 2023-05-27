@@ -289,7 +289,6 @@ OC.L10N.register(
     "Privacy policy" : "Polityka prywatności",
     "Read the privacy policy." : "Przeczytaj politykę prywatności.",
     "Encryption" : "Szyfrowanie",
-    "Remove external admin" : "Usuń zewnętrznego administratora",
     "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "Twój magazyn główny jest zaszyfrowany przy użyciu {linkopen}server-side-encryption ↗{linkclose} z kluczem głównym.",
     "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "Twój magazyn główny jest zaszyfrowany przy użyciu {linkopen}server-side-encryption ↗{linkclose} z indywidualnym kluczem użytkownika."
 },

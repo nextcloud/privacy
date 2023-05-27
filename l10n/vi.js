@@ -30,7 +30,6 @@ OC.L10N.register(
     "People you shared with" : "Những người mà bạn chia sẻ với",
     "Privacy policy" : "Chính sách riêng tư",
     "Read the privacy policy." : "Đọc chính sách riêng tư.",
-    "Encryption" : "Mã hóa",
-    "Remove external admin" : "Gỡ bỏ quản trị viên bên ngoài"
+    "Encryption" : "Mã hóa"
 },
 "nplurals=1; plural=0;");

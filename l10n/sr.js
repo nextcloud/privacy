@@ -289,7 +289,6 @@ OC.L10N.register(
     "Privacy policy" : "Политика приватност",
     "Read the privacy policy." : "Прочитајте политику приватности.",
     "Encryption" : "Шифровање",
-    "Remove external admin" : "Уклони спољног администратора",
     "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "Ваше лично складиште је шифрирано {linkopen}енкрипцијом на страни сервера ↗{linkclose} уз употребу главног кључа.",
     "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "Ваше лично складиште је шифрирано {linkopen}енкрипцијом на страни сервера ↗{linkclose} уз употребу индивидуалног корисничког кључа."
 },

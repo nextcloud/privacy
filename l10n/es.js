@@ -289,7 +289,6 @@ OC.L10N.register(
     "Privacy policy" : "Política de privacidad",
     "Read the privacy policy." : "Leer la política de privacidad.",
     "Encryption" : "Cifrado",
-    "Remove external admin" : "Quitar administrador externo",
     "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "Tu nube doméstica está cifrada usando el {linkopen}cifrado en el lado del servidor ↗{linkclose} con una llave maestra.",
     "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "Tu nube doméstica está cifrada usando el {linkopen}cifrado en el lado del servidor ↗{linkclose} con una clave de usuario individual."
 },

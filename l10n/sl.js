@@ -283,7 +283,6 @@ OC.L10N.register(
     "Privacy policy" : "Pravila zasebnosti",
     "Read the privacy policy." : "Preglejte pravila zasebnosti",
     "Encryption" : "Šifriranje",
-    "Remove external admin" : "Odstrani zunanjega skrbnika",
     "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "Datoteke v osebni shrambi so šifrirane z uporabo {linkkopen}strežniškega šifriranja ↗{linkclose} z glavnim ključem.",
     "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "Datoteke v osebni shrambi so šifrirane z uporabo {linkkopen}strežniškega šifriranja ↗{linkclose} z individualnim uporabniškim ključem."
 },

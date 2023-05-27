@@ -287,7 +287,6 @@ OC.L10N.register(
     "Privacy policy" : "Політика конфіденційності",
     "Read the privacy policy." : "Переглянути політику конфіденційності.",
     "Encryption" : "Шифрування",
-    "Remove external admin" : "Вилучити зовнішнього адміністратора",
     "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "Ваше домашнє сховище зашифровано за допомогою {linkopen}шифрування на стороні сервера ↗{linkclose} за допомогою головного ключа.",
     "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "Ваше домашнє сховище зашифровано за допомогою {linkopen}шифрування на стороні сервера ↗{linkclose} індивідуальним ключем користувача."
 },

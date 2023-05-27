@@ -279,7 +279,7 @@ OC.L10N.register(
     "Freedom" : "自由",
     "to choose a platform" : "プラットフォームを選択する",
     "Users should always be able to extract their data from the service at any time without experiencing any vendor lock-in. Open standards for formats and protocols are necessary to guarantee this." : "ユーザーはベンダーのロックインを経験することなく、いつでも自分のデータを抽出することができるはずです。これを保証するためにオープンスタンダードなフォーマットとプロトコルが必要です。",
-    "Learn more ↗" : "もっと詳しく知る",
+    "Learn more ↗" : "もっと詳しく知る↗",
     "Where is your data?" : "データはどこにありますか？",
     "Who has access to your data?" : "誰があなたのデータにアクセスできますか？",
     "Administrators" : "管理者",
@@ -287,7 +287,6 @@ OC.L10N.register(
     "Privacy policy" : "個人情報保護方針",
     "Read the privacy policy." : "個人情報保護方針を読んでください。",
     "Encryption" : "暗号化",
-    "Remove external admin" : "外部管理者を削除",
     "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "あなたのホームストレージは、マスターキーによる {linkopen}サーバーサイド暗号化 ↗{linkclose} で暗号化されています。",
     "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "あなたのホームストレージは、個別のユーザーキーによる {linkopen}サーバーサイド暗号化 ↗{linkclose} で暗号化されています。"
 },
