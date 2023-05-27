@@ -287,7 +287,6 @@ OC.L10N.register(
     "Privacy policy" : "個人情報保護方針",
     "Read the privacy policy." : "個人情報保護方針を読んでください。",
     "Encryption" : "暗号化",
-    "Remove external admin" : "外部管理者を削除",
     "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "あなたのホームストレージは、マスターキーによる {linkopen}サーバーサイド暗号化 ↗{linkclose} で暗号化されています。",
     "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "あなたのホームストレージは、個別のユーザーキーによる {linkopen}サーバーサイド暗号化 ↗{linkclose} で暗号化されています。"
 },

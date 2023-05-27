@@ -289,7 +289,6 @@ OC.L10N.register(
     "Privacy policy" : "Directiva de privacidade",
     "Read the privacy policy." : "Lea a directiva de privacidade.",
     "Encryption" : "Cifrado",
-    "Remove external admin" : "Retirar administrador externo",
     "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "O teu almacenamento doméstico está cifrado mediante {linkopen}cifrado do lado do servidor ↗{linkclose} cunha chave mestra.",
     "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "O almacenamento do teu fogar está cifrado mediante {linkopen}cifrado do lado do servidor ↗{linkclose} cunha clave de usuario individual."
 },

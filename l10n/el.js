@@ -285,7 +285,6 @@ OC.L10N.register(
     "Privacy policy" : "Πολιτική Απορρήτου",
     "Read the privacy policy." : "Διαβάστε την πολιτική απορρήτου.",
     "Encryption" : "Κρυπτογράφηση",
-    "Remove external admin" : "Κατάργηση εξωτερικού διαχειριστή",
     "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "Ο αποθηκευτικός χώρος του home σας είναι κρυπτογραφημένος χρησιμοποιώντας {linkopen}server-side-encryption ↗{linkclose} με ένα κύριο κλειδί.",
     "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "Ο αποθηκευτικός χώρος του home σας είναι κρυπτογραφημένος χρησιμοποιώντας {linkopen}server-side-encryption ↗{linkclose} με ένα μεμονωμένο κλειδί χρήστη."
 },

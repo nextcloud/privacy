@@ -285,7 +285,6 @@ OC.L10N.register(
     "Privacy policy" : "Zásady ochrany osobných údajov",
     "Read the privacy policy." : "Prečítať si zásady ochrany osobných údajov",
     "Encryption" : "Šifrovanie",
-    "Remove external admin" : "Odobrať externého správcu",
     "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "Vaše domáce úložisko je šifrované pomocou {linkopen}server-side-encryption ↗{linkclose} s hlavným kľúčom.",
     "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "Vaše domáce úložisko je šifrované pomocou šifrovania {linkopen} na strane servera ↗ {linkclose} pomocou individuálneho používateľského kľúča."
 },

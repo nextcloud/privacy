@@ -289,7 +289,6 @@ OC.L10N.register(
     "Privacy policy" : "Adatvédelmi irányelvek",
     "Read the privacy policy." : "Az adatvédelmi irányelvek elolvasása.",
     "Encryption" : "Titkosítás",
-    "Remove external admin" : "Külső rendszergazda eltávolítása",
     "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "A saját tárolója mesterkulcsot használó {linkopen}kiszolgáló oldali titkosítással ↗{linkclose} védett.",
     "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "A saját tárolója egyéni felhasználó kulcsot használó {linkopen}kiszolgáló oldali titkosítással ↗{linkclose} védett."
 },

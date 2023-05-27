@@ -289,7 +289,6 @@ OC.L10N.register(
     "Privacy policy" : "Pribatutasun politika",
     "Read the privacy policy." : "Irakurri pribatutasun politika",
     "Encryption" : "Zifratzea",
-    "Remove external admin" : "Kendu kanpo administratzailea",
     "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "Etxeko biltegiratzea gako nagusi batekin {linkopen} zerbitzariaren aldeko enkriptatzea erabiliz ↗ {linkclose} enkriptatzen da.",
     "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "Etxeko biltegiratzea {linkopen} zerbitzariaren aldeko enkriptatze ↗ {linkclose} bidez enkriptatzen da erabiltzaile-gako indibidual batekin."
 },

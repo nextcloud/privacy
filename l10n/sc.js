@@ -283,7 +283,6 @@ OC.L10N.register(
     "Privacy policy" : "Polìtica de riservadesa",
     "Read the privacy policy." : "Leghe sa polìtica de riservadesa.",
     "Encryption" : "Tzifradura",
-    "Remove external admin" : "Boga•nche amministratzione de foras",
     "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "S'archiviatzione de domo tua est tzifrada cun {linkopen}tzifradura ladu serbidore ↗{linkclose} cun una crae maistra.",
     "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "S'archiviatzione de domo tua est tzifrada cun {linkopen}tzifradura ladu serbidore ↗{linkclose} cun una crae de utente individuale."
 },
