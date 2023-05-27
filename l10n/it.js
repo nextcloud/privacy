@@ -285,7 +285,6 @@ OC.L10N.register(
     "Privacy policy" : "Criterio di riservatezza",
     "Read the privacy policy." : "Leggi subito i criteri di riservatezza.",
     "Encryption" : "Cifratura",
-    "Remove external admin" : "Rimuovi amministratore esterno",
     "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "La tua archiviazione è cifrata usando una {linkopen}crittografia lato server ↗{linkclose} con una chiave primaria.",
     "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "La tua archiviazione è cifrata usando una {linkopen}crittografia lato server ↗{linkclose} con una chiave utente individuale."
 },

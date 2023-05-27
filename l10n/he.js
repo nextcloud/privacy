@@ -279,7 +279,6 @@ OC.L10N.register(
     "People you shared with" : "אנשים אתם שיתפת",
     "Privacy policy" : "מדיניות פרטיות",
     "Read the privacy policy." : "הצגת מדיניות הפרטיות.",
-    "Encryption" : "הצפנה",
-    "Remove external admin" : "הסרת הנהלה חיצונית"
+    "Encryption" : "הצפנה"
 },
 "nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % 1 == 0) ? 1: (n % 10 == 0 && n % 1 == 0 && n > 10) ? 2 : 3;");

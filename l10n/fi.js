@@ -281,7 +281,6 @@ OC.L10N.register(
     "People you shared with" : "Ihmiset joiden kanssa jaoit tiedot",
     "Privacy policy" : "Tietosuojakäytäntö",
     "Read the privacy policy." : "Lue tietosuojakäytäntö.",
-    "Encryption" : "Salaus",
-    "Remove external admin" : "Poista ulkoinen ylläpitäjä"
+    "Encryption" : "Salaus"
 },
 "nplurals=2; plural=(n != 1);");

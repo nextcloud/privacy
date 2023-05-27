@@ -283,7 +283,6 @@
     "Privacy policy" : "Privacybeleid",
     "Read the privacy policy." : "Lees het %sprivacy beleid%s nu.",
     "Encryption" : "Versleuteling",
-    "Remove external admin" : "Verwijder een externe beheerder",
     "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "Je thuisopslag is versleuteld met {linkopen} server-side-encryptie ↗ {linkclose} met een hoofdsleutel.",
     "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "Je thuisopslag is versleuteld met {linkopen} server-side-encryptie ↗ {linkclose} met een individuele gebruikerssleutel."
 },"pluralForm" :"nplurals=2; plural=(n != 1);"

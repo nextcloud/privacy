@@ -289,7 +289,6 @@ OC.L10N.register(
     "Privacy policy" : "Политика конфиденциальности",
     "Read the privacy policy." : "Ознакомиться с политикой конфиденциальности.",
     "Encryption" : "Шифрование",
-    "Remove external admin" : "Удалить внешнего администратора",
     "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "Ваше домашнее хранилище зашифровано с помощью {linkopen}server-side-encryption {linkclose} с мастер-ключом.",
     "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "Ваше домашнее хранилище шифруется с помощью {linkopen}server-side-encryption {linkclose} с индивидуальным ключом пользователя."
 },

@@ -289,7 +289,6 @@ OC.L10N.register(
     "Privacy policy" : "Kişisel gizliliğin korunması ilkesi",
     "Read the privacy policy." : "Kişisel verilerinizin korunması ilkesini gözden geçirin.",
     "Encryption" : "Şifreleme",
-    "Remove external admin" : "Dış yöneticiyi sil",
     "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "Kendi depolamanız, bir ana anahtar kullanılarak {linkopen}sunucu tarafı şifreleme ↗{linkclose} ile şifrelenmiş.",
     "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "Kendi depolamanız, bir kişisel kullanıcı anahtarı kullanılarak {linkopen}sunucu tarafı şifreleme ↗{linkclose} ile şifrelenmiş."
 },
