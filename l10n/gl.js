@@ -19,7 +19,7 @@ OC.L10N.register(
     "Your data is located in:" : "Os seus datos atópanse en:",
     "The admin has not selected the location of the server yet." : "O administrador aínda non seleccionou a localización do servidor.",
     "Change data location" : "Cambiar a localización dos datos",
-    "Please select a region" : "Seleccione a rexión",
+    "Please select a region" : "Seleccione unha rexión",
     "You don't have any shares with individual users." : "Non tes ningunha compartición con usuarios individuais.",
     "Somaliland" : "Somalia",
     "Andorra" : "Andorra",
