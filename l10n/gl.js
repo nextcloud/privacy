@@ -4,7 +4,7 @@ OC.L10N.register(
     "Privacy" : "Privacidade",
     "-" : "-",
     "The privacy center shows you where your data is stored and who can access it, either because you shared with them or because they are administrators." : "O centro de privacidade amósalle onde están almacenados os seus datos e quen pode acceder a eles, ben porque compartiu con eles ou porque son administradores.",
-    "Remove external {propertyName} admin" : "Eliminar o administrador externo de {propertyName}",
+    "Remove external {propertyName} admin" : "Retirar o administrador externo de {propertyName}",
     "Add external admin" : "Engadir administrador externo",
     "Name of external admin" : "Nome do administrador externo",
     "Adapt encryption" : "Adaptar o cifrado",
