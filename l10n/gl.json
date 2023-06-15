@@ -9,8 +9,8 @@
     "This server is using full-disk-encryption." : "Este servidor está a usar o cifrado de disco completo.",
     "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key. It means that administrators can access your files, but not read their content." : "O teu almacenamento doméstico está cifrado mediante {linkopen}cifrado do lado do servidor ↗{linkclose} cunha chave mestra. Significa que os administradores poden acceder aos teus ficheiros, pero non ler o seu contido.",
     "Your files on external storages may be encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key based on their configuration." : "Os teus ficheiros en almacenamentos externos pódense cifrar mediante {linkopen}cifrado do lado do servidor ↗{linkclose} cunha chave mestra en función da súa configuración.",
-    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key. It means that administrators can access your files, but not read their content." : "O almacenamento do teu fogar está cifrado mediante {linkopen}cifrado do lado do servidor ↗{linkclose} cunha clave de usuario individual. Significa que os administradores poden acceder aos teus ficheiros, pero non ler o seu contido.",
-    "Your files on external storages may be encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual key based on their configuration." : "Os teus ficheiros en almacenamentos externos pódense cifrar mediante {linkopen}cifrado do lado do servidor ↗{linkclose} cunha clave individual en función da súa configuración.",
+    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key. It means that administrators can access your files, but not read their content." : "O seu almacenamento doméstico está cifrado mediante {linkopen}cifrado do lado do servidor ↗{linkclose} cunha chave de usuario individual. Isto quere dicir que os administradores poden acceder aos seus ficheiros, m,ais non ler o seu contido.",
+    "Your files on external storages may be encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual key based on their configuration." : "Os seus ficheiros en almacenamentos externos pódense cifrar mediante {linkopen}cifrado do lado do servidor ↗{linkclose} cunha chave individual en función da súa configuración.",
     "Additionally, this server is protected with full-disk-encryption." : "Ademais, este servidor está protexido con cifrado de disco completo.",
     "This server is protected with full-disk-encryption." : "Este servidor está protexido con cifrado de disco completo.",
     "Your files are not protected by encryption." : "Os seus ficheiros non están protexidos con cifrado.",
@@ -287,7 +287,7 @@
     "Privacy policy" : "Directiva de privacidade",
     "Read the privacy policy." : "Lea a directiva de privacidade.",
     "Encryption" : "Cifrado",
-    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "O teu almacenamento doméstico está cifrado mediante {linkopen}cifrado do lado do servidor ↗{linkclose} cunha chave mestra.",
-    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "O almacenamento do teu fogar está cifrado mediante {linkopen}cifrado do lado do servidor ↗{linkclose} cunha clave de usuario individual."
+    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "O seu almacenamento doméstico está cifrado mediante {linkopen}cifrado do lado do servidor ↗{linkclose} cunha chave mestra.",
+    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "O almacenamento do seu fogar está cifrado mediante {linkopen}cifrado do lado do servidor ↗{linkclose} cunha chave de usuario individual."
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }
