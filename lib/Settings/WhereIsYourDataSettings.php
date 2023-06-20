@@ -46,7 +46,7 @@ class WhereIsYourDataSettings implements ISettings {
 	 * @param IConfig $config
 	 */
 	public function __construct(IInitialStateService $initialStateService,
-								IConfig $config) {
+		IConfig $config) {
 		$this->initialStateService = $initialStateService;
 		$this->config = $config;
 	}

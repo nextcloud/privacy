@@ -50,7 +50,7 @@ class AdminController extends Controller {
 	 * @param IDBConnection $dbConnection
 	 */
 	public function __construct(string $appName, IRequest $request,
-								IConfig $config, IDBConnection $dbConnection) {
+		IConfig $config, IDBConnection $dbConnection) {
 		parent::__construct($appName, $request);
 
 		$this->config = $config;

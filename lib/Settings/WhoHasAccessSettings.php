@@ -24,8 +24,8 @@ namespace OCA\Privacy\Settings;
 use OC;
 use OCA\Theming\ThemingDefaults;
 use OCP\AppFramework\Http\TemplateResponse;
-use OCP\IConfig;
 use OCP\Encryption\IManager as IEncryptionManager;
+use OCP\IConfig;
 use OCP\IInitialStateService;
 use OCP\Settings\ISettings;
 use Throwable;
@@ -54,8 +54,8 @@ class WhoHasAccessSettings implements ISettings {
 	 * @param IInitialStateService $initialStateService
 	 */
 	public function __construct(IConfig $config,
-								IEncryptionManager $manager,
-								IInitialStateService $initialStateService) {
+		IEncryptionManager $manager,
+		IInitialStateService $initialStateService) {
 		$this->config = $config;
 		$this->encryptionManager = $manager;
 		$this->initialStateService = $initialStateService;

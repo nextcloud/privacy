@@ -55,8 +55,8 @@ class PersonalController extends Controller {
 	 * @param IDBConnection $dbConnection
 	 */
 	public function __construct(string $appName, IRequest $request,
-								IConfig $config, IGroupManager $groupManager,
-								IDBConnection $dbConnection) {
+		IConfig $config, IGroupManager $groupManager,
+		IDBConnection $dbConnection) {
 		parent::__construct($appName, $request);
 
 		$this->config = $config;
