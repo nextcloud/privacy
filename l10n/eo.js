@@ -271,7 +271,6 @@ OC.L10N.register(
     "People you shared with" : "Homoj, kun kiuj vi kunhavigis ion",
     "Privacy policy" : "Privateca regularo",
     "Read the privacy policy." : "Legi la regularon pri privateco.",
-    "Encryption" : "Ĉifrado",
-    "Remove external admin" : "Forigi eksteran administranton"
+    "Encryption" : "Ĉifrado"
 },
 "nplurals=2; plural=(n != 1);");

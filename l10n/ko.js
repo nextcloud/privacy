@@ -277,7 +277,6 @@ OC.L10N.register(
     "People you shared with" : "공유한 다른 사람",
     "Privacy policy" : "개인 정보 취급 방침",
     "Read the privacy policy." : "개인 정보 취급 방침을 읽습니다.",
-    "Encryption" : "암호화",
-    "Remove external admin" : "외부 관리자 제거"
+    "Encryption" : "암호화"
 },
 "nplurals=1; plural=0;");

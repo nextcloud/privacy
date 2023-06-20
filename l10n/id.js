@@ -289,7 +289,6 @@ OC.L10N.register(
     "Privacy policy" : "Kebijakan privasi",
     "Read the privacy policy." : "Baca kebijakan privasi.",
     "Encryption" : "Enkripsi",
-    "Remove external admin" : "Hapus admin eksternal",
     "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "Penyimpanan beranda Anda dienkripsi menggunakan {linkopen}enkripsi sisi server ↗{linkclose} dengan sebuah kunci utama.",
     "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "Penyimpanan beranda Anda dienkripsi menggunakan {linkopen}enkripsi-sisi-server ↗{linkclose} dengan kunci pengguna individu."
 },

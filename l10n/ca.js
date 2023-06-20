@@ -289,7 +289,6 @@ OC.L10N.register(
     "Privacy policy" : "Política de privadesa",
     "Read the privacy policy." : "Llegiu la política de privadesa.",
     "Encryption" : "Xifratge",
-    "Remove external admin" : "Suprimeix l'administrador extern",
     "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "L'emmagatzematge principal està xifrat mitjançant {linkopen}xifratge del servidor ↗{linkclose} amb una clau mestra.",
     "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "L'emmagatzematge principal està xifrat mitjançant {linkopen}xifratge del servidor ↗{linkclose} amb una clau individual d'usuari."
 },

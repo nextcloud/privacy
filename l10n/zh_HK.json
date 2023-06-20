@@ -287,7 +287,6 @@
     "Privacy policy" : "私隱政策",
     "Read the privacy policy." : "閱覽私隱政策。",
     "Encryption" : "加密",
-    "Remove external admin" : "移除外部管理員",
     "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "您的主存儲使用帶有主密鑰的{linkopen}伺服器端加密↗{linkclose}加密。",
     "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "您的主存儲使用帶有個人用戶密鑰的{linkopen}伺服器端加密↗{linkclose}加密。"
 },"pluralForm" :"nplurals=1; plural=0;"

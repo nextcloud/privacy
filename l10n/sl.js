@@ -6,6 +6,7 @@ OC.L10N.register(
     "The privacy center shows you where your data is stored and who can access it, either because you shared with them or because they are administrators." : "Središče zasebnosti združuje podatke o mestu shranjevanja podatkov in osebah, ki imajo do njih dostop, na primer take, ki jim omogočate souporabo oziroma skrbniki.",
     "Add external admin" : "Dodaj zunanjega skrbnika",
     "Name of external admin" : "Ime zunanjega skrbnika",
+    "Adapt encryption" : "Prilagodi šifriranje",
     "This server is using full-disk-encryption." : "Strežnik uporablja celostno diskovnom šifriranje.",
     "Your files on external storages may be encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key based on their configuration." : "Datoteke v zunanjih shrambah so lahko šifrirane z uporabo {linkkopen}strežniškega šifriranja ↗{linkclose} z glavnim ključem na podlagi določenih nastavitev.",
     "Your files on external storages may be encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual key based on their configuration." : "Datoteke v zunanjih shrambah so lahko šifrirane z uporabo {linkkopen}strežniškega šifriranja ↗{linkclose} z uporabniškim ključem na podlagi določenih nastavitev.",
@@ -263,6 +264,7 @@ OC.L10N.register(
     "South Africa" : "Južna Afrika",
     "Zambia" : "Zambija",
     "Zimbabwe" : "Zimbabve",
+    "Your %s account" : "Račun %s",
     "Your data represents who you are and can easily be abused. We at Nextcloud believe that you have a right to decide what happens with your data. Nextcloud protects your rights as defined in the User Data Manifesto!" : "Vaši podatki razkrivajo, kdo ste, zato si jih nekateri želijo izkoristiti. Pri Nextcloud verjamemo, da se ima vsak pravico odločiti, kaj se s podatki dogaja. Nextcloud ščiti vaše pravice, kot jih določa »Uporabniški podatkovni manifest«.",
     "User Data Manifesto 2.0" : "Uporabniški podatkovni manifest 2.0",
     "Defining basic rights for people to control their own data in the internet age" : "Določa osnovne pravice posameznika, da nadzira svoje podatke v dobi interneta.",
@@ -283,7 +285,6 @@ OC.L10N.register(
     "Privacy policy" : "Pravila zasebnosti",
     "Read the privacy policy." : "Preglejte pravila zasebnosti",
     "Encryption" : "Šifriranje",
-    "Remove external admin" : "Odstrani zunanjega skrbnika",
     "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "Datoteke v osebni shrambi so šifrirane z uporabo {linkkopen}strežniškega šifriranja ↗{linkclose} z glavnim ključem.",
     "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "Datoteke v osebni shrambi so šifrirane z uporabo {linkkopen}strežniškega šifriranja ↗{linkclose} z individualnim uporabniškim ključem."
 },
