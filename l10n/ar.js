@@ -54,6 +54,7 @@ OC.L10N.register(
     "Curaçao" : "كوراساو",
     "Christmas Island" : "جزيرة الكريسماس",
     "Cyprus" : "قبرص",
+    "Czech" : "Czech",
     "Germany" : "ألمانيا",
     "Djibouti" : "جيبوتي",
     "Denmark" : "الدانمارك",
