@@ -12,7 +12,7 @@ OC.L10N.register(
     "Your data is located in:" : "귀하의 데이터는 여기에 있습니다:",
     "The admin has not selected the location of the server yet." : "관리자가 서버 위치를 지정하지 않았습니다.",
     "Change data location" : "데이터 위치 변경",
-    "Please select a region" : "지역을 선택하십시오",
+    "Please select a region" : "지역을 선택하세요.",
     "You don't have any shares with individual users." : "개인 사용자와 공유한 항목이 없습니다.",
     "Somaliland" : "소말릴란드",
     "Andorra" : "안도라",
