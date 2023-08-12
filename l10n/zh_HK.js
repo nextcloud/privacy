@@ -11,7 +11,7 @@ OC.L10N.register(
     "This server is using full-disk-encryption." : "該伺服器正在使用全盤加密。",
     "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key. It means that administrators can access your files, but not read their content." : "您的家目錄儲存空間使用帶有主密鑰的{linkopen}伺服器端加密 ↗{linkclose}來加密。這代表了管理員可以存取您的檔案，但無法閱讀其內容。",
     "Your files on external storages may be encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key based on their configuration." : "您可以使用 {linkopen} 伺服器端加密↗{linkclose}並根據其配置使用主密鑰對外部存儲設備上的檔案進行加密。",
-    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key. It means that administrators can access your files, but not read their content." : "您的家目錄儲存空間使用帶有獨立使用者密鑰的{linkopen}伺服器端加密 ↗{linkclose}來加密。這代表了管理員可以存取您的檔案，但無法閱讀其內容。",
+    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key. It means that administrators can access your files, but not read their content." : "您的家目錄儲存空間使用帶有獨立用戶密鑰的{linkopen}伺服器端加密 ↗{linkclose}來加密。這代表了管理員可以存取您的檔案，但無法閱讀其內容。",
     "Your files on external storages may be encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual key based on their configuration." : "您可以使用{linkopen}伺服器端加密↗{linkclose}使用基於其配置的私有密鑰對外部存儲設備上的檔案進行加密。",
     "Additionally, this server is protected with full-disk-encryption." : "此外，該伺服器還受全磁盤加密保護。",
     "This server is protected with full-disk-encryption." : "該伺服器受全盤加密保護。",
