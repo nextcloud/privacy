@@ -285,7 +285,7 @@ OC.L10N.register(
     "Where is your data?" : "Географія розташування ваших даних",
     "Who has access to your data?" : "Хто має доступ до ваших даних?",
     "Administrators" : "Адміністратори",
-    "People you shared with" : "Люди, з якими ви поділилися окремими ресурсами",
+    "People you shared with" : "Користувачі, з якими ви поділилися доступом до певних ресурсів",
     "Privacy policy" : "Політика конфіденційності",
     "Read the privacy policy." : "Переглянути політику конфіденційності.",
     "Encryption" : "Шифрування",
