@@ -12,7 +12,7 @@ OC.L10N.register(
     "Additionally, this server is protected with full-disk-encryption." : "Naviac, tento server je chránený šifrovaním celého úložiska.",
     "This server is protected with full-disk-encryption." : "Tento server je chránený šifrovaním celého úložiska.",
     "Your files are not protected by encryption." : "Vaše súbory nie sú chránené šifrovaním.",
-    "Your data is located in:" : "Vaše dáta sa nachádzajú v:",
+    "Your data is located in:" : "Vaše dáta sa nachádzajú v krajine:",
     "The admin has not selected the location of the server yet." : "Správca zatiaľ nezadal umiestnenie servera.",
     "Change data location" : "Zmena umiestnenia údajov",
     "Please select a region" : "Vyberte oblasť",
