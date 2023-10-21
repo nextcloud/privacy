@@ -268,7 +268,7 @@ OC.L10N.register(
     "Your data represents who you are and can easily be abused. We at Nextcloud believe that you have a right to decide what happens with your data. Nextcloud protects your rights as defined in the User Data Manifesto!" : "Vaše údaje predstavujú kto ste a môžu byť ľahko zneužité. My v spoločnosti Nextcloud veríme, že máte právo rozhodnúť sa, ako sa bude s nimi nakladať. Nextcloud chráni vaše práva definované v Manifeste o používateľských údajoch.",
     "User Data Manifesto 2.0" : "Manifest o používateľských údajoch, verzia 2.0",
     "Defining basic rights for people to control their own data in the internet age" : "Definovanie základných práv ľudí na kontrolu vlastných údajov vo veku internetu",
-    "Control" : "Riadenie",
+    "Control" : "Kontrola",
     "over user data access" : "nad prístupom k údajom používateľa",
     "Data explicitly and willingly uploaded by a user should be under the ultimate control of the user. Users should be able to decide whom to grant direct access to their data and with which permissions and licenses such access should be granted." : "Údaje výslovne a dobrovoľne odovzdané používateľom by mali byť pod konečnou kontrolou používateľa. Používatelia by mali mať možnosť rozhodnúť sa, komu udelia priamy prístup k svojim údajom a s ktorými povoleniami a licenciami by sa mal takýto prístup udelovať.",
     "Knowledge" : "Znalosť",
