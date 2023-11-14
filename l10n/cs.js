@@ -77,7 +77,7 @@ OC.L10N.register(
     "Curaçao" : "Curaçao",
     "Christmas Island" : "Vánoční ostrov",
     "Cyprus" : "Kypr",
-    "Czech" : "Česko",
+    "Czech" : "čeština",
     "Germany" : "Německo",
     "Djibouti" : "Džibutsko",
     "Denmark" : "Dánsko",
