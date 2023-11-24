@@ -288,8 +288,6 @@ OC.L10N.register(
     "People you shared with" : "People you shared with",
     "Privacy policy" : "Privacy policy",
     "Read the privacy policy." : "Read the privacy policy.",
-    "Encryption" : "Encryption",
-    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key.",
-    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key."
+    "Encryption" : "Encryption"
 },
 "nplurals=2; plural=(n != 1);");

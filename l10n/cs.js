@@ -288,8 +288,6 @@ OC.L10N.register(
     "People you shared with" : "Lidé, kterým jste nasdíleli",
     "Privacy policy" : "Zásada ochrany osobních údajů",
     "Read the privacy policy." : "Přečíst si zásady ochrany osobních údajů.",
-    "Encryption" : "Šifrování",
-    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "Vaše domovské úložiště je šifrováno pomocí {linkopen}šifrování na straně serveru ↗{linkclose} pomocí hlavního klíče.",
-    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "Vaše domovské úložiště je šifrováno pomocí {linkopen}šifrování na straně serveru ↗{linkclose} pomocí klíče jednotlivého uživatele."
+    "Encryption" : "Šifrování"
 },
 "nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;");

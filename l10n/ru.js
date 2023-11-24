@@ -288,8 +288,6 @@ OC.L10N.register(
     "People you shared with" : "Люди, с которыми вы поделились",
     "Privacy policy" : "Политика конфиденциальности",
     "Read the privacy policy." : "Ознакомиться с политикой конфиденциальности.",
-    "Encryption" : "Шифрование",
-    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "Ваше домашнее хранилище зашифровано с помощью {linkopen}server-side-encryption {linkclose} с мастер-ключом.",
-    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "Ваше домашнее хранилище шифруется с помощью {linkopen}server-side-encryption {linkclose} с индивидуальным ключом пользователя."
+    "Encryption" : "Шифрование"
 },
 "nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);");

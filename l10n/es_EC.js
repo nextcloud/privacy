@@ -288,8 +288,6 @@ OC.L10N.register(
     "People you shared with" : "Personas con las que has compartido",
     "Privacy policy" : "Política de privacidad",
     "Read the privacy policy." : "Lee la política de privacidad.",
-    "Encryption" : "Encripción",
-    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "Tu almacenamiento principal está cifrado utilizando {linkopen}cifrado en el lado del servidor ↗{linkclose} con una clave maestra.",
-    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "Tu almacenamiento principal está cifrado utilizando {linkopen}cifrado en el lado del servidor ↗{linkclose} con una clave individual del usuario."
+    "Encryption" : "Encripción"
 },
 "nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;");
