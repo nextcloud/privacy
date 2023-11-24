@@ -33,25 +33,29 @@ const provide = {
 	isAdmin: getCurrentUser()?.isAdmin,
 }
 
-export const mission = new Vue({
+// eslint-disable-next-line no-new
+new Vue({
 	el: '#privacy-mission',
 	render: h => h(Mission),
 	provide,
 })
 
-export const manifesto = new Vue({
+// eslint-disable-next-line no-new
+new Vue({
 	el: '#privacy-manifesto',
 	render: h => h(Manifesto),
 	provide,
 })
 
-export const access = new Vue({
+// eslint-disable-next-line no-new
+new Vue({
 	el: '#privacy-access',
 	render: h => h(Access),
 	provide,
 })
 
-export const location = new Vue({
+// eslint-disable-next-line no-new
+new Vue({
 	el: '#privacy-location',
 	render: h => h(Location),
 	provide,

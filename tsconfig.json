@@ -1,0 +1,9 @@
+{
+	"extends": "@vue/tsconfig/tsconfig.json",
+	"include": ["./src/**/*.ts", "./src/**/*.vue"],
+	"compilerOptions": {
+		"allowSyntheticDefaultImports": true,
+		"moduleResolution": "Bundler",
+		"strict": true,
+	},
+}
