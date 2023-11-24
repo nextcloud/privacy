@@ -284,8 +284,6 @@ OC.L10N.register(
     "People you shared with" : "Osebe, ki jim omogočate souporabo vaših podatkov:",
     "Privacy policy" : "Pravila zasebnosti",
     "Read the privacy policy." : "Preglejte pravila zasebnosti",
-    "Encryption" : "Šifriranje",
-    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "Datoteke v osebni shrambi so šifrirane z uporabo {linkkopen}strežniškega šifriranja ↗{linkclose} z glavnim ključem.",
-    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "Datoteke v osebni shrambi so šifrirane z uporabo {linkkopen}strežniškega šifriranja ↗{linkclose} z individualnim uporabniškim ključem."
+    "Encryption" : "Šifriranje"
 },
 "nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);");

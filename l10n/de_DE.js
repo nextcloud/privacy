@@ -288,8 +288,6 @@ OC.L10N.register(
     "People you shared with" : "Menschen, mit denen Sie geteilt haben",
     "Privacy policy" : "Datenschutz",
     "Read the privacy policy." : "Lesen Sie die Datenschutzerklärung.",
-    "Encryption" : "Verschlüsselung",
-    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "Ihr Speicher ist mit einem Hauptschlüssel mittels der {linkopen}serverseitigen Verschlüsselung ↗{linkclose} verschlüsselt.",
-    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "Ihr Speicher ist mit einem individuellen Benutzerschlüssel mittels der {linkopen}serverseitigen Verschlüsselung ↗{linkclose} verschlüsselt."
+    "Encryption" : "Verschlüsselung"
 },
 "nplurals=2; plural=(n != 1);");

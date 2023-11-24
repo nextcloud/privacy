@@ -286,8 +286,6 @@
     "People you shared with" : "与您共享的人",
     "Privacy policy" : "隐私政策",
     "Read the privacy policy." : "阅读隐私政策。",
-    "Encryption" : "加密",
-    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "你的主页存储通过一个主密钥进行{linkopen}服务器端加密↗{linkclose}",
-    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "你的主页存储通过单一用户密钥进行 {linkopen} 服务器端加密↗{linkclose}"
+    "Encryption" : "加密"
 },"pluralForm" :"nplurals=1; plural=0;"
 }

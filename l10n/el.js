@@ -284,8 +284,6 @@ OC.L10N.register(
     "People you shared with" : "Άτομα με κοινή χρήση",
     "Privacy policy" : "Πολιτική Απορρήτου",
     "Read the privacy policy." : "Διαβάστε την πολιτική απορρήτου.",
-    "Encryption" : "Κρυπτογράφηση",
-    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "Ο αποθηκευτικός χώρος του home σας είναι κρυπτογραφημένος χρησιμοποιώντας {linkopen}server-side-encryption ↗{linkclose} με ένα κύριο κλειδί.",
-    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "Ο αποθηκευτικός χώρος του home σας είναι κρυπτογραφημένος χρησιμοποιώντας {linkopen}server-side-encryption ↗{linkclose} με ένα μεμονωμένο κλειδί χρήστη."
+    "Encryption" : "Κρυπτογράφηση"
 },
 "nplurals=2; plural=(n != 1);");

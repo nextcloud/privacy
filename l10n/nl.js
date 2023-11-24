@@ -284,8 +284,6 @@ OC.L10N.register(
     "People you shared with" : "Mensen waarmee je hebt gedeeld",
     "Privacy policy" : "Privacybeleid",
     "Read the privacy policy." : "Lees het %sprivacy beleid%s nu.",
-    "Encryption" : "Versleuteling",
-    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "Je thuisopslag is versleuteld met {linkopen} server-side-encryptie ↗ {linkclose} met een hoofdsleutel.",
-    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "Je thuisopslag is versleuteld met {linkopen} server-side-encryptie ↗ {linkclose} met een individuele gebruikerssleutel."
+    "Encryption" : "Versleuteling"
 },
 "nplurals=2; plural=(n != 1);");

@@ -288,8 +288,6 @@ OC.L10N.register(
     "People you shared with" : "與您分享的人",
     "Privacy policy" : "隱私權政策",
     "Read the privacy policy." : "閱讀隱私權政策",
-    "Encryption" : "加密",
-    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "您的主要儲存空間使用有主控金鑰的{linkopen}伺服器端加密 ↗{linkclose}加密了。",
-    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "使用{linkopen}伺服器端加密 ↗{linkclose}與個別的使用者金鑰來對您的主要儲存空間加密。"
+    "Encryption" : "加密"
 },
 "nplurals=1; plural=0;");

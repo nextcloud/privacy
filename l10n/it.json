@@ -286,8 +286,6 @@
     "People you shared with" : "Persone con cui hai condiviso",
     "Privacy policy" : "Criterio di riservatezza",
     "Read the privacy policy." : "Leggi subito i criteri di riservatezza.",
-    "Encryption" : "Cifratura",
-    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "La tua archiviazione è cifrata usando una {linkopen}crittografia lato server ↗{linkclose} con una chiave primaria.",
-    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "La tua archiviazione è cifrata usando una {linkopen}crittografia lato server ↗{linkclose} con una chiave utente individuale."
+    "Encryption" : "Cifratura"
 },"pluralForm" :"nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;"
 }

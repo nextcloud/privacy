@@ -288,8 +288,6 @@ OC.L10N.register(
     "People you shared with" : "Persones amb què heu compartit elements",
     "Privacy policy" : "Política de privadesa",
     "Read the privacy policy." : "Llegiu la política de privadesa.",
-    "Encryption" : "Xifratge",
-    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "L'emmagatzematge principal està xifrat mitjançant {linkopen}xifratge del servidor ↗{linkclose} amb una clau mestra.",
-    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "L'emmagatzematge principal està xifrat mitjançant {linkopen}xifratge del servidor ↗{linkclose} amb una clau individual d'usuari."
+    "Encryption" : "Xifratge"
 },
 "nplurals=2; plural=(n != 1);");
