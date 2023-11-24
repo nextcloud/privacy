@@ -18,37 +18,29 @@
  * License along with this library.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
-import Vue from 'vue'
-import { translate, translatePlural } from '@nextcloud/l10n'
 
-import Admins from './components/Admins.vue'
-import Location from './components/Location.vue'
-import Encryption from './components/Encryption.vue'
-import Shares from './components/Shares.vue'
+import Vue from 'vue'
+import { translate as t } from '@nextcloud/l10n'
+import { getCurrentUser } from '@nextcloud/auth'
+
+import Access from './views/Access.vue'
+import Location from './views/Location.vue'
 
 import './css/privacy.scss'
 
-Vue.prototype.$t = translate
-Vue.prototype.$n = translatePlural
-Vue.prototype.$is_admin = OC.isUserAdmin()
+const provide = {
+	t,
+	isAdmin: getCurrentUser()?.isAdmin,
+}
 
-// The nextcloud-vue package does currently rely on t and n
-Vue.prototype.t = translate
-Vue.prototype.n = translatePlural
+export const access = new Vue({
+	el: '#privacy-access',
+	render: h => h(Access),
+	provide,
+})
 
 export const location = new Vue({
-	el: '#privacy_where_location',
+	el: '#privacy-location',
 	render: h => h(Location),
-})
-export const admins = new Vue({
-	el: '#privacy_access_admins',
-	render: h => h(Admins),
-})
-export const shares = new Vue({
-	el: '#privacy_access_shares',
-	render: h => h(Shares),
-})
-export const encryption = new Vue({
-	el: '#privacy_access_encryption',
-	render: h => h(Encryption),
+	provide,
 })

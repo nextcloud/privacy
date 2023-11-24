@@ -19,6 +19,7 @@
  *
  */
 
+// TODO
 .user-data-manifesto-rights {
 	padding: 15px 0;
 
@@ -45,105 +46,6 @@
 
 		p {
 			margin-top: 10px;
-		}
-	}
-}
-
-.section {
-	h4:not(:first-of-type) {
-		margin-top: 20px;
-	}
-}
-
-.who-has-access,
-.where-is-my-data {
-	span.icon.icon-rename {
-		display: inline-block;
-		opacity: 0.5;
-
-		&:hover {
-			opacity: 0.8;
-		}
-	}
-}
-
-.where-is-my-data {
-	max-width: 500px;
-
-	> span.icon.icon-loading {
-		display: block;
-		height: 320px;
-		width: 500px;
-	}
-
-	> svg {
-		> path,
-		> g {
-			fill: #dddddd;
-			stroke: #f4f4f4;
-		}
-	}
-
-	> div.multiselect-container {
-		position: relative;
-
-		> div.multiselect {
-			width: 100%;
-		}
-
-		> span.icon.icon-loading {
-			display: inline-block;
-			position: absolute;
-			top: 9px;
-			left: calc(50% - 23px);
-		}
-	}
-}
-
-.who-has-access {
-	display: flex;
-	flex-wrap: wrap;
-	align-items: center;
-
-	div.avatardiv,
-	.action-item.addAdditionalAdmin,
-	form.addAdditionalAdminFormContainer {
-		margin: 10px;
-	}
-
-	div.admin-avatar-container {
-		position: relative;
-
-		> .action-item {
-			position: absolute;
-			top: -8px;
-			right: -8px;
-		}
-	}
-
-	.action-item.addAdditionalAdmin {
-		width: 64px !important;
-		height: 64px !important;
-		border-radius: 64px !important;
-		background-color: var(--color-background-dark);
-	}
-
-	form.addAdditionalAdminFormContainer {
-		margin-top: 20px;
-		position: relative;
-		grid-row: 1;
-		display: inline-flex;
-		align-items: center;
-	}
-
-	span.icon.icon-loading {
-		display: block;
-		height: 32px;
-		width: 32px;
-		margin: 26px;
-
-		&.hidden {
-			display: none;
 		}
 	}
 }

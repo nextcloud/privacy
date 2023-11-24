@@ -20,34 +20,59 @@
   -->
 
 <template>
-	<div class="who-has-access">
-		<span :class="{hidden: !isLoading}" class="icon icon-loading" />
-		<span :class="{hidden: !isEmptyList}">
-			{{ $t('privacy', 'You don\'t have any shares with individual users.') }}
-		</span>
-		<NcAvatar v-for="uid in uniqueShareUIDs"
-			:key="uid"
-			:user="uid"
-			:display-name="uidDisplaynameMap[uid]"
-			:size="64"
-			:show-user-status="false" />
+	<div class="shared">
+		<h3>{{ t('privacy', `People you've shared with`) }}</h3>
+
+		<NcLoadingIcon v-if="isLoading"
+			:name="t('privacy', `Loading people you've shared with …`)"
+			:size="40" />
+
+		<p v-else-if="!uniqueShareUIDs.length">
+			{{ t('privacy', `You don't have any shares with individual users.`) }}
+		</p>
+
+		<ul v-else
+			class="shared__list">
+			<li v-for="uid in uniqueShareUIDs"
+				:key="uid"
+				class="shared__entry">
+				<span class="shared__user">
+					<NcAvatar :user="uid"
+						:display-name="uidDisplaynameMap[uid]"
+						:size="44"
+						:show-user-status="false" />
+
+					<span class="shared__displayname">{{ uidDisplaynameMap[uid] }}</span>
+				</span>
+			</li>
+		</ul>
 	</div>
 </template>
 
 <script>
 import Vue from 'vue'
 
-import HttpClient from '@nextcloud/axios'
+import axios from '@nextcloud/axios'
 import { generateOcsUrl } from '@nextcloud/router'
 import { getCurrentUser } from '@nextcloud/auth'
 import { showError } from '@nextcloud/dialogs'
+import { translate as t } from '@nextcloud/l10n'
+
 import NcAvatar from '@nextcloud/vue/dist/Components/NcAvatar.js'
+import NcLoadingIcon from '@nextcloud/vue/dist/Components/NcLoadingIcon.js'
 
 export default {
-	name: 'Shares',
+	name: 'ShareAccess',
+
 	components: {
 		NcAvatar,
+		NcLoadingIcon,
 	},
+
+	inject: [
+		't',
+	],
+
 	data() {
 		return {
 			uniqueShareUIDs: [],
@@ -55,16 +80,7 @@ export default {
 			isLoading: true,
 		}
 	},
-	computed: {
-		/**
-		 * Checks if the list of shares is empty
-		 *
-		 * @return {boolean}
-		 */
-		isEmptyList() {
-			return this.isLoading === false && this.uniqueShareUIDs.length === 0
-		},
-	},
+
 	/**
 	 * This function is called on mount of the Vue component
 	 * It loads the people shared with
@@ -74,7 +90,7 @@ export default {
 		const currentUserId = getCurrentUser().uid
 
 		try {
-			const resp = await HttpClient.get(url)
+			const resp = await axios.get(url)
 			resp.data.ocs.data.forEach((d) => {
 				if (d.share_with === currentUserId) {
 					return
@@ -94,10 +110,42 @@ export default {
 			})
 		} catch (error) {
 			console.error(error)
-			showError('Error loading information about shares.')
+			showError(t('privacy', 'Error loading information about shares.'))
 		} finally {
 			this.isLoading = false
 		}
 	},
 }
 </script>
+
+<style lang="scss" scoped>
+.shared {
+	&__list {
+		display: grid;
+		grid-auto-flow: row;
+		grid-template-columns: repeat(auto-fit, 260px);
+		gap: 8px;
+	}
+
+	&__entry {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: 4px 0;
+		width: 260px;
+	}
+
+	&__user {
+		display: flex;
+		align-items: center;
+		gap: 0 10px;
+		width: 100%;
+	}
+
+	&__displayname {
+		overflow: hidden;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+	}
+}
+</style>
