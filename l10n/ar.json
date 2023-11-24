@@ -286,8 +286,6 @@
     "People you shared with" : "أشخاصٌ أنت شاركتهم",
     "Privacy policy" : "سياسة الخصوصية",
     "Read the privacy policy." : "اقرأ سياسة الخصوصية.",
-    "Encryption" : "التعمية",
-    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "يتم تشفير تخزين وحدة تخزينك المنزلي باستخدام {linkopen} تشفير من جانب الخادم ↗ {linkclose} بمفتاح رئيسي.",
-    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "يتم تشفير وحدة تخزينك المنزلي باستخدام {linkopen} تشفير من جانب الخادم ↗ {linkclose} بمفتاح مستخدم فردي."
+    "Encryption" : "التعمية"
 },"pluralForm" :"nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;"
 }

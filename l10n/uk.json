@@ -286,8 +286,6 @@
     "People you shared with" : "Користувачі, з якими ви поділилися доступом до певних ресурсів",
     "Privacy policy" : "Політика конфіденційності",
     "Read the privacy policy." : "Переглянути політику конфіденційності.",
-    "Encryption" : "Шифрування",
-    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "Ваше домашнє сховище зашифровано за допомогою {linkopen}шифрування на стороні сервера ↗{linkclose} за допомогою головного ключа.",
-    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "Ваше домашнє сховище зашифровано за допомогою {linkopen}шифрування на стороні сервера ↗{linkclose} індивідуальним ключем користувача."
+    "Encryption" : "Шифрування"
 },"pluralForm" :"nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);"
 }
