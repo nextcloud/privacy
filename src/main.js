@@ -25,9 +25,8 @@ import { getCurrentUser } from '@nextcloud/auth'
 
 import Access from './views/Access.vue'
 import Location from './views/Location.vue'
+import Manifesto from './views/Manifesto.vue'
 import Mission from './views/Mission.vue'
-
-import './css/privacy.scss'
 
 const provide = {
 	t,
@@ -37,6 +36,12 @@ const provide = {
 export const mission = new Vue({
 	el: '#privacy-mission',
 	render: h => h(Mission),
+	provide,
+})
+
+export const manifesto = new Vue({
+	el: '#privacy-manifesto',
+	render: h => h(Manifesto),
 	provide,
 })
 
