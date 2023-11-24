@@ -25,6 +25,7 @@ import { getCurrentUser } from '@nextcloud/auth'
 
 import Access from './views/Access.vue'
 import Location from './views/Location.vue'
+import Mission from './views/Mission.vue'
 
 import './css/privacy.scss'
 
@@ -32,6 +33,12 @@ const provide = {
 	t,
 	isAdmin: getCurrentUser()?.isAdmin,
 }
+
+export const mission = new Vue({
+	el: '#privacy-mission',
+	render: h => h(Mission),
+	provide,
+})
 
 export const access = new Vue({
 	el: '#privacy-access',
