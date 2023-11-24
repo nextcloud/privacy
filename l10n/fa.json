@@ -286,8 +286,6 @@
     "People you shared with" : "افرادی که با آنها به اشتراک گذاشتید",
     "Privacy policy" : "سیاست حفظ حریم خصوصی",
     "Read the privacy policy." : "خط مشی رازداری را بخوانید.",
-    "Encryption" : "رمزگذاری",
-    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key.",
-    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key."
+    "Encryption" : "رمزگذاری"
 },"pluralForm" :"nplurals=2; plural=(n > 1);"
 }

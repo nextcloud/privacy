@@ -288,8 +288,6 @@ OC.L10N.register(
     "People you shared with" : "Folk du delte med",
     "Privacy policy" : "Personvern politikk",
     "Read the privacy policy." : "Les personvernsærkleringen.",
-    "Encryption" : "Kryptering",
-    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "Hjemmelagringen din er kryptert med {linkopen}server-side-kryptering ↗{linkclose} med en hovednøkkel.",
-    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "Hjemmelagringen din er kryptert med {linkopen}server-side-kryptering ↗{linkclose} med en individuell brukernøkkel."
+    "Encryption" : "Kryptering"
 },
 "nplurals=2; plural=(n != 1);");

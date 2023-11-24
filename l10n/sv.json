@@ -286,8 +286,6 @@
     "People you shared with" : "Personer du delat med",
     "Privacy policy" : "Integritetspolicy",
     "Read the privacy policy." : "Läs integritetspolicy.",
-    "Encryption" : "Kryptering",
-    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "Din hemkatalog är krypterad med {linkopen}serverkryptering ↗{linkclose} med en huvudnyckel.",
-    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "Din hemkatalog är krypterad med {linkopen}serverkryptering ↗{linkclose} med en individuell nyckel per användare."
+    "Encryption" : "Kryptering"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }

@@ -288,8 +288,6 @@ OC.L10N.register(
     "People you shared with" : "Хора с които е споделено",
     "Privacy policy" : "Политика за поверителност",
     "Read the privacy policy." : "Прочетете политиката за поверителност",
-    "Encryption" : "Криптиране",
-    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "Домашното ви хранилище е криптирано чрез {linkopen}криптиране от страна на сървъра ↗{linkclose} с главен ключ.",
-    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "Домашното ви хранилище е криптирано чрез {linkopen}криптиране от страна на сървъра ↗{linkclose} с индивидуален потребителски ключ."
+    "Encryption" : "Криптиране"
 },
 "nplurals=2; plural=(n != 1);");

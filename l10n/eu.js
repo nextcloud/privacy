@@ -288,8 +288,6 @@ OC.L10N.register(
     "People you shared with" : "Pertsona hauekin partekatu duzu",
     "Privacy policy" : "Pribatutasun politika",
     "Read the privacy policy." : "Irakurri pribatutasun politika",
-    "Encryption" : "Zifratzea",
-    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key." : "Etxeko biltegiratzea gako nagusi batekin {linkopen} zerbitzariaren aldeko enkriptatzea erabiliz ↗ {linkclose} enkriptatzen da.",
-    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key." : "Etxeko biltegiratzea {linkopen} zerbitzariaren aldeko enkriptatze ↗ {linkclose} bidez enkriptatzen da erabiltzaile-gako indibidual batekin."
+    "Encryption" : "Zifratzea"
 },
 "nplurals=2; plural=(n != 1);");
