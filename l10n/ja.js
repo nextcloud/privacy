@@ -9,7 +9,7 @@ OC.L10N.register(
     "Name of external admin" : "外部管理者名",
     "Adapt encryption" : "暗号化の適用",
     "This server is using full-disk-encryption." : "このサーバーはフルディスク暗号化を使用しています。",
-    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key. It means that administrators can access your files, but not read their content." : "あなたのストレージデータは、マスターキーを使用して{linkopen}サーバーサイド暗号化{linkclose}で暗号化されています。あなたのつまり、管理者はあなたのファイルにアクセスすることはできますが、その内容を読むことはできません。",
+    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key. It means that administrators can access your files, but not read their content." : "あなたのストレージデータは、マスタキーを使用して{linkopen}サーバーサイド暗号化{linkclose}で暗号化されています。つまり、管理者はあなたのファイルにアクセスすることはできますが、その内容を読むことはできません。",
     "Your files on external storages may be encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key based on their configuration." : "外部ストレージ上に存在するあなたのファイルは、設定によりマスターキーによる {linkopen}サーバーサイド暗号化 ↗{linkclose} で暗号化されています。",
     "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key. It means that administrators can access your files, but not read their content." : "あなたのストレージデータは、個別のユーザーキーを使用して {linkopen} サーバーサイド暗号化↗{linkclose} を使用して暗号化されています。つまり、管理者はファイルにアクセスできますが、内容を読み取ることはできません。",
     "Your files on external storages may be encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual key based on their configuration." : "外部ストレージ上に存在するあなたのファイルは、設定により個別のユーザーキーによる {linkopen}サーバーサイド暗号化 ↗{linkclose} で暗号化されています。",
