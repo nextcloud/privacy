@@ -23,20 +23,27 @@ declare(strict_types=1);
  */
 namespace OCA\Privacy\Settings;
 
+use OCA\Theming\ThemingDefaults;
 use OCP\AppFramework\Http\TemplateResponse;
+use OCP\AppFramework\Services\IInitialState;
 use OCP\Settings\ISettings;
 use OCP\Support\Subscription\IRegistry;
 
 class MissionSettings implements ISettings {
 
-	/** @var IRegistry */
-	protected $subscription;
-
-	public function __construct(IRegistry $subscription) {
-		$this->subscription = $subscription;
+	public function __construct(
+		protected IRegistry $subscription,
+		protected ThemingDefaults $themingDefaults,
+		protected IInitialState $initialState,
+	) {
 	}
 
 	public function getForm(): TemplateResponse {
+		$this->initialState->provideInitialState(
+			'serverName',
+			$this->themingDefaults->getEntity(),
+		);
+
 		return new TemplateResponse('privacy', 'mission');
 	}
 
