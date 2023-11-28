@@ -1,5 +1,10 @@
 { "translations": {
     "Privacy" : "Privatësia",
+    "Cancel" : "Anuloje",
+    "Add" : "Shto ",
+    "Encryption" : "Enkriptimi",
+    "Edit" : "Përpuno",
+    "Region" : "Rajon",
     "Andorra" : "Andorra",
     "United Arab Emirates" : "Emiratet e Bashkuara Arabe",
     "Afghanistan" : "Afganistani",
@@ -133,7 +138,6 @@
     "Ukraine" : "Ukrainë",
     "Uganda" : "Uganda",
     "Uruguay" : "Uruguaj",
-    "Zambia" : "Zambia",
-    "Encryption" : "Enkriptimi"
+    "Zambia" : "Zambia"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }

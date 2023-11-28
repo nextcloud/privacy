@@ -2,6 +2,12 @@ OC.L10N.register(
     "privacy",
     {
     "Privacy" : "Confindențialitate",
+    "Cancel" : "Anulare",
+    "Add" : "Adaugă",
+    "Encryption" : "Încriptare",
+    "Edit" : "Editează",
+    "Region" : "Regiune",
+    "Learn more ↗" : "Află mai multe ↗",
     "Andorra" : "Andorra",
     "United Arab Emirates" : "United Arab Emirates",
     "Afghanistan" : "Afghanistan",
@@ -87,9 +93,9 @@ OC.L10N.register(
     "Guam" : "Guam",
     "Guinea-Bissau" : "Guinea-Bissau",
     "Guyana" : "Guyana",
-    "Honduras" : "Honduras",
     "Hong Kong" : "Hong Kong",
     "Heard Island and McDonald Islands" : "Heard Island and McDonald Islands",
+    "Honduras" : "Honduras",
     "Croatia" : "Croatia",
     "Haiti" : "Haiti",
     "Hungary" : "Hungary",
@@ -222,8 +228,6 @@ OC.L10N.register(
     "Mayotte" : "Mayotte",
     "South Africa" : "South Africa",
     "Zambia" : "Zambia",
-    "Zimbabwe" : "Zimbabwe",
-    "Learn more ↗" : "Află mai multe ↗",
-    "Encryption" : "Încriptare"
+    "Zimbabwe" : "Zimbabwe"
 },
 "nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));");
