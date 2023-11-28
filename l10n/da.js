@@ -2,8 +2,12 @@ OC.L10N.register(
     "privacy",
     {
     "Privacy" : "Privatliv",
+    "Encryption" : "Kryptering",
     "Your files are not protected by encryption." : "Dine filer er ikke beskyttet med kryptering.",
-    "You don't have any shares with individual users." : "Du har ingen delinger med individuelle brugere.",
+    "Privacy policy" : "Fortrolighedspolitik",
+    "Who has access to your data?" : "Hvem har adgang til dine data?",
+    "Where is your data?" : "Hvor er dine data?",
+    "Learn more ↗" : "Lær mere ↗",
     "Andorra" : "Andorra",
     "Afghanistan" : "Afghanistan",
     "Albania" : "Albanien",
@@ -41,8 +45,8 @@ OC.L10N.register(
     "Guinea" : "Guinea",
     "Greece" : "Grækenland",
     "Guatemala" : "Guatemala",
-    "Honduras" : "Honduras",
     "Hong Kong" : "Hong Kong",
+    "Honduras" : "Honduras",
     "Croatia" : "Kroatien",
     "Haiti" : "Haiti",
     "Hungary" : "Ungarn",
@@ -91,11 +95,7 @@ OC.L10N.register(
     "Yemen" : "Yemen",
     "South Africa" : "Sydafrika",
     "Zimbabwe" : "Zimbabwe",
-    "Learn more ↗" : "Lær mere ↗",
-    "Where is your data?" : "Hvor er dine data?",
-    "Who has access to your data?" : "Hvem har adgang til dine data?",
-    "People you shared with" : "Brugere du deler med",
-    "Privacy policy" : "Fortrolighedspolitik",
-    "Encryption" : "Kryptering"
+    "You don't have any shares with individual users." : "Du har ingen delinger med individuelle brugere.",
+    "People you shared with" : "Brugere du deler med"
 },
 "nplurals=2; plural=(n != 1);");
