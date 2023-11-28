@@ -2,7 +2,10 @@ OC.L10N.register(
     "privacy",
     {
     "Privacy" : "Privacidá",
+    "Encryption" : "Cifráu",
+    "Privacy policy" : "Política de privacidá",
     "Please select a region" : "Seleiciona una rexón",
+    "Learn more ↗" : "Saber más ↗",
     "Somaliland" : "Somalilandia",
     "Andorra" : "Andorra",
     "United Arab Emirates" : "Emiratos Árabes Xuníos",
@@ -92,9 +95,9 @@ OC.L10N.register(
     "Guam" : "Guam",
     "Guinea-Bissau" : "Guinea-Bisáu",
     "Guyana" : "Guyana",
-    "Honduras" : "Hondures",
     "Hong Kong" : "Ḥong Kong",
     "Heard Island and McDonald Islands" : "Islles Heard Island y McDonald",
+    "Honduras" : "Hondures",
     "Croatia" : "Croacia",
     "Haiti" : "Haití",
     "Hungary" : "Hungría",
@@ -238,9 +241,6 @@ OC.L10N.register(
     "Mayotte" : "Mayotte",
     "South Africa" : "Sudáfrica",
     "Zambia" : "Zambia",
-    "Zimbabwe" : "Zimbabue",
-    "Learn more ↗" : "Saber más ↗",
-    "Privacy policy" : "Política de privacidá",
-    "Encryption" : "Cifráu"
+    "Zimbabwe" : "Zimbabue"
 },
 "nplurals=2; plural=(n != 1);");

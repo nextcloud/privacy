@@ -2,6 +2,11 @@ OC.L10N.register(
     "privacy",
     {
     "Privacy" : "Privatësia",
+    "Cancel" : "Anuloje",
+    "Add" : "Shto ",
+    "Encryption" : "Enkriptimi",
+    "Edit" : "Përpuno",
+    "Region" : "Rajon",
     "Andorra" : "Andorra",
     "United Arab Emirates" : "Emiratet e Bashkuara Arabe",
     "Afghanistan" : "Afganistani",
@@ -135,7 +140,6 @@ OC.L10N.register(
     "Ukraine" : "Ukrainë",
     "Uganda" : "Uganda",
     "Uruguay" : "Uruguaj",
-    "Zambia" : "Zambia",
-    "Encryption" : "Enkriptimi"
+    "Zambia" : "Zambia"
 },
 "nplurals=2; plural=(n != 1);");
