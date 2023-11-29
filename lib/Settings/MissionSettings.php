@@ -35,7 +35,8 @@ class MissionSettings implements ISettings {
 		protected IRegistry $subscription,
 		protected ThemingDefaults $themingDefaults,
 		protected IInitialState $initialState,
-	) {}
+	) {
+	}
 
 	public function getForm(): TemplateResponse {
 		$this->initialState->provideInitialState(
