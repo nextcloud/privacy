@@ -2,8 +2,12 @@ OC.L10N.register(
     "privacy",
     {
     "Privacy" : "Privacidá",
+    "Cancel" : "Encaboxar",
+    "Add" : "Amestar",
     "Encryption" : "Cifráu",
+    "Edit" : "Editar",
     "Privacy policy" : "Política de privacidá",
+    "Region" : "Rexón",
     "Please select a region" : "Seleiciona una rexón",
     "Learn more ↗" : "Saber más ↗",
     "Somaliland" : "Somalilandia",
