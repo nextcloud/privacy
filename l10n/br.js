@@ -3,6 +3,7 @@ OC.L10N.register(
     {
     "Privacy" : "Prevezder",
     "Encryption" : "Sifradur",
+    "Edit" : "Cheñch",
     "Andorra" : "Andorra",
     "United Arab Emirates" : "Emirelezhioù Arab Unanet",
     "Afghanistan" : "Afghanistan",
