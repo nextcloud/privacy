@@ -20,57 +20,67 @@
   -->
 
 <template>
-	<div class="who-has-access">
-		<div class="encryption-details">
+	<div class="encryption">
+		<h3>{{ t('privacy', 'Encryption') }}</h3>
+
+		<ul class="encryption__list">
 			<!-- eslint-disable vue/no-v-html -->
-			<p v-for="label in labels"
-				v-show="!isEditing"
+			<li v-for="label in labels"
 				:key="label"
 				v-html="label" />
 			<!--eslint-enable-->
-		</div>
-		<NcActions v-if="$is_admin && !isEditing">
-			<NcActionButton icon="icon-rename"
-				:aria-label="t('privacy', 'Adapt encryption')"
-				:title="t('privacy', 'Adapt encryption')"
-				@click.stop.prevent="openEditFullDiskEncryptionForm" />
-		</NcActions>
-		<div v-if="isEditing" v-click-outside="cancelEditFullDiskEncryptionForm">
-			<form>
-				<input id="fullDiskEncryptionEnabledCheckbox"
-					v-model="fullDiskEncryptionEnabled"
-					:disabled="isSavingChanges"
-					type="checkbox"
-					name="fullDiskEncryptionEnabledCheckbox"
-					class="checkbox"
-					@change="saveFullDiskEncryptionForm">
-				<label for="fullDiskEncryptionEnabledCheckbox">
-					{{ $t('privacy', 'This server is using full-disk-encryption.') }}
-				</label>
-			</form>
+		</ul>
+
+		<div class="encryption__edit">
+			<NcButton v-if="isAdmin"
+				:aria-label="!isEditing ? t('privacy', 'Edit encryption') : t('privacy', 'Cancel')"
+				@click="isEditing = !isEditing">
+				<template #icon>
+					<Pencil v-if="!isEditing" :size="20" />
+					<Close v-else :size="20" />
+				</template>
+				{{ !isEditing ? t('privacy', 'Edit') : t('privacy', 'Cancel') }}
+			</NcButton>
+
+			<NcCheckboxRadioSwitch v-if="isEditing"
+				:disabled="isSavingChanges"
+				:loading="isSavingChanges"
+				:checked.sync="fullDiskEncryptionEnabled"
+				@update:checked="saveFullDiskEncryption">
+				{{ t('privacy', 'This server is using full-disk-encryption.') }}
+			</NcCheckboxRadioSwitch>
 		</div>
 	</div>
 </template>
 
 <script>
-import ClickOutside from 'vue-click-outside'
-
-import HttpClient from '@nextcloud/axios'
+import axios from '@nextcloud/axios'
 import { generateUrl } from '@nextcloud/router'
-import NcActions from '@nextcloud/vue/dist/Components/NcActions.js'
-import NcActionButton from '@nextcloud/vue/dist/Components/NcActionButton.js'
 import { loadState } from '@nextcloud/initial-state'
 import { showError } from '@nextcloud/dialogs'
+import { translate as t } from '@nextcloud/l10n'
+
+import NcButton from '@nextcloud/vue/dist/Components/NcButton.js'
+import NcCheckboxRadioSwitch from '@nextcloud/vue/dist/Components/NcCheckboxRadioSwitch.js'
+
+import Close from 'vue-material-design-icons/Close.vue'
+import Pencil from 'vue-material-design-icons/Pencil.vue'
 
 export default {
 	name: 'Encryption',
+
 	components: {
-		NcActions,
-		NcActionButton,
+		Close,
+		NcButton,
+		NcCheckboxRadioSwitch,
+		Pencil,
 	},
-	directives: {
-		ClickOutside,
-	},
+
+	inject: [
+		't',
+		'isAdmin',
+	],
+
 	data() {
 		return {
 			fullDiskEncryptionEnabled: false,
@@ -81,45 +91,47 @@ export default {
 			isSavingChanges: false,
 		}
 	},
+
 	computed: {
 		labels() {
 			const labels = []
 
 			const addLabel = (text) => labels.push(text
-				.replace('{linkopen}', '<a href="https://nextcloud.com/blog/encryption-in-nextcloud/" target="_blank" title="" rel="noreferrer noopener">')
+				.replace('{linkopen}', '<a href="https://nextcloud.com/blog/encryption-in-nextcloud/" target="_blank" rel="noreferrer noopener" class="encryption__link">')
 				.replace('{linkclose}', '</a>'))
 
 			if (this.serverSideEncryptionEnabled) {
 				if (this.homeStorageEncryptionEnabled) {
 					if (this.masterKeyEncryptionEnabled) {
-						addLabel(this.$t('privacy', 'Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key. It means that administrators can access your files, but not read their content.'))
-						addLabel(this.$t('privacy', 'Your files on external storages may be encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key based on their configuration.'))
+						addLabel(t('privacy', 'Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key. It means that administrators can access your files, but not read their content.'))
+						addLabel(t('privacy', 'Your files on external storages may be encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key based on their configuration.'))
 					} else {
-						addLabel(this.$t('privacy', 'Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key. It means that administrators can access your files, but not read their content.'))
-						addLabel(this.$t('privacy', 'Your files on external storages may be encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual key based on their configuration.'))
+						addLabel(t('privacy', 'Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual user key. It means that administrators can access your files, but not read their content.'))
+						addLabel(t('privacy', 'Your files on external storages may be encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual key based on their configuration.'))
 					}
 				} else {
 					if (this.masterKeyEncryptionEnabled) {
-						addLabel(this.$t('privacy', 'Your files on external storages may be encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key based on their configuration.'))
+						addLabel(t('privacy', 'Your files on external storages may be encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key based on their configuration.'))
 					} else {
-						addLabel(this.$t('privacy', 'Your files on external storages may be encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual key based on their configuration.'))
+						addLabel(t('privacy', 'Your files on external storages may be encrypted using {linkopen}server-side-encryption ↗{linkclose} with an individual key based on their configuration.'))
 					}
 				}
 			}
 
 			if (this.fullDiskEncryptionEnabled && this.serverSideEncryptionEnabled) {
-				labels.push(this.$t('privacy', 'Additionally, this server is protected with full-disk-encryption.'))
+				labels.push(t('privacy', 'Additionally, this server is protected with full-disk-encryption.'))
 			} else if (this.fullDiskEncryptionEnabled && !this.serverSideEncryptionEnabled) {
-				labels.push(this.$t('privacy', 'This server is protected with full-disk-encryption.'))
+				labels.push(t('privacy', 'This server is protected with full-disk-encryption.'))
 			}
 
 			if (labels.length === 0) {
-				labels.push(this.$t('privacy', 'Your files are not protected by encryption.'))
+				labels.push(t('privacy', 'Your files are not protected by encryption.'))
 			}
 
 			return labels
 		},
 	},
+
 	/**
 	 * This function is called on mount of the Vue component
 	 * It checks if full-disk-encryption or server-side-encryption
@@ -131,33 +143,22 @@ export default {
 		this.homeStorageEncryptionEnabled = loadState('privacy', 'homeStorageEncryptionEnabled')
 		this.masterKeyEncryptionEnabled = loadState('privacy', 'masterKeyEncryptionEnabled')
 	},
+
 	methods: {
-		/**
-		 * Opens the form to edit the full-disk-encryption-state
-		 */
-		openEditFullDiskEncryptionForm() {
-			this.isEditing = true
-		},
-		/**
-		 * Closes the form to edit the full-disk-encryption-state
-		 */
-		cancelEditFullDiskEncryptionForm() {
-			this.isEditing = false
-		},
 		/**
 		 * Saves the new full-disk-encryption-state
 		 *
 		 * @return {Promise<void>}
 		 */
-		async saveFullDiskEncryptionForm() {
+		async saveFullDiskEncryption() {
 			const url = generateUrl('/apps/privacy/api/fullDiskEncryption')
 			this.isSavingChanges = true
 
 			try {
-				await HttpClient.post(url, { enabled: this.fullDiskEncryptionEnabled ? '1' : '0' })
+				await axios.post(url, { enabled: this.fullDiskEncryptionEnabled ? '1' : '0' })
 			} catch (error) {
 				console.error(error)
-				showError('Error saving new state of full-disk-encryption')
+				showError(t('privacy', 'Error saving new state of full-disk-encryption'))
 
 				// Reset state
 				this.fullDiskEncryptionEnabled = !this.fullDiskEncryptionEnabled
@@ -169,8 +170,26 @@ export default {
 	},
 }
 </script>
-<style>
-.encryption-details {
-	margin-right: 20px;
+
+<style lang="scss" scoped>
+.encryption {
+	&__list {
+		display: flex;
+		flex-direction: column;
+		gap: 4px 0;
+		margin: 12px 0;
+	}
+
+	&__edit {
+		display: flex;
+		flex-direction: column;
+		gap: 4px 0;
+	}
+}
+
+:deep {
+	.encryption__link {
+		text-decoration: underline;
+	}
 }
 </style>

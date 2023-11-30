@@ -7,6 +7,7 @@
     "build": "NODE_ENV=production webpack --progress --config webpack.js",
     "dev": "NODE_ENV=development webpack --progress --config webpack.js",
     "watch": "NODE_ENV=development webpack --progress --watch --config webpack.js",
+    "serve": "NODE_ENV=development webpack serve --progress --config webpack.js",
     "lint": "eslint --ext .js,.vue src",
     "lint:fix": "eslint --ext .js,.vue src --fix",
     "stylelint": "stylelint src",
@@ -30,13 +31,13 @@
   "dependencies": {
     "@nextcloud/auth": "^2.0.0",
     "@nextcloud/axios": "^2.4.0",
-    "@nextcloud/dialogs": "^4.1.0",
+    "@nextcloud/dialogs": "^5.0.2",
     "@nextcloud/initial-state": "^2.1.0",
     "@nextcloud/l10n": "^2.2.0",
     "@nextcloud/router": "^2.1.2",
-    "@nextcloud/vue": "^7.12.4",
+    "@nextcloud/vue": "^8.2.0",
     "vue": "^2.7.15",
-    "vue-click-outside": "^1.1.0"
+    "vue-material-design-icons": "^5.2.0"
   },
   "browserslist": [
     "extends @nextcloud/browserslist-config"
@@ -47,10 +48,11 @@
   },
   "devDependencies": {
     "@nextcloud/babel-config": "^1.0.0",
-    "@nextcloud/browserslist-config": "^2.3.0",
-    "@nextcloud/eslint-config": "^8.2.1",
+    "@nextcloud/browserslist-config": "^3.0.0",
+    "@nextcloud/eslint-config": "^8.3.0",
     "@nextcloud/stylelint-config": "^2.3.1",
-    "@nextcloud/webpack-vue-config": "^5.5.1",
+    "@nextcloud/webpack-vue-config": "^6.0.0",
+    "@vue/tsconfig": "^0.4.0",
     "babel-loader-exclude-node-modules-except": "^1.2.1"
   }
 }

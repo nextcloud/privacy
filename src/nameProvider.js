@@ -93,7 +93,6 @@ const list = [
 	{ code: 'gu', label: t('privacy', 'Guam') },
 	{ code: 'gw', label: t('privacy', 'Guinea-Bissau') },
 	{ code: 'gy', label: t('privacy', 'Guyana') },
-	{ code: 'hn', label: t('privacy', 'Honduras') },
 	{ code: 'hk', label: t('privacy', 'Hong Kong') },
 	{ code: 'hm', label: t('privacy', 'Heard Island and McDonald Islands') },
 	{ code: 'hn', label: t('privacy', 'Honduras') },
