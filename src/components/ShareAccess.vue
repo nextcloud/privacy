@@ -21,14 +21,14 @@
 
 <template>
 	<div class="shared">
-		<h3>{{ t('privacy', `People you've shared with`) }}</h3>
+		<h3>{{ t('privacy', "People you've shared with") }}</h3>
 
 		<NcLoadingIcon v-if="isLoading"
-			:name="t('privacy', `Loading people you've shared with …`)"
+			:name="t('privacy', "Loading people you've shared with …")"
 			:size="40" />
 
 		<p v-else-if="!uniqueShareUIDs.length">
-			{{ t('privacy', `You don't have any shares with individual users.`) }}
+			{{ t('privacy', "You don't have any shares with individual users.") }}
 		</p>
 
 		<ul v-else
