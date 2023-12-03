@@ -28,7 +28,7 @@
 			:size="40" />
 
 		<p v-else-if="!uniqueShareUIDs.length">
-			{{ t('privacy', 'You don\'t have any shares with individual users.') }}
+			{{ t('privacy', 'You do not have any shares with individual users.') }}
 		</p>
 
 		<ul v-else
