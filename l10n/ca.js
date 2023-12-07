@@ -8,6 +8,7 @@ OC.L10N.register(
     "Remove external {propertyName} admin" : "Elimina l'administrador extern {propertyName}",
     "Add external admin" : "Afegeix un administrador extern",
     "Cancel" : "Cancelar",
+    "Add" : "Afegeix",
     "Name of external admin" : "Nom de l'administrador extern",
     "Encryption" : "Xifratge",
     "Edit" : "Edició",
