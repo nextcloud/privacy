@@ -51,6 +51,7 @@ OC.L10N.register(
     "Learn more ↗" : "Kanna nánar ↗",
     "Your {serverName} account" : "{serverName}-aðgangurinn þinn",
     "Your data represents who you are and can easily be abused. We at Nextcloud believe that you have a right to decide what happens with your data. Nextcloud protects your rights as defined in the User Data Manifesto!" : "Gögnin þín standa fyrir það sem þú ert og er því miður auðvelt að misnota þau. Við sem stöndum að Nextcloud trúum því að þú hafir rétt til að ákveða hvað verður um gögnin þín. Nextcloud mun verja réttindi þín eins og þau eru skilgreind í yfirlýsingu um notandagögn!",
+    "You don" : "Þú átt ekki neinar sameignir með einstökum notendum.",
     "Loading people you" : "Hleð inn fólki sem þú",
     "People you" : "Fólk sem þú",
     "Somaliland" : "Sómalíland",
