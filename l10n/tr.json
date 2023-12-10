@@ -50,6 +50,8 @@
     "Your {serverName} account" : "{serverName} hesabınız",
     "Your data represents who you are and can easily be abused. We at Nextcloud believe that you have a right to decide what happens with your data. Nextcloud protects your rights as defined in the User Data Manifesto!" : "Verileriniz sizin kim olduğunuzu gösterir ve kolayca kötüye kullanılabilir. Nextcloud olarak verilerinize ne olacağına karar verme hakkınız olduğuna inanıyoruz. Nextcloud, Kullanıcı Verileri Manifestosu'nda belirtildiği şekilde haklarınızı korur!",
     "You don" : "Şunu yapmadınız",
+    "Loading people you" : "Şu İşlemi uyguladığınız kişiler yükleniyor",
+    "People you" : "Şu işlemi uyguladığınız kişiler",
     "Somaliland" : "Somaliland",
     "Andorra" : "Andorra",
     "United Arab Emirates" : "Birleşik Arap Emirlikleri",
