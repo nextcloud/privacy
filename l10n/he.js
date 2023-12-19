@@ -6,6 +6,7 @@ OC.L10N.register(
     "The privacy center shows you where your data is stored and who can access it, either because you shared with them or because they are administrators." : "מרכז הפרטיות מציג היכן מאוחסנים הנתונים שלך ולמי יש אפשרות לגשת אליהם או בגלל ששיתפת אותם או בגלל שהם מנהלים.",
     "Administrators" : "מנהלים",
     "Add external admin" : "הוספת הנהלה חיצונית",
+    "Cancel" : "ביטול",
     "Add" : "הוספה",
     "Name of external admin" : "שם ההנהלה החיצונית",
     "Encryption" : "הצפנה",

@@ -7,6 +7,7 @@ OC.L10N.register(
     "Administrators" : "Administrator",
     "Remove external {propertyName} admin" : "Hapus admin eksternal {propertyName}",
     "Add external admin" : "Tambahkan admin eksternal",
+    "Cancel" : "Batal",
     "Add" : "Tambah",
     "Name of external admin" : "Nama admin eksternal",
     "Encryption" : "Enkripsi",

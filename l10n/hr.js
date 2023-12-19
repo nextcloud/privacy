@@ -6,6 +6,7 @@ OC.L10N.register(
     "The privacy center shows you where your data is stored and who can access it, either because you shared with them or because they are administrators." : "Centar privatnosti vam pokazuje gdje se vaši podaci pohranjuju i tko im može pristupiti jer ste ih podijelili ili zato što se radi o administratorima.",
     "Administrators" : "Administratori",
     "Add external admin" : "Dodaj vanjskog administratora",
+    "Cancel" : "Odustani",
     "Add" : "Dodaj",
     "Name of external admin" : "Ime vanjskog administratora",
     "Encryption" : "Šifriranje",
