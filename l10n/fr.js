@@ -27,6 +27,7 @@ OC.L10N.register(
     "Your files are not protected by encryption." : "Vos fichiers ne sont pas protégés par chiffrement.",
     "Privacy policy" : "Politique de confidentialité",
     "Read the privacy policy ↗" : "Lisez la politique de confidentialité ↗",
+    "Error loading information about shares." : "Erreur lors du chargement des informations sur les partages.",
     "Who has access to your data?" : "Qui a accès à vos données ?",
     "Where is your data?" : "Où sont vos données ?",
     "Your data is located in:" : "Vos données sont situées en ",
