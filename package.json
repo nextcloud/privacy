@@ -52,7 +52,7 @@
     "@nextcloud/eslint-config": "^8.3.0",
     "@nextcloud/stylelint-config": "^2.3.1",
     "@nextcloud/webpack-vue-config": "^6.0.0",
-    "@vue/tsconfig": "^0.4.0",
+    "@vue/tsconfig": "^0.5.1",
     "babel-loader-exclude-node-modules-except": "^1.2.1"
   }
 }
