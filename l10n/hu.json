@@ -49,9 +49,6 @@
     "Learn more ↗" : "Tudjon meg többet ↗",
     "Your {serverName} account" : "Az Ön {serverName}-fiókja",
     "Your data represents who you are and can easily be abused. We at Nextcloud believe that you have a right to decide what happens with your data. Nextcloud protects your rights as defined in the User Data Manifesto!" : "Az adatai Önt mutatják be, és könnyen vissza lehet élni velük. Mi a Nextcloudnál hiszünk abban, hogy Önnek joga van dönteni arról, hogy mi történjen ezekkel az adatokkal. A Nextcloud megvédi a „User Data Manifesto” kiáltványban megfogalmazott jogait.",
-    "You don" : "Nincs megosztása egyéni felhasználókkal.",
-    "Loading people you" : "Emberek betöltése, akikkel megoszt…",
-    "People you" : "Emberek, akikkel megosztott",
     "Somaliland" : "Szomáliföld",
     "Andorra" : "Andorra",
     "United Arab Emirates" : "Egyesült Arab Emírségek",
@@ -305,6 +302,9 @@
     "Your %s account" : "Saját %s-fiók",
     "Defining basic rights for people to control their own data in the internet age" : "Leírja a felhasználók saját adataik kezelésére vonatkozó alapvető jogait az internet korában",
     "People you shared with" : "Emberek, akikkel adatokat osztott meg",
-    "Read the privacy policy." : "Az adatvédelmi irányelvek elolvasása."
+    "Read the privacy policy." : "Az adatvédelmi irányelvek elolvasása.",
+    "You don" : "Nincs megosztása egyéni felhasználókkal.",
+    "Loading people you" : "Emberek betöltése, akikkel megoszt…",
+    "People you" : "Emberek, akikkel megosztott"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }

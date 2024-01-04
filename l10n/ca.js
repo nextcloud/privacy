@@ -51,9 +51,6 @@ OC.L10N.register(
     "Learn more ↗" : "Més informació ↗",
     "Your {serverName} account" : "El vostre compte de {serverName}",
     "Your data represents who you are and can easily be abused. We at Nextcloud believe that you have a right to decide what happens with your data. Nextcloud protects your rights as defined in the User Data Manifesto!" : "Les vostres dades representen qui sou i poden ser objecte d’abús fàcilment. A Nextcloud creiem que teniu dret a decidir què passa amb les vostres dades. Nextcloud protegeix els vostres drets tal com es defineix al Manifest de dades de l'usuari!",
-    "You don" : "Tu no",
-    "Loading people you" : "Carregant gent tu",
-    "People you" : "Gent tu",
     "Somaliland" : "Somalilàndia",
     "Andorra" : "Andorra",
     "United Arab Emirates" : "Emirats Àrabs Units",
@@ -307,6 +304,9 @@ OC.L10N.register(
     "Your %s account" : "El vostre compte del %s",
     "Defining basic rights for people to control their own data in the internet age" : "Definició de drets bàsics perquè les persones puguin controlar les seves pròpies dades en l’era d'Internet",
     "People you shared with" : "Persones amb què heu compartit elements",
-    "Read the privacy policy." : "Llegiu la política de privadesa."
+    "Read the privacy policy." : "Llegiu la política de privadesa.",
+    "You don" : "Tu no",
+    "Loading people you" : "Carregant gent tu",
+    "People you" : "Gent tu"
 },
 "nplurals=2; plural=(n != 1);");
