@@ -51,9 +51,6 @@ OC.L10N.register(
     "Learn more ↗" : "取得更多資訊 ↗",
     "Your {serverName} account" : "您的 {serverName} 帳號",
     "Your data represents who you are and can easily be abused. We at Nextcloud believe that you have a right to decide what happens with your data. Nextcloud protects your rights as defined in the User Data Manifesto!" : "您的資料就是您自己，在網路上很容易被濫用。在 Nextcloud，我們相信您有權決定您要如何使用您的資料。Nextcloud 會根據使用者資料宣言來保護您的權利！",
-    "You don" : "您不",
-    "Loading people you" : "正在載入您的夥伴",
-    "People you" : "您的夥伴",
     "Somaliland" : "索馬利蘭",
     "Andorra" : "安道爾",
     "United Arab Emirates" : "阿拉伯聯合大公國",
@@ -307,6 +304,9 @@ OC.L10N.register(
     "Your %s account" : "您的 %s 帳號",
     "Defining basic rights for people to control their own data in the internet age" : "定義網際網路時代，人們控制自己的資料的基本權利",
     "People you shared with" : "與您分享的人",
-    "Read the privacy policy." : "閱讀隱私權政策"
+    "Read the privacy policy." : "閱讀隱私權政策",
+    "You don" : "您不",
+    "Loading people you" : "正在載入您的夥伴",
+    "People you" : "您的夥伴"
 },
 "nplurals=1; plural=0;");

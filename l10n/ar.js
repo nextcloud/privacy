@@ -51,9 +51,6 @@ OC.L10N.register(
     "Learn more ↗" : "تعلم المزيد ↗",
     "Your {serverName} account" : "حسابك على الخادوم {serverName}  ",
     "Your data represents who you are and can easily be abused. We at Nextcloud believe that you have a right to decide what happens with your data. Nextcloud protects your rights as defined in the User Data Manifesto!" : "بياناتك تُمثّل هويتك؛ ويمكن بسهولة إساءة استخدامها. نحن في نكست كلاود نعتقد أن لديك الحق في التحكم في مصير بياناتك. تسعى نكست كلاود لحماية حقوقك على النحو المُحدّد في إعلان بيانات المستخدم User Data Manifesto!",
-    "You don" : "أنت don",
-    "Loading people you" : "تحميل أشخاص أنت",
-    "People you" : "أشخاص أنت",
     "Somaliland" : "Somaliland",
     "Andorra" : "أندورا",
     "United Arab Emirates" : "الإمارات العربية المتحدة",
@@ -307,6 +304,9 @@ OC.L10N.register(
     "Your %s account" : "حسابك %s ",
     "Defining basic rights for people to control their own data in the internet age" : "تعريفٌ بالحقوق الأساسية للأشخاص في التحكم في بياناتهم الخاصة في عصر الإنترنت",
     "People you shared with" : "أشخاصٌ أنت شاركتهم",
-    "Read the privacy policy." : "اقرأ سياسة الخصوصية."
+    "Read the privacy policy." : "اقرأ سياسة الخصوصية.",
+    "You don" : "أنت don",
+    "Loading people you" : "تحميل أشخاص أنت",
+    "People you" : "أشخاص أنت"
 },
 "nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;");

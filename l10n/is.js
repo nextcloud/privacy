@@ -51,9 +51,6 @@ OC.L10N.register(
     "Learn more ↗" : "Kanna nánar ↗",
     "Your {serverName} account" : "{serverName}-aðgangurinn þinn",
     "Your data represents who you are and can easily be abused. We at Nextcloud believe that you have a right to decide what happens with your data. Nextcloud protects your rights as defined in the User Data Manifesto!" : "Gögnin þín standa fyrir það sem þú ert og er því miður auðvelt að misnota þau. Við sem stöndum að Nextcloud trúum því að þú hafir rétt til að ákveða hvað verður um gögnin þín. Nextcloud mun verja réttindi þín eins og þau eru skilgreind í yfirlýsingu um notandagögn!",
-    "You don" : "Þú átt ekki neinar sameignir með einstökum notendum.",
-    "Loading people you" : "Hleð inn fólki sem þú",
-    "People you" : "Fólk sem þú",
     "Somaliland" : "Sómalíland",
     "Andorra" : "Andorra",
     "United Arab Emirates" : "Sameinuðu arabísku furstadæmin",
@@ -307,6 +304,9 @@ OC.L10N.register(
     "Your %s account" : "%s notandaaðgangurinn þinn",
     "Defining basic rights for people to control their own data in the internet age" : "Skilgreinir grunnréttindi notenda til að stýra sínum eigin gögnum á internetinu",
     "People you shared with" : "Fólk sem þú deildir með",
-    "Read the privacy policy." : "Lestu stefnu varðandi meðferð persónulegra gagna."
+    "Read the privacy policy." : "Lestu stefnu varðandi meðferð persónulegra gagna.",
+    "You don" : "Þú átt ekki neinar sameignir með einstökum notendum.",
+    "Loading people you" : "Hleð inn fólki sem þú",
+    "People you" : "Fólk sem þú"
 },
 "nplurals=2; plural=(n % 10 != 1 || n % 100 == 11);");

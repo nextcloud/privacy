@@ -51,9 +51,6 @@ OC.L10N.register(
     "Learn more ↗" : "Ayrıntılı bilgi alın ↗",
     "Your {serverName} account" : "{serverName} hesabınız",
     "Your data represents who you are and can easily be abused. We at Nextcloud believe that you have a right to decide what happens with your data. Nextcloud protects your rights as defined in the User Data Manifesto!" : "Verileriniz sizin kim olduğunuzu gösterir ve kolayca kötüye kullanılabilir. Nextcloud olarak verilerinize ne olacağına karar verme hakkınız olduğuna inanıyoruz. Nextcloud, Kullanıcı Verileri Manifestosu'nda belirtildiği şekilde haklarınızı korur!",
-    "You don" : "Şunu yapmadınız",
-    "Loading people you" : "Şu İşlemi uyguladığınız kişiler yükleniyor",
-    "People you" : "Şu işlemi uyguladığınız kişiler",
     "Somaliland" : "Somaliland",
     "Andorra" : "Andorra",
     "United Arab Emirates" : "Birleşik Arap Emirlikleri",
@@ -307,6 +304,9 @@ OC.L10N.register(
     "Your %s account" : "%s hesabınız",
     "Defining basic rights for people to control their own data in the internet age" : "İnternet çağında kişilerin kendi verilerini kontrol etmesi için temel hak tanımları",
     "People you shared with" : "Verilerinizi paylaştığınız kişiler",
-    "Read the privacy policy." : "Kişisel verilerinizin korunması ilkesini gözden geçirin."
+    "Read the privacy policy." : "Kişisel verilerinizin korunması ilkesini gözden geçirin.",
+    "You don" : "Şunu yapmadınız",
+    "Loading people you" : "Şu İşlemi uyguladığınız kişiler yükleniyor",
+    "People you" : "Şu işlemi uyguladığınız kişiler"
 },
 "nplurals=2; plural=(n > 1);");

@@ -49,9 +49,6 @@
     "Learn more ↗" : "Saiba mais ↗",
     "Your {serverName} account" : "Sua conta {serverName}",
     "Your data represents who you are and can easily be abused. We at Nextcloud believe that you have a right to decide what happens with your data. Nextcloud protects your rights as defined in the User Data Manifesto!" : "Seus dados representam quem você é e podem ser facilmente usados. Na Nextcloud acreditamos que você tem o direito de decidir o que acontece com eles. O Nextcloud protege seus direitos conforme definido no Manifesto de Dados do Usuário!",
-    "You don" : "Você não",
-    "Loading people you" : "Carregando pessoas que você",
-    "People you" : "Pessoas que você",
     "Somaliland" : "Somalilândia",
     "Andorra" : "Andorra",
     "United Arab Emirates" : "Emirados Árabes Unidos",
@@ -305,6 +302,9 @@
     "Your %s account" : "Sua conta %s",
     "Defining basic rights for people to control their own data in the internet age" : "Definição dos direitos básicos para as pessoas controlarem seus próprios dados na era da internet",
     "People you shared with" : "Pessoas com quem você compartilhou",
-    "Read the privacy policy." : "Leia a política de privacidade."
+    "Read the privacy policy." : "Leia a política de privacidade.",
+    "You don" : "Você não",
+    "Loading people you" : "Carregando pessoas que você",
+    "People you" : "Pessoas que você"
 },"pluralForm" :"nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;"
 }
