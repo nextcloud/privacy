@@ -49,9 +49,6 @@
     "Learn more ↗" : "Дізнайтеся більше ↗",
     "Your {serverName} account" : "Ваш обліковий запис на {serverName}",
     "Your data represents who you are and can easily be abused. We at Nextcloud believe that you have a right to decide what happens with your data. Nextcloud protects your rights as defined in the User Data Manifesto!" : "Ваші дані вказують на те, ким ви є, і ними можна легко зловживати. Ми в Nextcloud вважаємо, що ви маєте право вирішувати, що станеться з вашими даними. Nextcloud захищає ваші права, як визначено в Маніфесті даних користувача!",
-    "You don" : "Ви не",
-    "Loading people you" : "Завантаження людей, яких ви",
-    "People you" : "Люди, яких ви",
     "Somaliland" : "Сомаліленд",
     "Andorra" : "Андорра",
     "United Arab Emirates" : "Об'єднані Арабські Емірати",
@@ -305,6 +302,9 @@
     "Your %s account" : "Ваш обліковий запис у хмарі %s ",
     "Defining basic rights for people to control their own data in the internet age" : "Визначення основних прав людей на контроль власних даних в епоху Інтернету",
     "People you shared with" : "Користувачі, з якими ви поділилися доступом до певних ресурсів",
-    "Read the privacy policy." : "Переглянути політику конфіденційності."
+    "Read the privacy policy." : "Переглянути політику конфіденційності.",
+    "You don" : "Ви не",
+    "Loading people you" : "Завантаження людей, яких ви",
+    "People you" : "Люди, яких ви"
 },"pluralForm" :"nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);"
 }

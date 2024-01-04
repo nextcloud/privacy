@@ -51,9 +51,6 @@ OC.L10N.register(
     "Learn more ↗" : "Zjistit víc ↗",
     "Your {serverName} account" : "Váš účet na {serverName}",
     "Your data represents who you are and can easily be abused. We at Nextcloud believe that you have a right to decide what happens with your data. Nextcloud protects your rights as defined in the User Data Manifesto!" : "Vaše data představují to, kdo jste a mohou být snadno zneužita. My v Nextcloud věříme, že máte právo rozhodovat, co se s vašimi daty děje. Nextcloud chrání vaše práva, definovaná v manifestu o datech uživatelů!",
-    "You don" : "Ve ne",
-    "Loading people you" : "Načítání lidí, které vy",
-    "People you" : "Lidé, které vy",
     "Somaliland" : "Somaliland",
     "Andorra" : "Andorra",
     "United Arab Emirates" : "Spojené Arabské Emiráty",
@@ -307,6 +304,9 @@ OC.L10N.register(
     "Your %s account" : "Váš %s účet",
     "Defining basic rights for people to control their own data in the internet age" : "Definující základní práva lidí na kontrolu nad svými daty v éře Internetu",
     "People you shared with" : "Lidé, kterým jste nasdíleli",
-    "Read the privacy policy." : "Přečíst si zásady ochrany osobních údajů."
+    "Read the privacy policy." : "Přečíst si zásady ochrany osobních údajů.",
+    "You don" : "Ve ne",
+    "Loading people you" : "Načítání lidí, které vy",
+    "People you" : "Lidé, které vy"
 },
 "nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;");
