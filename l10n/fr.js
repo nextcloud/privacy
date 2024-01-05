@@ -27,6 +27,9 @@ OC.L10N.register(
     "Your files are not protected by encryption." : "Vos fichiers ne sont pas protégés par chiffrement.",
     "Privacy policy" : "Politique de confidentialité",
     "Read the privacy policy ↗" : "Lisez la politique de confidentialité ↗",
+    "People you've shared with" : "Personnes avec qui vous avez partagé",
+    "Loading people you've shared with …" : "Chargement des personnes avec qui vous avez partagé...",
+    "You do not have any shares with individual users." : "Vous n'avez aucun partage avec des utilisateurs individuels.",
     "Error loading information about shares." : "Erreur lors du chargement des informations sur les partages.",
     "Who has access to your data?" : "Qui a accès à vos données ?",
     "Where is your data?" : "Où sont vos données ?",
@@ -35,6 +38,7 @@ OC.L10N.register(
     "Change data location" : "Modifier l'emplacement des données",
     "Region" : "Région",
     "Please select a region" : "Veuillez sélectionner un Pays",
+    "Error saving new location of the server" : "Erreur lors de la sauvegarde de l'emplacement du serveur",
     "User Data Manifesto 2.0" : "User Data Manifesto 2.0",
     "Defining basic rights for people to control their own data in the internet age." : "Définir les droits fondamentaux des personnes pour contrôler leurs propres données à l’ère d’Internet.",
     "Control" : "Contrôle",
@@ -302,6 +306,7 @@ OC.L10N.register(
     "Your %s account" : "Votre %s compte",
     "Defining basic rights for people to control their own data in the internet age" : "Définir les droits fondamentaux des personnes pour contrôler leurs propres données à l’ère d’Internet",
     "People you shared with" : "Personnes avec qui vous avez partagé",
-    "Read the privacy policy." : "Lisez la politique de confidentialité."
+    "Read the privacy policy." : "Lisez la politique de confidentialité.",
+    "You don" : "Vous n'avez"
 },
 "nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;");
