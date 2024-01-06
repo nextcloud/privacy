@@ -29,7 +29,7 @@ OC.L10N.register(
     "Privacy policy" : "Datenschutz",
     "Read the privacy policy ↗" : "Datenschutzerklärung lesen ↗",
     "People you've shared with" : "Menschen, mit denen Sie geteilt haben",
-    "Loading people you've shared with …" : "Lade Menschen, mit denen Sie geteilt haben",
+    "Loading people you've shared with …" : "Lade Menschen, mit denen Sie geteilt haben …",
     "You do not have any shares with individual users." : "Sie haben keine Dateien mit einzelnen Benutzern geteilt.",
     "Error loading information about shares." : "Fehler beim Laden von Informationen über Freigaben.",
     "Who has access to your data?" : "Wer hat Zugriff auf Ihre Daten?",
