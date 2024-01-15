@@ -304,7 +304,7 @@ OC.L10N.register(
     "Your %s account" : "Dein %s-Konto",
     "Defining basic rights for people to control their own data in the internet age" : "Definition von Grundrechten für Menschen zur Kontrolle ihrer eigenen Daten im Internetzeitalter",
     "People you shared with" : "Menschen, mit denen du geteilt hast",
-    "Read the privacy policy." : "Lese hier die Datenschutzerklärung.",
+    "Read the privacy policy." : "Lies hier die Datenschutzerklärung.",
     "You don" : "Du nicht",
     "Loading people you" : "Ich lade Personen ein",
     "People you" : "Personen & Du"
