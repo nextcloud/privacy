@@ -26,6 +26,9 @@
     "Error saving new state of full-disk-encryption" : "Errore nel salvataggio del nuovo stato di full-disk-encryption",
     "Privacy policy" : "Criterio di riservatezza",
     "Read the privacy policy ↗" : "Leggi l'informativa sulla privacy ↗",
+    "People you've shared with" : "Persone con cui hai condiviso",
+    "Loading people you've shared with …" : "Caricamento persone con cui hai condiviso …",
+    "You do not have any shares with individual users." : "Non hai alcuna condivisione con utenti singoli.",
     "Error loading information about shares." : "Errore nel caricamento delle informazioni sulle condivisioni.",
     "Who has access to your data?" : "Chi ha accesso ai tuoi dati?",
     "Where is your data?" : "Dove sono i tuoi dati?",
@@ -302,6 +305,9 @@
     "Your %s account" : "Il tuo %s account",
     "Defining basic rights for people to control their own data in the internet age" : "Definizione dei i diritti fondamentali delle persone per controllare i propri dati nell'era di Internet",
     "People you shared with" : "Persone con cui hai condiviso",
-    "Read the privacy policy." : "Leggi subito i criteri di riservatezza."
+    "Read the privacy policy." : "Leggi subito i criteri di riservatezza.",
+    "You don" : "Non hai",
+    "Loading people you" : "Caricamento persone con cui",
+    "People you" : "Persone con cui"
 },"pluralForm" :"nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;"
 }
