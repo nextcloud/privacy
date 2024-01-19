@@ -26,6 +26,7 @@ OC.L10N.register(
     "Freedom" : "Laisvė",
     "to choose a platform" : "pasirinkti platformą",
     "Learn more ↗" : "Sužinokite daugiau ↗",
+    "Your {serverName} account" : "Jūsų {serverName} paskyra",
     "Your data represents who you are and can easily be abused. We at Nextcloud believe that you have a right to decide what happens with your data. Nextcloud protects your rights as defined in the User Data Manifesto!" : "Jūsų duomenys atvaizduoja kas jūs esate ir gali būti lengvai netinkamai panaudoti. Mes, Nextcloud, tikime, kad jūs turite teisę spręsti kas nutiks su jūsų duomenimis. Nextcloud apsaugo jūsų teises kaip tai yra apibrėžta Naudotojo Duomenų Manifeste!",
     "Somaliland" : "Somalilandas",
     "Andorra" : "Andora",
