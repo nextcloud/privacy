@@ -307,6 +307,9 @@ OC.L10N.register(
     "Your %s account" : "Ditt %s konto",
     "Defining basic rights for people to control their own data in the internet age" : "Definiera grundläggande rättigheter för människor att kontrollera sina egna data i internetåldern",
     "People you shared with" : "Personer du delat med",
-    "Read the privacy policy." : "Läs integritetspolicy."
+    "Read the privacy policy." : "Läs integritetspolicy.",
+    "You don" : "Du har inga delningar med enskilda användare.",
+    "Loading people you" : "Laddar personer du delat med ...",
+    "People you" : "Personer du delat med"
 },
 "nplurals=2; plural=(n != 1);");
