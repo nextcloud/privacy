@@ -30,6 +30,7 @@
     "to choose a platform" : "플랫폼 선택",
     "Users should always be able to extract their data from the service at any time without experiencing any vendor lock-in. Open standards for formats and protocols are necessary to guarantee this." : "사용자는 언제든지 서비스 제공자로부터 제한 없이 데이터를 추출할 수 있어야 합니다. 이를 보장하려면 공개된 데이터 형식과 프로토콜이 필수적입니다.",
     "Learn more ↗" : "더 알아보기 ↗",
+    "Your {serverName} account" : "내 {serverName} 계정",
     "Your data represents who you are and can easily be abused. We at Nextcloud believe that you have a right to decide what happens with your data. Nextcloud protects your rights as defined in the User Data Manifesto!" : "사용자의 데이터를 통해 해당 사용자가 어떤 사람인지 알 수 있으며, 이는 쉽게 오남용될 수 있습니다. 저희 Nextcloud는 모든 사람이 자신의 데이터 활용을 스스로 결정할 수 있는 권리가 있다고 믿습니다. Nextcloud는 사용자 데이터 선언(User Data Manifesto)에서 정의한 대로 사용자의 권리를 보호합니다!",
     "Somaliland" : "소말릴란드",
     "Andorra" : "안도라",
@@ -276,7 +277,7 @@
     "Zimbabwe" : "짐바브웨",
     "The admin has not selected the location of the server yet." : "관리자가 서버 위치를 지정하지 않았습니다.",
     "You don't have any shares with individual users." : "개인 사용자와 공유한 항목이 없습니다.",
-    "Your %s account" : "당신의 %s 계정",
+    "Your %s account" : "내 %s 계정",
     "Defining basic rights for people to control their own data in the internet age" : "인터넷에서 사람들의 데이터를 제어하는 기본 권리 선언",
     "People you shared with" : "공유한 다른 사람",
     "Read the privacy policy." : "개인 정보 취급 방침을 읽습니다."
