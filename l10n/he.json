@@ -282,5 +282,5 @@
     "Defining basic rights for people to control their own data in the internet age" : "הגדרת זכויות בסיסיות לשליטתם של האנשים בנתונים שלהם עצמם בעידן האינטרנט",
     "People you shared with" : "אנשים אתם שיתפת",
     "Read the privacy policy." : "הצגת מדיניות הפרטיות."
-},"pluralForm" :"nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % 1 == 0) ? 1: (n % 10 == 0 && n % 1 == 0 && n > 10) ? 2 : 3;"
+},"pluralForm" :"nplurals=3; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % 1 == 0) ? 1: 2;"
 }
