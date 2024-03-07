@@ -9,6 +9,7 @@ OC.L10N.register(
     "Privacy policy" : "Política de privacidá",
     "Region" : "Rexón",
     "Please select a region" : "Seleiciona una rexón",
+    "Control" : "Control",
     "Learn more ↗" : "Saber más ↗",
     "Somaliland" : "Somalilandia",
     "Andorra" : "Andorra",
