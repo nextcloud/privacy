@@ -4,7 +4,7 @@
     "The privacy center shows you where your data is stored and who can access it, either because you shared with them or because they are administrators." : "Le centre de confidentialité indique où sont stockées vos données et qui peut y accéder soit parce que vous partager ces données explicitement soit parce que des administrateurs ont accès à ces données.",
     "Administrators" : "Administrateurs",
     "Loading administrators …" : "Chargement des administrateurs...",
-    "Remove external {propertyName} admin" : "Supprimer l'administrateur externe {propertyName}",
+    "Remove external {propertyName} admin" : "Supprimer l’administrateur externe {propertyName}",
     "Add external admin" : "Ajouter un administrateur externe",
     "Cancel" : "Annuler",
     "Add" : "Ajouter",
