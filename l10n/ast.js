@@ -234,6 +234,7 @@ OC.L10N.register(
     "United States" : "Estaos Xuníos",
     "Uruguay" : "Uruguái",
     "Uzbekistan" : "Uzbequistán",
+    "Holy See" : "Santa Sede",
     "Saint Vincent and the Grenadines" : "San Vicente y Les Granadines",
     "Venezuela" : "Venezuela",
     "Virgin Islands (British)" : "Islles Vírxenes Britániques",
