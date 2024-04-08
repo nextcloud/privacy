@@ -11,7 +11,7 @@
     "Name of external admin" : "Ім'я зовнішнього адміністратора",
     "Error loading additional administrator." : "Помилка завантаження додаткового адміністратора.",
     "Error adding new administrator." : "Помилка додавання нового адміністратора.",
-    "Error deleting new administrator." : "Помилка видалення нового адміністратора.",
+    "Error deleting new administrator." : "Помилка під час вилучення нового адміністратора.",
     "Encryption" : "Шифрування",
     "Edit encryption" : "Змінити шифрування",
     "Edit" : "Редагувати",
