@@ -3,6 +3,7 @@ OC.L10N.register(
     {
     "Privacy" : "Privacidad",
     "-" : "-",
+    "The privacy center shows you where your data is stored and who can access it, either because you shared with them or because they are administrators." : "El centro de privacidad muestra dónde están almacenados sus datos y quién puede acceder a ellos, dado que los haya compartido o porque son administradores.",
     "Administrators" : "Administradores",
     "Loading administrators …" : "Cargando administradores …",
     "Remove external {propertyName} admin" : "Remover al administrador externo de {propertyName}",
@@ -17,6 +18,7 @@ OC.L10N.register(
     "Edit encryption" : "Editar cifrado",
     "Edit" : "Editar",
     "This server is using full-disk-encryption." : "Este servidor utiliza cifrado de disco completo.",
+    "Your home storage is encrypted using {linkopen}server-side-encryption ↗{linkclose} with a master key. It means that administrators can access your files, but not read their content." : "Su almacenamiento personal está cifrado usando {linkopen}cifrado del lado del servidor ↗{linkclose} con una llave maestra. Esto significa que los administradores tienen acceso a sus archivos, pero no pueden leer su contenido.",
     "Additionally, this server is protected with full-disk-encryption." : "Adicionalmente, este servidor está protegido con cifrado de disco completo.",
     "This server is protected with full-disk-encryption." : "Este servidor está protegido con cifrado de disco completo.",
     "Your files are not protected by encryption." : "Sus archivos no están protegidos mediante cifrado.",
