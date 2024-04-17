@@ -1,9 +1,21 @@
 { "translations": {
     "Privacy" : "Privacidá",
+    "-" : "-",
+    "The privacy center shows you where your data is stored and who can access it, either because you shared with them or because they are administrators." : "El centru de privacidá amuésate ónde s'atroxen los tos datos y quién pue acceder a ellos, quier porque los compartieres quier porque son alministradores.",
+    "Administrators" : "Alministradores",
+    "Loading administrators …" : "Cargando los alministradores…",
+    "Remove external {propertyName} admin" : "Quitar l'alministrador de {propertyName} esternu",
+    "Add external admin" : "Amestar un alministrador esternu",
     "Cancel" : "Encaboxar",
     "Add" : "Amestar",
+    "Name of external admin" : "Nome del alministrador esternu",
+    "Error loading additional administrator." : "Hebo un error al cargar l'alministrador adicional.",
+    "Error adding new administrator." : "Hebo un error al amestar l'alministrador nuevu",
+    "Error deleting new administrator." : "Hebo un error al desaniciar l'alministrador nuevu.",
     "Encryption" : "Cifráu",
+    "Edit encryption" : "Editar el cifráu",
     "Edit" : "Editar",
+    "This server is using full-disk-encryption." : "Esti sirvidor usa un cifráu completu de discu.",
     "Privacy policy" : "Política de privacidá",
     "Region" : "Rexón",
     "Please select a region" : "Seleiciona una rexón",
@@ -109,6 +121,7 @@
     "Israel" : "Israel",
     "Isle of Man" : "Islla de Man",
     "India" : "India",
+    "British Indian Ocean Territory" : "Territoriu Británicu del Océanu de Índicu",
     "Iraq" : "Iraq",
     "Iran" : "Irán",
     "Iceland" : "Islandia",
@@ -245,6 +258,8 @@
     "Mayotte" : "Mayotte",
     "South Africa" : "Sudáfrica",
     "Zambia" : "Zambia",
-    "Zimbabwe" : "Zimbabue"
+    "Zimbabwe" : "Zimbabue",
+    "Adapt encryption" : "Adautar el cifráu",
+    "The admin has not selected the location of the server yet." : "L'alministración nun seleicionó la llocalización del sirvidor."
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }
