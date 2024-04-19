@@ -304,7 +304,7 @@ OC.L10N.register(
     "Adapt encryption" : "適配加密",
     "The admin has not selected the location of the server yet." : "管理員尚未選擇伺服器所在的位置。",
     "You don't have any shares with individual users." : "您沒有與任何個人用戶的分享。",
-    "Your %s account" : "您的 %s 賬戶",
+    "Your %s account" : "您的 %s 帳戶",
     "Defining basic rights for people to control their own data in the internet age" : "定義互聯網時代用户控制自己數據的基本權利",
     "People you shared with" : "與您共享的人",
     "Read the privacy policy." : "閱覽私隱政策。",
