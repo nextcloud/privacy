@@ -1,4 +1,10 @@
+<!--
+  - SPDX-FileCopyrightText: 2019 Nextcloud GmbH and Nextcloud contributors
+  - SPDX-License-Identifier: AGPL-3.0-or-later
+-->
 # :key: Privacy
+
+[![REUSE status](https://api.reuse.software/badge/github.com/nextcloud/privacy)](https://api.reuse.software/info/github.com/nextcloud/privacy)
 
 The privacy center shows you where your data is stored and who can access it, either because you shared with them or because they are administrators.
 
