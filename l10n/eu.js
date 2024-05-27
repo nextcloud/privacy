@@ -308,6 +308,8 @@ OC.L10N.register(
     "Defining basic rights for people to control their own data in the internet age" : "Interneten garaian, jendeak bere datuak kontrolatzeko dauzkan oinarrizko eskubideak definitzen.",
     "People you shared with" : "Pertsona hauekin partekatu duzu",
     "Read the privacy policy." : "Irakurri pribatutasun politika",
-    "You don" : "Ez daukazu"
+    "You don" : "Ez daukazu",
+    "Loading people you" : "Duzun pertsonak kargatzen",
+    "People you" : "Duzun pertsonak"
 },
 "nplurals=2; plural=(n != 1);");
