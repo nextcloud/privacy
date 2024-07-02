@@ -307,6 +307,9 @@ OC.L10N.register(
     "Your %s account" : "あなたの %s アカウント",
     "Defining basic rights for people to control their own data in the internet age" : "インターネット時代に人々が自分のデータを管理するための基本的権利を定義する",
     "People you shared with" : "あなたが共有した人",
-    "Read the privacy policy." : "個人情報保護方針を読んでください。"
+    "Read the privacy policy." : "個人情報保護方針を読んでください。",
+    "You don" : "You don",
+    "Loading people you" : "人々を読み込み中",
+    "People you" : "人々"
 },
 "nplurals=1; plural=0;");
