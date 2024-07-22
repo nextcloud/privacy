@@ -2,6 +2,7 @@ OC.L10N.register(
     "privacy",
     {
     "Privacy" : "Prevezder",
+    "Cancel" : "Nullañ",
     "Encryption" : "Sifradur",
     "Edit" : "Cheñch",
     "Andorra" : "Andorra",
