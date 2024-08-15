@@ -301,13 +301,6 @@ OC.L10N.register(
     "South Africa" : "إفريقيا الجنوبية",
     "Zambia" : "زامبيا",
     "Zimbabwe" : "زيمبابوي",
-    "Adapt encryption" : "تبنّي التشفير",
-    "The admin has not selected the location of the server yet." : "لم يُعيّن المشرف موقع الخادوم بعدُ.",
-    "You don't have any shares with individual users." : "ليس لديك أي مُشاركات مع المستخدمين الأفراد.",
-    "Your %s account" : "حسابك %s ",
-    "Defining basic rights for people to control their own data in the internet age" : "تعريفٌ بالحقوق الأساسية للأشخاص في التحكم في بياناتهم الخاصة في عصر الإنترنت",
-    "People you shared with" : "أشخاصٌ أنت شاركتهم",
-    "Read the privacy policy." : "اقرأ سياسة الخصوصية.",
     "You don" : "أنت don",
     "Loading people you" : "تحميل أشخاص أنت",
     "People you" : "أشخاص أنت"

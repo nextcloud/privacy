@@ -298,13 +298,6 @@ OC.L10N.register(
     "South Africa" : "Suður-Afríka",
     "Zambia" : "Sambía",
     "Zimbabwe" : "Simbabve",
-    "Adapt encryption" : "Aðlaga dulritun",
-    "The admin has not selected the location of the server yet." : "Kerfisstjórinn er ekki ennþá búinn að velja staðsetningu þjónsins.",
-    "You don't have any shares with individual users." : "Þú ert ekki með neinar sameignir með einstökum notendum.",
-    "Your %s account" : "%s notandaaðgangurinn þinn",
-    "Defining basic rights for people to control their own data in the internet age" : "Skilgreinir grunnréttindi notenda til að stýra sínum eigin gögnum á internetinu",
-    "People you shared with" : "Fólk sem þú deildir með",
-    "Read the privacy policy." : "Lestu stefnu varðandi meðferð persónulegra gagna.",
     "You don" : "Þú átt ekki neinar sameignir með einstökum notendum.",
     "Loading people you" : "Hleð inn fólki sem þú",
     "People you" : "Fólk sem þú"

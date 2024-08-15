@@ -301,13 +301,6 @@ OC.L10N.register(
     "South Africa" : "Јужноафричка република",
     "Zambia" : "Замбија",
     "Zimbabwe" : "Зимбабве",
-    "Adapt encryption" : "Прилагоди шифрирање",
-    "The admin has not selected the location of the server yet." : "Админ још увек није поставио локацију сервера.",
-    "You don't have any shares with individual users." : "Немате дељења са појединачним корисницима.",
-    "Your %s account" : "Ваш %s налог",
-    "Defining basic rights for people to control their own data in the internet age" : "Дефинише основна права људи да контролишу сопствене податке у доба интернета",
-    "People you shared with" : "Људи са којима делите",
-    "Read the privacy policy." : "Прочитајте политику приватности.",
     "You don" : "Немате",
     "Loading people you" : "Учитавају се људи које ",
     "People you" : "Људи које"

@@ -280,12 +280,6 @@
     "Mayotte" : "Mayotte",
     "South Africa" : "Νότιος Αφρική",
     "Zambia" : "Ζάμπια",
-    "Zimbabwe" : "Ζιμπάμπουε",
-    "The admin has not selected the location of the server yet." : "Ο διαχειριστής δεν έχει επιλέξει ακόμη την τοποθεσία του διακομιστή.",
-    "You don't have any shares with individual users." : "Δεν έχετε μερίδια με μεμονωμένους χρήστες.",
-    "Your %s account" : "O %s λογαριασμός σας",
-    "Defining basic rights for people to control their own data in the internet age" : "Καθορισμός βασικών δικαιωμάτων για τους ανθρώπους να ελέγχουν τα δικά τους δεδομένα στην εποχή του διαδικτύου",
-    "People you shared with" : "Άτομα με κοινή χρήση",
-    "Read the privacy policy." : "Διαβάστε την πολιτική απορρήτου."
+    "Zimbabwe" : "Ζιμπάμπουε"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }

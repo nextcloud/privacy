@@ -282,10 +282,6 @@ OC.L10N.register(
     "Mayotte" : "Mayotte",
     "South Africa" : "Sudàfrica",
     "Zambia" : "Zàmbia",
-    "Zimbabwe" : "Zimbabwe",
-    "You don't have any shares with individual users." : "No tenes peruna cumpartzidura cun utentes individuales.",
-    "Defining basic rights for people to control their own data in the internet age" : "Definitzione de is deretos de base de is persones pro controllare is datos pròpios in su tempus de internet",
-    "People you shared with" : "Persones cun is chi as cumpartzidu",
-    "Read the privacy policy." : "Leghe sa polìtica de riservadesa."
+    "Zimbabwe" : "Zimbabwe"
 },
 "nplurals=2; plural=(n != 1);");

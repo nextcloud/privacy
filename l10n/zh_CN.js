@@ -301,13 +301,6 @@ OC.L10N.register(
     "South Africa" : "南非",
     "Zambia" : "赞比亚",
     "Zimbabwe" : "津巴布韦",
-    "Adapt encryption" : "适配加密",
-    "The admin has not selected the location of the server yet." : "管理员尚未选定此服务器所在的地区。",
-    "You don't have any shares with individual users." : "您没有共享给任何个人用户。",
-    "Your %s account" : "你的 %s 账号",
-    "Defining basic rights for people to control their own data in the internet age" : "定义互联网时代用户对自己数据的基本权利",
-    "People you shared with" : "与您共享的人",
-    "Read the privacy policy." : "阅读隐私政策。",
     "You don" : "你不",
     "Loading people you" : "正在加载你的伙伴",
     "People you" : "你的伙伴"

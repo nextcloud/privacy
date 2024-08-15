@@ -283,13 +283,6 @@
     "Mayotte" : "Майот",
     "South Africa" : "Южна Африка",
     "Zambia" : "Замбия",
-    "Zimbabwe" : "Зимбабве",
-    "Adapt encryption" : "Адаптиране на криптирането",
-    "The admin has not selected the location of the server yet." : "Администраторът все още не е избрал местоположението на сървъра.",
-    "You don't have any shares with individual users." : "Нямате никакви споделяния с отделни потребители.",
-    "Your %s account" : "Вашият %s профил",
-    "Defining basic rights for people to control their own data in the internet age" : "Дефиниране на основните права на хората да контролират собствените си данни в ерата на интернет",
-    "People you shared with" : "Хора с които е споделено",
-    "Read the privacy policy." : "Прочетете политиката за поверителност"
+    "Zimbabwe" : "Зимбабве"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }

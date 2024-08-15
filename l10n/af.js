@@ -243,7 +243,6 @@ OC.L10N.register(
     "Mayotte" : "Mayotte",
     "South Africa" : "Suid-Afrika",
     "Zambia" : "Zambië",
-    "Zimbabwe" : "Zimbabwe",
-    "Read the privacy policy." : "Lees die privaatheidsbeleid."
+    "Zimbabwe" : "Zimbabwe"
 },
 "nplurals=2; plural=(n != 1);");
