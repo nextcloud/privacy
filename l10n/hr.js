@@ -282,10 +282,6 @@ OC.L10N.register(
     "Mayotte" : "Mayotte",
     "South Africa" : "Južna Afrika",
     "Zambia" : "Zambija",
-    "Zimbabwe" : "Zimbabve",
-    "You don't have any shares with individual users." : "Nemate dijeljenja s pojedinačnim korisnicima.",
-    "Defining basic rights for people to control their own data in the internet age" : "Definiranje osnovnih prava koje osobama omogućuju nadzor nad vlastitim podacima u doba interneta",
-    "People you shared with" : "Osobe s kojima ih dijelite",
-    "Read the privacy policy." : "Pročitajte pravila o privatnosti."
+    "Zimbabwe" : "Zimbabve"
 },
 "nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;");

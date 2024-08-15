@@ -223,10 +223,6 @@
     "Yemen" : "Jemenas",
     "South Africa" : "Pietų Afrika",
     "Zambia" : "Zambija",
-    "Zimbabwe" : "Zimbabvė",
-    "The admin has not selected the location of the server yet." : "Administratorius kol kas nepasirinko serverio vietos.",
-    "You don't have any shares with individual users." : "Jūs neturite jokių viešinių su atskirais naudotojais.",
-    "People you shared with" : "Žmonės su kuriais bendrinote",
-    "Read the privacy policy." : "Skaitykite privatumo politiką."
+    "Zimbabwe" : "Zimbabvė"
 },"pluralForm" :"nplurals=4; plural=(n % 10 == 1 && (n % 100 > 19 || n % 100 < 11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? 1 : n % 1 != 0 ? 2: 3);"
 }

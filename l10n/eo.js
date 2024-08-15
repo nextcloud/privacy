@@ -269,10 +269,6 @@ OC.L10N.register(
     "Mayotte" : "Majoto",
     "South Africa" : "Sud-Afriko",
     "Zambia" : "Zambio",
-    "Zimbabwe" : "Zimbabvo",
-    "You don't have any shares with individual users." : "Vi havas neniun kunhavon kun individuaj uzantoj.",
-    "Defining basic rights for people to control their own data in the internet age" : "Difini bazajn homajn rajtojn por regi siajn datumojn en la interreta epoko",
-    "People you shared with" : "Homoj, kun kiuj vi kunhavigis ion",
-    "Read the privacy policy." : "Legi la regularon pri privateco."
+    "Zimbabwe" : "Zimbabvo"
 },
 "nplurals=2; plural=(n != 1);");

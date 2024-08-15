@@ -301,13 +301,6 @@ OC.L10N.register(
     "South Africa" : "Suráfrica",
     "Zambia" : "Zambia",
     "Zimbabwe" : "Cimbabue",
-    "Adapt encryption" : "Adaptar o cifrado",
-    "The admin has not selected the location of the server yet." : "O administrador aínda non seleccionou a localización do servidor.",
-    "You don't have any shares with individual users." : "Vde. non te ningunha compartición con usuarios individuais.",
-    "Your %s account" : "A súa conta %s",
-    "Defining basic rights for people to control their own data in the internet age" : "Definindo dereitos básicos para que as persoas controlen os seus propios datos na era da Internet",
-    "People you shared with" : "Persoas coas que compartiu",
-    "Read the privacy policy." : "Lea a directiva de privacidade.",
     "You don" : "Vostede non",
     "Loading people you" : "Cargando persoas que",
     "People you" : "Persoas que"

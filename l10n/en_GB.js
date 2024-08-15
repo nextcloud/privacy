@@ -301,13 +301,6 @@ OC.L10N.register(
     "South Africa" : "South Africa",
     "Zambia" : "Zambia",
     "Zimbabwe" : "Zimbabwe",
-    "Adapt encryption" : "Adapt encryption",
-    "The admin has not selected the location of the server yet." : "The admin has not selected the location of the server yet.",
-    "You don't have any shares with individual users." : "You don't have any shares with individual users.",
-    "Your %s account" : "Your %s account",
-    "Defining basic rights for people to control their own data in the internet age" : "Defining basic rights for people to control their own data in the internet age",
-    "People you shared with" : "People you shared with",
-    "Read the privacy policy." : "Read the privacy policy.",
     "You don" : "You don",
     "Loading people you" : "Loading people you",
     "People you" : "People you"

@@ -30,10 +30,6 @@ OC.L10N.register(
     "to choose a platform" : "để chọn một nền tảng",
     "Users should always be able to extract their data from the service at any time without experiencing any vendor lock-in. Open standards for formats and protocols are necessary to guarantee this." : "Người dùng nên luôn có khả năng trích xuất dữ liệu của họ từ dịch vụ ở bất kì thời điểm nào mà không gặp phải bất cứ một cản trở nào từ phía cung cấp dịch vụ. Các tiêu chuẩn mở cho các định dạng và các cổng thông tin là cần thiết để đảm bảo điều này. ",
     "Learn more ↗" : "Để biết thêm↗",
-    "Your data represents who you are and can easily be abused. We at Nextcloud believe that you have a right to decide what happens with your data. Nextcloud protects your rights as defined in the User Data Manifesto!" : "Dữ liệu của bạn tượng trưng cho chính bạn và rất dễ dàng bị lợi dụng. Chúng tôi ở vWorkspace tin rằng bạn là người có quyền quyết định mọi thứ đối với dữ liệu của bạn. vWorkspace bảo vệ các quyền của bạn như là đã dược định rõ trong Quyền Dữ Liệu Người Dùng Manifesto!",
-    "You don't have any shares with individual users." : "Bạn không có bất cứ một chia sẻ nào với các cá nhân người dùng.",
-    "Defining basic rights for people to control their own data in the internet age" : "Định hình rõ các quyền cơ bản cho mọi người để quản lý dữ liệu của chính họ trong thời đại internet",
-    "People you shared with" : "Những người mà bạn chia sẻ với",
-    "Read the privacy policy." : "Đọc chính sách riêng tư."
+    "Your data represents who you are and can easily be abused. We at Nextcloud believe that you have a right to decide what happens with your data. Nextcloud protects your rights as defined in the User Data Manifesto!" : "Dữ liệu của bạn tượng trưng cho chính bạn và rất dễ dàng bị lợi dụng. Chúng tôi ở vWorkspace tin rằng bạn là người có quyền quyết định mọi thứ đối với dữ liệu của bạn. vWorkspace bảo vệ các quyền của bạn như là đã dược định rõ trong Quyền Dữ Liệu Người Dùng Manifesto!"
 },
 "nplurals=1; plural=0;");

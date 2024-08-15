@@ -280,12 +280,6 @@
     "Mayotte" : "Mayotte",
     "South Africa" : "Južna Afrika",
     "Zambia" : "Zambija",
-    "Zimbabwe" : "Zimbabve",
-    "Adapt encryption" : "Prilagodi šifriranje",
-    "You don't have any shares with individual users." : "S posamezniki nimate v souporabi nobenih podatkov.",
-    "Your %s account" : "Račun %s",
-    "Defining basic rights for people to control their own data in the internet age" : "Določa osnovne pravice posameznika, da nadzira svoje podatke v dobi interneta.",
-    "People you shared with" : "Osebe, ki jim omogočate souporabo vaših podatkov:",
-    "Read the privacy policy." : "Preglejte pravila zasebnosti"
+    "Zimbabwe" : "Zimbabve"
 },"pluralForm" :"nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);"
 }
