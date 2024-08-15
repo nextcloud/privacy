@@ -298,13 +298,6 @@
     "South Africa" : "Afrique du Sud",
     "Zambia" : "Zambie",
     "Zimbabwe" : "Zimbabwe",
-    "Adapt encryption" : "Adapter le chiffrement",
-    "The admin has not selected the location of the server yet." : "L'administrateur n'a pas encore sélectionné la localisation du serveur.",
-    "You don't have any shares with individual users." : "Vous n'avez aucun partage avec des utilisateurs individuels.",
-    "Your %s account" : "Votre %s compte",
-    "Defining basic rights for people to control their own data in the internet age" : "Définissant les droits fondamentaux des personnes pour contrôler leurs propres données à l’ère d’Internet",
-    "People you shared with" : "Personnes avec qui vous avez partagé",
-    "Read the privacy policy." : "Lisez la politique de confidentialité.",
     "You don" : "Vous n'avez"
 },"pluralForm" :"nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;"
 }

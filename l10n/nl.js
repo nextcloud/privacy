@@ -282,12 +282,6 @@ OC.L10N.register(
     "Mayotte" : "Mayotte",
     "South Africa" : "Zuid-Afrika",
     "Zambia" : "Zambia",
-    "Zimbabwe" : "Zimbabwe",
-    "The admin has not selected the location of the server yet." : "De beheerder heeft nog geen lokatie van de server opgegeven.",
-    "You don't have any shares with individual users." : "Je hebt geen shares met individuele gebruikers",
-    "Your %s account" : "Je %s account",
-    "Defining basic rights for people to control their own data in the internet age" : "Vastleggen van grondrechten voor mensen om hun eigen data te beheren in het internet tijdperk",
-    "People you shared with" : "Mensen waarmee je hebt gedeeld",
-    "Read the privacy policy." : "Lees het %sprivacy beleid%s nu."
+    "Zimbabwe" : "Zimbabwe"
 },
 "nplurals=2; plural=(n != 1);");

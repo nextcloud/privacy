@@ -285,13 +285,6 @@ OC.L10N.register(
     "Mayotte" : "Mayotte",
     "South Africa" : "South Africa",
     "Zambia" : "Zambia",
-    "Zimbabwe" : "Zimbabwe",
-    "Adapt encryption" : "Adaptar el cifrado",
-    "The admin has not selected the location of the server yet." : "El administrador aún no ha seleccionado la ubicación del servidor.",
-    "You don't have any shares with individual users." : "No tienes compartidos con usuarios individuales.",
-    "Your %s account" : "Tu cuenta de %s",
-    "Defining basic rights for people to control their own data in the internet age" : "Definiendo derechos básicos para que las personas controlen sus propios datos en la era de internet",
-    "People you shared with" : "Personas con las que has compartido",
-    "Read the privacy policy." : "Lee la política de privacidad."
+    "Zimbabwe" : "Zimbabwe"
 },
 "nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;");

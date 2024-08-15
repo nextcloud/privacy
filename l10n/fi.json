@@ -284,12 +284,6 @@
     "Mayotte" : "Mayotte",
     "South Africa" : "Etelä-Afrikka",
     "Zambia" : "Sambia",
-    "Zimbabwe" : "Zimbabwe",
-    "The admin has not selected the location of the server yet." : "Ylläpitäjä ei ole vielä valinnut palvelimen sijaintia.",
-    "You don't have any shares with individual users." : "Sinulla ei ole jakoja yksittäisten käyttäjien kanssa.",
-    "Your %s account" : "Sinun %s-tili",
-    "Defining basic rights for people to control their own data in the internet age" : "Perusoikeuksien määrittäminen henkilökohtaisten tietojen hallinnoimiseksi internetaikakaudella",
-    "People you shared with" : "Ihmiset joiden kanssa jaoit tiedot",
-    "Read the privacy policy." : "Lue tietosuojakäytäntö."
+    "Zimbabwe" : "Zimbabwe"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }

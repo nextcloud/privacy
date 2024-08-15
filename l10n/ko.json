@@ -279,12 +279,6 @@
     "Mayotte" : "마요트섬",
     "South Africa" : "남아프리카공화국",
     "Zambia" : "잠비아",
-    "Zimbabwe" : "짐바브웨",
-    "The admin has not selected the location of the server yet." : "관리자가 서버 위치를 지정하지 않았습니다.",
-    "You don't have any shares with individual users." : "개인 사용자와 공유한 항목이 없습니다.",
-    "Your %s account" : "내 %s 계정",
-    "Defining basic rights for people to control their own data in the internet age" : "인터넷에서 사람들의 데이터를 제어하는 기본 권리 선언",
-    "People you shared with" : "공유한 다른 사람",
-    "Read the privacy policy." : "개인 정보 취급 방침을 읽습니다."
+    "Zimbabwe" : "짐바브웨"
 },"pluralForm" :"nplurals=1; plural=0;"
 }

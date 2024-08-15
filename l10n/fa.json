@@ -282,13 +282,6 @@
     "Mayotte" : "Mayotte",
     "South Africa" : "آفریقا شمالی",
     "Zambia" : "زامبی",
-    "Zimbabwe" : "زیمباوه",
-    "Adapt encryption" : "Adapt encryption",
-    "The admin has not selected the location of the server yet." : "The admin has not selected the location of the server yet.",
-    "You don't have any shares with individual users." : "شما با کاربران جداگانه اشتراکی ندارید.",
-    "Your %s account" : "Your %s account",
-    "Defining basic rights for people to control their own data in the internet age" : "تعیین حقوق اساسی برای افراد برای کنترل داده خود در عصر اینترنت",
-    "People you shared with" : "افرادی که با آنها به اشتراک گذاشتید",
-    "Read the privacy policy." : "خط مشی رازداری را بخوانید."
+    "Zimbabwe" : "زیمباوه"
 },"pluralForm" :"nplurals=2; plural=(n > 1);"
 }
