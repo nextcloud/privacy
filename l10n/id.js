@@ -294,13 +294,6 @@ OC.L10N.register(
     "Mayotte" : "Mayotte",
     "South Africa" : "Afrika Selatan",
     "Zambia" : "Zambia",
-    "Zimbabwe" : "Zimbabwe",
-    "Adapt encryption" : "Adaptasi enkripsi",
-    "The admin has not selected the location of the server yet." : "Admin belum memilih lokasi server.",
-    "You don't have any shares with individual users." : "Anda tidak memiliki pembagian dengan pengguna individu.",
-    "Your %s account" : "Akun %s Anda",
-    "Defining basic rights for people to control their own data in the internet age" : "Mendefinisikan hak-hak dasar bagi masyarakat untuk mengendalikan data mereka sendiri di era internet",
-    "People you shared with" : "Orang yang Anda bagikan",
-    "Read the privacy policy." : "Baca kebijakan privasi."
+    "Zimbabwe" : "Zimbabwe"
 },
 "nplurals=1; plural=0;");

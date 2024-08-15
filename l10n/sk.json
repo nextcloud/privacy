@@ -280,12 +280,6 @@
     "Mayotte" : "Mayotte",
     "South Africa" : "Juhoafrická republika",
     "Zambia" : "Zambia",
-    "Zimbabwe" : "Zimbabwe",
-    "The admin has not selected the location of the server yet." : "Správca zatiaľ nezadal umiestnenie servera.",
-    "You don't have any shares with individual users." : "Nesprístupňujete žiadne súbory iným používateľom.",
-    "Your %s account" : "Váš účet %s",
-    "Defining basic rights for people to control their own data in the internet age" : "Definovanie základných práv ľudí na kontrolu vlastných údajov vo veku internetu",
-    "People you shared with" : "Ľudia s ktorými ste zdieľali",
-    "Read the privacy policy." : "Prečítať si zásady ochrany osobných údajov"
+    "Zimbabwe" : "Zimbabwe"
 },"pluralForm" :"nplurals=4; plural=(n % 1 == 0 && n == 1 ? 0 : n % 1 == 0 && n >= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);"
 }

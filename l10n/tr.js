@@ -301,13 +301,6 @@ OC.L10N.register(
     "South Africa" : "Güney Afrika",
     "Zambia" : "Zambiya",
     "Zimbabwe" : "Zimbabwe",
-    "Adapt encryption" : "Şifrelemeyi uyarla",
-    "The admin has not selected the location of the server yet." : "Yönetici henüz sunucunun konumunu seçmemiş.",
-    "You don't have any shares with individual users." : "Diğer kullanıcılar ile herhangi bir şey paylaşmıyorsunuz.",
-    "Your %s account" : "%s hesabınız",
-    "Defining basic rights for people to control their own data in the internet age" : "İnternet çağında kişilerin kendi verilerini kontrol etmesi için temel hak tanımları",
-    "People you shared with" : "Verilerinizi paylaştığınız kişiler",
-    "Read the privacy policy." : "Kişisel verilerinizin korunması ilkesini gözden geçirin.",
     "You don" : "Şunu yapmadınız",
     "Loading people you" : "Şu İşlemi uyguladığınız kişiler yükleniyor",
     "People you" : "Şu işlemi uyguladığınız kişiler"

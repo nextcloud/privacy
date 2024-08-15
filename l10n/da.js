@@ -98,8 +98,6 @@ OC.L10N.register(
     "Samoa" : "Samoa",
     "Yemen" : "Yemen",
     "South Africa" : "Sydafrika",
-    "Zimbabwe" : "Zimbabwe",
-    "You don't have any shares with individual users." : "Du har ingen delinger med individuelle brugere.",
-    "People you shared with" : "Brugere du deler med"
+    "Zimbabwe" : "Zimbabwe"
 },
 "nplurals=2; plural=(n != 1);");

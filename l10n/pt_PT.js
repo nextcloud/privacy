@@ -226,9 +226,6 @@ OC.L10N.register(
     "Yemen" : "Iemen",
     "South Africa" : "África do Sul",
     "Zambia" : "Zâmbia",
-    "Zimbabwe" : "Zimbábue ",
-    "You don't have any shares with individual users." : "Não tem quaisquer partilhas com utilizadores individuais",
-    "People you shared with" : "Pessoas com quem partilhou",
-    "Read the privacy policy." : "Leia a politica de privacidade"
+    "Zimbabwe" : "Zimbábue "
 },
 "nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;");
