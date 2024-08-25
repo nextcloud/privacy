@@ -18,6 +18,7 @@ OC.L10N.register(
     "This server is protected with full-disk-encryption." : "De server is beschermd met full-disk-encryptie.",
     "Your files are not protected by encryption." : "Je bestanden zijn niet versleuteld.",
     "Privacy policy" : "Privacybeleid",
+    "Read the privacy policy ↗" : "Lees het privacybeleid ↗",
     "Who has access to your data?" : "Wie hebben toegang tot je gegevens?",
     "Where is your data?" : "Waar worden je gegevens opgeslagen?",
     "Your data is located in:" : "Je gegevens staan in:",
