@@ -1,7 +1,7 @@
 'use strict'
 
 /**
- * Party inspired by https://github.com/FormidableLabs/webpack-stats-plugin
+ * Partly inspired by https://github.com/FormidableLabs/webpack-stats-plugin
  *
  * SPDX-FileCopyrightText: 2024 Nextcloud GmbH and Nextcloud contributors
  * SPDX-License-Identifier: MIT
