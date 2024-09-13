@@ -51,7 +51,7 @@ OC.L10N.register(
     "Freedom" : "Liberdade",
     "to choose a platform" : "para escoller unha plataforma",
     "Users should always be able to extract their data from the service at any time without experiencing any vendor lock-in. Open standards for formats and protocols are necessary to guarantee this." : "Os usuarios sempre poderán extraer os seus datos do servizo en calquera momento sen experimentar ningún bloqueo de provedor. É necesario garantir estándares abertos para formatos e protocolos.",
-    "Learn more ↗" : "Aprender máis ↗",
+    "Learn more ↗" : "Máis información ↗",
     "Your {serverName} account" : "A súa conta de {serverName}",
     "Your data represents who you are and can easily be abused. We at Nextcloud believe that you have a right to decide what happens with your data. Nextcloud protects your rights as defined in the User Data Manifesto!" : "Os seus datos representan quen é e é doado abusar deles. En Nextcloud cremos que ten dereito a decidir o que ocorre cos seus datos. Nextcloud protexe os seus dereitos tal e como se define no Manifiesto de datos do usuario.",
     "Somaliland" : "Somalia",
