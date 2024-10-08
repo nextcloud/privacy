@@ -6,6 +6,9 @@
 <template>
 	<div class="admin">
 		<h3>{{ t('privacy', 'Administrators') }}</h3>
+		<p class="admin__desc">
+			{{ t('privacy', 'The following accounts are designated administrators and may potentially have access to your data through system storage or backups. However, they do not have easy access to your data via the web interface or client applications.') }}
+		</p>
 
 		<NcLoadingIcon v-if="isLoading"
 			:name="t('privacy', 'Loading administrators …')"
@@ -204,6 +207,11 @@ export default {
 
 <style lang="scss" scoped>
 .admin {
+	&__desc {
+		color: var(--color-text-maxcontrast);
+		margin-bottom: calc(var(--default-grid-baseline) * 4);
+	}
+
 	&__controls {
 		display: flex;
 		flex-direction: column;
