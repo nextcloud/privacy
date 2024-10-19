@@ -52,7 +52,7 @@ OC.L10N.register(
     "to choose a platform" : "去选择任何平台",
     "Users should always be able to extract their data from the service at any time without experiencing any vendor lock-in. Open standards for formats and protocols are necessary to guarantee this." : "用户应总是能够随时从服务中提取数据而不会遭受任何厂商锁定。有必要使用开放标准的格式和协议来确保达到这一目标。",
     "Learn more ↗" : "了解更多 ↗",
-    "Your {serverName} account" : "你的 {serverName} 账户",
+    "Your {serverName} account" : "你的 {serverName} 账号",
     "Your data represents who you are and can easily be abused. We at Nextcloud believe that you have a right to decide what happens with your data. Nextcloud protects your rights as defined in the User Data Manifesto!" : "您的数据代表您自己，而且容易被滥用。我们 Nextcloud 团队相信您有权决定如何处理您的数据。Nextcloud 将像用户数据宣言中的规定那样来保护您的权利！",
     "Somaliland" : "索马里兰",
     "Andorra" : "安道尔",
