@@ -25,6 +25,7 @@ OC.L10N.register(
     "Additionally, this server is protected with full-disk-encryption." : "De plus, ce serveur est protégé par un chiffrement complet du disque.",
     "This server is protected with full-disk-encryption." : "Les disques de ce serveur sont protégés par chiffrement.",
     "Your files are not protected by encryption." : "Vos fichiers ne sont pas protégés par chiffrement.",
+    "Error saving new state of full-disk-encryption" : "Erreur lors de l'enregistrement du nouvel état du chiffrement complet du disque",
     "Privacy policy" : "Politique de confidentialité",
     "Read the privacy policy ↗" : "Lisez la politique de confidentialité ↗",
     "People you've shared with" : "Personnes avec qui vous avez partagé",
@@ -300,6 +301,8 @@ OC.L10N.register(
     "South Africa" : "Afrique du Sud",
     "Zambia" : "Zambie",
     "Zimbabwe" : "Zimbabwe",
-    "You don" : "Vous n'avez"
+    "You don" : "Vous n'avez",
+    "Loading people you" : "Chargement des personnes que vous",
+    "People you" : "Personnes que vous"
 },
 "nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;");
