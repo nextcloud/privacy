@@ -5,6 +5,7 @@ OC.L10N.register(
     "-" : "-",
     "The privacy center shows you where your data is stored and who can access it, either because you shared with them or because they are administrators." : "Sekretesscentret visar var din data lagras och vem som kan komma åt den, antingen för att du delade med dem eller för att de är administratörer.",
     "Administrators" : "Administratörer",
+    "The following accounts are designated administrators and may potentially have access to your data through system storage or backups. However, they do not have easy access to your data via the web interface or client applications." : "Följande konton är utsedda administratörer och kan potentiellt ha tillgång till din data genom systemlagring eller säkerhetskopior. De har dock inte lätt tillgång till din data via webbgränssnitt eller klientapplikationer.",
     "Loading administrators …" : "Läser in administratörer …",
     "Remove external {propertyName} admin" : "Ta bort extern {propertyName} admin",
     "Add external admin" : "Lägg till extern administratör",
