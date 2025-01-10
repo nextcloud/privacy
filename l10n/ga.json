@@ -3,6 +3,7 @@
     "-" : "-",
     "The privacy center shows you where your data is stored and who can access it, either because you shared with them or because they are administrators." : "Taispeánann an t-ionad príobháideachta duit an áit a bhfuil do shonraí stóráilte agus cé atá in ann rochtain a fháil orthu, de bharr gur roinn tú leo nó toisc gur riarthóirí iad.",
     "Administrators" : "Riarthóirí",
+    "The following accounts are designated administrators and may potentially have access to your data through system storage or backups. However, they do not have easy access to your data via the web interface or client applications." : "Is riarthóirí ainmnithe iad na cuntais seo a leanas agus d'fhéadfadh rochtain a bheith acu ar do shonraí trí stóráil córais nó trí chúltacaí. Mar sin féin, níl rochtain éasca acu ar do shonraí tríd an gcomhéadan gréasáin nó trí fheidhmchláir na gcliant.",
     "Loading administrators …" : "Riarthóirí á lódáil…",
     "Remove external {propertyName} admin" : "Bain riarthóir seachtrach {propertyName}",
     "Add external admin" : "Cuir riarthóir seachtrach leis",
