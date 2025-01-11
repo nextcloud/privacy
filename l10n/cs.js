@@ -5,6 +5,7 @@ OC.L10N.register(
     "-" : "–",
     "The privacy center shows you where your data is stored and who can access it, either because you shared with them or because they are administrators." : "Centrum soukromí ukazuje, kde jsou vaše data fyzicky uložena a kdo k nim může přistupovat, buď protože jste jim je nasdíleli nebo protože jsou správci.",
     "Administrators" : "Správci",
+    "The following accounts are designated administrators and may potentially have access to your data through system storage or backups. However, they do not have easy access to your data via the web interface or client applications." : "Následující účty jsou pověřenými správci a mohou mít případně přístup k vašim datům prostřednictvím systémového úložiště či záloh. Nicméně, nemají snadný přístup k vašim datům prostřednictvím webového rozhraní nebo klientských aplikací.",
     "Loading administrators …" : "Načítání správců",
     "Remove external {propertyName} admin" : "Odebrat externí správu {propertyName}",
     "Add external admin" : "Přidat správce zvenčí",
