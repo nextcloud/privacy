@@ -5,6 +5,7 @@ OC.L10N.register(
     "-" : "－",
     "The privacy center shows you where your data is stored and who can access it, either because you shared with them or because they are administrators." : "私隱權中心會向您顯示數據的存儲位置以及可以存取這些數據的人 - 這些人是您分享了數據的人，或者是因為他們是管理員。",
     "Administrators" : "管理員",
+    "The following accounts are designated administrators and may potentially have access to your data through system storage or backups. However, they do not have easy access to your data via the web interface or client applications." : "下列帳號是指定的管理員，可能透過系統儲存空間或備份存取您的資料。但是，他們無法透過網頁介面或客戶端應用程式輕鬆存取您的資料。",
     "Loading administrators …" : "正在載入管理員…",
     "Remove external {propertyName} admin" : "刪除外部 {propertyName} 管理員",
     "Add external admin" : "新增外部管理員",
