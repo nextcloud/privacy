@@ -5,6 +5,7 @@ OC.L10N.register(
     "-" : "-",
     "The privacy center shows you where your data is stored and who can access it, either because you shared with them or because they are administrators." : "يُظهر لك مركز الخصوصية مكان تخزين بياناتك ومن يمكنه الوصول إليها بسبب أنك قُمت بمشاركتها معهم أو لأنهم يملكون صلاحية مسؤول النظام.",
     "Administrators" : "المسؤولون",
+    "The following accounts are designated administrators and may potentially have access to your data through system storage or backups. However, they do not have easy access to your data via the web interface or client applications." : "الحسابات التالية هي حسابات للمشرفين وقد يكون لديها إمكانية الوصول إلى بياناتك من خلال تخزين النظام أو النسخ الاحتياطية. ومع ذلك، ليس لديها إمكانية الوصول بسهولة إلى بياناتك عبر واجهة الويب أو تطبيقات العميل.",
     "Loading administrators …" : "تحميل مسؤولي النظام...",
     "Remove external {propertyName} admin" : "إحذف مدير الـ {propertyName} الخارجي",
     "Add external admin" : "إضافة مدير خارجي",
