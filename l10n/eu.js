@@ -5,6 +5,7 @@ OC.L10N.register(
     "-" : "-",
     "The privacy center shows you where your data is stored and who can access it, either because you shared with them or because they are administrators." : "Pribatutasun guneak zure datuak non dauden eta nork atzitu ditzakeen erakusten dizu, izan zuk beraiekin partekatu dituzulako edo administratzaileak direlako.",
     "Administrators" : "Administratzaileak",
+    "The following accounts are designated administrators and may potentially have access to your data through system storage or backups. However, they do not have easy access to your data via the web interface or client applications." : "Hurrengo kontuak administratzaile izendatuak dira eta baliteke zure datuetarako sarbidea izatea sistemaren biltegiratze edo babeskopien bidez. Hala ere, ez dute zure datuetara sarbide erraza web interfazearen edo bezero-aplikazioen bidez..",
     "Loading administrators …" : "Administratzaileak kargatzen...",
     "Remove external {propertyName} admin" : "Kendu kanpoko {propertyName} administratzailea",
     "Add external admin" : "Gehitu kanpo administratzailea",
