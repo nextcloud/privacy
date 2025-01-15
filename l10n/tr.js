@@ -5,6 +5,7 @@ OC.L10N.register(
     "-" : "-",
     "The privacy center shows you where your data is stored and who can access it, either because you shared with them or because they are administrators." : "Gizlilik merkezinden kişisel verilerinizin nerede depolandığını ve yöneticiler ya da varsa paylaştığınız kişiler gibi verilerinize erişebilecek kişileri görebilirsiniz. ",
     "Administrators" : "Yöneticiler",
+    "The following accounts are designated administrators and may potentially have access to your data through system storage or backups. However, they do not have easy access to your data via the web interface or client applications." : "Aşağıdaki hesaplar atanmış yöneticilerdir ve sistem depolama alanı veya yedekler üzerinden verilerinize erişebilirler. Bununla birlikte, internet arayüzü veya istemci uygulamaları üzerinden verilerinize kolayca erişemezler.",
     "Loading administrators …" : "Yöneticiler yükleniyor…",
     "Remove external {propertyName} admin" : "Dış {propertyName} yöneticisini kaldır",
     "Add external admin" : "Dış yönetici ekle",
