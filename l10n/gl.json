@@ -3,6 +3,7 @@
     "-" : "–",
     "The privacy center shows you where your data is stored and who can access it, either because you shared with them or because they are administrators." : "O centro de privacidade amósalle onde están almacenados os seus datos e quen pode acceder a eles, ben porque compartiu con eles ou porque son administradores.",
     "Administrators" : "Administradores",
+    "The following accounts are designated administrators and may potentially have access to your data through system storage or backups. However, they do not have easy access to your data via the web interface or client applications." : "As seguintes contas son administradoras designadas e poden ter acceso aos seus datos mediante o almacenamento do sistema ou as copias de seguranza. Non obstante, non teñen un acceso doado aos seus datos a través da interface web ou das aplicacións cliente.",
     "Loading administrators …" : "Cargando administradores…",
     "Remove external {propertyName} admin" : "Retirar o administrador externo de {propertyName}",
     "Add external admin" : "Engadir administrador externo",
