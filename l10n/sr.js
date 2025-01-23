@@ -5,6 +5,7 @@ OC.L10N.register(
     "-" : "-",
     "The privacy center shows you where your data is stored and who can access it, either because you shared with them or because they are administrators." : "Центар за приватност приказује где су Ваши подаци ускладиштени и ко може да им приступ, или зато што сте их Ви поделили са њима, или зато што су администратори.",
     "Administrators" : "Администратори",
+    "The following accounts are designated administrators and may potentially have access to your data through system storage or backups. However, they do not have easy access to your data via the web interface or client applications." : "Следећи налози су одређени за администраторе и потенцијално могу да имају приступ вашим подацима кроз системско складиште или резервне копије. Међутим, они немају једноставни приступ вашим подацима кроз веб интерфејс или клијентске апликације.",
     "Loading administrators …" : "Учитавају се адмнистратори",
     "Remove external {propertyName} admin" : "Уклони спољног {propertyName} админа",
     "Add external admin" : "Додај спољног администратора",
