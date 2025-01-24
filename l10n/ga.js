@@ -301,9 +301,6 @@ OC.L10N.register(
     "Mayotte" : "Maigh Eo",
     "South Africa" : "an Afraic Theas",
     "Zambia" : "an tSaimbia",
-    "Zimbabwe" : "An tSiombáib",
-    "You don" : "Ní dhéanann tú",
-    "Loading people you" : "Daoine a lódáil tú",
-    "People you" : "Daoine tú"
+    "Zimbabwe" : "An tSiombáib"
 },
 "nplurals=5; plural=(n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : 4);");

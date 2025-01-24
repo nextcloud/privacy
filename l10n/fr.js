@@ -300,9 +300,6 @@ OC.L10N.register(
     "Mayotte" : "Mayotte",
     "South Africa" : "Afrique du Sud",
     "Zambia" : "Zambie",
-    "Zimbabwe" : "Zimbabwe",
-    "You don" : "Vous n'avez",
-    "Loading people you" : "Chargement des personnes que vous",
-    "People you" : "Personnes que vous"
+    "Zimbabwe" : "Zimbabwe"
 },
 "nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;");

@@ -301,9 +301,6 @@ OC.L10N.register(
     "Mayotte" : "馬約特",
     "South Africa" : "南非",
     "Zambia" : "尚比亞",
-    "Zimbabwe" : "辛巴威",
-    "You don" : "您不",
-    "Loading people you" : "正在載入您的夥伴",
-    "People you" : "您的夥伴"
+    "Zimbabwe" : "辛巴威"
 },
 "nplurals=1; plural=0;");

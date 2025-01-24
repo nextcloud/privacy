@@ -301,9 +301,6 @@ OC.L10N.register(
     "Mayotte" : "Mayotte",
     "South Africa" : "Sydafrika",
     "Zambia" : "Zambia",
-    "Zimbabwe" : "Zimbabwe",
-    "You don" : "Du har inga delningar med enskilda användare.",
-    "Loading people you" : "Laddar personer du delat med …",
-    "People you" : "Personer du delat med"
+    "Zimbabwe" : "Zimbabwe"
 },
 "nplurals=2; plural=(n != 1);");
