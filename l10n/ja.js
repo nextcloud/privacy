@@ -301,9 +301,6 @@ OC.L10N.register(
     "Mayotte" : "マヨット",
     "South Africa" : "南アフリカ",
     "Zambia" : "ザンビア",
-    "Zimbabwe" : "ジンバブエ",
-    "You don" : "You don",
-    "Loading people you" : "人々を読み込み中",
-    "People you" : "人々"
+    "Zimbabwe" : "ジンバブエ"
 },
 "nplurals=1; plural=0;");

@@ -300,9 +300,6 @@ OC.L10N.register(
     "Mayotte" : "مايوت",
     "South Africa" : "جەنۇبى ئافرىقا",
     "Zambia" : "زامبىيە",
-    "Zimbabwe" : "زىمبابۋې",
-    "You don" : "Don don",
-    "Loading people you" : "كىشىلەرنى يۈكلەۋاتىسىز",
-    "People you" : "كىشىلەر"
+    "Zimbabwe" : "زىمبابۋې"
 },
 "nplurals=2; plural=(n != 1);");

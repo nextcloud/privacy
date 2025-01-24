@@ -297,9 +297,6 @@ OC.L10N.register(
     "Mayotte" : "Mayotte",
     "South Africa" : "Suður-Afríka",
     "Zambia" : "Sambía",
-    "Zimbabwe" : "Simbabve",
-    "You don" : "Þú átt ekki neinar sameignir með einstökum notendum.",
-    "Loading people you" : "Hleð inn fólki sem þú",
-    "People you" : "Fólk sem þú"
+    "Zimbabwe" : "Simbabve"
 },
 "nplurals=2; plural=(n % 10 != 1 || n % 100 == 11);");
