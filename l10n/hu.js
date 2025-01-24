@@ -300,9 +300,6 @@ OC.L10N.register(
     "Mayotte" : "Mayotte",
     "South Africa" : "Dél-afrikai Köztársaság",
     "Zambia" : "Zambia",
-    "Zimbabwe" : "Zimbabwe",
-    "You don" : "Nincs megosztása egyéni felhasználókkal.",
-    "Loading people you" : "Emberek betöltése, akikkel megoszt…",
-    "People you" : "Emberek, akikkel megosztott"
+    "Zimbabwe" : "Zimbabwe"
 },
 "nplurals=2; plural=(n != 1);");
