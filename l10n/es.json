@@ -3,6 +3,7 @@
     "-" : "-",
     "The privacy center shows you where your data is stored and who can access it, either because you shared with them or because they are administrators." : "El centro de privacidad muestra dónde están almacenados sus datos y quién puede acceder a ellos, debido a que los haya compartido o porque sean administradores del sistema.",
     "Administrators" : "Administradores",
+    "The following accounts are designated administrators and may potentially have access to your data through system storage or backups. However, they do not have easy access to your data via the web interface or client applications." : "Las siguientes cuentas tienen permisos de administrador y podrían tener acceso a tus datos a través del sistema de almacenamiento o las copias de seguridad. Sin embargo, no tienen acceso a tus datos a través de la interfaz web o las aplicaciones Nextcloud.",
     "Loading administrators …" : "Cargando administradores …",
     "Remove external {propertyName} admin" : "Quitar administrador externo de {propertyName}",
     "Add external admin" : "Añadir administrador externo",
