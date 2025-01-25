@@ -5,6 +5,7 @@ OC.L10N.register(
     "-" : "-",
     "The privacy center shows you where your data is stored and who can access it, either because you shared with them or because they are administrators." : "Das Zentrum für Datenschutz zeigt Ihnen, wo deine Daten gespeichert werden und wer darauf Zugriff hat. Egal ob du Daten freigegeben hast oder es Administratoren sind.",
     "Administrators" : "Administratoren",
+    "The following accounts are designated administrators and may potentially have access to your data through system storage or backups. However, they do not have easy access to your data via the web interface or client applications." : "Die folgenden Konten sind als Administratoren ausgewiesen und haben möglicherweise Zugriff auf deine Daten über Systemspeicher oder Backups. Über die Weboberfläche oder Clientanwendungen haben sie jedoch keinen einfachen Zugriff auf deine Daten.",
     "Loading administrators …" : "Administratoren werden geladen …",
     "Remove external {propertyName} admin" : "Externe {propertyName}-Administration entfernt",
     "Add external admin" : "Einen externen Administrator hinzufügen",
