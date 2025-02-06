@@ -5,6 +5,7 @@ OC.L10N.register(
     "-" : "-",
     "The privacy center shows you where your data is stored and who can access it, either because you shared with them or because they are administrators." : "Az adatvédelmi központ megmutatja, hogy az adatait hol tárolják és ki férhet hozzájuk, vagy mert megosztotta velük vagy mert rendszergazdák.",
     "Administrators" : "Rendszergazdák",
+    "The following accounts are designated administrators and may potentially have access to your data through system storage or backups. However, they do not have easy access to your data via the web interface or client applications." : "A következő fiókok kijelölt rendszergazdák, és a rendszertárolókon vagy biztonsági mentéseken esetlegesen hozzáférhetnek az Ön adataihoz. A webes felületen vagy az ügyfélalkalmazásokon azonban nem férnek hozzá könnyen az Ön adataihoz.",
     "Loading administrators …" : "Rendszergazdák betöltése…",
     "Remove external {propertyName} admin" : "Külső {propertyName} rendszergazda eltávolítása",
     "Add external admin" : "Külső rendszergazda hozzáadása",

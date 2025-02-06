@@ -5,6 +5,7 @@ OC.L10N.register(
     "-" : "-",
     "The privacy center shows you where your data is stored and who can access it, either because you shared with them or because they are administrators." : "隐私中心为您显示您数据的存放位置以及谁能访问这些数据，这可能是因为您将数据共享给了他们或者他们是管理员。",
     "Administrators" : "管理员",
+    "The following accounts are designated administrators and may potentially have access to your data through system storage or backups. However, they do not have easy access to your data via the web interface or client applications." : "以下账号是指定的管理员，可能有权通过系统存储或备份访问您的数据。但是，他们无法通过网页界面或客户端应用程序轻松访问您的数据。",
     "Loading administrators …" : "正在加载管理员 ...",
     "Remove external {propertyName} admin" : "移除外部 {propertyName} 管理员",
     "Add external admin" : "添加外部管理员",
