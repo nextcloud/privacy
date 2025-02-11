@@ -18,7 +18,7 @@ OC.L10N.register(
     "Your data is located in:" : "Os seus dados estão localizados em:",
     "Change data location" : "Alterar a localização dos dados",
     "Region" : "Região",
-    "Please select a region" : "Seleccione uma região",
+    "Please select a region" : "Selecione uma região",
     "Control" : "Controle",
     "Knowledge" : "Conhecimento",
     "of how the data is stored" : "como os dados estão armazenados",
