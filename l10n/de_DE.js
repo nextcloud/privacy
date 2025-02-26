@@ -11,7 +11,7 @@ OC.L10N.register(
     "Add external admin" : "Einen externen Administrator hinzufügen",
     "Cancel" : "Abbrechen",
     "Add" : "Hinzufügen",
-    "Name of external admin" : "Namen des externen Administrators",
+    "Name of external admin" : "Name des externen Administrators",
     "Error loading additional administrator." : "Fehler beim Laden des zusätzliches Administrators.",
     "Error adding new administrator." : "Fehler beim Laden des neuen Adminstrators.",
     "Error deleting new administrator." : "Fehler beim Löschen des neuen Administrators.",
