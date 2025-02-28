@@ -3,7 +3,7 @@ OC.L10N.register(
     {
     "Privacy" : "Datenschutz",
     "-" : "-",
-    "The privacy center shows you where your data is stored and who can access it, either because you shared with them or because they are administrators." : "Die Datenschutzübersicht zeigt Ihnen, wo Ihre Daten gespeichert werden und wer darauf Zugriff hat. Entweder weil Sie die Daten freigegeben haben oder es sich um Administratoren handelt.",
+    "The privacy center shows you where your data is stored and who can access it, either because you shared with them or because they are administrators." : "Die Datenschutzübersicht zeigt Ihnen, wo Ihre Daten gespeichert werden und wer darauf Zugriff hat. Entweder weil Sie die Daten freigegeben haben oder es sich um die Administration handelt.",
     "Error loading additional administrator." : "Fehler beim Laden des zusätzliches Administrators.",
     "Error adding new administrator." : "Fehler beim Laden des neuen Adminstrators.",
     "Error deleting new administrator." : "Fehler beim Löschen des neuen Administrators.",
