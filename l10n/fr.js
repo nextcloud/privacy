@@ -8,6 +8,7 @@ OC.L10N.register(
     "Error adding new administrator." : "Erreur lors de l'ajout d'un nouvel administrateur.",
     "Error deleting new administrator." : "Erreur lors de la suppression d'un nouvel administrateur.",
     "Administrators" : "Administrateurs",
+    "The following accounts are designated administrators and may potentially have access to your data through system storage or backups. However, they do not have easy access to your data via the web interface or client applications." : "Les comptes suivants sont des administrateurs désignés et peuvent potentiellement accéder à vos données via le stockage système ou les sauvegardes. Cependant, ils n'ont pas facilement accès à vos données via l'interface web ou les applications clientes.",
     "Loading administrators …" : "Chargement des administrateurs...",
     "Remove external {propertyName} admin" : "Supprimer l’administrateur externe {propertyName}",
     "Add external admin" : "Ajouter un administrateur externe",
