@@ -168,6 +168,7 @@ OC.L10N.register(
     "Saint Pierre and Miquelon" : "Sant-Pêr-ha-Mikelon",
     "Pitcairn" : "Inizi Pitcairn",
     "Puerto Rico" : "Puerto Rico)",
+    "Palestine" : "Palestina",
     "Portugal" : "Portugal",
     "Palau" : "Palau",
     "Paraguay" : "Paraguay",
