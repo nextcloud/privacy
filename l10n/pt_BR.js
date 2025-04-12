@@ -42,7 +42,7 @@ OC.L10N.register(
     "Region" : "Região",
     "Please select a region" : "Selecione uma região",
     "User Data Manifesto 2.0" : "Manifesto de Dados do Usuário 2.0",
-    "Defining basic rights for people to control their own data in the internet age." : "Definir direitos básicos para as pessoas controlarem os seus próprios dados na era da Internet.",
+    "Defining basic rights for people to control their own data in the internet age." : "Definição de direitos básicos para que as pessoas controlem os seus próprios dados na era da Internet.",
     "Control" : "Controle",
     "over user data access" : "sobre o acesso aos dados do usuário",
     "Data explicitly and willingly uploaded by a user should be under the ultimate control of the user. Users should be able to decide whom to grant direct access to their data and with which permissions and licenses such access should be granted." : "Os dados carregados explicitamente e de bom grado por um usuário devem estar sob o controle final dele. Os usuários podem decidir quem tem acesso direto aos dados e com quais permissões e licenças esse acesso deve ser concedido.",
