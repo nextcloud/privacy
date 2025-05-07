@@ -1,7 +1,7 @@
 OC.L10N.register(
     "privacy",
     {
-    "Privacy" : "Confindențialitate",
+    "Privacy" : "Confidențialitate",
     "Cancel" : "Anulare",
     "Add" : "Adaugă",
     "Encryption" : "Încriptare",
