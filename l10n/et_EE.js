@@ -87,6 +87,7 @@ OC.L10N.register(
     "Curaçao" : "Curaçao",
     "Christmas Island" : "Jõulusaar",
     "Cyprus" : "Küpros",
+    "Czech" : "tšehhi keel",
     "Germany" : "Saksamaa",
     "Djibouti" : "Djibouti",
     "Denmark" : "Taani",
