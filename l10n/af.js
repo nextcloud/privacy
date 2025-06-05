@@ -3,6 +3,7 @@ OC.L10N.register(
     {
     "Privacy" : "Privaatheid",
     "-" : "-",
+    "Cancel" : "Cancel",
     "Add" : "Voeg toe",
     "Encryption" : "Enkripsie",
     "Privacy policy" : "Privaatheidsbeleid",
