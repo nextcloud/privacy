@@ -6,6 +6,7 @@ OC.L10N.register(
     "The privacy center shows you where your data is stored and who can access it, either because you shared with them or because they are administrators." : "La privatecejo montras, kie viaj datumoj konserviĝas, kaj kiu povas aliri al ili, ĉar vi kunhavigis kun ili aŭ ili estas administrantoj.",
     "Administrators" : "Administrantoj",
     "Add external admin" : "Aldoni eksteran administranton",
+    "Cancel" : "Cancel",
     "This server is protected with full-disk-encryption." : "Tiu servilo estas protektita per ĉifrado de la tuta disko.",
     "Your files are not protected by encryption." : "Viaj dosieroj ne estas protektitaj per ĉifrado.",
     "Encryption" : "Ĉifrado",
