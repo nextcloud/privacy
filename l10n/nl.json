@@ -6,6 +6,7 @@
     "Error adding new administrator." : "Fout bij toevoegen nieuwe beheerder.",
     "Error deleting new administrator." : "Fout bij verwijderen nieuwe beheerder.",
     "Administrators" : "Beheerders",
+    "The following accounts are designated administrators and may potentially have access to your data through system storage or backups. However, they do not have easy access to your data via the web interface or client applications." : "De volgende accounts zijn aangewezen beheerders en hebben mogelijk toegang tot jouw gegevens via systeemopslag of back-ups. Ze hebben echter geen gemakkelijke toegang tot jouw gegevens via de webinterface of clientapplicaties.",
     "Loading administrators …" : "Laden beheerders...",
     "Remove external {propertyName} admin" : "Verwijder externe {propertyName} beheerder",
     "Add external admin" : "Voeg externe beheerder toe",
