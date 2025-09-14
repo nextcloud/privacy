@@ -2,7 +2,7 @@ OC.L10N.register(
     "privacy",
     {
     "Privacy" : "Privacidade",
-    "-" : "–",
+    "-" : "—",
     "The privacy center shows you where your data is stored and who can access it, either because you shared with them or because they are administrators." : "O centro de privacidade amósalle onde están almacenados os seus datos e quen pode acceder a eles, ben porque compartiu con eles ou porque son administradores.",
     "Error loading additional administrator." : "Produciuse un erro ao cargar un administrador adicional.",
     "Error adding new administrator." : "Produciuse un erro ao engadir un novo administrador.",
