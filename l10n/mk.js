@@ -10,7 +10,7 @@ OC.L10N.register(
     "Administrators" : "Администратори",
     "The following accounts are designated administrators and may potentially have access to your data through system storage or backups. However, they do not have easy access to your data via the web interface or client applications." : "Следниве сметки се назначени за администратори и може потенцијално да имаат пристап до вашите податоци преку системско складирање или резервни копии. Сепак, тие немаат лесен пристап до вашите податоци преку веб-интерфејсот или клиентските апликации.",
     "Loading administrators …" : "Вчитување администратори ...",
-    "Remove external {propertyName} admin" : "Острани го надворешниот {propertyName} администратор",
+    "Remove external {propertyName} admin" : "Отстрани го надворешниот {propertyName} администратор",
     "Add external admin" : "Додади надворешен администратор",
     "Cancel" : "Откажи",
     "Add" : "Додади",
