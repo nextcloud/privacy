@@ -3,9 +3,12 @@ OC.L10N.register(
     {
     "Privacy" : "ສ່ວນຕົວ",
     "Cancel" : "ຍົກເລີກ",
+    "Add" : "Add",
     "Encryption" : "ການເຂົ້າລະຫັດລັບ",
     "Edit" : "ແກ້ໄຂ",
     "Privacy policy" : "ນະໂຍບາຍຄວາມເປັນສ່ວນຕົວ",
+    "Region" : "Region",
+    "Learn more ↗" : "Learn more ↗",
     "Andorra" : "ອັນດໍຣາ",
     "United Arab Emirates" : "ສະຫະລັດອາຣັບເອມິເຣດ",
     "Afghanistan" : "ອັຟການິສຖານ",
