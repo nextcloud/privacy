@@ -2,6 +2,7 @@ OC.L10N.register(
     "privacy",
     {
     "Privacy" : "ສ່ວນຕົວ",
+    "-" : "-",
     "Cancel" : "ຍົກເລີກ",
     "Add" : "Add",
     "Encryption" : "ການເຂົ້າລະຫັດລັບ",
