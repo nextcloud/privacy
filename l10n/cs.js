@@ -31,7 +31,7 @@ OC.L10N.register(
     "Read the privacy policy ↗" : "Přečíst si zásady ochrany osobních údajů ↗",
     "Error loading information about shares." : "Chyba při načítání informací o sdílení.",
     "People you've shared with" : "Lidé, kterým jste nasdíleli",
-    "Loading people you've shared with …" : "Načítání lidí, kterým jste nasdíleli…",
+    "Loading people you've shared with …" : "Načítání lidí, kterým jste nasdíleli …",
     "You do not have any shares with individual users." : "Nemáte žádná sdílení s jednotlivými uživateli.",
     "Who has access to your data?" : "Kdo má přístup k vašim datům?",
     "Error saving new location of the server" : "Chyba při ukládání nového umístění serveru",
