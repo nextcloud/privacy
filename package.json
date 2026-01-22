@@ -1,6 +1,6 @@
 {
   "name": "privacy",
-  "version": "5.0.0-dev.0",
+  "version": "6.0.0-dev.0",
   "description": "Place this app in **nextcloud/apps/**",
   "private": true,
   "scripts": {
