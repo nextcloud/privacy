@@ -19,7 +19,6 @@ SPDX-FileCopyrightText: James Halliday
 SPDX-FileCopyrightText: Jacob Clevenger<https://github.com/wheatjs>
 SPDX-FileCopyrightText: Guillaume Chau <guillaume.b.chau@gmail.com>
 SPDX-FileCopyrightText: GitHub Inc.
-SPDX-FileCopyrightText: Georg Ehrke
 SPDX-FileCopyrightText: Feross Aboukhadijeh
 SPDX-FileCopyrightText: Evan You
 SPDX-FileCopyrightText: Eugene Sharygin <eush77@gmail.com>
@@ -155,6 +154,6 @@ This file is generated from multiple sources. Included packages:
 - webpack
 	- version: 5.94.0
 	- license: MIT
-- privacy
-	- version: 5.0.0-dev.0
+- nextcloud
+	- version: 1.0.0
 	- license: AGPL-3.0-or-later
