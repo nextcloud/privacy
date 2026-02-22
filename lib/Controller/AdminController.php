@@ -59,7 +59,7 @@ class AdminController extends Controller {
 		$query = $this->dbConnection->getQueryBuilder();
 		$query->insert('privacy_admins')
 			->setValue('displayname', $query->createNamedParameter($name))
-			->execute();
+			->executeStatement();
 
 		$id = $query->getLastInsertId();
 
@@ -78,7 +78,7 @@ class AdminController extends Controller {
 		$query = $this->dbConnection->getQueryBuilder();
 		$query->delete('privacy_admins')
 			->where($query->expr()->eq('id', $query->createNamedParameter($id)))
-			->execute();
+			->executeStatement();
 
 		return new JSONResponse([], Http::STATUS_OK);
 	}
