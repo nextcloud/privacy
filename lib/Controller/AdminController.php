@@ -21,7 +21,7 @@ class AdminController extends Controller {
 		string $appName,
 		IRequest $request,
 		private IConfig $config,
-		private IDBConnection $dbConnection
+		private IDBConnection $dbConnection,
 	) {
 		parent::__construct($appName, $request);
 	}
