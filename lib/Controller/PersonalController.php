@@ -17,19 +17,6 @@ use OCP\IGroupManager;
 use OCP\IRequest;
 
 class PersonalController extends Controller {
-	private IConfig $config;
-	private IGroupManager $groupManager;
-	private IDBConnection $dbConnection;
-
-	/**
-	 * PersonalController constructor.
-	 *
-	 * @param string $appName
-	 * @param IRequest $request
-	 * @param IConfig $config
-	 * @param IGroupManager $groupManager
-	 * @param IDBConnection $dbConnection
-	 */
 	public function __construct(
 		string $appName,
 		IRequest $request,
