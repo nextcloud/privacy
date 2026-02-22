@@ -17,9 +17,6 @@ use OCP\IRequest;
 
 class AdminController extends Controller {
 
-	private IConfig $config;
-	private IDBConnection $dbConnection;
-
 	public function __construct(
 		string $appName,
 		IRequest $request,
