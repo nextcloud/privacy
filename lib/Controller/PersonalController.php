@@ -79,7 +79,7 @@ class PersonalController extends Controller {
 		$query = $this->dbConnection->getQueryBuilder();
 		$query->select(['id', 'displayname'])
 			->from('privacy_admins');
-		$stmt = $query->execute();
+		$stmt = $query->executeQuery();
 
 		foreach ($stmt->fetchAll(\PDO::FETCH_ASSOC) as $row) {
 			$uids[] = [
