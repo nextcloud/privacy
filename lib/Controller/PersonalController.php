@@ -48,7 +48,7 @@ class PersonalController extends Controller {
 				}
 			}
 		}
-		
+
 		// External privacy admins from DB
 		foreach ($this->getDbPrivacyAdmins() as $row) {
 			$admins[] = [
