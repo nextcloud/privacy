@@ -22,7 +22,7 @@ class PersonalController extends Controller {
 		IRequest $request,
 		private IConfig $config,
 		private IGroupManager $groupManager,
-		private IDBConnection $dbConnection
+		private IDBConnection $dbConnection,
 	) {
 		parent::__construct($appName, $request);
 	}
