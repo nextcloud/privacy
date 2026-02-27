@@ -1,9 +1,11 @@
 <?php
 
 /**
- * SPDX-FileCopyrightText: 2019 Nextcloud GmbH and Nextcloud contributors
+ * SPDX-FileCopyrightText: 2019-2026 Nextcloud GmbH and Nextcloud contributors
  * SPDX-License-Identifier: AGPL-3.0-or-later
  */
+declare(strict_types=1);
+
 namespace OCA\Privacy\Controller;
 
 use OCP\AppFramework\Controller;
@@ -14,47 +16,23 @@ use OCP\IDBConnection;
 use OCP\IGroupManager;
 use OCP\IRequest;
 
-/**
- * Class PersonalController
- *
- * @package OCA\Privacy\Controller
- */
 class PersonalController extends Controller {
-
-	/** @var IConfig */
-	private $config;
-
-	/** @var IGroupManager */
-	private $groupManager;
-
-	/** @var IDBConnection */
-	private $dbConnection;
-
-	/**
-	 * PersonalController constructor.
-	 *
-	 * @param string $appName
-	 * @param IRequest $request
-	 * @param IConfig $config
-	 * @param IGroupManager $groupManager
-	 * @param IDBConnection $dbConnection
-	 */
-	public function __construct(string $appName, IRequest $request,
-		IConfig $config, IGroupManager $groupManager,
-		IDBConnection $dbConnection) {
+	public function __construct(
+		string $appName,
+		IRequest $request,
+		private IConfig $config,
+		private IGroupManager $groupManager,
+		private IDBConnection $dbConnection,
+	) {
 		parent::__construct($appName, $request);
-
-		$this->config = $config;
-		$this->groupManager = $groupManager;
-		$this->dbConnection = $dbConnection;
 	}
 
 	/**
-	 * @NoAdminRequired
+	 * Returns all admin users (internal group admins and external privacy admins).
 	 *
-	 * @return JSONResponse
+	 * @NoAdminRequired
 	 */
-	public function getAdmins():JSONResponse {
+	public function getAdmins(): JSONResponse {
 		$adminGroup = $this->groupManager->get('admin');
 
 		// Admin Group should always exist, just catch for safety's sake
@@ -79,7 +57,7 @@ class PersonalController extends Controller {
 		$query = $this->dbConnection->getQueryBuilder();
 		$query->select(['id', 'displayname'])
 			->from('privacy_admins');
-		$stmt = $query->execute();
+		$stmt = $query->executeQuery();
 
 		foreach ($stmt->fetchAll(\PDO::FETCH_ASSOC) as $row) {
 			$uids[] = [
