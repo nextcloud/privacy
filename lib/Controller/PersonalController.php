@@ -33,40 +33,44 @@ class PersonalController extends Controller {
 	 * @NoAdminRequired
 	 */
 	public function getAdmins(): JSONResponse {
-		$adminGroup = $this->groupManager->get('admin');
+		$admins = [];
 
-		// Admin Group should always exist, just catch for safety's sake
-		if (!$adminGroup) {
-			return new JSONResponse([]);
-		}
-
-		$adminUsers = $adminGroup->getUsers();
-		$uids = [];
-		foreach ($adminUsers as $adminUser) {
-			if (!$adminUser->isEnabled()) {
-				continue;
+		// Internal admin group members
+		$group = $this->groupManager->get('admin');
+		if ($group !== null) {
+			foreach ($group->getUsers() as $user) {
+				if ($user->isEnabled()) {
+					$admins[] = [
+						'id' => $user->getUID(),
+						'displayname' => $user->getDisplayName(),
+						'internal' => true,
+					];
+				}
 			}
-
-			$uids[] = [
-				'id' => $adminUser->getUID(),
-				'displayname' => $adminUser->getDisplayName(),
-				'internal' => true,
-			];
 		}
 
-		$query = $this->dbConnection->getQueryBuilder();
-		$query->select(['id', 'displayname'])
-			->from('privacy_admins');
-		$stmt = $query->executeQuery();
-
-		foreach ($stmt->fetchAll(\PDO::FETCH_ASSOC) as $row) {
-			$uids[] = [
+		// External privacy admins from DB
+		foreach ($this->getDbPrivacyAdmins() as $row) {
+			$admins[] = [
 				'id' => (int)$row['id'],
 				'displayname' => (string)$row['displayname'],
 				'internal' => false,
 			];
 		}
 
-		return new JSONResponse($uids, Http::STATUS_OK);
+		return new JSONResponse($admins, Http::STATUS_OK);
+	}
+
+	/**
+	 * Fetches additional admins from the privacy_admins table.
+	 *
+	 * @return array<int, array{id: int, displayname: string}>
+	 */
+	private function getDbPrivacyAdmins(): array {
+		$qb = $this->dbConnection->getQueryBuilder();
+		$qb->select(['id', 'displayname'])
+			->from('privacy_admins')
+			->orderBy('id', 'ASC');
+		return $qb->executeQuery()->fetchAll(\PDO::FETCH_ASSOC) ?: [];
 	}
 }
