@@ -58,7 +58,7 @@ class AdminController extends Controller {
 	public function deleteAdditionalAdmin(int $id): JSONResponse {
 		$qb = $this->dbConnection->getQueryBuilder();
 		$qb->delete('privacy_admins')
-			->where($query->expr()->eq('id', $qb->createNamedParameter($id)))
+			->where($qb->expr()->eq('id', $qb->createNamedParameter($id)))
 			->executeStatement();
 
 		return new JSONResponse([], Http::STATUS_OK);

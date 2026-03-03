@@ -1,7 +1,8 @@
 {
     "require-dev": {
         "vimeo/psalm": "^5.26",
-        "nextcloud/ocp": "dev-master"
+        "nextcloud/ocp": "dev-master",
+        "doctrine/dbal": "^3.10"
     },
     "config": {
         "platform": {

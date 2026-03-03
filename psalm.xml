@@ -12,6 +12,7 @@
 	xsi:schemaLocation="https://getpsalm.org/schema/config vendor/vimeo/psalm/config.xsd"
 	findUnusedBaselineEntry="true"
 	findUnusedCode="false"
+	errorBaseline="tests/psalm-baseline.xml"
 >
 	<projectFiles>
 		<directory name="lib" />
@@ -24,7 +25,4 @@
 		<directory name="vendor" />
 		<directory name="vendor-bin/psalm/vendor" />
 	</extraFiles>
-<!--	<stubs>
-		<file name="tests/stubs/stub.phpstub" preloadClasses="true"/>
-	</stubs>-->
 </psalm>
