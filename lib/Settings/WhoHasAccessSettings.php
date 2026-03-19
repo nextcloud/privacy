@@ -26,6 +26,7 @@ class WhoHasAccessSettings implements ISettings {
 	) {
 	}
 
+	#[\Override]
 	public function getForm(): TemplateResponse {
 		\OCP\Util::addScript(Application::APP_ID, 'privacy-main');
 		\OCP\Util::addStyle(Application::APP_ID, 'privacy-main');
@@ -56,10 +57,12 @@ class WhoHasAccessSettings implements ISettings {
 		return new TemplateResponse(Application::APP_ID, 'who-has-access');
 	}
 
+	#[\Override]
 	public function getSection(): string {
 		return Application::APP_ID;
 	}
 
+	#[\Override]
 	public function getPriority(): int {
 		return 10;
 	}

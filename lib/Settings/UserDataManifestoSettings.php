@@ -19,10 +19,12 @@ class UserDataManifestoSettings implements ISettings {
 	) {
 	}
 
+	#[\Override]
 	public function getForm(): TemplateResponse {
 		return new TemplateResponse(Application::APP_ID, 'user-data-manifesto');
 	}
 
+	#[\Override]
 	public function getSection(): ?string {
 		if ($this->subscription->delegateHasValidSubscription()) {
 			return null;
@@ -31,6 +33,7 @@ class UserDataManifestoSettings implements ISettings {
 		return Application::APP_ID;
 	}
 
+	#[\Override]
 	public function getPriority(): int {
 		return 5;
 	}

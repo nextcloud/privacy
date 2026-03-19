@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<files psalm-version="5.26.1@d747f6500b38ac4f7dfc5edbcae6e4b637d7add0">
+<files psalm-version="6.16.1@f1f5de594dc76faf8784e02d3dc4716c91c6f6ac">
+  <file src="lib/Migration/Version100Date20190217131943.php">
+    <UndefinedDocblockClass/>
+  </file>
   <file src="lib/Settings/MissionSettings.php">
-    <UndefinedClass>
-      <code><![CDATA[$this->themingDefaults]]></code>
-      <code><![CDATA[protected]]></code>
-    </UndefinedClass>
+    <UndefinedClass/>
+  </file>
+  <file src="lib/Settings/WhoHasAccessSettings.php">
+    <UndefinedClass/>
+    <UndefinedDocblockClass/>
   </file>
 </files>

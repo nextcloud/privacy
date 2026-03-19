@@ -20,18 +20,22 @@ class PrivacySection implements IIconSection {
 	) {
 	}
 
+	#[\Override]
 	public function getID(): string {
 		return Application::APP_ID;
 	}
 
+	#[\Override]
 	public function getName(): string {
 		return $this->l->t('Privacy');
 	}
 
+	#[\Override]
 	public function getPriority(): int {
 		return 70;
 	}
 
+	#[\Override]
 	public function getIcon(): string {
 		return $this->url->imagePath(Application::APP_ID, 'app-dark.svg');
 	}

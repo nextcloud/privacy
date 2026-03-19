@@ -23,6 +23,7 @@ class MissionSettings implements ISettings {
 	) {
 	}
 
+	#[\Override]
 	public function getForm(): TemplateResponse {
 		$this->initialState->provideInitialState(
 			'serverName',
@@ -32,6 +33,7 @@ class MissionSettings implements ISettings {
 		return new TemplateResponse(Application::APP_ID, 'mission');
 	}
 
+	#[\Override]
 	public function getSection(): ?string {
 		if ($this->subscription->delegateHasValidSubscription()) {
 			return null;
@@ -40,6 +42,7 @@ class MissionSettings implements ISettings {
 		return Application::APP_ID;
 	}
 
+	#[\Override]
 	public function getPriority(): int {
 		return 0;
 	}

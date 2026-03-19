@@ -21,16 +21,19 @@ class WhereIsYourDataSettings implements ISettings {
 	) {
 	}
 
+	#[\Override]
 	public function getForm(): TemplateResponse {
 		$this->initialState->provideInitialState('location', $this->appConfig->getAppValueString('readableLocation'));
 
 		return new TemplateResponse(Application::APP_ID, 'where-is-your-data');
 	}
 
+	#[\Override]
 	public function getSection(): string {
 		return Application::APP_ID;
 	}
 
+	#[\Override]
 	public function getPriority(): int {
 		return 15;
 	}
