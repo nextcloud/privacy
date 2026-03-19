@@ -6,9 +6,4 @@
       <code><![CDATA[protected]]></code>
     </UndefinedClass>
   </file>
-  <file src="lib/Settings/WhoHasAccessSettings.php">
-    <UndefinedClass>
-      <code><![CDATA[OC]]></code>
-    </UndefinedClass>
-  </file>
 </files>

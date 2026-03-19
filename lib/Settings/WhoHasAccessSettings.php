@@ -39,7 +39,7 @@ class WhoHasAccessSettings implements ISettings {
 				$moduleId = $this->encryptionManager->getDefaultEncryptionModuleId();
 				if ($moduleId === 'OC_DEFAULT_MODULE') {
 					/** @var \OCA\Encryption\Util $util */
-					$util = \OC::$server->get(\OCA\Encryption\Util::class);
+					$util = \OCP\Server::get(\OCA\Encryption\Util::class);
 					$isHomeStorageEncrypted = $util->shouldEncryptHomeStorage();
 					$isMasterKeyEnabled = $util->isMasterKeyEnabled();
 				}
