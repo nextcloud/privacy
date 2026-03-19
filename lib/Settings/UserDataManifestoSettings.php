@@ -7,21 +7,20 @@ declare(strict_types=1);
  */
 namespace OCA\Privacy\Settings;
 
+use OCA\Privacy\AppInfo\Application;
 use OCP\AppFramework\Http\TemplateResponse;
 use OCP\Settings\ISettings;
 use OCP\Support\Subscription\IRegistry;
 
 class UserDataManifestoSettings implements ISettings {
 
-	/** @var IRegistry */
-	protected $subscription;
-
-	public function __construct(IRegistry $subscription) {
-		$this->subscription = $subscription;
+	public function __construct(
+		protected IRegistry $subscription,
+	) {
 	}
 
 	public function getForm(): TemplateResponse {
-		return new TemplateResponse('privacy', 'user-data-manifesto');
+		return new TemplateResponse(Application::APP_ID, 'user-data-manifesto');
 	}
 
 	public function getSection(): ?string {
@@ -29,7 +28,7 @@ class UserDataManifestoSettings implements ISettings {
 			return null;
 		}
 
-		return 'privacy';
+		return Application::APP_ID;
 	}
 
 	public function getPriority(): int {

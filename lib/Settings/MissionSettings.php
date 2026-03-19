@@ -7,6 +7,7 @@ declare(strict_types=1);
  */
 namespace OCA\Privacy\Settings;
 
+use OCA\Privacy\AppInfo\Application;
 use OCA\Theming\ThemingDefaults;
 use OCP\AppFramework\Http\TemplateResponse;
 use OCP\AppFramework\Services\IInitialState;
@@ -28,7 +29,7 @@ class MissionSettings implements ISettings {
 			$this->themingDefaults->getEntity(),
 		);
 
-		return new TemplateResponse('privacy', 'mission');
+		return new TemplateResponse(Application::APP_ID, 'mission');
 	}
 
 	public function getSection(): ?string {
@@ -36,7 +37,7 @@ class MissionSettings implements ISettings {
 			return null;
 		}
 
-		return 'privacy';
+		return Application::APP_ID;
 	}
 
 	public function getPriority(): int {

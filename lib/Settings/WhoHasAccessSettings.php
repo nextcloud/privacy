@@ -1,62 +1,36 @@
 <?php
 
+declare(strict_types=1);
 /**
  * SPDX-FileCopyrightText: 2019 Nextcloud GmbH and Nextcloud contributors
  * SPDX-License-Identifier: AGPL-3.0-or-later
  */
 namespace OCA\Privacy\Settings;
 
-use OC;
+use OCA\Privacy\AppInfo\Application;
 use OCA\Theming\ThemingDefaults;
 use OCP\AppFramework\Http\TemplateResponse;
+use OCP\AppFramework\Services\IAppConfig;
+use OCP\AppFramework\Services\IInitialState;
 use OCP\Encryption\IManager as IEncryptionManager;
-use OCP\IConfig;
-use OCP\IInitialStateService;
 use OCP\Settings\ISettings;
 use Throwable;
 
-/**
- * Class WhoHasAccessSettings
- *
- * @package OCA\Privacy\Settings
- */
 class WhoHasAccessSettings implements ISettings {
 
-	/** @var IConfig */
-	private $config;
-
-	/** @var IEncryptionManager */
-	private $encryptionManager;
-
-	/** @var IInitialStateService */
-	private $initialStateService;
-
-	/**
-	 * WhoHasAccessSettings constructor.
-	 *
-	 * @param IConfig $config
-	 * @param IEncryptionManager $manager
-	 * @param IInitialStateService $initialStateService
-	 */
-	public function __construct(IConfig $config,
-		IEncryptionManager $manager,
-		IInitialStateService $initialStateService) {
-		$this->config = $config;
-		$this->encryptionManager = $manager;
-		$this->initialStateService = $initialStateService;
+	public function __construct(
+		private IAppConfig $appConfig,
+		private IEncryptionManager $encryptionManager,
+		private IInitialState $initialState,
+		private ?ThemingDefaults $themingDefaults = null,
+	) {
 	}
 
-	/**
-	 * @return TemplateResponse
-	 */
-	public function getForm():TemplateResponse {
-		\OCP\Util::addScript('privacy', 'privacy-main');
-		$themingDefaults = OC::$server->getThemingDefaults();
-		if ($themingDefaults instanceof ThemingDefaults) {
-			$privacyPolicyUrl = $themingDefaults->getPrivacyUrl();
-		} else {
-			$privacyPolicyUrl = null;
-		}
+	public function getForm(): TemplateResponse {
+		\OCP\Util::addScript(Application::APP_ID, 'privacy-main');
+		\OCP\Util::addStyle(Application::APP_ID, 'privacy-main');
+
+		$privacyPolicyUrl = $this->themingDefaults?->getPrivacyUrl();
 
 		$isHomeStorageEncrypted = false;
 		$isMasterKeyEnabled = false;
@@ -73,27 +47,20 @@ class WhoHasAccessSettings implements ISettings {
 			}
 		}
 
-		$this->initialStateService->provideInitialState('privacy', 'privacyPolicyUrl', $privacyPolicyUrl);
-		$this->initialStateService->provideInitialState('privacy', 'fullDiskEncryptionEnabled', $this->config->getAppValue('privacy', 'fullDiskEncryptionEnabled', '0') === '1');
-		$this->initialStateService->provideInitialState('privacy', 'serverSideEncryptionEnabled', $this->encryptionManager->isEnabled());
-		$this->initialStateService->provideInitialState('privacy', 'homeStorageEncryptionEnabled', $isHomeStorageEncrypted);
-		$this->initialStateService->provideInitialState('privacy', 'masterKeyEncryptionEnabled', $isMasterKeyEnabled);
+		$this->initialState->provideInitialState('privacyPolicyUrl', $privacyPolicyUrl);
+		$this->initialState->provideInitialState('fullDiskEncryptionEnabled', $this->appConfig->getAppValueBool('fullDiskEncryptionEnabled', false));
+		$this->initialState->provideInitialState('serverSideEncryptionEnabled', $this->encryptionManager->isEnabled());
+		$this->initialState->provideInitialState('homeStorageEncryptionEnabled', $isHomeStorageEncrypted);
+		$this->initialState->provideInitialState('masterKeyEncryptionEnabled', $isMasterKeyEnabled);
 
-
-		return new TemplateResponse('privacy', 'who-has-access');
+		return new TemplateResponse(Application::APP_ID, 'who-has-access');
 	}
 
-	/**
-	 * @return string
-	 */
-	public function getSection():string {
-		return 'privacy';
+	public function getSection(): string {
+		return Application::APP_ID;
 	}
 
-	/**
-	 * @return int
-	 */
-	public function getPriority():int {
+	public function getPriority(): int {
 		return 10;
 	}
 }

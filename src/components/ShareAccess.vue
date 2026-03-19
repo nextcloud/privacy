@@ -7,24 +7,28 @@
 	<div class="shared">
 		<h3>{{ t('privacy', 'People you\'ve shared with') }}</h3>
 
-		<NcLoadingIcon v-if="isLoading"
-			:name="t('privacy', 'Loading people you\'ve shared with …')"
+		<NcLoadingIcon
+			v-if="isLoading"
+			:name="t('privacy', 'Loading people you\'ve shared with …')"
 			:size="40" />
 
 		<p v-else-if="!uniqueShareUIDs.length">
 			{{ t('privacy', 'You do not have any shares with individual users.') }}
 		</p>
 
-		<ul v-else
+		<ul
+			v-else
 			class="shared__list">
-			<li v-for="uid in uniqueShareUIDs"
+			<li
+				v-for="uid in uniqueShareUIDs"
 				:key="uid"
 				class="shared__entry">
 				<span class="shared__user">
-					<NcAvatar :user="uid"
-						:display-name="uidDisplaynameMap[uid]"
+					<NcAvatar
+						:user="uid"
+						:displayName="uidDisplaynameMap[uid]"
 						:size="44"
-						:show-user-status="false" />
+						:showUserStatus="false" />
 
 					<span class="shared__displayname">{{ uidDisplaynameMap[uid] }}</span>
 				</span>
@@ -33,73 +37,53 @@
 	</div>
 </template>
 
-<script>
-import Vue from 'vue'
-
-import axios from '@nextcloud/axios'
-import { generateOcsUrl } from '@nextcloud/router'
+<script setup lang="ts">
 import { getCurrentUser } from '@nextcloud/auth'
+import axios from '@nextcloud/axios'
 import { showError } from '@nextcloud/dialogs'
 import { translate as t } from '@nextcloud/l10n'
+import { generateOcsUrl } from '@nextcloud/router'
+import { NcAvatar, NcLoadingIcon } from '@nextcloud/vue'
+import { onMounted, ref } from 'vue'
+import logger from '../utils/logger.ts'
 
-import NcAvatar from '@nextcloud/vue/dist/Components/NcAvatar.js'
-import NcLoadingIcon from '@nextcloud/vue/dist/Components/NcLoadingIcon.js'
+const uniqueShareUIDs = ref<string[]>([])
+const uidDisplaynameMap = ref<Record<string, string>>({})
+const isLoading = ref(true)
 
-export default {
-	name: 'ShareAccess',
+/**
+ * Loads the people this user has shared with on mount
+ */
+onMounted(async () => {
+	const url = generateOcsUrl('/apps/files_sharing/api/v1/shares?format=json&shared_with_me=false')
+	const currentUserId = getCurrentUser()?.uid
 
-	components: {
-		NcAvatar,
-		NcLoadingIcon,
-	},
+	try {
+		const resp = await axios.get(url)
+		resp.data.ocs.data.forEach((d: { share_with: string, share_type: number, share_with_displayname: string }) => {
+			if (d.share_with === currentUserId) {
+				return
+			}
 
-	inject: [
-		't',
-	],
-
-	data() {
-		return {
-			uniqueShareUIDs: [],
-			uidDisplaynameMap: {},
-			isLoading: true,
-		}
-	},
-
-	/**
-	 * This function is called on mount of the Vue component
-	 * It loads the people shared with
-	 */
-	async mounted() {
-		const url = generateOcsUrl('/apps/files_sharing/api/v1/shares?format=json&shared_with_me=false')
-		const currentUserId = getCurrentUser().uid
-
-		try {
-			const resp = await axios.get(url)
-			resp.data.ocs.data.forEach((d) => {
-				if (d.share_with === currentUserId) {
-					return
-				}
-
-				switch (d.share_type) {
+			switch (d.share_type) {
 				case 0:
-					if (this.uniqueShareUIDs.indexOf(d.share_with) === -1) {
-						this.uniqueShareUIDs.push(d.share_with)
-						Vue.set(this.uidDisplaynameMap, d.share_with, d.share_with_displayname)
+					if (uniqueShareUIDs.value.indexOf(d.share_with) === -1) {
+						uniqueShareUIDs.value.push(d.share_with)
+						uidDisplaynameMap.value[d.share_with] = d.share_with_displayname
 					}
 					break
 
 				default:
 					break
-				}
-			})
-		} catch (error) {
-			console.error(error)
-			showError(t('privacy', 'Error loading information about shares.'))
-		} finally {
-			this.isLoading = false
-		}
-	},
-}
+			}
+		})
+	} catch (error) {
+		logger.error('Error loading information about shares.', { error })
+		showError(t('privacy', 'Error loading information about shares.'))
+	} finally {
+		isLoading.value = false
+	}
+})
 </script>
 
 <style lang="scss" scoped>
