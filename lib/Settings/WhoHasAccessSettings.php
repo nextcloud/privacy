@@ -8,7 +8,6 @@ declare(strict_types=1);
 namespace OCA\Privacy\Settings;
 
 use OCA\Privacy\AppInfo\Application;
-use OCA\Theming\ThemingDefaults;
 use OCP\AppFramework\Http\TemplateResponse;
 use OCP\AppFramework\Services\IAppConfig;
 use OCP\AppFramework\Services\IInitialState;
@@ -25,7 +24,6 @@ class WhoHasAccessSettings implements ISettings {
 		private IAppConfig $appConfig,
 		private IEncryptionManager $encryptionManager,
 		private IInitialState $initialState,
-		private ?ThemingDefaults $themingDefaults = null,
 	) {
 	}
 
@@ -33,9 +31,6 @@ class WhoHasAccessSettings implements ISettings {
 	public function getForm(): TemplateResponse {
 		\OCP\Util::addScript(Application::APP_ID, 'privacy-main');
 		\OCP\Util::addStyle(Application::APP_ID, 'privacy-main');
-
-		/** @psalm-suppress UndefinedClass */
-		$privacyPolicyUrl = $this->themingDefaults?->getPrivacyUrl();
 
 		$isHomeStorageEncrypted = false;
 		$isMasterKeyEnabled = false;
@@ -57,7 +52,6 @@ class WhoHasAccessSettings implements ISettings {
 			}
 		}
 
-		$this->initialState->provideInitialState('privacyPolicyUrl', $privacyPolicyUrl);
 		$this->initialState->provideInitialState('fullDiskEncryptionEnabled', $this->appConfig->getAppValueBool('fullDiskEncryptionEnabled', false));
 		$this->initialState->provideInitialState('serverSideEncryptionEnabled', $this->encryptionManager->isEnabled());
 		$this->initialState->provideInitialState('homeStorageEncryptionEnabled', $isHomeStorageEncrypted);

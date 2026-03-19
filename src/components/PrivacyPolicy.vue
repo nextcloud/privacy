@@ -20,10 +20,11 @@
 </template>
 
 <script setup lang="ts">
-import { loadState } from '@nextcloud/initial-state'
+import { getCapabilities } from '@nextcloud/capabilities'
 import { translate as t } from '@nextcloud/l10n'
 
-const privacyPolicyUrl = loadState<string | null>('privacy', 'privacyPolicyUrl', null)
+// @ts-expect-error - theming capabilities exist but are not typed yet
+const privacyPolicyUrl = getCapabilities()?.theming?.privacyUrl || null
 </script>
 
 <style lang="scss" scoped>

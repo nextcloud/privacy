@@ -40,6 +40,10 @@ import { translate as t } from '@nextcloud/l10n'
 import { NcSettingsSection } from '@nextcloud/vue'
 import DOMPurify from 'dompurify'
 
+/**
+ *
+ * @param heading
+ */
 function formatHeading(heading: string): string {
 	// TRANSLATORS: Keep the <strong> tags, they are used to make the first word bold.
 	return DOMPurify.sanitize(heading)
