@@ -66,7 +66,7 @@ class PersonalController extends OCSController {
 	/**
 	 * Fetches additional admins from the privacy_admins table.
 	 *
-	 * @return array<int, array{id: int, displayname: string}>
+	 * @return list<array<string, mixed>>
 	 */
 	private function getDbPrivacyAdmins(): array {
 		$qb = $this->dbConnection->getQueryBuilder();

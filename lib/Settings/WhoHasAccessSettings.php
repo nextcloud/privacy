@@ -18,6 +18,9 @@ use Throwable;
 
 class WhoHasAccessSettings implements ISettings {
 
+	/**
+	 * @psalm-suppress UndefinedClass
+	 */
 	public function __construct(
 		private IAppConfig $appConfig,
 		private IEncryptionManager $encryptionManager,
@@ -31,6 +34,7 @@ class WhoHasAccessSettings implements ISettings {
 		\OCP\Util::addScript(Application::APP_ID, 'privacy-main');
 		\OCP\Util::addStyle(Application::APP_ID, 'privacy-main');
 
+		/** @psalm-suppress UndefinedClass */
 		$privacyPolicyUrl = $this->themingDefaults?->getPrivacyUrl();
 
 		$isHomeStorageEncrypted = false;
@@ -39,9 +43,14 @@ class WhoHasAccessSettings implements ISettings {
 			try {
 				$moduleId = $this->encryptionManager->getDefaultEncryptionModuleId();
 				if ($moduleId === 'OC_DEFAULT_MODULE') {
-					/** @var \OCA\Encryption\Util $util */
+					/**
+					 * @psalm-suppress UndefinedDocblockClass, UndefinedClass
+					 * @var \OCA\Encryption\Util $util
+					 */
 					$util = \OCP\Server::get(\OCA\Encryption\Util::class);
+					/** @psalm-suppress UndefinedDocblockClass */
 					$isHomeStorageEncrypted = $util->shouldEncryptHomeStorage();
+					/** @psalm-suppress UndefinedDocblockClass */
 					$isMasterKeyEnabled = $util->isMasterKeyEnabled();
 				}
 			} catch (Throwable $e) {

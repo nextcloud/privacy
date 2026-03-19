@@ -16,6 +16,9 @@ use OCP\Support\Subscription\IRegistry;
 
 class MissionSettings implements ISettings {
 
+	/**
+	 * @psalm-suppress UndefinedClass
+	 */
 	public function __construct(
 		protected IRegistry $subscription,
 		protected ThemingDefaults $themingDefaults,
@@ -25,9 +28,11 @@ class MissionSettings implements ISettings {
 
 	#[\Override]
 	public function getForm(): TemplateResponse {
+		/** @psalm-suppress UndefinedClass */
+		$serverName = $this->themingDefaults->getEntity();
 		$this->initialState->provideInitialState(
 			'serverName',
-			$this->themingDefaults->getEntity(),
+			$serverName,
 		);
 
 		return new TemplateResponse(Application::APP_ID, 'mission');
