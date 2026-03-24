@@ -1,62 +1,40 @@
 <?php
 
+declare(strict_types=1);
 /**
  * SPDX-FileCopyrightText: 2019 Nextcloud GmbH and Nextcloud contributors
  * SPDX-License-Identifier: AGPL-3.0-or-later
  */
 namespace OCA\Privacy\Settings;
 
+use OCA\Privacy\AppInfo\Application;
 use OCP\AppFramework\Http\TemplateResponse;
-use OCP\IConfig;
-use OCP\IInitialStateService;
+use OCP\AppFramework\Services\IAppConfig;
+use OCP\AppFramework\Services\IInitialState;
 use OCP\Settings\ISettings;
 
-/**
- * Class WhereIsMyDataSettings
- *
- * @package OCA\Privacy\Settings
- */
 class WhereIsYourDataSettings implements ISettings {
 
-	/** @var IInitialStateService */
-	private $initialStateService;
-
-	/** @var IConfig */
-	private $config;
-
-	/**
-	 * MissionSettings constructor.
-	 *
-	 * @param IInitialStateService $initialStateService
-	 * @param IConfig $config
-	 */
-	public function __construct(IInitialStateService $initialStateService,
-		IConfig $config) {
-		$this->initialStateService = $initialStateService;
-		$this->config = $config;
+	public function __construct(
+		private IInitialState $initialState,
+		private IAppConfig $appConfig,
+	) {
 	}
 
-	/**
-	 * @return TemplateResponse
-	 */
-	public function getForm():TemplateResponse {
-		$location = $this->config->getAppValue('privacy', 'readableLocation');
-		$this->initialStateService->provideInitialState('privacy', 'location', $location ?: '');
+	#[\Override]
+	public function getForm(): TemplateResponse {
+		$this->initialState->provideInitialState('location', $this->appConfig->getAppValueString('readableLocation'));
 
-		return new TemplateResponse('privacy', 'where-is-your-data');
+		return new TemplateResponse(Application::APP_ID, 'where-is-your-data');
 	}
 
-	/**
-	 * @return string
-	 */
-	public function getSection():string {
-		return 'privacy';
+	#[\Override]
+	public function getSection(): string {
+		return Application::APP_ID;
 	}
 
-	/**
-	 * @return int
-	 */
-	public function getPriority():int {
+	#[\Override]
+	public function getPriority(): int {
 		return 15;
 	}
 }

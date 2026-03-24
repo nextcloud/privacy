@@ -7,31 +7,33 @@ declare(strict_types=1);
  */
 namespace OCA\Privacy\Settings;
 
+use OCA\Privacy\AppInfo\Application;
 use OCP\AppFramework\Http\TemplateResponse;
 use OCP\Settings\ISettings;
 use OCP\Support\Subscription\IRegistry;
 
 class UserDataManifestoSettings implements ISettings {
 
-	/** @var IRegistry */
-	protected $subscription;
-
-	public function __construct(IRegistry $subscription) {
-		$this->subscription = $subscription;
+	public function __construct(
+		protected IRegistry $subscription,
+	) {
 	}
 
+	#[\Override]
 	public function getForm(): TemplateResponse {
-		return new TemplateResponse('privacy', 'user-data-manifesto');
+		return new TemplateResponse(Application::APP_ID, 'user-data-manifesto');
 	}
 
+	#[\Override]
 	public function getSection(): ?string {
 		if ($this->subscription->delegateHasValidSubscription()) {
 			return null;
 		}
 
-		return 'privacy';
+		return Application::APP_ID;
 	}
 
+	#[\Override]
 	public function getPriority(): int {
 		return 5;
 	}

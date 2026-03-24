@@ -8,19 +8,19 @@ declare(strict_types=1);
 
 namespace OCA\Privacy\Controller;
 
-use OCP\AppFramework\Controller;
 use OCP\AppFramework\Http;
-use OCP\AppFramework\Http\JSONResponse;
-use OCP\IConfig;
+use OCP\AppFramework\Http\Attribute\ApiRoute;
+use OCP\AppFramework\Http\Attribute\NoAdminRequired;
+use OCP\AppFramework\Http\DataResponse;
+use OCP\AppFramework\OCSController;
 use OCP\IDBConnection;
 use OCP\IGroupManager;
 use OCP\IRequest;
 
-class PersonalController extends Controller {
+class PersonalController extends OCSController {
 	public function __construct(
 		string $appName,
 		IRequest $request,
-		private IConfig $config,
 		private IGroupManager $groupManager,
 		private IDBConnection $dbConnection,
 	) {
@@ -30,9 +30,11 @@ class PersonalController extends Controller {
 	/**
 	 * Returns all admin users (internal group admins and external privacy admins).
 	 *
-	 * @NoAdminRequired
+	 * @return DataResponse<Http::STATUS_OK, list<array{id: int|string, displayname: string, internal: bool}>, array{}>
 	 */
-	public function getAdmins(): JSONResponse {
+	#[ApiRoute(verb: 'GET', url: '/api/v1/admins')]
+	#[NoAdminRequired]
+	public function getAdmins(): DataResponse {
 		$admins = [];
 
 		// Internal admin group members
@@ -58,13 +60,13 @@ class PersonalController extends Controller {
 			];
 		}
 
-		return new JSONResponse($admins, Http::STATUS_OK);
+		return new DataResponse($admins);
 	}
 
 	/**
 	 * Fetches additional admins from the privacy_admins table.
 	 *
-	 * @return array<int, array{id: int, displayname: string}>
+	 * @return list<array<string, mixed>>
 	 */
 	private function getDbPrivacyAdmins(): array {
 		$qb = $this->dbConnection->getQueryBuilder();

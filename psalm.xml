@@ -4,25 +4,37 @@
   - SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 <psalm
-	errorLevel="4"
-	phpVersion="8.2"
-	resolveFromConfigFile="true"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xmlns="https://getpsalm.org/schema/config"
-	xsi:schemaLocation="https://getpsalm.org/schema/config vendor/vimeo/psalm/config.xsd"
+	errorBaseline="tests/psalm-baseline.xml"
+	errorLevel="3"
 	findUnusedBaselineEntry="true"
 	findUnusedCode="false"
-	errorBaseline="tests/psalm-baseline.xml"
+	resolveFromConfigFile="true"
+	phpVersion="8.2"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="https://getpsalm.org/schema/config"
+	xsi:schemaLocation="https://getpsalm.org/schema/config vendor-bin/psalm/vendor/vimeo/psalm/config.xsd"
 >
 	<projectFiles>
 		<directory name="lib" />
 		<ignoreFiles>
 			<directory name="vendor" />
-			<directory name="vendor-bin" />
+			<directory name="vendor-bin/nextcloud-ocp" />
 		</ignoreFiles>
 	</projectFiles>
 	<extraFiles>
 		<directory name="vendor" />
-		<directory name="vendor-bin/psalm/vendor" />
+		<directory name="vendor-bin/nextcloud-ocp" />
 	</extraFiles>
+	<issueHandlers>
+		<LessSpecificReturnStatement errorLevel="error"/>
+		<LessSpecificReturnType errorLevel="error"/>
+		<LessSpecificImplementedReturnType errorLevel="error"/>
+		<MoreSpecificReturnType errorLevel="error"/>
+		<UndefinedDocblockClass>
+			<errorLevel type="suppress">
+				<referencedClass name="Doctrine\DBAL\Schema\Schema" />
+				<referencedClass name="Doctrine\DBAL\Schema\Table" />
+			</errorLevel>
+		</UndefinedDocblockClass>
+	</issueHandlers>
 </psalm>

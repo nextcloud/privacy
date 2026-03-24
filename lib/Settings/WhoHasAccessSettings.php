@@ -1,62 +1,36 @@
 <?php
 
+declare(strict_types=1);
 /**
  * SPDX-FileCopyrightText: 2019 Nextcloud GmbH and Nextcloud contributors
  * SPDX-License-Identifier: AGPL-3.0-or-later
  */
 namespace OCA\Privacy\Settings;
 
-use OC;
-use OCA\Theming\ThemingDefaults;
+use OCA\Privacy\AppInfo\Application;
 use OCP\AppFramework\Http\TemplateResponse;
+use OCP\AppFramework\Services\IAppConfig;
+use OCP\AppFramework\Services\IInitialState;
 use OCP\Encryption\IManager as IEncryptionManager;
-use OCP\IConfig;
-use OCP\IInitialStateService;
 use OCP\Settings\ISettings;
 use Throwable;
 
-/**
- * Class WhoHasAccessSettings
- *
- * @package OCA\Privacy\Settings
- */
 class WhoHasAccessSettings implements ISettings {
 
-	/** @var IConfig */
-	private $config;
-
-	/** @var IEncryptionManager */
-	private $encryptionManager;
-
-	/** @var IInitialStateService */
-	private $initialStateService;
-
 	/**
-	 * WhoHasAccessSettings constructor.
-	 *
-	 * @param IConfig $config
-	 * @param IEncryptionManager $manager
-	 * @param IInitialStateService $initialStateService
+	 * @psalm-suppress UndefinedClass
 	 */
-	public function __construct(IConfig $config,
-		IEncryptionManager $manager,
-		IInitialStateService $initialStateService) {
-		$this->config = $config;
-		$this->encryptionManager = $manager;
-		$this->initialStateService = $initialStateService;
+	public function __construct(
+		private IAppConfig $appConfig,
+		private IEncryptionManager $encryptionManager,
+		private IInitialState $initialState,
+	) {
 	}
 
-	/**
-	 * @return TemplateResponse
-	 */
-	public function getForm():TemplateResponse {
-		\OCP\Util::addScript('privacy', 'privacy-main');
-		$themingDefaults = OC::$server->getThemingDefaults();
-		if ($themingDefaults instanceof ThemingDefaults) {
-			$privacyPolicyUrl = $themingDefaults->getPrivacyUrl();
-		} else {
-			$privacyPolicyUrl = null;
-		}
+	#[\Override]
+	public function getForm(): TemplateResponse {
+		\OCP\Util::addScript(Application::APP_ID, 'privacy-main');
+		\OCP\Util::addStyle(Application::APP_ID, 'privacy-main');
 
 		$isHomeStorageEncrypted = false;
 		$isMasterKeyEnabled = false;
@@ -64,36 +38,35 @@ class WhoHasAccessSettings implements ISettings {
 			try {
 				$moduleId = $this->encryptionManager->getDefaultEncryptionModuleId();
 				if ($moduleId === 'OC_DEFAULT_MODULE') {
-					/** @var \OCA\Encryption\Util $util */
-					$util = \OC::$server->get(\OCA\Encryption\Util::class);
+					/**
+					 * @psalm-suppress UndefinedDocblockClass, UndefinedClass
+					 * @var \OCA\Encryption\Util $util
+					 */
+					$util = \OCP\Server::get(\OCA\Encryption\Util::class);
+					/** @psalm-suppress UndefinedDocblockClass */
 					$isHomeStorageEncrypted = $util->shouldEncryptHomeStorage();
+					/** @psalm-suppress UndefinedDocblockClass */
 					$isMasterKeyEnabled = $util->isMasterKeyEnabled();
 				}
 			} catch (Throwable $e) {
 			}
 		}
 
-		$this->initialStateService->provideInitialState('privacy', 'privacyPolicyUrl', $privacyPolicyUrl);
-		$this->initialStateService->provideInitialState('privacy', 'fullDiskEncryptionEnabled', $this->config->getAppValue('privacy', 'fullDiskEncryptionEnabled', '0') === '1');
-		$this->initialStateService->provideInitialState('privacy', 'serverSideEncryptionEnabled', $this->encryptionManager->isEnabled());
-		$this->initialStateService->provideInitialState('privacy', 'homeStorageEncryptionEnabled', $isHomeStorageEncrypted);
-		$this->initialStateService->provideInitialState('privacy', 'masterKeyEncryptionEnabled', $isMasterKeyEnabled);
+		$this->initialState->provideInitialState('fullDiskEncryptionEnabled', $this->appConfig->getAppValueBool('fullDiskEncryptionEnabled', false));
+		$this->initialState->provideInitialState('serverSideEncryptionEnabled', $this->encryptionManager->isEnabled());
+		$this->initialState->provideInitialState('homeStorageEncryptionEnabled', $isHomeStorageEncrypted);
+		$this->initialState->provideInitialState('masterKeyEncryptionEnabled', $isMasterKeyEnabled);
 
-
-		return new TemplateResponse('privacy', 'who-has-access');
+		return new TemplateResponse(Application::APP_ID, 'who-has-access');
 	}
 
-	/**
-	 * @return string
-	 */
-	public function getSection():string {
-		return 'privacy';
+	#[\Override]
+	public function getSection(): string {
+		return Application::APP_ID;
 	}
 
-	/**
-	 * @return int
-	 */
-	public function getPriority():int {
+	#[\Override]
+	public function getPriority(): int {
 		return 10;
 	}
 }
