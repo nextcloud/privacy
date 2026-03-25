@@ -7,7 +7,6 @@ OC.L10N.register(
     "Error adding new administrator." : "Viga uue peakasutaja laadimisel",
     "Error deleting new administrator." : "Viga peakasutaja kustutamisel",
     "Administrators" : "Peakasutajad",
-    "Loading administrators …" : "Ladin peakasutajaid…",
     "Remove external {propertyName} admin" : "Eemalda väline {propertyName} peakasutaja",
     "Add external admin" : "Lisa väline peakasutaja",
     "Cancel" : "Tühista",
@@ -25,8 +24,8 @@ OC.L10N.register(
     "Read the privacy policy ↗" : "Loe privaatsusreegleid ↗",
     "Error loading information about shares." : "Viga jaosmeedia andmete laadimisel.",
     "People you've shared with" : "Kasutajad, kellega oled andmeid jaganud",
-    "Loading people you've shared with …" : "Laadin kasutajaid, kellega oled andmeid jaganud…",
     "You do not have any shares with individual users." : "Sa pole üksikute kasutajate andmeid jaganud.",
+    "Your {serverName} account" : "Sinu kasutajakonto serveris {serverName}",
     "Who has access to your data?" : "Kellel on ligipääs sinu andmetele?",
     "Error saving new location of the server" : "Viga serveri uue asukoha salvestamisel",
     "Where is your data?" : "Kus asuvad sinu andmed?",
@@ -36,7 +35,6 @@ OC.L10N.register(
     "Region" : "Piirkond",
     "Please select a region" : "Palun vali piirkond",
     "Learn more ↗" : "Lisateave ↗",
-    "Your {serverName} account" : "Sinu kasutajakonto serveris {serverName}",
     "Somaliland" : "Somaalimaa",
     "Andorra" : "Andorra",
     "United Arab Emirates" : "Araabia Ühendemiraadid",
@@ -283,6 +281,8 @@ OC.L10N.register(
     "Mayotte" : "Mayotte",
     "South Africa" : "Lõuna-Aafrika Vabariik",
     "Zambia" : "Sambia",
-    "Zimbabwe" : "Zimbabwe"
+    "Zimbabwe" : "Zimbabwe",
+    "Loading administrators …" : "Ladin peakasutajaid…",
+    "Loading people you've shared with …" : "Laadin kasutajaid, kellega oled andmeid jaganud…"
 },
 "nplurals=2; plural=(n != 1);");

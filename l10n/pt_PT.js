@@ -19,11 +19,6 @@ OC.L10N.register(
     "Change data location" : "Alterar a localização dos dados",
     "Region" : "Região",
     "Please select a region" : "Selecione uma região",
-    "Control" : "Controle",
-    "Knowledge" : "Conhecimento",
-    "of how the data is stored" : "como os dados estão armazenados",
-    "Freedom" : "Liberdade",
-    "to choose a platform" : "para escolher a plataforma",
     "Learn more ↗" : "Aprenda mais ↗",
     "Andorra" : "Andorra",
     "United Arab Emirates" : "Emirados Árabes Unidos",
@@ -226,6 +221,11 @@ OC.L10N.register(
     "Yemen" : "Iemen",
     "South Africa" : "África do Sul",
     "Zambia" : "Zâmbia",
-    "Zimbabwe" : "Zimbábue "
+    "Zimbabwe" : "Zimbábue ",
+    "Control" : "Controle",
+    "Knowledge" : "Conhecimento",
+    "of how the data is stored" : "como os dados estão armazenados",
+    "Freedom" : "Liberdade",
+    "to choose a platform" : "para escolher a plataforma"
 },
 "nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;");
