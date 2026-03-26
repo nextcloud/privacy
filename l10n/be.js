@@ -8,6 +8,7 @@ OC.L10N.register(
     "Error adding new administrator." : "Памылка пры дадаванні новага адміністратара.",
     "Error deleting new administrator." : "Памылка пры выдаленні новага адміністратара.",
     "Administrators" : "Адміністратары",
+    "Loading administrators …" : "Загрузка адміністратараў …",
     "Remove external {propertyName} admin" : "Выдаліць знешняга адміністратара {propertyName}",
     "Add external admin" : "Дадаць знешняга адміністратара",
     "Cancel" : "Скасаваць",
