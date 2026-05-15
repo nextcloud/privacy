@@ -44,6 +44,46 @@ updates:
     day: saturday
     time: "03:00"
     timezone: Europe/Paris
+  target-branch: stable34
+  labels:
+    - "3. to review"
+    - "dependencies"
+  ignore:
+    # ignore all GitHub linguist patch updates
+    - dependency-name: "*"
+      update-types: ["version-update:semver-major"]
+  cooldown:
+    default-days: 10
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: weekly
+    day: saturday
+    time: "03:00"
+    timezone: Europe/Paris
+  target-branch: stable34
+  labels:
+    - "3. to review"
+    - "dependencies"
+  ignore:
+    # ignore all GitHub linguist patch updates
+    - dependency-name: "*"
+      update-types: ["version-update:semver-major"]
+  cooldown:
+    default-days: 10
+
+- package-ecosystem: composer
+  directories:
+    - "/"
+    - "/vendor-bin/cs-fixer"
+    - "/vendor-bin/nextcloud-ocp"
+    - "/vendor-bin/phpunit"
+    - "/vendor-bin/psalm"
+  schedule:
+    interval: weekly
+    day: saturday
+    time: "03:00"
+    timezone: Europe/Paris
   target-branch: stable33
   labels:
     - "3. to review"
