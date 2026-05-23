@@ -54,7 +54,7 @@
     "@eslint/js": "^10.0.1",
     "@nextcloud/browserslist-config": "^3.1.2",
     "@nextcloud/eslint-config": "^9.0.0-rc.9",
-    "@nextcloud/stylelint-config": "^3.2.1",
+    "@nextcloud/stylelint-config": "^3.2.2",
     "@nextcloud/vite-config": "^2.5.2",
     "@vue/tsconfig": "^0.9.1",
     "vite": "^7.3.2"
