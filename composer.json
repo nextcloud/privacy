@@ -2,7 +2,7 @@
     "name": "nextcloud/privacy",
     "description": "-",
     "type": "project",
-    "license": "AGPL",
+    "license": "AGPL-3.0-or-later",
     "authors": [
         {
             "name": "Georg Ehrke"
