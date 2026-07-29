@@ -38,7 +38,7 @@ OC.L10N.register(
     "Who has access to your data?" : "Kellel on ligipääs sinu andmetele?",
     "Error saving new location of the server" : "Viga serveri uue asukoha salvestamisel",
     "Where is your data?" : "Kus asuvad sinu andmed?",
-    "Your data is located in:" : "Sinu andmed asuvad:",
+    "Your data is located in:" : "Sinu andmete asukoht on:",
     "An admin has not selected the location of the server yet." : "Peakasutaja pole veel valinud serveri asukohta.",
     "Change data location" : "Muuda andmete asukohta",
     "Region" : "Piirkond",
