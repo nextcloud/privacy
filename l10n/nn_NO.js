@@ -3,6 +3,7 @@ OC.L10N.register(
     {
     "Privacy" : "Personvern",
     "Cancel" : "Cancel",
+    "Add" : "Legg til",
     "Encryption" : "Kryptering",
     "Edit" : "Rediger",
     "Region" : "Region/fylke",
