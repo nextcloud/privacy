@@ -1,6 +1,7 @@
 { "translations": {
     "Privacy" : "Privaatheid",
     "-" : "-",
+    "The privacy center shows you where your data is stored and who can access it, either because you shared with them or because they are administrators." : "Die privaatheidsentrum wys jou waar jou data gestoor word en wie toegang daartoe het, hetsy omdat jy dit met hulle gedeel het of omdat hulle administrateurs is.",
     "Cancel" : "Cancel",
     "Add" : "Voeg toe",
     "Encryption" : "Enkripsie",
