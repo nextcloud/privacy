@@ -3,7 +3,7 @@ OC.L10N.register(
     {
     "Privacy" : "Ochrana osobných údajov",
     "-" : "–",
-    "The privacy center shows you where your data is stored and who can access it, either because you shared with them or because they are administrators." : "Centrum ochrany osobných údajov vám ukáže, kde sú vaše údaje uložené a kto k nim má prístup, buď preto, že ste ich niekomu sprístupnili vy alebo boli sprístupnené správcami.",
+    "The privacy center shows you where your data is stored and who can access it, either because you shared with them or because they are administrators." : "Centrum ochrany súkromia vám ukáže, kde sú vaše údaje uložené a kto k nim má prístup, či už preto, že ste ich s danou osobou zdieľali, alebo preto, že ide o správcu.",
     "Error loading additional administrator." : "Chyba pri načítavaní ďalšieho správcu.",
     "Error adding new administrator." : "Chyba pri pridávaní nového administrátora.",
     "Error deleting new administrator." : "Chyba pri mazaní nového administrátora.",
