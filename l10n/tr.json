@@ -32,7 +32,7 @@
     "Loading people you've shared with …" : "Paylaştığınız kişiler yükleniyor…",
     "You do not have any shares with individual users." : "Diğer kullanıcılar ile herhangi bir şey paylaşmıyorsunuz.",
     "Your {serverName} account" : "{serverName} hesabınız",
-    "Your data represents who you are and can easily be abused. We at Nextcloud believe that you have a right to decide what happens with your data. Nextcloud protects your rights as defined in the User Data Manifesto!" : "Verileriniz sizin kim olduğunuzu gösterir ve kolayca kötüye kullanılabilir. Nextcloud olarak verilerinize ne olacağına karar verme hakkınız olduğuna inanıyoruz. Nextcloud, Kullanıcı Verileri Manifestosu'nda belirtildiği şekilde haklarınızı korur!",
+    "Your data represents who you are and can easily be abused. We at Nextcloud believe that you have a right to decide what happens with your data. Nextcloud protects your rights as defined in the User Data Manifesto!" : "Verileriniz sizin kim olduğunuzu gösterir ve kolayca kötüye kullanılabilir. Nextcloud olarak verilerinize ne olacağına karar verme hakkınız olduğuna inanıyoruz. Nextcloud, Kullanıcı Verileri bildiriminde belirtildiği şekilde haklarınızı korur!",
     "Who has access to your data?" : "Verilerinize kimler erişebiliyor?",
     "Error saving new location of the server" : "Sunucunun yeni konumu kaydedilirken sorun çıktı",
     "Where is your data?" : "Verileriniz nerede tutuluyor?",
