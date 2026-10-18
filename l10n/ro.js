@@ -6,6 +6,7 @@ OC.L10N.register(
     "Add" : "Adaugă",
     "Encryption" : "Încriptare",
     "Edit" : "Editează",
+    "Privacy policy" : "Politica de confidențialitate",
     "Region" : "Regiune",
     "Learn more ↗" : "Află mai multe ↗",
     "Andorra" : "Andorra",
