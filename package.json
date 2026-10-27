@@ -41,7 +41,7 @@
     "@nextcloud/vue": "^9.14.0",
     "dompurify": "^3.4.17",
     "vue": "^3.5.44",
-    "vue-material-design-icons": "^5.3.1"
+    "vue-material-design-icons": "^5.4.0"
   },
   "browserslist": [
     "extends @nextcloud/browserslist-config"
