@@ -28,7 +28,7 @@
 						:user="uid"
 						:displayName="uidDisplaynameMap[uid]"
 						:size="44"
-						:showUserStatus="false" />
+						hideStatus />
 
 					<span class="shared__displayname">{{ uidDisplaynameMap[uid] }}</span>
 				</span>
