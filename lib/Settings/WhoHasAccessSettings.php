@@ -4,6 +4,7 @@
  * SPDX-FileCopyrightText: 2019 Nextcloud GmbH and Nextcloud contributors
  * SPDX-License-Identifier: AGPL-3.0-or-later
  */
+
 namespace OCA\Privacy\Settings;
 
 use OC;
@@ -78,7 +79,6 @@ class WhoHasAccessSettings implements ISettings {
 		$this->initialStateService->provideInitialState('privacy', 'serverSideEncryptionEnabled', $this->encryptionManager->isEnabled());
 		$this->initialStateService->provideInitialState('privacy', 'homeStorageEncryptionEnabled', $isHomeStorageEncrypted);
 		$this->initialStateService->provideInitialState('privacy', 'masterKeyEncryptionEnabled', $isMasterKeyEnabled);
-
 
 		return new TemplateResponse('privacy', 'who-has-access');
 	}
