@@ -2,6 +2,7 @@
 
 namespace OCA\Privacy\Tests\Integration\Controller;
 
+use OCP\App\IAppManager;
 use OCP\AppFramework\App;
 use Test\TestCase;
 
@@ -20,7 +21,7 @@ class AppTest extends TestCase {
 	}
 
 	public function testAppInstalled() {
-		$appManager = $this->container->query('OCP\App\IAppManager');
+		$appManager = $this->container->get(IAppManager::class);
 		$this->assertTrue($appManager->isInstalled('privacy'));
 	}
 }

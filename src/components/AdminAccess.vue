@@ -31,7 +31,7 @@
 							:displayName="admin.displayname"
 							:size="44"
 							:isNoUser="!admin.internal"
-							:showUserStatus="false" />
+							hideStatus />
 
 						<span class="admin__displayname">{{ admin.displayname }}</span>
 					</span>
