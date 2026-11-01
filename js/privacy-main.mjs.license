@@ -7,7 +7,6 @@ SPDX-License-Identifier: MIT
 SPDX-FileCopyrightText: @nextcloud/dialogs developers
 SPDX-FileCopyrightText: Andrea Giammarchi
 SPDX-FileCopyrightText: Anthony Fu <https://github.com/antfu>
-SPDX-FileCopyrightText: Arnout Kazemier
 SPDX-FileCopyrightText: Borys Serebrov
 SPDX-FileCopyrightText: David Clark
 SPDX-FileCopyrightText: David Myers <hello@davidmyers.dev>
@@ -86,7 +85,7 @@ This file is generated from multiple sources. Included packages:
 	- version: 0.4.0
 	- license: GPL-3.0-or-later
 - @nextcloud/vue
-	- version: 9.14.0
+	- version: 9.14.1
 	- license: AGPL-3.0-or-later
 - @nextcloud/vue-select
 	- version: 4.1.0
@@ -156,9 +155,6 @@ This file is generated from multiple sources. Included packages:
 	- license: MIT
 - estree-util-is-identifier-name
 	- version: 3.0.0
-	- license: MIT
-- eventemitter3
-	- version: 5.0.4
 	- license: MIT
 - extend
 	- version: 3.0.2
@@ -266,10 +262,7 @@ This file is generated from multiple sources. Included packages:
 	- version: 2.1.0
 	- license: MIT
 - p-queue
-	- version: 9.3.5
-	- license: MIT
-- p-timeout
-	- version: 7.0.2
+	- version: 10.0.0
 	- license: MIT
 - privacy
 	- version: 8.0.0-dev.0
@@ -296,7 +289,7 @@ This file is generated from multiple sources. Included packages:
 	- version: 1.0.0
 	- license: MIT
 - semver
-	- version: 7.7.4
+	- version: 7.8.5
 	- license: ISC
 - space-separated-tokens
 	- version: 2.0.2
