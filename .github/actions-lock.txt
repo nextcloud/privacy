@@ -10,7 +10,7 @@ e6351c608939c31ae1e32923aa82aa10 dependabot-approve-merge.yml
 418deda6469a90f8626a9705ebea4a85 lint-php.yml
 99024d814801405672676fd03f57c2ce lint-stylelint.yml
 03759c9dc0fa748cb927b9f9cadf2925 node.yml
-f1909c78987565cb19a471c60dc53950 npm-audit-fix.yml
+db73bd92859c4fb9d0489c0378a73d9e npm-audit-fix.yml
 6848ba5ea359d6ca698e209306e18e39 phpunit-mysql.yml
 a7f5f136dfc5bc09d784cb2d1568d251 phpunit-oci.yml
 552ee7ffcb4be38bb5d6ab95b81d05d1 phpunit-pgsql.yml
