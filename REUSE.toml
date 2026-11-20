@@ -17,6 +17,14 @@ precedence = "aggregate"
 SPDX-FileCopyrightText = "2019 Nextcloud GmbH and Nextcloud contributors"
 SPDX-License-Identifier = "AGPL-3.0-or-later"
 
+# Source maps embed the sources of bundled dependencies, license headers
+# included, which REUSE would misread as this file's own license
+[[annotations]]
+path = ["js/**.js.map", "js/**.mjs.map"]
+precedence = "override"
+SPDX-FileCopyrightText = "2019 Nextcloud GmbH and Nextcloud contributors"
+SPDX-License-Identifier = "AGPL-3.0-or-later"
+
 [[annotations]]
 path = ["img/app-dark.svg", "img/app.svg", "img/control.svg", "img/freedom.svg", "img/knowledge.svg"]
 precedence = "aggregate"
