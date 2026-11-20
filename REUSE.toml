@@ -12,8 +12,16 @@ SPDX-FileCopyrightText = "none"
 SPDX-License-Identifier = "CC0-1.0"
 
 [[annotations]]
-path = ["css/**.css", "l10n/**.js", "l10n/**.json", "js/**.js.map", "js/**.js", "js/**.mjs", "js/**.mjs.map", "js/templates/**.handlebars", "lib/Service/Importer/fixtures/config-deckJson-schema.json", "lib/Service/Importer/fixtures/config-trelloApi-schema.json", "lib/Service/Importer/fixtures/config-trelloJson-schema.json", "screenshots/screenshot1.png", "src/assets/file-placeholder.svg", "img/favicon.ico", "img/favicon.png", "img/favicon.svg", "img/activity.svg", "img/activity-dark.svg", "img/details-white.svg", "img/card.svg"]
+path = ["css/**.css", "l10n/**.js", "l10n/**.json", "js/**.js", "js/**.mjs", "js/templates/**.handlebars", "lib/Service/Importer/fixtures/config-deckJson-schema.json", "lib/Service/Importer/fixtures/config-trelloApi-schema.json", "lib/Service/Importer/fixtures/config-trelloJson-schema.json", "screenshots/screenshot1.png", "src/assets/file-placeholder.svg", "img/favicon.ico", "img/favicon.png", "img/favicon.svg", "img/activity.svg", "img/activity-dark.svg", "img/details-white.svg", "img/card.svg"]
 precedence = "aggregate"
+SPDX-FileCopyrightText = "2019 Nextcloud GmbH and Nextcloud contributors"
+SPDX-License-Identifier = "AGPL-3.0-or-later"
+
+# Source maps embed the sources of bundled dependencies, license headers
+# included, which REUSE would misread as this file's own license
+[[annotations]]
+path = ["js/**.js.map", "js/**.mjs.map"]
+precedence = "override"
 SPDX-FileCopyrightText = "2019 Nextcloud GmbH and Nextcloud contributors"
 SPDX-License-Identifier = "AGPL-3.0-or-later"
 
