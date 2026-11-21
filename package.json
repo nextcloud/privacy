@@ -40,7 +40,7 @@
     "@nextcloud/router": "^3.2.0",
     "@nextcloud/vue": "^9.14.0",
     "dompurify": "^3.4.0",
-    "vue": "^3.5.44",
+    "vue": "^3.5.45",
     "vue-material-design-icons": "^5.4.0"
   },
   "browserslist": [
